@@ -1,9 +1,25 @@
 # Steps
+1. Use the Makefile for download and install the DITA Open Toolkit.
+2. Use the Makefile to produce the HTML output.<br/>
 
-1. Install DITA Open Toolkit (see https://www.dita-ot.org/)
-1. Produce the HTML5 output as follow:
 
-# HTML 5 output
+# Download and install the DITA Open Toolkit 
+```
+make deps
+```
+
+# HTML 5 output for English
+```
+make build
+```
+
+# HTML 5 output for German
+```
+make LANG=de build
+```
+
+
+# HTML 5 output without makefile
 ```
 dita --input=ocrd_ocrd.ditamap \
      --format=html5 \
