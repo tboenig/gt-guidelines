@@ -2,6 +2,7 @@
 
 - mainpage: https://ocr-d.github.io/gt/
 - beta-version: https://tboenig.github.io/gt-guidelines/html/trans/index.html
+- https://tboenig.github.io/gt-guidelines/toc.html
 
 
 # Steps
