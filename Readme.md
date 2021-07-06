@@ -1,3 +1,10 @@
+# Web
+
+- mainpage: https://ocr-d.github.io/gt/
+- beta-version: https://tboenig.github.io/gt-guidelines/trans/index.html
+
+
+
 # Steps
 1. Use the Makefile for download and install the DITA Open Toolkit.
 2. Use the Makefile to produce the HTML output.<br/>
