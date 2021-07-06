@@ -1,0 +1,67 @@
+name: DITA-OT-OCRD
+'on':
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+jobs:
+  build-dita:
+    name: Build DITA
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+      - name: Build Bootstrap ⚙️
+        uses: dita-ot/dita-ot-action@master
+        with:
+          install: |
+            apt-get update -q
+            export DEBIAN_FRONTEND=noninteractive
+            apt-get install -qy --no-install-recommends nodejs
+            nodejs -v
+          plugins: |
+            https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
+            https://github.com/infotexture/dita-bootstrap/archive/develop.zip
+            https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
+          build: |
+            dita --project=.github/dita-ot/html.xml
+          #project: .github/dita-ot/html.xml --generate.copy.outer=3
+      - name: Deploy HTML 🚀
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: out/html # The folder the action should deploy.
+
+      
+      - name: Build PDF
+        uses: dita-ot/dita-ot-action@master
+        with:
+          install: |
+            # Run some arbitrary installation commands
+            apt-get update -q
+            apt-get install -qy --no-install-recommends nodejs
+            nodejs -v
+
+            # Install plugins
+            dita install fox.jason.extend.css
+            dita install org.doctales.xmltask
+            dita install fox.jason.prismjs
+          build: |
+            # Use the dita command line
+            dita --project=.github/dita-ot/pdf.xml -o out -f pdf
+      
+      
+
+      - name: Upload DITA Output to a ZIP file
+        uses: actions/upload-artifact@v2
+        with:
+          name: OCRD-GT-Guidelines
+          path: 'out'
+
+      - name: Deploy DITA Output to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: $
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: out # The folder the action should deploy.
