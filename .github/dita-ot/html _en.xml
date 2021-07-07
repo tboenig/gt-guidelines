@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://www.dita-ot.org/rng/project.rnc" type="application/relax-ng-compact-syntax"?>
 <project xmlns="https://www.dita-ot.org/project">
-  <context id="html" name="HTML">
+  <context id="html_en" name="HTML">
     <input href="../../en/ocrd_ocrd.ditamap"/>
     <profile>
       <ditaval href="html.ditaval"/>
     </profile>
   </context>
  <deliverable name="HTML5" id="html">
-    <context idref="html"/>
-    <output href="html"/>
+    <context idref="html_en"/>
+    <output href="html_en"/>
     <publication transtype="html5">
       <param name="args.copycss" value="yes"/>
       <param name="args.css" value="dita-ot-doc.css"/>
