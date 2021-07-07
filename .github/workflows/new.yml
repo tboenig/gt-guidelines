@@ -33,7 +33,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: out/html # The folder the action should deploy.
-          FOLDER: out/html_en # The folder the action should deploy.
+          
 
       
      # - name: Build PDF
