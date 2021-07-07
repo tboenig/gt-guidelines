@@ -2,5 +2,6 @@
 <!--  This file is part of the DITA Open Toolkit project. See the accompanying LICENSE file for applicable license.  -->
 <val>
   <prop action="include" att="deliveryTarget" val="html"/>
+  <prop action="include" att="deliveryTarget" val="html_en"/>
   <prop action="exclude" att="deliveryTarget" val="pdf"/>
 </val>
