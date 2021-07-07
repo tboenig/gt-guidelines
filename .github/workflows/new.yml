@@ -25,6 +25,7 @@ jobs:
             https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
           build: |
             dita --project=.github/dita-ot/html.xml
+            dita --project=.github/dita-ot/html_en.xml
           #project: .github/dita-ot/html.xml --generate.copy.outer=3
       - name: Deploy HTML 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
