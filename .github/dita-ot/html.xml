@@ -11,6 +11,7 @@
     <context idref="html"/>
     <output href="html"/>
     <publication transtype="html5">
+      <param name="default.language" value="de"/>
       <param name="args.copycss" value="yes"/>
       <param name="args.css" value="dita-ot-doc.css"/>
       <param name="args.csspath" value="css"/>
