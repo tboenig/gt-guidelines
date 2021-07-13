@@ -29,7 +29,7 @@ href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextType
                     <codeph>&lt;Relations></codeph> die Beziehung zwischen den Regionen dargestellt
                 werden. </p><example id="relations">
                 <title>Relations</title>
-                <codeblock>        &lt;ReadingOrder>
+                <codeblock outputclass="language-xml">        &lt;ReadingOrder>
             &lt;OrderedGroup id="ro_1542737988725" caption="Regions reading order">
                 &lt;RegionRefIndexed index="1" regionRef="TextRegion_1476719248728_212"/>
                 &lt;RegionRefIndexed index="2" regionRef="r_7_1"/>
