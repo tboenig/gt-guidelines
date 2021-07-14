@@ -28,14 +28,15 @@ See the accompanying LICENSE file for applicable license.
             $temp.val($(element).text()).select();
             document.execCommand("copy");
             $temp.remove();
-          }</script>
+          }
+        </script>
       
       <code id="code">
         <xsl:apply-templates/>
       </code>
         <button onclick="copyToClipboard('#code')">&#x1F4CB;</button>
     </pre>
-  
+  <input/>
     <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-endprop ')]" mode="out-of-line"/>
   </xsl:template>
   
