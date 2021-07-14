@@ -19,9 +19,9 @@ See the accompanying LICENSE file for applicable license.
       <script>
         function copyToClipboard(element) 
         {
-            var $temp = $("<textarea>");
+        var $temp = $("&lt;textarea>");
             $("body").append($temp);
-            var x = $(element).html().trim().replace(/<br>/g, '\n').replace(/&lt;\/?[^>]+>/g, '').replace(/&gt;/g,'>').replace(/&lt;/g,'<');
+            var x = $(element).html().trim().replace(/&lt;br&gt;/g, '\n').replace(/&lt;\/?[^>]+>/g, '').replace(/&gt;/g,'&gt;').replace(/&lt;/g,'&lt;');
             $temp.val(x).select();
             document.execCommand("copy");
             $temp.remove();
