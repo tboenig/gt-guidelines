@@ -14,12 +14,7 @@ See the accompanying LICENSE file for applicable license.
   <xsl:template match="*[contains(@class, ' pr-d/codeblock ')]" name="topic.pr-d.codeblock">
     <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-startprop ')]" mode="out-of-line"/>
     <xsl:call-template name="spec-title-nospace"/>
-  
-    <pre>
-      <xsl:call-template name="commonattributes"/>
-      <xsl:call-template name="setscale"/>
-      <xsl:call-template name="setidaname"/>
-  
+      
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <script>
         function copyToClipboard(element) {
@@ -30,13 +25,18 @@ See the accompanying LICENSE file for applicable license.
             $temp.remove();
           }
         </script>
-      
+    
+    <pre>
+      <xsl:call-template name="commonattributes"/>
+      <xsl:call-template name="setscale"/>
+      <xsl:call-template name="setidaname"/>
+              
       <code id="code">
         <xsl:apply-templates/>
       </code>
-        <button onclick="copyToClipboard('#code')">&#x1F4CB;</button>
     </pre>
-      
+    <button onclick="copyToClipboard('#code')" title="copy clipboard">&#x1F4CB;</button>
+    
     <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-endprop ')]" mode="out-of-line"/>
   </xsl:template>
   
