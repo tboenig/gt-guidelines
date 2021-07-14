@@ -21,7 +21,7 @@ See the accompanying LICENSE file for applicable license.
         {
             var $temp = $("<textarea>");
             $("body").append($temp);
-            var x = $(element).html().trim().replace(/<br>/g, '\n').replace(/<\/?[^>]+>/g, '').replace(/&gt;/g,'>').replace(/&lt;/g,'<');
+            var x = $(element).html().trim().replace(/<br>/g, '\n').replace(/&lt;\/?[^>]+>/g, '').replace(/&gt;/g,'>').replace(/&lt;/g,'<');
             $temp.val(x).select();
             document.execCommand("copy");
             $temp.remove();
