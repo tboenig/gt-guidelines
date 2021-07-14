@@ -20,20 +20,20 @@ See the accompanying LICENSE file for applicable license.
       <xsl:call-template name="setscale"/>
       <xsl:call-template name="setidaname"/>
   
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <script>
-        function copyClipboard() {
-          var copyText = document.getElementById("myInput");
-          copyText.select();
-          copyText.setSelectionRange(0, 99999)
-          document.execCommand("copy");
-          alert(copyText.value);
-        }
-      </script>
-      <button onclick="copyClipboard()">&#x1F4CB;
-      <code>
+        function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+          }</script>
+      
+      <code id="code">
         <xsl:apply-templates/>
       </code>
-      </button>
+        <button onclick="copyToClipboard('#code')">&#x1F4CB;</button>
     </pre>
   
     <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-endprop ')]" mode="out-of-line"/>
