@@ -23,7 +23,7 @@ See the accompanying LICENSE file for applicable license.
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <script>
         function copyToClipboard(element) {
-            var $temp = $("<input>");
+            var $temp = $("&lt;input>");
             $("body").append($temp);
             $temp.val($(element).text()).select();
             document.execCommand("copy");
@@ -36,7 +36,7 @@ See the accompanying LICENSE file for applicable license.
       </code>
         <button onclick="copyToClipboard('#code')">&#x1F4CB;</button>
     </pre>
-      <input></input>
+      
     <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-endprop ')]" mode="out-of-line"/>
   </xsl:template>
   
