@@ -9,6 +9,8 @@ See the accompanying LICENSE file for applicable license.
 <xsl:stylesheet version="2.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   
+  <xsl:variable name="br"><xsl:text>&lt;</xsl:text></xsl:variable>
+  
   <xsl:import href="plugin:org.dita.html5:xsl/syntax-braces.xsl"/>
 
   <xsl:template match="*[contains(@class, ' pr-d/codeblock ')]" name="topic.pr-d.codeblock">
@@ -17,11 +19,12 @@ See the accompanying LICENSE file for applicable license.
       
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <script>
+        
         function copyToClipboard(element) 
         {
         var $temp = $("&lt;textarea>");
             $("body").append($temp);
-            var x = $(element).html().trim().replace(/&lt;br&gt;/g, '\n').replace(/&lt;\/?[^>]+>/g, '').replace(/&gt;/g,'>').replace(/&lt;/g,'&lt;');
+            var x = $(element).html().trim().replace(/&lt;br&gt;/g, '\n').replace(/&lt;\/?[^>]+>/g, '').replace(/&gt;/g,'>').replace(/&lt;/g,'<xsl:value-of select="$br"/>');
             $temp.val(x).select();
             document.execCommand("copy");
             $temp.remove();
