@@ -26,7 +26,7 @@ See the accompanying LICENSE file for applicable license.
           }
         </script>
     
-    <pre>
+    <pre><button onclick="copyToClipboard('#code')" title="copy clipboard">&#x1F4CB;</button>
       <xsl:call-template name="commonattributes"/>
       <xsl:call-template name="setscale"/>
       <xsl:call-template name="setidaname"/>
@@ -35,7 +35,7 @@ See the accompanying LICENSE file for applicable license.
         <xsl:apply-templates/>
       </code>
     </pre>
-    <button onclick="copyToClipboard('#code')" title="copy clipboard">&#x1F4CB;</button>
+    
     
     <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-endprop ')]" mode="out-of-line"/>
   </xsl:template>
