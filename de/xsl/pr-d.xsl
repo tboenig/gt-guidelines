@@ -17,13 +17,15 @@ See the accompanying LICENSE file for applicable license.
       
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <script>
-        function copyToClipboard(element) {
-            var $temp = $("&lt;input>");
+        function copyToClipboard(element) 
+        {
+            var $temp = $("<textarea>");
             $("body").append($temp);
-            $temp.val($(element).text()).select();
+            var x = $(element).html().trim().replace(/<br>/g, '\n').replace(/<\/?[^>]+>/g, '').replace(/&gt;/g,'>').replace(/&lt;/g,'<');
+            $temp.val(x).select();
             document.execCommand("copy");
             $temp.remove();
-          }
+        }
         </script>
     
     <pre>
