@@ -16,7 +16,11 @@ body {
   background-image:         linear-gradient(left, #eee 0%, #fff 300px); /* W3C */
   color: #333;
   margin: 0;
-  padding: 1em;
+  
+}
+
+header {
+    background:#c8ab37;
 }
 
 /* ↓ header-coderef ↓ */
@@ -32,6 +36,8 @@ td.td1 {
   width: 10%;
   box-shadow: none;
   background:#c8ab37;
+  border-radius: 0em;
+  padding:0em;
 }
 
 td.td2 {
@@ -42,13 +48,15 @@ td.td2 {
   box-shadow: none;
   text-align: left;
   background:#c8ab37;
+  border-radius: 0em;
+  padding:0em;
 }
 
 
 div.header {
   font-size: 18pt;
   margin: 0;
-  padding: 0 12px;
+  
 }
 
 div.header p {
@@ -60,7 +68,7 @@ div.header p {
 
 div.header hr {
   border: 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #c8ab37;
   height: 0;
 }
 /* ↑ end-header-ref ↑ */
