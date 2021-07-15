@@ -19,17 +19,16 @@ See the accompanying LICENSE file for applicable license.
       
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <script>
-        
         function copyToClipboard(element) 
         {
-        var $temp = $("&lt;textarea>");
-            $("body").append($temp);
-            var x = $(element).html().trim().replace(/&lt;br&gt;/g, '\n').replace(/&lt;\/?[^>]+>/g, '').replace(/&gt;/g,'>').replace(/&lt;/g,'<xsl:value-of select="$br"/>');
-            $temp.val(x).select();
-            document.execCommand("copy");
-            $temp.remove();
+        var $temp = $("<textarea/>");
+        $("body").append($temp);
+        var decoded = $('<textarea/>').html(text).text();
+        $temp.val(x).select();
+        document.execCommand("copy");
+        $temp.remove();
         }
-        </script>
+    </script>
     
     <pre>
       <xsl:call-template name="commonattributes"/>
