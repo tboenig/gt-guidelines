@@ -287,9 +287,19 @@ Button
 ****************************************/
 .ccb {
       float: right; 
-      font-size:x-large
+      font-size:x-large;
+      background-color: silver;
+      border: none;
+      color: white;
+      opacity: 0.1;
+      transition: 0.3s;
+      text-decoration: none;
+      cursor: copy;
      }
 
+.ccb:hover {
+     opacity: 1;
+     }
 
 /****************************************
 ToolTips and Highlight Link
