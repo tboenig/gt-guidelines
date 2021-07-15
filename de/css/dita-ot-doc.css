@@ -27,19 +27,23 @@ table.header {
 
 }
 
+
 td.td1 {
   width: 10%;
-  box-shadow: none; 
+  box-shadow: none;
+  background:#c8ab37;
 }
 
 td.td2 {
   width: 90%;
-  font-size: 18pt; 
-  color: rgb(51, 51, 51); 
+  font-size: 36pt; 
+  color: #eee; 
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   box-shadow: none;
   text-align: left;
+  background:#c8ab37;
 }
+
 
 div.header {
   font-size: 18pt;
