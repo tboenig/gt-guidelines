@@ -14,6 +14,7 @@ See the accompanying LICENSE file for applicable license.
   <xsl:import href="plugin:org.dita.html5:xsl/syntax-braces.xsl"/>
 
   <xsl:template match="*[contains(@class, ' pr-d/codeblock ')]" name="topic.pr-d.codeblock">
+    
     <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-startprop ')]" mode="out-of-line"/>
     <xsl:call-template name="spec-title-nospace"/>
       
@@ -44,8 +45,8 @@ See the accompanying LICENSE file for applicable license.
       <xsl:call-template name="commonattributes"/>
       <xsl:call-template name="setscale"/>
       <xsl:call-template name="setidaname"/>
-      <button onclick="copyToClipboard('#code')" title="copy clipboard" class="ccb">&#x1F4CB;</button>        
-      <code id="code">
+      <button onclick="copyToClipboard('#code{position()}')" title="copy clipboard" class="ccb">&#x1F4CB;</button>        
+      <code id="code{position()}">
         <xsl:apply-templates/>
       </code>
       
