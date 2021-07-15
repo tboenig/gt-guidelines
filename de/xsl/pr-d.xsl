@@ -19,15 +19,25 @@ See the accompanying LICENSE file for applicable license.
       
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <script>
+        function htmlDecode(input)
+            {
+               var e = document.createElement('div');
+               e.innerHTML = input;
+               return e.childNodes[0].nodeValue;
+            }
+        
+        
+        
         function copyToClipboard(element) 
-        {
-        var $temp = $("<textarea/>");
-        $("body").append($temp);
-        var decoded = $('<textarea/>').html(text).text();
-        $temp.val(x).select();
-        document.execCommand("copy");
-        $temp.remove();
-        }
+            {
+               var $temp = $("<textarea/>");
+               $("body").append($temp);
+               var a = $(element).html().trim().replace(/&lt;br>/g, '\n').replace(/<\/?[^>]+>/g, '');
+               var x = htmlDecode(a);
+               $temp.val(x).select();
+               document.execCommand("copy");
+               $temp.remove();
+            }
     </script>
     
     <pre>
