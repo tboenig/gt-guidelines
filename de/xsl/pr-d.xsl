@@ -32,7 +32,7 @@ See the accompanying LICENSE file for applicable license.
             {
                var $temp = $("<textarea/>");
                $("body").append($temp);
-               var a = $(element).html().trim().replace(/&lt;br>/g, '\n').replace(/<\/?[^>]+>/g, '');
+               var a = $(element).html().trim().replace(/&lt;br>/g, '\n').replace(/&lt;\/?[^>]+>/g, '');
                var x = htmlDecode(a);
                $temp.val(x).select();
                document.execCommand("copy");
