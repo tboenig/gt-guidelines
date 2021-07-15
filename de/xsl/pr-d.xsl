@@ -40,11 +40,11 @@ See the accompanying LICENSE file for applicable license.
             }
     </script>
     
-    <pre><button onclick="copyToClipboard('#code')" title="copy clipboard" class="ccb">&#x1F4CB;</button>
+    <pre>
       <xsl:call-template name="commonattributes"/>
       <xsl:call-template name="setscale"/>
       <xsl:call-template name="setidaname"/>
-              
+      <button onclick="copyToClipboard('#code')" title="copy clipboard" class="ccb">&#x1F4CB;</button>        
       <code id="code">
         <xsl:apply-templates/>
       </code>
