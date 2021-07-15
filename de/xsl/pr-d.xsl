@@ -45,8 +45,8 @@ See the accompanying LICENSE file for applicable license.
       <xsl:call-template name="commonattributes"/>
       <xsl:call-template name="setscale"/>
       <xsl:call-template name="setidaname"/>
-      <button onclick="copyToClipboard('#code{codeblock/position()}')" title="copy clipboard" class="ccb">&#x1F4CB;</button>        
-      <code id="code{codeblock/position()}">
+      <button onclick="copyToClipboard('#code{generate-id()}')" title="copy clipboard" class="ccb">&#x1F4CB;</button>        
+      <code id="code{generate-id(.)}">
         <xsl:apply-templates/>
       </code>
       
