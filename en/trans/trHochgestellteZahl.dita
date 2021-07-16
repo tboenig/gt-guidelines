@@ -12,69 +12,63 @@
             the page. End notes can also be introduced this way. However, the referenced text
             appears at the end of the entire text or of a closed section (e.g. chapter).</p><p>Furthermore, superscript numbers are used for referencing marginal notes. The marginal note
             appears at the right or left outer margin depending on the binding of the printed page. </p>
-        <p>In addition, superscript numbers are used in mathematics for exponentials.</p><p>These numerals are transribed as a specific superscript number with the respective <b>Unicode
-                hexadecimal entity</b>.</p>
+        <p>In addition, superscript numbers are used in mathematics for exponentials.</p>
 
 <p>
-<table id="table_anp_grc_b1b">
-<tgroup cols="3">
+    <table id="table_anp_grc_b1b">
+        <tgroup cols="2">
                     <colspec colnum="1" colname="col1" colwidth="2.69*"/>
                     <colspec colnum="2" colname="col2" colwidth="1*"/>
-                    <colspec colnum="3" colname="col5" colwidth="2.67*"/>
                     <tbody>
                         <row>
-                            <entry>&amp;#x2070;</entry>
-                            <entry>⁰</entry>
+                            <entry>⁰<term><text>hex: &amp;#x2070;</text></term></entry>
                             <entry>SUPERSCRIPT ZERO</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x00B9;</entry>
-                            <entry>¹</entry>
+                            <entry>¹<term><text>hex: &amp;#x00B9;</text></term></entry>
                             <entry>SUPERSCRIPT ONE</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x00B2;</entry>
-                            <entry>²</entry>
+                            <entry>²<term><text>hex: &amp;#x00B2;</text></term></entry>
                             <entry>SUPERSCRIPT TWO</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x00B3;</entry>
-                            <entry>³</entry>
+                            <entry>³<term><text>hex: &amp;#x00B3;</text></term></entry>
                             <entry>SUPERSCRIPT THREE</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x2074;</entry>
-                            <entry>⁴</entry>
+                            <entry>⁴<term><text>hex: &amp;#x2074;</text></term></entry>
                             <entry>SUPERSCRIPT FOUR</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x2075;</entry>
-                            <entry>⁵</entry>
+                            <entry>⁵<term><text>hex: &amp;#x2075;</text></term></entry>
                             <entry>SUPERSCRIPT FIVE</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x2076;</entry>
-                            <entry>⁶</entry>
+                            <entry>⁶<term><text>hex: &amp;#x2076;</text></term></entry>
                             <entry>SUPERSCRIPT SIX</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x2077;</entry>
-                            <entry>⁷</entry>
+                            <entry>⁷<term><text>hex: &amp;#x2077;</text></term></entry>
                             <entry>SUPERSCRIPT SEVEN</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x2078;</entry>
-                            <entry>⁸</entry>
+                            <entry>⁸<term><text>hex: &amp;#x2078;</text></term></entry>
                             <entry>SUPERSCRIPT EIGHT</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x2079;</entry>
-                            <entry>⁹</entry>
+                            <entry>⁹<term><text>hex: &amp;#x2079;</text></term></entry>
                             <entry>SUPERSCRIPT NINE</entry>
                         </row>
                     </tbody>
                 </tgroup>
-</table>
+    </table>
+    
+    
+    
+    
+    
+
 </p><note class="- topic/note " importance="normal">For Unicode coding see: <xref
                 href="http://www.unicode.org/charts/PDF/U0080.pdf" format="pdf" scope="external">C1
                 Controls and Latin-1 Supplement</xref> and <xref
