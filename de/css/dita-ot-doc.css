@@ -16,11 +16,14 @@ body {
   background-image:         linear-gradient(left, #eee 0%, #fff 300px); /* W3C */
   color: #333;
   margin: 0;
+  padding: 0;
   
 }
 
 header {
     background:#c8ab37;
+    padding:0;
+    margin:0;
 }
 
 /* ↓ header-coderef ↓ */
@@ -35,7 +38,6 @@ table.header {
 td.td1 {
   width: 10%;
   box-shadow: none;
-  background:#c8ab37;
   border-radius: 0em;
   padding:0em;
 }
@@ -47,7 +49,6 @@ td.td2 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   box-shadow: none;
   text-align: left;
-  background:#c8ab37;
   border-radius: 0em;
   padding:0em;
 }
@@ -57,6 +58,11 @@ div.header {
   font-size: 18pt;
   margin: 0;
   
+}
+
+div.header table {
+    margin:0;
+    padding:0;
 }
 
 div.header p {
@@ -73,7 +79,7 @@ div.header hr {
 }
 /* ↑ end-header-ref ↑ */
 
-body,
+
 caption,
 td,
 th {
