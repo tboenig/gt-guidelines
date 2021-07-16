@@ -14,7 +14,6 @@
       <param name="default.language" value="de"/>
       <param name="args.copycss" value="yes"/>
       <param name="args.css" value="dita-ot-doc.css"/>
-      <param name="args.css" value="prism.css"/>
       <param name="args.csspath" value="css"/>
       <param name="args.cssroot" path="../../de/css"/>
       <param name="args.hdr" href="../../de/resources/header.xml"/>

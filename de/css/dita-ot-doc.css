@@ -1,6 +1,12 @@
 /* DITA Open Toolkit documentation style */
 
 /****************************************
+Import Prism
+****************************************/
+
+@import url("https://prismjs.com/themes/prism.css");
+
+/****************************************
 Basic fonts and typography
 ****************************************/
 
