@@ -5,7 +5,7 @@ Basic fonts and typography
 ****************************************/
 @font-face {
   font-family: JuniusVF;
-  src: url('https://psb1558.github.io/Junicode-New/JuniusVF.woff2');
+  src: url('https://psb1558.github.io/Junicode-New/webfiles/JuniusVF.woff2');
   font-weight: 300 700;
   font-stretch: 60% 100%;
   font-style: normal;
