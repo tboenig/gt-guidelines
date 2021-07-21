@@ -99,17 +99,11 @@ div.header hr {
 /* ↑ end-header-ref ↑ */
 
 caption,
-th, td.desc {
-  font-family: 'Bitter', 'Noto Serif','Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+th, td.describtion {
+  font-family: Bitter, 'Noto Serif', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 10pt;
 }
 
-
-td
-{
-  font-family: JuniusVF, 'Bitter','Noto Serif','Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 10pt;
-}
 
 code,
 pre,
@@ -119,7 +113,7 @@ pre,
 .option,
 .parmname {
   color: #777;
-  font-family: 'Noto Sans Mono','Liberation Mono', Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: 'Noto Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, 'Courier New', monospace;
   font-size: 90%;
 }
 
@@ -143,7 +137,7 @@ h3 {
 h1 .filepath,
 h2 .filepath,
 h3 .filepath {
-  font-family: Bitter,'Noto Serif', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Bitter, 'Noto Serif', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 12pt;
   font-weight: bold;
 }
@@ -308,6 +302,8 @@ td {
   padding: 0.8em;
   border-radius: 0.1em;
   box-shadow: inset 1px 3px 5px -3px rgba(0, 0, 0, 0.5);
+  font-family: JuniusVF, Bitter, 'Noto Serif', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: x-large;
 }
 
 th {
