@@ -60,7 +60,7 @@
                                 <text>hex: &amp;#x0303;</text></term></entry>
                         <entry>&#x00E3;<term>a mit Tilde <text>dezimal: &amp;#227;</text>
                                 <text>hex: &amp;#x00E3;</text></term></entry>
-                        <entry class="desc">
+                        <entry outputclass="desc">
                             <p>Im Level 1 wurde anhand des Kontext ermittelt, dass der Strich über
                                 dem Vokal eine Verkürzung einer Doppelung des Vokals darstellt. Bei
                                 einem anderen Kontext kann die Schreibweise aus Level 2 angewendet
@@ -133,7 +133,7 @@
                         <entry> &#x0113;<term>e mit einem Makron <text>dezimal: &amp;#275;</text>
                                 <text>hex: &amp;#x0113;</text></term>
                         </entry>
-                        <entry class="desc">siehe Kommentar: <xref
+                        <entry outputclass="desc">siehe Kommentar: <xref
                                 href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
                                 Makron</xref></entry>
                     </row>
@@ -150,7 +150,7 @@
                         <entry>e&#x0303;<term>e mit kombinierter Tilde <text>dezimal:
                                     e&amp;#771;</text>
                                 <text>hex: e&amp;#x0303;</text></term></entry>
-                        <entry class="desc">siehe Kommentar: <xref
+                        <entry outputclass="desc">siehe Kommentar: <xref
                                 href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
                                 Makron</xref></entry>
                     </row>
@@ -169,7 +169,7 @@
                         <entry>m&#x0303;<term>m mit kombinierter Tilde <text>dezimal:
                                     m&amp;#771;</text>
                                 <text>hex: m&amp;#x0303;</text></term></entry>
-                        <entry class="desc">siehe Kommentar: <xref
+                        <entry outputclass="desc">siehe Kommentar: <xref
                                 href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
                                 Makron</xref></entry>
                     </row>
@@ -204,7 +204,7 @@
                         <entry>&#x00F1;<term>n mit kombinierter Tilde <text>dezimal:
                                     n&amp;#241;</text>
                                 <text>hex: n&amp;#x00F1;</text></term></entry>
-                        <entry class="desc">siehe Kommentar: <xref
+                        <entry outputclass="desc">siehe Kommentar: <xref
                                 href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
                                 Makron</xref></entry>
                     </row>
@@ -223,7 +223,7 @@
                                 <text>hex: o&amp;#x0303;</text></term></entry>
                         <entry>&#x00F5;<term>o mit Tilde <text>dezimal: &amp;#245;</text>
                                 <text>hex: &amp;#x00F5;</text></term></entry>
-                        <entry class="desc">siehe Kommentar: <xref
+                        <entry outputclass="desc">siehe Kommentar: <xref
                                 href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
                                 Makron</xref></entry>
                     </row>
@@ -245,7 +245,7 @@
                                     p&amp;#771;</text>
                                 <text>hex: &amp;#x0303;</text></term>
                         </entry>
-                        <entry class="desc">siehe Kommentar: <xref
+                        <entry outputclass="desc">siehe Kommentar: <xref
                                 href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
                                 Makron</xref></entry>
                     </row>
@@ -335,7 +335,7 @@
                         <entry>&#xE8BF;<term>q mit abschließendem et versehen <text>dezimal:
                                     &amp;#59583;</text>
                                 <text>hex: &amp;#xE8BF;</text></term></entry>
-                        <entry class="desc">zu &amp;#xE8BF; siehe <xref
+                        <entry outputclass="desc">zu &amp;#xE8BF; siehe <xref
                                 href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
                                 format="pdf" scope="external">MUFI character recommendation (Version
                                 4.0; 22 Dezember 2015)</xref></entry>
@@ -609,7 +609,7 @@
                                 <text>hex: u&amp;#x0303;</text></term></entry>
                         <entry>&#x0169;<term>u mit Tilde <text>dezimal: &amp;#361;</text>
                                 <text>hex: &amp;#x0169;</text></term></entry>
-                        <entry class="desc">siehe Kommentar: <xref
+                        <entry outputclass="desc">siehe Kommentar: <xref
                                 href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
                                 Makron</xref></entry>
                     </row>
@@ -760,7 +760,7 @@
                         <entry>&#x010F;<term>verwendet d mit Hatschek
                                     <text>dezimal:&amp;#271;</text>
                                 <text>hex: &amp;#x010F;</text></term></entry>
-                        <entry class="desc">
+                        <entry outputclass="desc">
                             <p dir="ltr">Abkürzung für <i>der</i></p>
                             <p dir="ltr">Beispiele: <xref
                                     href="http://www.deutschestextarchiv.de/book/view/faulhaber_instrument_1610?p=0031"
@@ -784,7 +784,7 @@
                         <entry>and&#x010F;n<term>verwendet d mit Hatschek <text>dezimal:
                                     an&amp;#271;n</text>
                                 <text>hex: an&#x010F;n</text></term></entry>
-                        <entry class="desc">Abkürzung für Zeichenkette <i>der</i> auch in einem Wort
+                        <entry outputclass="desc">Abkürzung für Zeichenkette <i>der</i> auch in einem Wort
                             möglich</entry>
                     </row>
                     <row>
@@ -821,7 +821,7 @@
                                         <text>dezimal:&amp;#964;</text>
                                     <text>hex:&amp;#x03C4;</text></term>
                         </entry>
-                        <entry class="desc">
+                        <entry outputclass="desc">
                             <p dir="ltr"> befindet sich in der Wortmitte </p>
                             <p dir="ltr"><image href="images/trFremdsprache_beispiel.png"
                                     id="image_syy_3hm_hz" scale="40"/>
@@ -845,7 +845,7 @@
                         <entry>&#x03DA;<term>griechischer Großbuchstabe stigma
                                     <text>dezimal:&amp;#986;</text>
                                 <text>hex:&amp;#x03DA;</text></term></entry>
-                        <entry class="desc">
+                        <entry outputclass="desc">
                             <p dir="ltr"><image href="images/font_0132.png" height="36" width="167"
                                     id="image_uyr_5fm_gz"/></p>
                             <p dir="ltr"><xref
@@ -867,7 +867,7 @@
                         <entry>&#x03BF;&#x03C2;<term>Ligatur aus byzantinischer Zeit
                                 (aufgelöst) <text>dezimal: &amp;#959;&amp;#962;</text>
                                 <text>hex: &amp;#x03BF;&amp;#x03C2;</text></term></entry>
-                        <entry class="desc">
+                        <entry outputclass="desc">
                             <p dir="ltr">Ligatur aus byzantinischer Zeit</p>
                             <p>kann zur Zeit nur aufgelöst werden.</p>
                             <p dir="ltr">Beispiel: <image href="images/font_0078.png" height="36"
