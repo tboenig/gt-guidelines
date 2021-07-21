@@ -6,9 +6,19 @@ Import Prism
 
 @import url("https://prismjs.com/themes/prism.css");
 
+/* DITA Open Toolkit documentation style */
+
 /****************************************
 Basic fonts and typography
 ****************************************/
+@font-face {
+  font-family: JuniusVF;
+  src: url('https://psb1558.github.io/Junicode-New/webfiles/JuniusVF.woff2');
+  font-weight: 300 700;
+  font-stretch: 60% 100%;
+  font-style: normal;
+}
+
 
 article {
   color: #333;
@@ -21,16 +31,8 @@ body {
   background-image:    -moz-linear-gradient(left, #eee 0%, #fff 300px); /* FF3.6+ */
   background-image:         linear-gradient(left, #eee 0%, #fff 300px); /* W3C */
   color: #333;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  
-}
-
-header {
-    background:#c8ab37;
-    padding:0;
-    margin:0;
+  padding: 1em;
 }
 
 /* ↓ header-coderef ↓ */
@@ -41,56 +43,45 @@ table.header {
 
 }
 
-
 td.td1 {
   width: 10%;
-  box-shadow: none;
-  border-radius: 0em;
-  padding:0em;
+  box-shadow: none; 
 }
 
 td.td2 {
   width: 90%;
-  font-size: 36pt; 
-  color: #eee; 
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18pt; 
+  color: rgb(51, 51, 51); 
+  font-family: JuniusVF, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   box-shadow: none;
   text-align: left;
-  border-radius: 0em;
-  padding:0em;
 }
-
 
 div.header {
   font-size: 18pt;
   margin: 0;
-  
-}
-
-div.header table {
-    margin:0;
-    padding:0;
+  padding: 0 12px;
 }
 
 div.header p {
   color: #777;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: JuniusVF, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.3;
   margin: 0;
 }
 
 div.header hr {
   border: 0;
-  border-bottom: 1px solid #c8ab37;
+  border-bottom: 1px solid #eee;
   height: 0;
 }
 /* ↑ end-header-ref ↑ */
 
-
+body,
 caption,
 td,
 th {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: JuniusVF, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 10pt;
 }
 
@@ -102,7 +93,7 @@ pre,
 .option,
 .parmname {
   color: #777;
-  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: JuniusVF, 'Noto Sans Mono','Liberation Mono','Consolas', Menlo, Monaco, Consolas, 'Courier New', monospace;
   font-size: 90%;
 }
 
@@ -126,7 +117,7 @@ h3 {
 h1 .filepath,
 h2 .filepath,
 h3 .filepath {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: JuniusVF, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 12pt;
   font-weight: bold;
 }
@@ -308,25 +299,6 @@ caption {
 }
 
 /****************************************
-Button
-****************************************/
-.ccb {
-      float: right; 
-      font-size:x-large;
-      background-color: silver;
-      border: none;
-      color: white;
-      opacity: 0.1;
-      transition: 0.3s;
-      text-decoration: none;
-      cursor: copy;
-     }
-
-.ccb:hover {
-     opacity: 1;
-     }
-
-/****************************************
 ToolTips and Highlight Link
 ****************************************/
 
@@ -370,17 +342,11 @@ Navigation
 nav[role=toc] {
   float: left;
   width: 300px;
-  background-image: linear-gradient(90deg, #f8f8f8 0%, #ffffff 50%);
 }
 
 nav[role=toc] li.active > a {
   font-weight: bold;
-  background-color: #e6e6e6;
-  padding: 5px;
-  box-sizing: border-box;
-  border-radius: 3px 3px 3px 3px;	
 }
-
 /* ↑ end-nav-ref ↑ */
 
 nav[role=toc] > ul {
@@ -390,9 +356,6 @@ nav[role=toc] > ul {
 nav[role=toc] > ul > li ul {
   margin-left: 1.2em;
 }
-
-
-
 
 /****************************************
 Index Tiles
