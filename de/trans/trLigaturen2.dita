@@ -48,7 +48,7 @@
               <entry>ct</entry>
               <entry>ct</entry>
               <entry>&#xEEC5;<term><text>hex: &amp;#xEEC5;</text></term></entry>
-              <entry outputclass="desc">siehe <xref
+              <entry outputclass="description">siehe <xref
                   href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
                   format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
                   Dezember 2015)</xref></entry>
@@ -87,7 +87,7 @@
               <entry>&#x017F;z <term><text>hex: &amp;#x017F;z </text></term></entry>
               <entry>&#x017F;z <term><text>hex: &amp;#x017F;z </text></term></entry>
               <entry>&#x017F;z <term><text>hex: &amp;#x017F;z </text></term></entry>
-              <entry outputclass="desc">Es handelt sich nicht um eine Ligatur.</entry>
+              <entry outputclass="description">Es handelt sich nicht um eine Ligatur.</entry>
             </row>
             <row>
               <entry><image href="images/font_0135.png" height="41" width="29" id="image_x53_3gm_gz"
@@ -95,7 +95,7 @@
               <entry>ss </entry>
               <entry>&#x017F;s <term><text>hex: &amp;#x017F;s </text></term></entry>
               <entry>&#x017F;s <term><text>hex: &amp;#x017F;s </text></term></entry>
-              <entry outputclass="desc">Es handelt sich nicht um eine Ligatur. </entry>
+              <entry outputclass="description">Es handelt sich nicht um eine Ligatur. </entry>
             </row>
             <row>
               <entry dir="ltr"><image href="images/font_0115.png" height="27" width="20"
@@ -132,7 +132,7 @@
               <entry>tz</entry>
               <entry>tz</entry>
               <entry>&#xEEDC;<term><text>hex: &amp;#xEEDC;</text></term></entry>
-              <entry outputclass="desc">siehe <xref
+              <entry outputclass="description">siehe <xref
                   href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
                   format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
                   Dezember 2015)</xref></entry>
@@ -143,7 +143,7 @@
               <entry>jtzo</entry>
               <entry>jtzo</entry>
               <entry>j&#xEEDC;<term><text>hex: &amp;#xEEDC;</text></term>o</entry>
-              <entry outputclass="desc">siehe <xref
+              <entry outputclass="description">siehe <xref
                   href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
                   format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
                   Dezember 2015)</xref></entry>
