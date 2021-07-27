@@ -12,16 +12,18 @@
     </body>
     <related-links>
         <link href="https://github.com/OCR-D/gt-labelling" format="html" scope="external">
+            <linktext>gt-labelling : semantic-labelling OCR ground truth data</linktext>
             <desc>gt-labelling : semantic-labelling OCR ground truth data</desc>
         </link>
         <link
             href="https://www.primaresearch.org/www/assets/papers/DAS2018_Clausner_SemanticLabelling.pdf"
-            format="pdf" scope="external">
+            format="pdf" scope="external"><linktext>Christian Clausner; Apostolos Antonacopoulos: Ontology and Framework for Semantic
+                Labelling of Document Data and Software Methods</linktext>
             <desc>Christian Clausner; Apostolos Antonacopoulos: Ontology and Framework for Semantic
                 Labelling of Document Data and Software Methods </desc>
         </link>
         <link href="https://github.com/PRImA-Research-Lab/semantic-labelling" format="html"
-            scope="external">
+            scope="external"><linktext>Semantic-labelling on GitHub, reference implementation</linktext>
             <desc>Semantic-labelling on GitHub, reference implementation</desc>
         </link>
     </related-links>
