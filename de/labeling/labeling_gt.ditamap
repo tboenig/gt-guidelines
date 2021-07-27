@@ -3,15 +3,15 @@
 <!DOCTYPE map
   PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-   <title>Schema documentation for OCR-D_GT_labeling-schema.xsd</title>
+   <title>Schema documentation for OCR-D_GT_labeling_schema.xsd</title>
    <topicref href="Main_schema.dita">
-      <topicref href="schema_xsd_Main_schema_schema_xsd.dita"/>
+      <topicref href="OCR-D_GT_labeling_schema_xsd_Main_schema_OCR-D_GT_labeling_schema_xsd.dita"/>
    </topicref>
    <topicref href="Element.dita">
-      <topicref href="schema_xsd_Element_gt_gt.dita#gt"/>
-      <topicref href="schema_xsd_Element_gt_gt.dita#gt_state"/>
+      <topicref href="OCR-D_GT_labeling_schema_xsd_Element_gt_gt.dita#gt"/>
+      <topicref href="OCR-D_GT_labeling_schema_xsd_Element_gt_gt.dita#gt_state"/>
    </topicref>
    <topicref href="Attribute.dita">
-      <topicref href="schema_xsd_Element_gt_gt.dita#gt_gt_state_prop"/>
+      <topicref href="OCR-D_GT_labeling_schema_xsd_Element_gt_gt.dita#gt_gt_state_prop"/>
    </topicref>
 </map>
