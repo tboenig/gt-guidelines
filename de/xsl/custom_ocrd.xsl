@@ -34,8 +34,7 @@ See the accompanying LICENSE file for applicable license.
     
     <xsl:import href="plugin:org.dita.html5:xsl/htmlflag.xsl"/>
     
-    <xsl:import href="level.xsl"/>
-    
+        
     <dita:extension id="dita.xsl.html5" 
         behavior="org.dita.dost.platform.ImportXSLAction" 
         xmlns:dita="http://dita-ot.sourceforge.net"/>
