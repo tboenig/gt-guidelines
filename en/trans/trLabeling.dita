@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="trLabeling">
+    <title>Documentation for gt-labelling : semantic-labelling OCR ground truth data</title>
+    <abstract><shortdesc>The automatically generated documentation gives an overview of all
+            components of the OCR-D-GT-labelling scheme.</shortdesc></abstract>
+    <body>
+        <p>The documentation of the OCR-D-GT-labelling scheme was generated automatically. The
+            schema is based on the PrimaLab labelling ontology. The documentation was created with
+            the schema documentation tool of the Oxygen editor. The documentation is written in
+            English.</p>
+    </body>
+    <related-links>
+        <link href="https://github.com/OCR-D/gt-labelling" format="html" scope="external">
+            <desc>gt-labelling : semantic-labelling OCR ground truth data</desc>
+        </link>
+        <link
+            href="https://www.primaresearch.org/www/assets/papers/DAS2018_Clausner_SemanticLabelling.pdf"
+            format="pdf" scope="external">
+            <desc>Christian Clausner; Apostolos Antonacopoulos: Ontology and Framework for Semantic
+                Labelling of Document Data and Software Methods </desc>
+        </link>
+        <link href="https://github.com/PRImA-Research-Lab/semantic-labelling" format="html"
+            scope="external">
+            <desc>Semantic-labelling on GitHub, reference implementation</desc>
+        </link>
+    </related-links>
+</topic>

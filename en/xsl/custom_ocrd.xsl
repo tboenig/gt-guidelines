@@ -21,7 +21,7 @@ See the accompanying LICENSE file for applicable license.
     <xsl:import href="plugin:org.dita.html5:xsl/reference.xsl"/>  
     <xsl:import href="plugin:org.dita.html5:xsl/ut-d.xsl"/>
     <xsl:import href="plugin:org.dita.html5:xsl/sw-d.xsl"/>
-    <xsl:import href="plugin:org.dita.html5:xsl/pr-d.xsl"/>
+    <xsl:import href="pr-d.xsl"/>
     <xsl:import href="plugin:org.dita.html5:xsl/ui-d.xsl"/>
     <xsl:import href="plugin:org.dita.html5:xsl/hi-d.xsl"/>
     <xsl:import href="plugin:org.dita.html5:xsl/abbrev-d.xsl"/>
@@ -34,6 +34,7 @@ See the accompanying LICENSE file for applicable license.
     
     <xsl:import href="plugin:org.dita.html5:xsl/htmlflag.xsl"/>
     
+        
     <dita:extension id="dita.xsl.html5" 
         behavior="org.dita.dost.platform.ImportXSLAction" 
         xmlns:dita="http://dita-ot.sourceforge.net"/>
