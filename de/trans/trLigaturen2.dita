@@ -47,8 +47,8 @@
                   id="image_p53_3gm_gz"/></entry>
               <entry>ct</entry>
               <entry>ct</entry>
-              <entry>&amp;#xEEC5;</entry>
-              <entry>siehe <xref
+              <entry>&#xEEC5;<term><text>hex: &amp;#xEEC5;</text></term></entry>
+              <entry outputclass="description">siehe <xref
                   href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
                   format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
                   Dezember 2015)</xref></entry>
@@ -84,21 +84,18 @@
             <row>
               <entry><image href="images/font_0098.png" height="42" width="20" id="image_t53_3gm_gz"
                 /></entry>
-              <entry>&amp;#x017F;z </entry>
-              <entry>&amp;#x017F;z </entry>
-              <entry>&amp;#x017F;z </entry>
-              <entry>&amp;#x017F;z (Hinweis: es handelt sich nicht um eine Ligatur)</entry>
+              <entry>&#x017F;z <term><text>hex: &amp;#x017F;z </text></term></entry>
+              <entry>&#x017F;z <term><text>hex: &amp;#x017F;z </text></term></entry>
+              <entry>&#x017F;z <term><text>hex: &amp;#x017F;z </text></term></entry>
+              <entry outputclass="description">Es handelt sich nicht um eine Ligatur.</entry>
             </row>
             <row>
               <entry><image href="images/font_0135.png" height="41" width="29" id="image_x53_3gm_gz"
                 /></entry>
               <entry>ss </entry>
-              <entry>&amp;#x017F;s </entry>
-              <entry>&amp;#x017F;s </entry>
-              <entry>&amp;#x017F;s <p>
-                  <note id="note_dzp_1l5_mpb">(Hinweis: es handelt sich nicht um eine
-                    Ligatur)</note>
-                </p></entry>
+              <entry>&#x017F;s <term><text>hex: &amp;#x017F;s </text></term></entry>
+              <entry>&#x017F;s <term><text>hex: &amp;#x017F;s </text></term></entry>
+              <entry outputclass="description">Es handelt sich nicht um eine Ligatur. </entry>
             </row>
             <row>
               <entry dir="ltr"><image href="images/font_0115.png" height="27" width="20"
@@ -134,8 +131,8 @@
                   id="image_gv3_3gm_gz"/></entry>
               <entry>tz</entry>
               <entry>tz</entry>
-              <entry>&amp;#xEEDC;</entry>
-              <entry>siehe <xref
+              <entry>&#xEEDC;<term><text>hex: &amp;#xEEDC;</text></term></entry>
+              <entry outputclass="description">siehe <xref
                   href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
                   format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
                   Dezember 2015)</xref></entry>
@@ -145,8 +142,8 @@
                   id="image_hv3_3gm_gz"/></entry>
               <entry>jtzo</entry>
               <entry>jtzo</entry>
-              <entry>j&amp;#xEEDC;o</entry>
-              <entry>siehe <xref
+              <entry>j&#xEEDC;<term><text>hex: &amp;#xEEDC;</text></term>o</entry>
+              <entry outputclass="description">siehe <xref
                   href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
                   format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
                   Dezember 2015)</xref></entry>
