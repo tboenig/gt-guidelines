@@ -163,7 +163,7 @@
                                     </row>
                                     <row>
                                        <entry namest="col1" nameend="col3">
-                                          <dl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                                          <dl>
                                              <dlhead>
                                                 <ddhd>Usable attribute values</ddhd>
                                              </dlhead>
@@ -2393,7 +2393,7 @@ Book</dd>
                   <row>
                      <entry>Annotations</entry>
                      <entry>
-                        <dl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <dl>
                            <dlhead>
                               <ddhd>Usable attribute values</ddhd>
                            </dlhead>
