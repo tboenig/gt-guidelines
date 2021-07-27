@@ -23,7 +23,7 @@
             Spalteneinteilung geordnet. </p>
 <p>Elemente, die außerhalb des Satzspiegels liegen (z.B. Marginalien oder Kustoden), sind immer nach
 dem „Lesen“ der Satzspiegelinhalte zu betrachten.</p>
-        <example><title>ReadingOrder in PAGE XML</title><codeblock>&lt;ReadingOrder>
+        <example><title>ReadingOrder in PAGE XML</title><codeblock outputclass="language-xml">&lt;ReadingOrder>
             &lt;OrderedGroup id="ro_1542194237187" caption="Regions reading order">
             &lt;RegionRefIndexed index="0" regionRef="r_1"/>
             &lt;RegionRefIndexed index="1" regionRef="r_2"/>
