@@ -22,15 +22,15 @@ vorzuziehen.</p>
 </sthead>
 <strow>
 <stentry><image href="images/E42C.png" id="image_ljb_3jq_mbb"/></stentry>
-<stentry>&amp;#E42C;</stentry>
+<stentry><codeph>&#xE42C;</codeph><term><text>hex: &amp;#xE42C;</text></term></stentry>
 </strow>
 <strow>
 <stentry><image href="images/E644.png" id="image_g1n_mjq_mbb"/></stentry>
-<stentry>&amp;#E644;</stentry>
+<stentry><codeph>&#xE644;</codeph><term><text>hex: &amp;#xE644;</text></term></stentry>
 </strow>
 <strow>
 <stentry><image href="images/E72B.png" id="image_g1n_mjq_mbx"/></stentry>
-<stentry>&amp;#E72B;</stentry>
+<stentry><codeph>&#xE72B;</codeph><term><text>hex: &amp;#xE72B;</text></term></stentry>
 </strow>
 </simpletable>
 </p>

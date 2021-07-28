@@ -27,18 +27,18 @@
 <row>
 <entry><image href="images/trSchreibungS1.png" id="image_oyw_g5l_gz"/></entry>
 <entry>A <tt>long-s</tt> followed by a <tt>s</tt> is reproduced true to the original as
-                                    <codeph>&amp;#x017F;s</codeph>. </entry>
+    <b>ſs</b>. </entry>
 <entry><tt>daſs</tt></entry>
 </row>
 <row>
 <entry><image href="images/trSchreibungS2.png" id="image_hv2_yhl_gz"/></entry>
 <entry>A <tt>long-s</tt> followed by a <tt>z</tt>  is reproduced true to the original as
-                                    <codeph>&amp;#x017F;s</codeph>.</entry>
+    <b>ſſz</b>.</entry>
 <entry><tt>hauſſzen</tt></entry>
 </row>
 <row>
 <entry><image href="images/trSchreibungS3.png" id="image_wlc_l5l_gz"/></entry>
-<entry>The ligature <tt>long-s + z</tt>  is reproduced true to the original as <tt>ß</tt>. </entry>
+<entry>The ligature <tt>long-s + z</tt>  is reproduced true to the original as <b>ß</b>. </entry>
 <entry><tt>daß</tt></entry>
 </row>
 </tbody>

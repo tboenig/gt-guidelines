@@ -151,6 +151,9 @@
     <chapter href="trans/structur_gt.dita">
         <topicref href="structur_gt.ditamap" format="ditamap"/>
     </chapter>
+    <chapter href="trans/trLabeling.dita">
+        <topicref href="labeling/labeling_gt.ditamap" format="ditamap"/>
+    </chapter>
 
     <chapter href="trans/trPage.dita">
         <topicref href="pagexml/dok.ditamap" format="ditamap"/>

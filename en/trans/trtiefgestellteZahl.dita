@@ -4,69 +4,57 @@
     <title>Subscript Numbers</title>
     <body>
         <p>Subscript numbers can occur in chemical formulas or rarely as reference signs.  </p>
-<p>They are transcribed in the form of a specific subscript number as a <b>Unicode hexadecimal
-                entity</b>.</p>
+<p>They are transcribed in the form of a specific subscript number as a <b>Unicode encoding</b>.</p>
 <p>
-<table id="table_vvk_krc_b1b">
-<tgroup cols="3">
+    <table id="table_vvk_krc_b1b">
+        <tgroup cols="2">
                     <colspec colnum="1" colname="col1"/>
-                    <colspec colnum="2" colname="col2"/>
-                    <colspec colnum="3" colname="col5"/>
+                    <colspec colnum="2" colname="col5"/>
                     <tbody>
                         <row>
-                            <entry>&amp;#x2080;</entry>
-                            <entry>₀</entry>
+                            <entry>&#x2080;<term><text>hex: &amp;#x2080;</text></term></entry>
                             <entry>SUBSCRIPT ZERO</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x2081;</entry>
-                            <entry>₁</entry>
+                            <entry>&#x2081;<term><text>hex: &amp;#x2081;</text></term></entry>
                             <entry>SUBSCRIPT ONE</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x2082;</entry>
-                            <entry>₂</entry>
+                            <entry>&#x2082;<term><text>hex: &amp;#x2082;</text></term></entry>
                             <entry>SUBSCRIPT TWO</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x2083;</entry>
-                            <entry>₃</entry>
+                            <entry>&#x2083;<term><text>hex: &amp;#x2083;</text></term></entry>
                             <entry>SUBSCRIPT THREE</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x2084;</entry>
-                            <entry>₄</entry>
+                            <entry>&#x2084;<term><text>hex: &amp;#x2084;</text></term></entry>
                             <entry>SUBSCRIPT FOUR</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x2085;</entry>
-                            <entry>₅</entry>
+                            <entry>&#x2085;<term><text>hex: &amp;#x2085;</text></term></entry>
                             <entry>SUBSCRIPT FIVE</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x2086;</entry>
-                            <entry>₆</entry>
+                            <entry>&#x2086;<term><text>hex: &amp;#x2086;</text></term></entry>
                             <entry>SUBSCRIPT SIX</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x2087;</entry>
-                            <entry>₇</entry>
+                            <entry>&#x2087;<term><text>hex: &amp;#x2087;</text></term></entry>
                             <entry>SUBSCRIPT SEVEN</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x2088;</entry>
-                            <entry>₈</entry>
+                            <entry>&#x2088;<term><text>hex: &amp;#x2088;</text></term></entry>
                             <entry>SUBSCRIPT EIGHT</entry>
                         </row>
                         <row>
-                            <entry>&amp;#x2089;</entry>
-                            <entry>₉</entry>
+                            <entry>&#x2089;<term><text>hex: &amp;#x2089;</text></term></entry>
                             <entry>SUBSCRIPT NINE</entry>
                         </row>
                     </tbody>
                 </tgroup>
-</table>
-</p><note>For the Unicode coding see: <xref href="http://www.unicode.org/charts/PDF/U2070.pdf"
+    </table></p>
+    <note>For the Unicode coding see: <xref href="http://www.unicode.org/charts/PDF/U2070.pdf"
                 format="pdf" scope="external">Superscripts and Subscripts</xref></note>
     </body>
 </topic>
