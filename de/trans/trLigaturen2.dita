@@ -41,6 +41,34 @@
               <entry/>
             </row>
             <row>
+              <entry/>
+              <entry>AV</entry>
+              <entry>Ꜹ<term><text>hex: &amp;#xA738;</text></term></entry>
+              <entry>Ꜹ<term><text>hex: &amp;#xA738;</text></term></entry>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry>av</entry>
+              <entry>ꜹ<term><text>hex: &amp;#xA739;</text></term></entry>
+              <entry>ꜹ<term><text>hex: &amp;#xA739;</text></term></entry>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry>AY</entry>
+              <entry>Ꜽ<term><text>hex: &amp;#xA73C;</text></term></entry>
+              <entry>Ꜽ<term><text>hex: &amp;#xA73C;</text></term></entry>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry>ay</entry>
+              <entry>ꜽ<term><text>hex: &amp;#xA73D;</text></term></entry>
+              <entry>ꜽ<term><text>hex: &amp;#xA73D;</text></term></entry>
+              <entry/>
+            </row>
+            <row>
               <entry dir="ltr"><image href="images/font_0129.png" height="23" width="20"
                   id="image_n53_3gm_gz"/><image href="images/font_0019.png" height="26" width="24"
                   id="image_o53_3gm_gz"/><image href="images/font_0099.png" height="27" width="24"
@@ -52,6 +80,48 @@
                   href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
                   format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
                   Dezember 2015)</xref></entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>et</entry>
+              <entry>🙰<term><text>hex: &amp;#x1F670;</text></term></entry>
+              <entry>🙰<term><text>hex: &amp;#x1F670;</text></term></entry>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry>ff</entry>
+              <entry>ﬀ<term><text>hex: &amp;#xFB00;</text></term></entry>
+              <entry>ﬀ<term><text>hex: &amp;#xFB00;</text></term></entry>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry>ffi</entry>
+              <entry>ﬃ<term><text>hex: &amp;#xFB03;</text></term></entry>
+              <entry>ﬃ<term><text>hex: &amp;#xFB03;</text></term></entry>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry>ffl</entry>
+              <entry>ﬄ<term><text>hex: &amp;#xFB04;</text></term></entry>
+              <entry>ﬄ<term><text>hex: &amp;#xFB04;</text></term></entry>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry>fl</entry>
+              <entry>ﬂ<term><text>hex: &amp;#xFB02;</text></term></entry>
+              <entry>ﬂ<term><text>hex: &amp;#xFB02;</text></term></entry>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry>fi</entry>
+              <entry>ﬁ<term><text>hex: &amp;#xFB01;</text></term></entry>
+              <entry>ﬁ<term><text>hex: &amp;#xFB01;</text></term></entry>
+              <entry/>
             </row>
             <row>
               <entry dir="ltr"><image href="images/font_0033.png" height="22" width="30"
@@ -125,14 +195,28 @@
               <entry/>
             </row>
             <row>
+              <entry/>
+              <entry>TZ</entry>
+              <entry>Ꜩ<term><text>hex: &amp;#xA728;</text></term></entry>
+              <entry>Ꜩ<term><text>hex: &amp;#xA728;</text></term></entry>
+              <entry outputclass="description">siehe <xref
+                href="https://de.wikipedia.org/wiki/%EA%9C%A8" format="html" scope="external"
+              >Ligatur TZ, Artikel in Wikipedia</xref><note importance="recommended">Die MUFI Empfehlung ist nicht zu benutzen. </note><xref
+                href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
+                format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
+                Dezember 2015)</xref></entry>
+            </row>
+            <row>
               <entry dir="ltr"><image href="images/font_0037.png" height="43" width="20"
                   id="image_ev3_3gm_gz"/><image href="images/font_0075.png" height="42" width="21"
                   id="image_fv3_3gm_gz"/><image href="images/font_0086.png" height="43" width="23"
                   id="image_gv3_3gm_gz"/></entry>
               <entry>tz</entry>
-              <entry>tz</entry>
-              <entry>&#xEEDC;<term><text>hex: &amp;#xEEDC;</text></term></entry>
+              <entry>ꜩ<term><text>hex: &amp;#xA729;</text></term></entry>
+              <entry>ꜩ<term><text>hex: &amp;#xA729;</text></term></entry>
               <entry outputclass="description">siehe <xref
+                  href="https://de.wikipedia.org/wiki/%EA%9C%A8" format="html" scope="external"
+                >Ligatur TZ, Artikel in Wikipedia</xref><note importance="recommended">Die MUFI Empfehlung ist nicht zu benutzen. </note><xref
                   href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
                   format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
                   Dezember 2015)</xref></entry>
@@ -141,12 +225,14 @@
               <entry dir="ltr"><image href="images/font_0080.png" height="24" width="29"
                   id="image_hv3_3gm_gz"/></entry>
               <entry>jtzo</entry>
-              <entry>jtzo</entry>
-              <entry>j&#xEEDC;<term><text>hex: &amp;#xEEDC;</text></term>o</entry>
+              <entry>jꜩo<term><text>hex: &amp;#xA729;</text></term></entry>
+              <entry>jꜩo<term><text>hex: &amp;#xA729;</text></term></entry>
               <entry outputclass="description">siehe <xref
-                  href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
-                  format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
-                  Dezember 2015)</xref></entry>
+                href="https://de.wikipedia.org/wiki/%EA%9C%A8" format="html" scope="external"
+              /><note importance="recommended">Die MUFI Empfehlung ist nicht zu benutzen. </note><xref
+                href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
+                format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
+                Dezember 2015)</xref></entry>
             </row>
             <row>
               <entry dir="ltr"><image href="images/font_0028.png" height="24" width="35"
@@ -171,6 +257,20 @@
               <entry>ij</entry>
               <entry>&#x0133;<term><text>hex: &amp;#x0133;</text></term></entry>
               <entry>&#x0133;<term><text>hex: &amp;#x0133;</text></term></entry>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry>VY</entry>
+              <entry>Ꝡ<term><text>hex: &amp;#xA760;</text></term></entry>
+              <entry>Ꝡ<term><text>hex: &amp;#xA760;</text></term></entry>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry>vy</entry>
+              <entry>ꝡ<term><text>hex: &amp;#xA761;</text></term></entry>
+              <entry>ꝡ<term><text>hex: &amp;#xA761;</text></term></entry>
               <entry/>
             </row>
             <row>
