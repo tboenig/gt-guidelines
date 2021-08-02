@@ -9,10 +9,8 @@ jobs:
     name: Build DITA
     runs-on: ubuntu-latest
     steps:
-      - name: install java
-        with:
-         distribution: 'adopt' # See 'Supported distributions' for available options
-         java-version: '11'
+      - name: Set up JDK 1.8
+        uses: joschi/setup-jdk@v2
       - name: Git checkout
         uses: actions/checkout@v2
       - name: Build Bootstrap ⚙️
