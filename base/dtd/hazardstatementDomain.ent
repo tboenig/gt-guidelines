@@ -2,26 +2,24 @@
 <!-- ============================================================= -->
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
-<!--  MODULE:    DITA Hazard Statement Domain Entities             -->
+<!--  MODULE:    DITA Hazard Statement Domain                      -->
 <!--  VERSION:   1.2                                               -->
 <!--  DATE:      November 2009                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
-
 <!-- ============================================================= -->
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                    TYPICAL INVOCATION                         -->
 <!--                                                               -->
-<!--  Refer to this file by the following public identifier or an 
-      appropriate system identifier 
-PUBLIC "-//OASIS//ENTITIES DITA Hazard Statement Domain//EN"
-      Delivered as file "hazardstatementDomain.ent"                -->
-
+<!--  Refer to this file by the following public identifier or an  -->
+<!--       appropriate system identifier                           -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA Hazard Statement Domain//EN"  -->
+<!--       Delivered as file "hazardstatementDomain.mod"                -->
 <!-- ============================================================= -->
 <!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
 <!--                                                               -->
-<!-- PURPOSE:    Declaring the substitution context and domain     -->
-<!--             entity declarations for the User Interface Domain -->
+<!-- PURPOSE:    Declaring the elements and specialization         -->
+<!--             attributes for the Hazard Statement Domain        -->
 <!--                                                               -->
 <!-- ORIGINAL CREATION DATE:                                       -->
 <!--             February 2008                                     -->
@@ -31,24 +29,36 @@ PUBLIC "-//OASIS//ENTITIES DITA Hazard Statement Domain//EN"
 <!--                                                               -->
 <!--  UPDATES:                                                     -->
 <!--    2007.02.20 Chris Kravogel, SeicoDyne GmbH: Created domain  -->
+<!--    2007.03.06 Chris Kravogel, SeicoDyne GmbH: Add howtoavoid  -->
+<!--                    entity                                     -->
+<!--    2007.11.20 Chris Kravogel, SeicoDyne GmbH: Reduced ATTLIST -->
+<!--                    of hazardstatement to ATTLIST of note      -->
 <!--    2008.02.05 Chris Kravogel, SeicoDyne GmbH: Renamed symbol  -->
-<!--                    to hazardsymbol                            -->
-<!--    2008.02.05 RDA: Removed entities hs-d-ul, hs-d-image,      -->
-<!--                    hs-d-li                                    -->
+<!--                    to hazardsymbol, added %words.cnt; and     -->
+<!--                    %trademark; to consequences, typeofhazard  -->
+<!--    2008.02.05 RDA: Reformatted for DITA 1.2 ; removed @alt     -->
+<!--                    and added @scalefit on hazardsymbol        -->
+<!--    2008.02.13 RDA: Create .content and .attributes entities   -->
+<!--    2009.12.03 RDA: Removed caution1 and caution2 values to    -->
+<!--                    match the revised note/@type values        -->
 <!-- ============================================================= -->
+<!--                                                               -->
 
 <!-- ============================================================= -->
 <!--                    ELEMENT EXTENSION ENTITY DECLARATIONS      -->
 <!-- ============================================================= -->
 
-<!ENTITY % hazard-d-note    "hazardstatement"                        >
+<!ENTITY % hazard-d-note
+  "hazardstatement"
+>
 
 <!-- ============================================================= -->
 <!--                    DOMAIN ENTITY DECLARATION                  -->
 <!-- ============================================================= -->
 
+<!ENTITY hazard-d-att
+  "(topic hazard-d)"
+>
 
-<!ENTITY hazard-d-att "(topic hazard-d)">
-
-
-<!-- ================== End Hazard Statement Domain Entities ===== -->
+<!-- ================ End DITA Hazard Statement Domain ================== -->
+ 

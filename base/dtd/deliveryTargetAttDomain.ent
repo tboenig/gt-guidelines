@@ -2,9 +2,9 @@
 <!-- ============================================================= -->
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
-<!--  MODULE:    DITA Indexing  Domain                             -->
-<!--  VERSION:   1.2                                               -->
-<!--  DATE:      November 2009                                     -->
+<!--  MODULE:    DITA Delivery Target Attribute Domain             -->
+<!--  VERSION:   1.3                                               -->
+<!--  DATE:      June 2012                                         -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -13,42 +13,37 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA Indexing Domain//EN"          -->
-<!--       Delivered as file "indexingDomain.mod"                       -->
+<!--                                                               -->
+<!-- PUBLIC "-//OASIS//ENTITIES DITA Delivery Target Attribute Domain//EN"   -->
+<!--                                                               -->
 <!-- ============================================================= -->
 <!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
 <!--                                                               -->
-<!-- PURPOSE:    Declaring the elements and specialization         -->
-<!--             attributes for the DITA Indexing Domain           -->
+<!-- PURPOSE:    Declaring the substitution context and domain     -->
+<!--             entity declarations for the Delivery Target       -->
+<!--             Attribute Domain                                  -->
 <!--                                                               -->
 <!-- ORIGINAL CREATION DATE:                                       -->
-<!--             June 2006                                         -->
+<!--             June 2013                                         -->
 <!--                                                               -->
-<!--             (C) Copyright OASIS Open 2006, 2009.              -->
+<!--             (C) Copyright OASIS Open 2013.                    -->
 <!--             All Rights Reserved.                              -->
-<!--  UPDATES:                                                     -->
-<!--    2007.12.01 EK:  Reformatted DTD modules for DITA 1.2        -->
-<!--    2008.02.13 RDA: Create .content and .attributes entities   -->
-<!-- ============================================================= -->
 <!--                                                               -->
-
+<!--  UPDATES:                                                     -->
 <!-- ============================================================= -->
-<!--                    ELEMENT EXTENSION ENTITY DECLARATIONS      -->
-<!-- ============================================================= -->
-
-<!ENTITY % indexing-d-index-base
-  "index-see |
-   index-see-also |
-   index-sort-as"
+<!ENTITY % deliveryTargetAtt-d-attribute
+  "deliveryTarget
+                          CDATA
+                                    #IMPLIED"
 >
 
 <!-- ============================================================= -->
 <!--                    DOMAIN ENTITY DECLARATION                  -->
 <!-- ============================================================= -->
 
-<!ENTITY indexing-d-att
-  "(topic indexing-d)"
+<!ENTITY deliveryTargetAtt-d-att
+  "a(props deliveryTarget)"
 >
 
-<!-- ================ End DITA Indexing Domain ================== -->
+<!-- ================ End DITA Delivery Target Attribute Domain  ================== -->
  
