@@ -9,13 +9,16 @@ jobs:
     name: Build DITA
     runs-on: ubuntu-latest
     steps:
+      - name: install java
+        with:
+         distribution: 'adopt' # See 'Supported distributions' for available options
+         java-version: '11'
       - name: Git checkout
         uses: actions/checkout@v2
       - name: Build Bootstrap ⚙️
         uses: dita-ot/dita-ot-action@master
         with:
-          distribution: 'adopt' # See 'Supported distributions' for available options
-          java-version: '11'
+          
           install: |
             apt-get update -q
             export DEBIAN_FRONTEND=noninteractive
