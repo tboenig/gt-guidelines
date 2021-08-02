@@ -55,9 +55,9 @@ jobs:
       - name: Download and install saxon
         run: wget https://sourceforge.net/projects/saxon/files/Saxon-HE/10/Java/SaxonHE10-5J.zip/download && unzip download
       - name: output dir
-        run: cd out && mkdir rules
+        run: mkdir rules
       - name: transform rules
-        run: java -jar saxon-he-10.5.jar -xsl:de/xsl/rules.xsl -s:de/trans/trFremdsprache.dita -o:out/rules/ruleset.json
+        run: java -jar saxon-he-10.5.jar -xsl:de/xsl/rules.xsl -s:de/trans/trFremdsprache.dita -o:rules/ruleset.json
       
       - name: Deploy HTML 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
@@ -65,6 +65,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: out/html # The folder the action should deploy.
+      
           
 
       
