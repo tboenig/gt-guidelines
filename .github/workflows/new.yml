@@ -55,7 +55,7 @@ jobs:
       - name: Download and install saxon
         run: wget https://sourceforge.net/projects/saxon/files/Saxon-HE/10/Java/SaxonHE10-5J.zip/download && unzip download
       - name: transform rules
-        run: java -jar saxon-he-10.5.jar -xsl:de/xsl/rules.xsl -s:de/trans/trFremdsprache.dita -o:out/html/ruleset.json
+        run: java -jar saxon-he-10.5.jar -xsl:de/xsl/rules.xsl -s:de/trans/trFremdsprache.dita -o:out/rules/ruleset.json
       
       - name: Deploy HTML 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
