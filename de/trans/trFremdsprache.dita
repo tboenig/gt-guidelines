@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_t5h_w2m_gz">
+    
     <title>Alphabete, Kürzungs- und Sonderzeichen</title>
+   <prolog><metadata><prodinfo>
+       <prodname>ruleset</prodname>
+   </prodinfo></metadata></prolog>
     <body>
 
 
@@ -28,7 +32,7 @@
                 </thead>
                 <tbody>
                     
-                    <row>
+                    <row product="ruleset">
                         <entry><image href="images/font_0058.png" height="26" width="39"
                                 id="image_y5r_5fm_gz"/></entry>
                         <entry>a</entry>
@@ -102,7 +106,7 @@
                                 <text>hex: &amp;#x017F;</text></term></entry>
                         <entry/>
                     </row>
-                    <row>
+                    <row product="product1">
                         <entry dir="ltr"><image href="images/font_0131.png" height="35" width="20"
                                 id="image_ivr_5fm_gz"/><image href="images/font_0027.png"
                                 height="46" width="21" id="image_jvr_5fm_gz"/><image
