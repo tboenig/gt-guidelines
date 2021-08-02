@@ -9,10 +9,7 @@ jobs:
     name: Build DITA
     runs-on: ubuntu-latest
     steps:
-      - name: Set up JDK 1.8
-        uses: joschi/setup-jdk@v2
-        with:
-          java-version: '11'
+      
       - name: Git checkout
         uses: actions/checkout@v2
       - name: Build Bootstrap ⚙️
@@ -49,7 +46,12 @@ jobs:
             # dita --project=.github/dita-ot/html.xml
             dita --project=.github/dita-ot/html_en.xml
           #project: .github/dita-ot/html.xml --generate.copy.outer=3
-          
+      
+      - name: Set up JDK 1.8
+        uses: joschi/setup-jdk@v2
+        with:
+          java-version: '11'
+      
       - name: Download and install saxon
         run: wget https://sourceforge.net/projects/saxon/files/Saxon-HE/10/Java/SaxonHE10-5J.zip/download && unzip download
       - name: transform rules
