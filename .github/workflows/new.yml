@@ -30,18 +30,18 @@ jobs:
             # dita --project=.github/dita-ot/html_en.xml
           #project: .github/dita-ot/html.xml --generate.copy.outer=3
           
-      - name: Build Bootstrap-english ⚙️
-        uses: dita-ot/dita-ot-action@master
-        with:
-          install: |
-            apt-get update -q
-            export DEBIAN_FRONTEND=noninteractive
-            apt-get install -qy --no-install-recommends nodejs
-            nodejs -v
-          plugins: |
-            https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
-            https://github.com/infotexture/dita-bootstrap/archive/develop.zip
-            https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
+     # - name: Build Bootstrap-english ⚙️
+     #   uses: dita-ot/dita-ot-action@master
+     #   with:
+     #     install: |
+     #       apt-get update -q
+     #       export DEBIAN_FRONTEND=noninteractive
+     #       apt-get install -qy --no-install-recommends nodejs
+     #       nodejs -v
+     #     plugins: |
+     #       https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
+     #       https://github.com/infotexture/dita-bootstrap/archive/develop.zip
+     #       https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
    #      build: |
    #         dita --project=.github/dita-ot/html.xml
    #         dita --project=.github/dita-ot/html_en.xml
