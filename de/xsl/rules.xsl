@@ -23,6 +23,6 @@
     
     
     
-    <xsl:template match="title | thead | p"/>
+    <xsl:template match="title | thead | p | prodname"/>
     
 </xsl:stylesheet>
