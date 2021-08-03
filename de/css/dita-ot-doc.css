@@ -367,13 +367,18 @@ span.tip {
     display:block;
 }
 
-.entry:target .term {
+#topic_t5h_w2m_gz__Tilde_Makron:target  {
             border: 2px solid #D4D4D4;
             background-color: orange;
             color: white;
          }
 
 
+#topic_t5h_w2m_gz__Doppelung:target  {
+            border: 2px solid #D4D4D4;
+            background-color: #886628;
+            color: white;
+         }
 
 
 /****************************************

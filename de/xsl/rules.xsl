@@ -8,8 +8,9 @@
     
    
     <xsl:template match="topic">
+        {"ruleset":[
         <xsl:apply-templates/>
-        
+        ]}
     </xsl:template>
     
 <xsl:template match="tbody">
