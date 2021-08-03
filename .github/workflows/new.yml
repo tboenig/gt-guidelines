@@ -23,12 +23,12 @@ jobs:
             nodejs -v
           plugins: |
              https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
-              https://github.com/infotexture/dita-bootstrap/archive/develop.zip
+             https://github.com/infotexture/dita-bootstrap/archive/develop.zip
              https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
           build: |
              dita --project=.github/dita-ot/html.xml
-            # dita --project=.github/dita-ot/html_en.xml
-          #project: .github/dita-ot/html.xml --generate.copy.outer=3
+            
+          
           
       - name: Build Bootstrap-english ⚙️
         uses: dita-ot/dita-ot-action@master
@@ -43,9 +43,8 @@ jobs:
             https://github.com/infotexture/dita-bootstrap/archive/develop.zip
             https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
           build: |
-           #dita --project=.github/dita-ot/html.xml
            dita --project=.github/dita-ot/html_en.xml
-          #project: .github/dita-ot/html.xml --generate.copy.outer=3
+          
       
       - name: Set up JDK 1.8
         uses: joschi/setup-jdk@v2
@@ -55,9 +54,9 @@ jobs:
       - name: Download and install saxon
         run: wget https://sourceforge.net/projects/saxon/files/Saxon-HE/10/Java/SaxonHE10-5J.zip/download && unzip download
       - name: output dir
-        run: mkdir rules
+        run: cd out && mkdir rules
       - name: transform rules
-        run: java -jar saxon-he-10.5.jar -xsl:de/xsl/rules.xsl -s:de/trans/trFremdsprache.dita -o:rules/ruleset.json
+        run: java -jar saxon-he-10.5.jar -xsl:de/xsl/rules.xsl -s:de/trans/trFremdsprache.dita -o:out/rules/ruleset.json
 
       
 
@@ -66,7 +65,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: rules && out/html # The folder the action should deploy.
+          FOLDER: out # The folder the action should deploy.
       
           
 
