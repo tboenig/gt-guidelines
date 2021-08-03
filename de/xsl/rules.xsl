@@ -14,9 +14,12 @@
     
 <xsl:template match="tbody">
     <xsl:for-each select="row[@product='ruleset']">
-        {"rule": ["<xsl:value-of select="entry[2]/text()"/>","<xsl:value-of select="entry[3]/text()"/>","<xsl:value-of select="entry[4]/text()"/>"], "type": "raw"}
+        {"rule": ["<xsl:value-of select="entry[2]/text()[normalize-space()]"/>","<xsl:value-of select="entry[3]/text()[normalize-space()]"/>","<xsl:value-of select="entry[4]/text()[normalize-space()]"/>"], "type": "level"}
     </xsl:for-each>
 </xsl:template>
+    
+    
+    
     
     
     <xsl:template match="title | thead | p"/>
