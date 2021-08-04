@@ -380,6 +380,12 @@ span.tip {
             color: white;
          }
 
+#Ligaturen__vLigatur:target  {
+            border: 2px solid #D4D4D4;
+            background-color: orange;
+            color: white;
+         }
+
 
 /****************************************
 Navigation
