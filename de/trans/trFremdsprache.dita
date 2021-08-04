@@ -3,9 +3,7 @@
 <topic id="topic_t5h_w2m_gz">
     
     <title>Alphabete, Kürzungs- und Sonderzeichen</title>
-   <prolog><metadata><prodinfo>
-       <prodname>ruleset</prodname>
-   </prodinfo></metadata></prolog>
+   
     <body>
 
 
@@ -344,8 +342,8 @@
                                 <text>hex: &amp;#xE8BF;</text></term></entry>
                         <entry outputclass="description">zu &amp;#xE8BF; siehe <xref
                                 href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
-                                format="pdf" scope="external">MUFI character recommendation (Version
-                                4.0; 22 Dezember 2015)</xref></entry>
+                                format="pdf" scope="external"><desc>MUFI character recommendation (Version
+                                    4.0; 22 Dezember 2015)</desc></xref></entry>
                     </row>
                     <row product="ruleset">
                         <entry dir="ltr"><image href="images/font_0002.png" height="73" width="38"
