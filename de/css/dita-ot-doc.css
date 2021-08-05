@@ -341,7 +341,7 @@ Button
      }
 
 /****************************************
-ToolTips and Highlight Link
+ToolTips Highlight Link and ExampleBoxes
 ****************************************/
 
 .term {
@@ -385,6 +385,13 @@ span.tip {
             background-color: orange;
             color: white;
          }
+
+.example_block {
+    background: #fefaf5;
+    padding: 6px;
+    border: 1px solid;
+    box-shadow: 10px 10px 5px grey;
+    }
 
 
 /****************************************
