@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="trLevels">
+    <title>Ausführliche Zusammenfassung : Erklärungen zu den Level</title>
+    <body>
+         <section id="section_v4l_k2t_mqb">
+            <title>Allgemeine Erklärung zu den GT-Level</title>
+            <p>Level 1: <xref href="https://ocr-d.de/de/gt-guidelines/trans/level_1_4.html"
+                    format="html" scope="external"
+                    >https://ocr-d.de/de/gt-guidelines/trans/level_1_4.html</xref></p>
+            <p>Level 2: <xref href="https://ocr-d.de/de/gt-guidelines/trans/level_2_2.html"
+                    format="html" scope="external"
+                    >https://ocr-d.de/de/gt-guidelines/trans/level_2_2.html</xref></p>
+            <p>Level 3: <xref href="https://ocr-d.de/de/gt-guidelines/trans/level_3_1.html"
+                    format="html" scope="external"
+                    >https://ocr-d.de/de/gt-guidelines/trans/level_3_1.html</xref></p>
+        </section>
+        <section id="section_w4l_k2t_mqb">
+            <title>Transkription im jeweiligen Level?</title>
+            <p>Level 1 <xref href="https://ocr-d.de/de/gt-guidelines/trans/tr_level_1_4.html"
+                    format="html" scope="external"
+                    >https://ocr-d.de/de/gt-guidelines/trans/tr_level_1_4.html</xref></p>
+            <p>Level 2 <xref href="https://ocr-d.de/de/gt-guidelines/trans/tr_level_2_4.html"
+                    format="html" scope="external"
+                    >https://ocr-d.de/de/gt-guidelines/trans/tr_level_2_4.html</xref></p>
+            <p>Level 3 <xref href="https://ocr-d.de/de/gt-guidelines/trans/tr_level_3_4.html"
+                    format="html" scope="external"
+                    >https://ocr-d.de/de/gt-guidelines/trans/tr_level_3_4.html</xref></p>
+        </section>
+        <section id="section_x4l_k2t_mqb">
+            <title>Erklärungen zu bestimmten Fällen wie Ligaturen, Satzzeichen, Unterschiede
+                zwischen I/J…</title>
+            <p>Besonders ist dieser Teil der Dokumentation zu beachten:</p>
+            <ul id="ul_alt_cpt_mqb">
+                <li>Unterscheidung von I und J <xref
+                        href="https://ocr-d.de/de/gt-guidelines/trans/trSchreibungIJ.html"
+                        format="html" scope="external"
+                        >https://ocr-d.de/de/gt-guidelines/trans/trSchreibungIJ.html</xref>
+                </li>
+                <li>Unterscheidung vond u/f, u/v und v/u <xref
+                        href="https://ocr-d.de/de/gt-guidelines/trans/trSchreibungUV.html"
+                        format="html" scope="external"
+                        >https://ocr-d.de/de/gt-guidelines/trans/trSchreibungUV.html</xref>
+                </li>
+                <li>s-Grapheme <xref
+                        href="https://ocr-d.de/de/gt-guidelines/trans/trSchreibungS.html"
+                        format="html" scope="external"
+                        >https://ocr-d.de/de/gt-guidelines/trans/trSchreibungS.html</xref></li>
+                <li>r-Grapheme <xref
+                        href="https://ocr-d.de/de/gt-guidelines/trans/trSchreibungR.html"
+                        format="html" scope="external"
+                        >https://ocr-d.de/de/gt-guidelines/trans/trSchreibungR.html</xref></li>
+                <li>Ligaturen <xref href="https://ocr-d.de/de/gt-guidelines/trans/trLigatur.html"
+                        format="html" scope="external"
+                        >https://ocr-d.de/de/gt-guidelines/trans/trLigatur.html</xref>
+                </li>
+                <li>Umlaute <xref href="https://ocr-d.de/de/gt-guidelines/trans/trUmlaute.html"
+                        format="html" scope="external"
+                        >https://ocr-d.de/de/gt-guidelines/trans/trUmlaute.html</xref></li>
+                <li>Kürzungsstriche <xref
+                        href="https://ocr-d.de/de/gt-guidelines/trans/trNasalstrich.html"
+                        format="html" scope="external"
+                        >https://ocr-d.de/de/gt-guidelines/trans/trNasalstrich.html</xref>
+                </li>
+                <li>Diakritika <xref
+                        href="https://ocr-d.de/de/gt-guidelines/trans/trDiakritika.html"
+                        format="html" scope="external"
+                        >https://ocr-d.de/de/gt-guidelines/trans/trDiakritika.html</xref>
+                </li>
+                <li>Silbentrennung <xref
+                        href="https://ocr-d.de/de/gt-guidelines/trans/trSilbentrennung.html"
+                        format="html" scope="external"
+                        >https://ocr-d.de/de/gt-guidelines/trans/trSilbentrennung.html</xref>
+                </li>
+            </ul>
+        </section>
+        <section>
+         <title>Übersichten und Beispiele (betrifft die Transkription von Zeichen)</title>
+        <ul id="ul_y4l_k2t_mqb">
+            <li><xref href="https://ocr-d.de/de/gt-guidelines/trans/trBeispiele.html" format="html"
+                    scope="external"
+                >https://ocr-d.de/de/gt-guidelines/trans/trBeispiele.html</xref></li>
+        </ul>
+        </section>
+        <section>
+            <title>Was sind die Level nicht?</title>
+        
+        <ul id="ol_z4l_k2t_mqb">
+            <li>Die Level können nur eingeschränkt dazu genutzt werden, zwischen einzelnen Leveln
+                automatisch zu konvertieren.</li>
+        </ul>
+            <sectiondiv id="section_apl_k2t_mqb" outputclass="example_block">
+                <p><b>Problemfälle:</b></p>
+            <p>Im folgenden werden einige Problemfälle aufgelistet. Eine Vollständigkeit kann durch
+                die Heterogenität der Phänomene nicht erreicht werden.</p>
+          <div id="section_bpl_k2t_mqb">
+            <p><b>Problemfall langes S</b></p>
+            <p>siehe: <xref href="https://de.wikipedia.org/wiki/Langes_s" format="html"
+                    scope="external">https://de.wikipedia.org/wiki/Langes_s</xref></p>
+            <p>Zitat aus Wikipedia:</p>
+            
+                
+                    <ul id="ul_epl_k2t_mqb">
+                        <li>Wachſtube (Wach·stu·be <i>[Zimmer eines Wachmanns]</i>) und Wachstube
+                            (Wachs·tu·be <i>[Tube (siehe <xref
+                                    href="https://www.dwds.de/wb/Tube#d-1-1" format="html"
+                                    scope="external">https://www.dwds.de/wb/Tube#d-1-1</xref>)
+                                gefüllt mit Wachs]</i>)</li>
+                        <li>Kreiſchen (Krei·schen, für Schreien) und Kreischen (Kreis·chen, ein
+                            kleiner Kreis)</li>
+                        <li>Verſendung (Ver·sen·dung <i>[etwas wird an einen anderen Ort
+                                gesendet]</i> ) und Versendung (Vers·en·dung <i>[das Ende eines
+                                Verses]</i>)</li>
+                        <li>Röschenhof (Rös·chen·hof, von kleine Rose) und Röſchenhof (Rö·schen·hof,
+                            vom Eigennamen Röschen)</li>
+                        <li>Lachſturm (Lach·sturm <i>[heftiges Lachen]</i>) und Lachsturm
+                            (Lachs·turm <i>[ein Turm der aus dem Fisch Lachs besteht]</i>)</li>
+                    </ul>
+                
+            
+        </div>
+        <div id="section_fpl_k2t_mqb">
+            <p><b>Problemfall Makron über dem Zeichen</b></p>
+            <p><image href="https://i.imgur.com/75pJer2.png" id="image_gpl_k2t_mqb"/></p>
+            <p>Transkription:</p>
+            <p><codeph>vnderlaſſen/ vñ fuͤrnemlich</codeph> = Level 2</p>
+            <p>allgemeine Regel: Level 3: ñ, Level 2 ñ, Level 1 nn (Beachten Sie immer den
+                Kontext!!)</p>
+            <p>Der normalisierte Absatz lautet:</p>
+            <p><codeph>underlassen/</codeph>
+                <b>und</b>
+                <codeph>fürnemlich</codeph> = Level 1</p>
+            <p><codeph>unterlassen/</codeph>
+                <b>und</b>
+                <codeph>vornemlich</codeph> = mögliches Level 1 (Eine sehr starke Normalisierung
+                wurde vorgenommen.)</p>
+        </div>
+        <div id="section_hpl_k2t_mqb">
+            <p><b>Problemfall Normalisierung von
+                Transkriptionen/Text</b></p>
+            <p><image href="https://i.imgur.com/zuzTSEK.png" id="image_ipl_k2t_mqb"/></p>
+            <ul id="ul_jpl_k2t_mqb">
+                <li><codeph>ihren Haaren seine Füße,</codeph> = mögliches Level 1</li>
+                <li><codeph>yhren harẽ ſeyne fuſſe/</codeph> = Level 2</li>
+            </ul>
+            <p><image href="https://i.imgur.com/0SgtVhU.png" id="image_kpl_k2t_mqb"/></p>
+            <ul id="ul_lpl_k2t_mqb">
+                <li><codeph>doch soll der Vischer solch(es) Haar</codeph> = mögliches Level 1</li>
+                <li><codeph>doch soll der Vischer sollich haar</codeph> = Level 1</li>
+                <li><codeph>doch ſoll der Viſcher ſollich haar</codeph> = Level 2</li>
+            </ul>
+            <p>Quelle: [Württemberg, Fürstentum]: Des Fürstenthumbs Wirtemberg newe Landtsordnung/
+                gebessert vnd gemehret/ sampt darzu gedruckten der armen Casten/ auch Holtz vnnd
+                Vorst ordnungen. [Tübingen], 1552. In: Deutsches Textarchiv <xref
+                    href="https://www.deutschestextarchiv.de/wuerttemberg_landtsordnung_1552"
+                    format="html" scope="external"
+                    >https://www.deutschestextarchiv.de/wuerttemberg_landtsordnung_1552</xref>,
+                abgerufen am 05.08.2021.</p>
+            <p><b>Zusatz:</b></p>
+            <p>Bei der Nutzung von Editionen ist ebenfalls die Normalisierung zu beachten. Dies
+                zeigt dieses Beispiel deutlich.</p>
+            <p><image href="https://i.imgur.com/1Q7koaO.png" id="image_mpl_k2t_mqb"/></p>
+            <p>Quelle: Sammlung der württembergischen Regierungs-Gesetze / 3: Enthaltend den dritten
+                Theil der Samml. der Regierungs-Gesetze : … Regierungs-Gesetze vom Jahre 1727 bis
+                zum Jahre 1805 ( Th. 1, 1489 - 1634, Band 12) [<xref
+                    href="http://opacplus.bsb-muenchen.de/title/BV006590720/ft/bsb10552294?page=702"
+                    format="html" scope="external"
+                    >http://opacplus.bsb-muenchen.de/title/BV006590720/ft/bsb10552294?page=702</xref>]
+                abgerufen am 05.08.2021.</p>
+            <ul id="ol_npl_k2t_mqb">
+                <li>
+                    <p>Es gibt demnach nur eine eingeschränkte Kompatibilität zwischen den Texten im
+                        Level 1, 2 und 3. In den meisten Fällen ist nur in absteigender Richtung
+                        (3->2->1) eine Kompatibilität gegeben.</p>
+                </li>
+                <li>
+                    <p>Die Einteilung der Level dient neben der Transkription auch der Einschätzung
+                        von GT.</p>
+                </li>
+                <li>
+                    <p>Die Level sind kein Qualitätssiegel.</p>
+                </li>
+                <li>
+                    <p>Bei Nutzung von Level 2 und 3 ist eine <b>textkritische automatische
+                            Erfassung/Transkription</b> besser möglich. Voraussetzung das jeweilige
+                        Modell ist mit diesem GT trainiert worden.</p>
+                </li>
+                <li>
+                    <p>OCR-D empfiehlt für die GT-Erstellung/Transkription Level 2.</p>
+                </li>
+            </ul>
+        </div></sectiondiv></section>
+        
+    </body>
+</topic>
