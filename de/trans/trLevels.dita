@@ -83,11 +83,40 @@
         </ul>
         </section>
         <section>
+            <title>Level Empfehlung</title>
+            <ul><li>
+                OCR-D empfiehlt für die GT-Erstellung/Transkription Level 2.
+            </li></ul>
+        </section>
+        <section>
             <title>Was sind die Level nicht?</title>
         
         <ul id="ol_z4l_k2t_mqb">
+            <li>
+                Die Einteilung der Level dient neben der Transkription auch der Einschätzung
+                    von GT.
+            </li>
+            <li>
+                Die Level sind kein Qualitätssiegel.
+            </li>
+            
+            
+            <li>
+                Bei Nutzung von Level 2 und 3 ist eine <b>textkritische automatische
+                    Erfassung/Transkription</b> besser möglich. Voraussetzung das jeweilige
+                    Modell ist mit diesem GT trainiert worden.
+            </li>
+            
+            
+            <li>
+                Es gibt nur eine eingeschränkte Kompatibilität zwischen den Texten im
+                    Level 1, 2 und 3. In den meisten Fällen ist nur in absteigender Richtung
+                    (3->2->1) eine Kompatibilität gegeben.
+            </li>
+            
             <li>Die Level können nur eingeschränkt dazu genutzt werden, zwischen einzelnen Leveln
                 automatisch zu konvertieren.</li>
+            
         </ul>
             <sectiondiv id="section_apl_k2t_mqb" outputclass="example_block">
                 <p><b>Problemfälle:</b></p>
@@ -167,30 +196,7 @@
                     format="html" scope="external"
                     >http://opacplus.bsb-muenchen.de/title/BV006590720/ft/bsb10552294?page=702</xref>]
                 abgerufen am 05.08.2021.</p></div></sectiondiv>
-            <div>
-                <ul id="ol_npl_k2t_mqb">
-                <li>
-                    <p>Es gibt demnach nur eine eingeschränkte Kompatibilität zwischen den Texten im
-                        Level 1, 2 und 3. In den meisten Fällen ist nur in absteigender Richtung
-                        (3->2->1) eine Kompatibilität gegeben.</p>
-                </li>
-                <li>
-                    <p>Die Einteilung der Level dient neben der Transkription auch der Einschätzung
-                        von GT.</p>
-                </li>
-                <li>
-                    <p>Die Level sind kein Qualitätssiegel.</p>
-                </li>
-                <li>
-                    <p>Bei Nutzung von Level 2 und 3 ist eine <b>textkritische automatische
-                            Erfassung/Transkription</b> besser möglich. Voraussetzung das jeweilige
-                        Modell ist mit diesem GT trainiert worden.</p>
-                </li>
-                <li>
-                    <p>OCR-D empfiehlt für die GT-Erstellung/Transkription Level 2.</p>
-                </li>
-            </ul>
-        </div></section>
+            </section>
         
     </body>
 </topic>
