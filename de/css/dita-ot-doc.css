@@ -391,6 +391,8 @@ span.tip {
     padding: 6px;
     border: 1px solid;
     box-shadow: 10px 10px 5px grey;
+    border-radius: 15px 15px 15px 15px;
+    width: 70%;
     }
 
 
