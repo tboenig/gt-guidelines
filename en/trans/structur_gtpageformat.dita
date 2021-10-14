@@ -25,10 +25,10 @@
 <entry namest="c3" nameend="c5">PAGE-Format</entry>
 </row>
 <row>
-<entry>Page<tt>type="{Wert}"</tt></entry>
+<entry>Page <codeblock>type="{Wert}"</codeblock></entry>
 <entry>spez. Region</entry>
-<entry>TextRegion <tt>type="{Wert}"</tt></entry>
-<entry>TextRegion <tt>custom="ocr-d-structure {type:Wert;}"</tt></entry>
+<entry>TextRegion <codeblock>type="{Wert}"</codeblock></entry>
+<entry>TextRegion <codeblock>custom="ocr-d-structure {type:Wert;}"</codeblock></entry>
 </row>
 </thead>
 <tbody>

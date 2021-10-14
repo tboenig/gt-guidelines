@@ -341,7 +341,7 @@ Button
      }
 
 /****************************************
-ToolTips Highlight Link and ExampleBoxes
+ToolTips and Highlight Link
 ****************************************/
 
 .term {
@@ -367,33 +367,13 @@ span.tip {
     display:block;
 }
 
-#topic_t5h_w2m_gz__Tilde_Makron:target  {
+.entry:target .term {
             border: 2px solid #D4D4D4;
             background-color: orange;
             color: white;
          }
 
 
-#topic_t5h_w2m_gz__Doppelung:target  {
-            border: 2px solid #D4D4D4;
-            background-color: #886628;
-            color: white;
-         }
-
-#Ligaturen__vLigatur:target  {
-            border: 2px solid #D4D4D4;
-            background-color: orange;
-            color: white;
-         }
-
-.example_block {
-    background: #fefaf5;
-    padding: 6px;
-    border: 1px solid;
-    box-shadow: 10px 10px 5px grey;
-    border-radius: 15px 15px 15px 15px;
-    width: 70%;
-    }
 
 
 /****************************************

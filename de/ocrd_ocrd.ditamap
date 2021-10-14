@@ -30,7 +30,6 @@
     </bookmeta>
     <chapter href="trans/index.dita"/>
     <chapter href="trans/trDokuKonventionen.dita"/>
-    <chapter href="trans/trLevels.dita"/>
 
     <chapter href="trans/transkription.dita">
         <topicref href="trans/level_1_4.dita"/>

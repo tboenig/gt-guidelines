@@ -16,11 +16,13 @@
         </link>
         <link
             href="https://www.primaresearch.org/www/assets/papers/DAS2018_Clausner_SemanticLabelling.pdf"
-            format="pdf" scope="external"><desc>Christian Clausner; Apostolos Antonacopoulos: Ontology and Framework for Semantic
+            format="pdf" scope="external">
+            <desc>Christian Clausner; Apostolos Antonacopoulos: Ontology and Framework for Semantic
                 Labelling of Document Data and Software Methods </desc>
         </link>
         <link href="https://github.com/PRImA-Research-Lab/semantic-labelling" format="html"
-            scope="external"><desc>Semantic-labelling on GitHub, reference implementation</desc>
+            scope="external">
+            <desc>Semantic-labelling on GitHub, reference implementation</desc>
         </link>
     </related-links>
 </topic>

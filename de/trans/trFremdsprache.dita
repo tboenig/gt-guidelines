@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_t5h_w2m_gz">
-    
     <title>Alphabete, Kürzungs- und Sonderzeichen</title>
-   
     <body>
 
 
@@ -30,7 +28,7 @@
                 </thead>
                 <tbody>
                     
-                    <row product="ruleset">
+                    <row>
                         <entry><image href="images/font_0058.png" height="26" width="39"
                                 id="image_y5r_5fm_gz"/></entry>
                         <entry>a</entry>
@@ -46,7 +44,7 @@
                         <entry>nata</entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0030.png" height="40" width="20"
                                 id="image_avr_5fm_gz"/><image href="images/font_0094.png"
                                 height="40" width="20" id="image_bvr_5fm_gz"/><image
@@ -63,11 +61,11 @@
                         <entry>&#x00E3;<term>a mit Tilde <text>dezimal: &amp;#227;</text>
                                 <text>hex: &amp;#x00E3;</text></term></entry>
                         <entry outputclass="description">
-                            <p id="Doppelung" importance="high" >Im Level 1 wurde anhand des Kontext ermittelt, dass der Strich über
+                            <p>Im Level 1 wurde anhand des Kontext ermittelt, dass der Strich über
                                 dem Vokal eine Verkürzung einer Doppelung des Vokals darstellt. Bei
                                 einem anderen Kontext kann die Schreibweise aus Level 2 angewendet
                                 werden.</p>
-                            <p id="Tilde_Makron" importance="high" >Eine Unterscheidung zwischen einem Balken oder
+                            <p id="Tilde_Makron">Eine Unterscheidung zwischen einem Balken oder
                                 geschlängelter Linie über Buchstaben als Substituenten für
                                 ausgelassene Zeichen, Nasalstrich [Kürzungsstrich] ist in vielen
                                 Fällen nicht möglich. Aus diesem Grund wird empfohlen eine mögliche
@@ -75,7 +73,7 @@
                                 Metadaten zum Ground Truth zu dokumentieren.</p>
                         </entry>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0104.png" height="34" width="41"
                                 id="image_fvr_5fm_gz"/></entry>
                         <entry>e</entry>
@@ -104,7 +102,7 @@
                                 <text>hex: &amp;#x017F;</text></term></entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0131.png" height="35" width="20"
                                 id="image_ivr_5fm_gz"/><image href="images/font_0027.png"
                                 height="46" width="21" id="image_jvr_5fm_gz"/><image
@@ -118,63 +116,62 @@
                                 <text>hex: &amp;#x0119;</text></term></entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0029.png" height="38" width="20"
                                 id="image_lvr_5fm_gz"/><image href="images/font_0015.png"
                                 height="40" width="20" id="image_mvr_5fm_gz"/><image
                                 href="images/font_0109.png" height="42" width="28"
                                 id="image_pvr_5fm_gz"/></entry>
-                        <entry>ee</entry>
+                        <entry>
+                            <p dir="ltr">ee oder e&#x0304;<term>e mit kombiniertem Makron
+                                        <text>dezimal: e&amp;#772;</text>
+                                    <text>hex: e&amp;#x0304;</text></term></p>
+                        </entry>
                         <entry>e&#x0304;<term>e mit kombiniertem Makron <text>dezimal:
                                     e&amp;#772;</text>
                                 <text>hex: e&amp;#x0304;</text></term></entry>
                         <entry> &#x0113;<term>e mit einem Makron <text>dezimal: &amp;#275;</text>
                                 <text>hex: &amp;#x0113;</text></term>
                         </entry>
-                        <entry outputclass="description">siehe Kommentar: <ul>
-                            <li><xref href="#topic_t5h_w2m_gz/Doppelung" format="dita"
-                                >Doppelung</xref></li>    
-                            <li><xref href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
-                                Makron</xref></li>
-                            </ul></entry>
+                        <entry outputclass="description">siehe Kommentar: <xref
+                                href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
+                                Makron</xref></entry>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry><image href="images/font_0018.png" height="44" width="23"
                                 id="image_nvr_5fm_gz"/><image href="images/font_0038.png"
                                 height="45" width="27" id="image_ovr_5fm_gz"/></entry>
-                        <entry>ee</entry>
-                        <entry>e&#x0303;<term>e mit kombinierter Tilde <text>dezimal:
+                        <entry>ee oder e&#x0303;<term>e mit kombinierter Tilde <text>dezimal:
                                     e&amp;#771;</text>
                                 <text>hex: e&amp;#x0303;</text></term></entry>
                         <entry>e&#x0303;<term>e mit kombinierter Tilde <text>dezimal:
                                     e&amp;#771;</text>
                                 <text>hex: e&amp;#x0303;</text></term></entry>
-                        <entry outputclass="description">siehe Kommentar: <ul>
-                            <li><xref href="#topic_t5h_w2m_gz/Doppelung" format="dita"
-                                >Doppelung</xref></li>    
-                            <li><xref href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
-                                Makron</xref></li>
-                        </ul></entry>
+                        <entry>e&#x0303;<term>e mit kombinierter Tilde <text>dezimal:
+                                    e&amp;#771;</text>
+                                <text>hex: e&amp;#x0303;</text></term></entry>
+                        <entry outputclass="description">siehe Kommentar: <xref
+                                href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
+                                Makron</xref></entry>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0101.png" height="32" width="24"
                                 id="image_rvr_5fm_gz"/><image href="images/font_0077.png"
                                 height="32" width="26" id="image_svr_5fm_gz"/><image
                                 href="images/font_0138.png" height="35" width="34"
                                 id="image_tvr_5fm_gz"/></entry>
-                        <entry>mm</entry>
+                        <entry>mm oder m&#x0303;<term>m mit kombinierter Tilde <text>dezimal:
+                                    m&amp;#771;</text>
+                                <text>hex:m&amp;#x0303;</text></term></entry>
                         <entry>m&#x0303;<term>m mit kombinierter Tilde <text>dezimal:
                                     m&amp;#771;</text>
                                 <text>hex: m&amp;#x0303;</text></term></entry>
                         <entry>m&#x0303;<term>m mit kombinierter Tilde <text>dezimal:
                                     m&amp;#771;</text>
                                 <text>hex: m&amp;#x0303;</text></term></entry>
-                        <entry outputclass="description">siehe Kommentar: <ul>
-                            <li><xref href="#topic_t5h_w2m_gz/Doppelung" format="dita"
-                                >Doppelung</xref></li>    
-                            <li><xref href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
-                                Makron</xref></li>
-                        </ul></entry>
+                        <entry outputclass="description">siehe Kommentar: <xref
+                                href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
+                                Makron</xref></entry>
                     </row>
                     <row>
                         <entry dir="ltr"><image href="images/font_0067.png" height="27" width="39"
@@ -192,54 +189,51 @@
                         <entry>In</entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0036.png" height="37" width="26"
                                 id="image_wvr_5fm_gz"/><image href="images/font_0097.png"
                                 height="34" width="17" id="image_xvr_5fm_gz"/><image
                                 href="images/font_0102.png" height="37" width="23"
                                 id="image_yvr_5fm_gz"/></entry>
-                        <entry>nn</entry>
+                        <entry>nn oder n&#x0303;<term>n mit kombinierter Tilde <text>dezimal:
+                                    n&amp;#771;</text>
+                                <text>hex: n&amp;#x0303;</text></term></entry>
                         <entry>n&#x0303;<term>n mit kombinierter Tilde <text>dezimal:
                                     n&amp;#771;</text>
                                 <text>hex: n&amp;#x0303;</text></term></entry>
                         <entry>&#x00F1;<term>n mit kombinierter Tilde <text>dezimal:
                                     n&amp;#241;</text>
                                 <text>hex: n&amp;#x00F1;</text></term></entry>
-                        <entry outputclass="description">siehe Kommentar: <ul>
-                            <li><xref href="#topic_t5h_w2m_gz/Doppelung" format="dita"
-                                >Doppelung</xref></li>    
-                            <li><xref href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
-                                Makron</xref></li>
-                        </ul></entry>
+                        <entry outputclass="description">siehe Kommentar: <xref
+                                href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
+                                Makron</xref></entry>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0053.png" height="47" width="31"
                                 id="image_zvr_5fm_gz"/><image href="images/font_0063.png"
                                 height="40" width="20" id="image_awr_5fm_gz"/><image
                                 href="images/font_0125.png" height="43" width="22"
                                 id="image_bwr_5fm_gz"/><image href="images/font_0060.png"
                                 height="40" width="23" id="image_cwr_5fm_gz"/></entry>
-                        <entry>oo</entry>
+                        <entry>oo oder o&#x0303;<term>o mit kombinierter Tilde <text>dezimal:
+                                    o&amp;#771;</text>
+                                <text>hex: o&amp;#x0303;</text></term></entry>
                         <entry>o&#x0303;<term>o mit kombinierter Tilde <text>dezimal:
                                     o&amp;#771;</text>
                                 <text>hex: o&amp;#x0303;</text></term></entry>
                         <entry>&#x00F5;<term>o mit Tilde <text>dezimal: &amp;#245;</text>
                                 <text>hex: &amp;#x00F5;</text></term></entry>
-                        <entry outputclass="description">siehe Kommentar: <ul>
-                            <li><xref href="#topic_t5h_w2m_gz/Doppelung" format="dita"
-                                >Doppelung</xref></li>    
-                            <li><xref href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
-                                Makron</xref></li>
-                        </ul></entry>
+                        <entry outputclass="description">siehe Kommentar: <xref
+                                href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
+                                Makron</xref></entry>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0041.png" height="48" width="29"
                                 id="image_dwr_5fm_gz"/><image href="images/font_0137.png"
                                 height="49" width="27" id="image_ewr_5fm_gz"/><image
                                 href="images/font_0006.png" height="48" width="25"
                                 id="image_fwr_5fm_gz"/></entry>
-                        <entry>pp </entry>
-                        <entry> p&#x0303;<term>p mit kombinierter Tilde <text>dezimal:
+                        <entry> pp oder p&#x0303;<term>p mit kombinierter Tilde <text>dezimal:
                                     p&amp;#771;</text>
                                 <text>hex: &amp;#x0303;</text></term>
                         </entry>
@@ -247,14 +241,15 @@
                                     p&amp;#771;</text>
                                 <text>hex: &amp;#x0303;</text></term>
                         </entry>
-                        <entry outputclass="description">siehe Kommentar: <ul>
-                            <li><xref href="#topic_t5h_w2m_gz/Doppelung" format="dita"
-                                >Doppelung</xref></li>    
-                            <li><xref href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
-                                Makron</xref></li>
-                        </ul></entry>
+                        <entry> p&#x0303;<term>p mit kombinierter Tilde <text>dezimal:
+                                    p&amp;#771;</text>
+                                <text>hex: &amp;#x0303;</text></term>
+                        </entry>
+                        <entry outputclass="description">siehe Kommentar: <xref
+                                href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
+                                Makron</xref></entry>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0043.png" height="54" width="26"
                                 id="image_gwr_5fm_gz"/><image href="images/font_0139.png"
                                 height="56" width="29" id="image_hwr_5fm_gz"/><image
@@ -262,18 +257,18 @@
                                 id="image_iwr_5fm_gz"/><image href="images/font_0048.png"
                                 height="49" width="29" id="image_jwr_5fm_gz"/>
                         </entry>
-                        <entry>&#x1D71;<term>p mit mittlerer Tilde <text>dezimal:
+                        <entry> &#x1D71;<term>p mit mittlerer Tilde <text>dezimal:
                                     &amp;#7537;</text>
                                 <text>hex: &amp;#x1D71</text></term></entry>
-                        <entry>&#x1D71;<term>p mit mittlerer Tilde <text>dezimal:
+                        <entry> &#x1D71;<term>p mit mittlerer Tilde <text>dezimal:
                                     &amp;#7537;</text>
                                 <text>hex: &amp;#x1D71</text></term></entry>
-                        <entry>&#x1D71;<term>p mit mittlerer Tilde <text>dezimal:
+                        <entry> &#x1D71;<term>p mit mittlerer Tilde <text>dezimal:
                                     &amp;#7537;</text>
                                 <text>hex: &amp;#x1D71</text></term></entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0134.png" height="45" width="36"
                                 id="image_kwr_5fm_gz"/><image href="images/font_0073.png"
                                 height="30" width="27" id="image_lwr_5fm_gz"/><image
@@ -287,7 +282,7 @@
                                 <text>hex: &amp;#xA753;</text></term></entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0124.png" height="57" width="31"
                                 id="image_nwr_5fm_gz"/><image href="images/font_0013.png"
                                 height="46" width="25" id="image_owr_5fm_gz"/><image
@@ -307,7 +302,7 @@
                         </entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0042.png" height="53" width="40"
                                 id="image_qwr_5fm_gz"/></entry>
                         <entry>&#xA757;&#x1DD3;<term> q mit einem Strich durch die Unterlänge und
@@ -324,7 +319,7 @@
                                 <text>hex:q&amp;#xA757;&amp;#x1DD3;</text></term></entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0032.png" height="58" width="31"
                                 id="image_rwr_5fm_gz"/><image href="images/font_0056.png"
                                 height="43" width="51" id="image_swr_5fm_gz"/><image
@@ -342,10 +337,10 @@
                                 <text>hex: &amp;#xE8BF;</text></term></entry>
                         <entry outputclass="description">zu &amp;#xE8BF; siehe <xref
                                 href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
-                                format="pdf" scope="external"><desc>MUFI character recommendation (Version
-                                    4.0; 22 Dezember 2015)</desc></xref></entry>
+                                format="pdf" scope="external">MUFI character recommendation (Version
+                                4.0; 22 Dezember 2015)</xref></entry>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0002.png" height="73" width="38"
                                 id="image_uwr_5fm_gz"/></entry>
                         <entry>q&#x0301;&#x037E;<term>q mit kombiniertem Akut und
@@ -361,7 +356,7 @@
                                 <text>hex:&amp;#xE8BF;&amp;#x037E;</text></term></entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0001.png" height="51" width="34"
                                 id="image_vwr_5fm_gz"/></entry>
                         <entry>q&#x0301;&#x037E;<term>q mit kombiniertem Akut und
@@ -376,7 +371,7 @@
                                 <text>hex:&amp;#xE8BF;&amp;#x037E;</text></term></entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0044.png" height="52" width="51"
                                 id="image_wwr_5fm_gz"/><image href="images/font_0031.png"
                                 height="52" width="35" id="image_xwr_5fm_gz"/></entry>
@@ -391,7 +386,7 @@
                                 <text>hex: &amp;#xE8BF;</text></term></entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0095.png" height="44" width="38"
                                 id="image_ywr_5fm_gz"/>
                         </entry>
@@ -400,7 +395,7 @@
                         <entry>q;</entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0096.png" height="44" width="32"
                                 id="image_zwr_5fm_gz"/></entry>
                         <entry>q&#x0300;;<term>q mit kombiniertem Gravis und im Abschluss Semikolon
@@ -414,7 +409,7 @@
                                 <text>hex: q&amp;#x0300;;</text></term></entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0122.png" height="48" width="24"
                                 id="image_axr_5fm_gz"/>
                         </entry>
@@ -429,7 +424,7 @@
                             <text>hex: q&amp;#x0301;</text></term></entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0105.png" height="50" width="37"
                                 id="image_bxr_5fm_gz"/></entry>
                         <entry>q&#x0301;;<term>q mit kombiniertem Akut und im Abschluss Semikolon
@@ -443,7 +438,7 @@
                                 <text>hex: q&amp;#x0301;;</text></term></entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/trFremdsprache_r.png"
                                 id="image_et5_mjm_gz"/></entry>
                         <entry>r</entry>
@@ -459,7 +454,7 @@
                         <entry>Sapor</entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0009.png" height="46" width="20"
                                 id="image_exr_5fm_gz"/>
                             <image href="images/font_0050.png" height="39" width="20"
@@ -472,7 +467,7 @@
                                 <text>hex:&amp;#xA75B;</text></term></entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0081.png" height="23" width="22"
                                 id="image_gxr_5fm_gz"/></entry>
                         <entry>r&#xA75B;<term>kleines r und rundes r <text>dezimal:
@@ -522,7 +517,7 @@
                             <text>hex: He&amp;#xA75B;ren</text></term></entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0116.png" height="59" width="20"
                                 id="image_kxr_5fm_gz"/><image href="images/font_0126.png"
                                 height="63" width="20" id="image_lxr_5fm_gz"/><image
@@ -599,27 +594,26 @@
                         <entry>donat</entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0020.png" height="34" width="24"
                                 id="image_xxr_5fm_gz"/><image href="images/font_0128.png"
                                 height="46" width="28" id="image_yxr_5fm_gz"/><image
                                 href="images/font_0023.png" height="47" width="28"
                                 id="image_zxr_5fm_gz"/><image href="images/font_0014.png"
                                 height="46" width="26" id="image_ayr_5fm_gz"/></entry>
-                        <entry>uu</entry>
+                        <entry>uu oder u&#x0303;<term>u mit kombinierter Tilde <text>dezimal:
+                                    u&amp;#771;</text>
+                                <text>hex: u&amp;#x0303;</text></term></entry>
                         <entry>u&#x0303;<term>u mit kombinierter Tilde <text>dezimal:
                                     u&amp;#771;</text>
                                 <text>hex: u&amp;#x0303;</text></term></entry>
                         <entry>&#x0169;<term>u mit Tilde <text>dezimal: &amp;#361;</text>
                                 <text>hex: &amp;#x0169;</text></term></entry>
-                        <entry outputclass="description">siehe Kommentar: <ul>
-                            <li><xref href="#topic_t5h_w2m_gz/Doppelung" format="dita"
-                                >Doppelung</xref></li>    
-                            <li><xref href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
-                                Makron</xref></li>
-                        </ul></entry>
+                        <entry outputclass="description">siehe Kommentar: <xref
+                                href="#topic_t5h_w2m_gz/Tilde_Makron" format="dita">Tilde,
+                                Makron</xref></entry>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0059.png" height="46" width="23"
                                 id="image_byr_5fm_gz"/><image href="images/font_0005.png"
                                 height="45" width="41" id="image_cyr_5fm_gz"/><image
@@ -639,7 +633,7 @@
                         </entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0091.png" height="31" width="27"
                                 id="image_eyr_5fm_gz"/></entry>
                         <entry>&#xA75F;<term>v mit diagonalem Strich <text>dezimal:
@@ -653,7 +647,7 @@
                                 <text>hex:&amp;#xA75F;</text></term></entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0022.png" height="47" width="23"
                                 id="image_fyr_5fm_gz"/></entry>
                         <entry>&#x03C8;<term>griechischer Kleinbuchstabe psi <text>dezimal:
@@ -670,7 +664,7 @@
                         </entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0084.png" height="42" width="28"
                                 id="image_gyr_5fm_gz"/></entry>
                         <entry>&#x03C9;<term>griechischer Kleinbuchstabe omega
@@ -793,7 +787,7 @@
                         <entry outputclass="description">Abkürzung für Zeichenkette <i>der</i> auch in einem Wort
                             möglich</entry>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0092.png" height="36" width="40"
                                 id="image_qyr_5fm_gz"/></entry>
                         <entry>&#x221E;<term>Zeichen für Unendlichkeit
@@ -807,20 +801,23 @@
                                 <text>hex: &amp;#x221E;</text></term></entry>
                         <entry/>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry>
                             <p dir="ltr"><image href="images/font_0113.png" height="55" width="22"
                                     id="image_ryr_5fm_gz"/></p>
                         </entry>
-                        <entry>&#x03C4;<term>griechischer Kleinbuchstabe tau
+                        <entry>
+                            &#x03C4;<term>griechischer Kleinbuchstabe tau
                                         <text>dezimal:&amp;#964;</text>
                                     <text>hex:&amp;#x03C4;</text></term>
                         </entry>
-                        <entry>&#x03C4;<term>griechischer Kleinbuchstabe tau
+                        <entry>
+                            &#x03C4;<term>griechischer Kleinbuchstabe tau
                                         <text>dezimal:&amp;#964;</text>
                                     <text>hex:&amp;#x03C4;</text></term>
                         </entry>
-                        <entry>&#x03C4;<term>griechischer Kleinbuchstabe tau
+                        <entry>
+                            &#x03C4;<term>griechischer Kleinbuchstabe tau
                                         <text>dezimal:&amp;#964;</text>
                                     <text>hex:&amp;#x03C4;</text></term>
                         </entry>
@@ -836,7 +833,7 @@
                                     termino. [Görlitz], 1635.</xref></p>
                         </entry>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0021.png" height="36" width="17"
                                 id="image_tyr_5fm_gz"/></entry>
                         <entry>&#x03DA;<term>griechischer Großbuchstabe stigma
@@ -858,7 +855,7 @@
                                     an der Oder, 1662.</xref></p>
                         </entry>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0068.png" height="36" width="34"
                                 id="image_vyr_5fm_gz"/></entry>
                         <entry>&#x03BF;&#x03C2;<term>Ligatur aus byzantinischer Zeit

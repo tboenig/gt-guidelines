@@ -19,11 +19,11 @@
 <tbody>
 <row>
 <entry><image href="images/frommen.jpg"/></entry>
-<entry>from&#x0303;en</entry>
+<entry><codeph>from&amp;#x0303;en</codeph></entry>
 </row>
                     <row>
                         <entry><image href="images/und_macht.jpg" id="image_cdk_dcb_pbb"/></entry>
-                        <entry>Un&#x0303; macht</entry>
+                        <entry><codeph>Un&amp;#x0303; macht</codeph></entry>
                     </row>
 </tbody>
 </tgroup>
