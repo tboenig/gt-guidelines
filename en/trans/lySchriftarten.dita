@@ -8,7 +8,7 @@
                 <codeph>&lt;TextRegion></codeph>) with the PAGE XML element
             <tt>&lt;TextStyle></tt>.</p>
         <example>
-            <codeblock outputclass="language-xml">&lt;TextRegion type="heading" id="r_7_1"">
+            <codeblock>&lt;TextRegion type="heading" id="r_7_1"">
             &lt;Coords points="542,306 569,306 569,342 542,342"/>
             &lt;TextLine id="tl_4" primaryLanguage="German">
                 &lt;Coords points="543,307 568,307 568,341 543,341"/>
@@ -62,7 +62,7 @@
                 </ul></p>
             
             <example>
-                <codeblock outputclass="language-xml">&lt;Word>
+                <codeblock>&lt;Word>
    &lt;TextStyle fontFamily="fraktur"/>
 &lt;/Word></codeblock>
             </example> <note importance="high"><p>This specification does not restrict the naming of font families. </p></note>
@@ -91,7 +91,7 @@
                     </tt>means that the text was set in different fonts or families.</p>
             </note>
             <example>
-                <codeblock outputclass="language-xml">        &lt;TextRegion type="paragraph" id="TextRegion_1476719787056_252">
+                <codeblock>        &lt;TextRegion type="paragraph" id="TextRegion_1476719787056_252">
             &lt;Coords points="980,2090 1529,2090 1741,2098 1741,2149 1529,2156 980,2156"/>
             &lt;TextLine id="tl_83" primaryLanguage="German">
                 &lt;Coords points="981,2091 1528,2091 1528,2155 981,2155"/>

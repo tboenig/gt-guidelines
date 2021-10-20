@@ -16,11 +16,11 @@ Substituenten für ausgelassene Zeichen stehen, sind bei Transkription aufzulös
     <tbody>
     <row>
     <entry><image href="images/frommen.jpg"/></entry>
-    <entry>frommen</entry>
+    <entry><codeph>frommen</codeph></entry>
     </row>
     <row>
     <entry><image href="images/und_macht.jpg"/></entry>
-    <entry>Und macht</entry>
+    <entry><codeph>Und macht</codeph></entry>
     </row>
     </tbody>
     </tgroup>

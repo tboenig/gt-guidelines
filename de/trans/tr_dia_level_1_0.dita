@@ -3,18 +3,18 @@
 <topic id="level_1_0">
     <title>Level 1</title>
     <body>
-<p>Diakritika werden nach Möglichkeit mittels der Unicode <b>Combining Diacritical Marks</b>
-            realisiert, z. B. das hochgestellte <tt>o</tt> über <tt>u</tt> bzw. <tt>U</tt>
-    (<tt>&#x0366;, U+0366, COMBINING LATIN SMALL LETTER O</tt>).</p>
-<p>Bei der Nutzung von kombinierbaren Zeichen ist zuerst das Grundzeichen und danach <i>nahtlos</i>
-            das Diakritikum zu schreiben (z.B. u&#x0366;).</p>
+<p>Diakritika werden nach Möglichkeit mittels der Unicode-Entitäten aus dem <b>Combining Diacritical
+Marks</b> Unicodeblock realisiert, z. B. das hochgestellte <tt>o</tt> über <tt>u</tt> bzw.
+<tt>U</tt> (<tt>&amp;#x0366;, COMBINING LATIN SMALL LETTER O</tt>).</p>
+<p>Bei der Nutzung von kombinierbaren Zeichen ist zuerst das Grundzeichen und danach "nahtlos" das
+Diakritikum zu schreiben (z.B. u&amp;#x0366; u&#x0366;).</p>
 <p>Die Schreibung für das <tt>c-Cedille</tt> (<tt>ç, U+00E7, LATIN SMALL LETTER C WITH
-CEDILLA</tt>), die <tt>e caudata</tt> (<tt>ę, U+0119, LATIN SMALL LETTER E WITH OGONEK</tt>)
-in der Bedeutung <tt>ae</tt> oder das <tt>e mit Trema</tt> (<tt>ë, U+00EB, LATIN SMALL LETTER
-E WITH DIAERESIS</tt>) erfolgt nicht unter Nutzung der Combining Diacritical Marks.</p>
+CEDILLA</tt>), die <tt>e caudata</tt> (<tt>ę, &amp;#x0119;, LATIN SMALL LETTER E WITH OGONEK</tt>)
+in der Bedeutung <tt>ae</tt> oder das <tt>e mit Trema</tt> (<tt>ë, &amp;#x00EB;, LATIN SMALL LETTER
+E WITH DIAERESIS</tt>) erfolgt nicht unter Nutzung er Combining Diacritical Marks.</p>
 <p>Die Grundlage für die Transkription bildet der deutsche bzw. lateinische Zeichensatz. Zeichen
 anderer Alphabete (Griechisch, Kyrillisch, Hebräisch etc.) werden mittels ihrer entsprechenden
-Unicode-Kodierung realisiert. Gültig ist der Unicode-Standard zum Zeitpunkt der Erfassung. Die
+Unicode-Entitäten realisiert. Gültig ist der Unicode-Standard zum Zeitpunkt der Erfassung. Die
 Unicode-Listen, die eine Vielzahl der Fälle abdecken, finden sich unter <xref
 href="http://www.unicode.org/charts/" format="html" scope="external"
 >http://www.unicode.org/charts/</xref>. </p>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="structur_gt">
-<title>📓 Dokumentation zum OCR-D Struktur-Ground-Truth</title>
+<title>Dokumentation zum OCR-D Struktur-Ground-Truth</title>
 <shortdesc>Der OCR-D Struktur-Ground-Truth beinhaltet Publikationen bei denen ausschließlich die
 Strukturen oder Regionen erfasst wurden. Die einzelne Regionen entsprechend dem
 PAGE-Schema.</shortdesc>
