@@ -4,8 +4,7 @@
     <booktitle>
         <mainbooktitle>OCR-D Struktur Ground Truth</mainbooktitle>
     </booktitle>
-    <chapter href="trans/structur_gtdefinition.dita"/>
-    <chapter href="trans/structur_gtgrundlage.dita"/>
-    <chapter href="trans/structur_gtpageformat.dita"/>
+    <chapter href="trans/structur_gtlevel1.dita"/>
     <chapter href="trans/structurmets2page.dita"/>
+    <chapter href="trans/structur_gtpageformat.dita"/>
 </bookmap>

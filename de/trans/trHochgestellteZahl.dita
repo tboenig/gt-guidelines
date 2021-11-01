@@ -12,74 +12,73 @@ spezifischen Textstelle aufgeführt wird und der jeweilige u. a. erklärende Tex
 Textseite. Endnoten können ebenfalls so eingeführt werden. Jedoch erscheint der referenzierte Text
 am Ende des gesamten Textes oder eines jeweiligen abgeschlossenen Abschnittes (z. B. Kapitel).</p><p>Hochgestellte Zahlen werden aber auch zur Referenzierung von Marginalien verwendet. Die
 Marginalie erscheint abhängig von der Bindung der Druckseite am rechten oder linken äußeren Rand. </p>
-<p>Darüber hinaus werden hochgestellte Zahlen in der Mathematik für Potenzen verwendet.</p><p>Die Transkription erfolgt als spezifische hochgestellte Zahl als <b>Unicode
-Hexadezimal-Entität</b>.</p>
+<p>Darüber hinaus werden hochgestellte Zahlen in der Mathematik für Potenzen verwendet.</p>
 
 <p>
-<table id="table_anp_grc_b1b">
-<tgroup cols="4">
+<table id="table_anp_grc_b1b" frame="all">
+<tgroup cols="3">
 <colspec colnum="1" colname="col1" colwidth="2.69*"/>
 <colspec colnum="2" colname="col2" colwidth="1*"/>
 <colspec colnum="3" colname="col5" colwidth="2.67*"/>
-<colspec colnum="4" colname="col6" colwidth="2.67*"/>
+
 <tbody>
 <row>
-<entry>&amp;#x2070;</entry>
-<entry>⁰</entry>
+
+    <entry>⁰<term><text>hex: &amp;#x2070;</text></term></entry>
 <entry>SUPERSCRIPT ZERO</entry>
 <entry>Hochgestellte Null</entry>
 </row>
 <row>
-<entry>&amp;#x00B9;</entry>
-<entry>¹</entry>
+
+    <entry>¹<term><text>hex: &amp;#x00B9;</text></term></entry>
 <entry>SUPERSCRIPT ONE</entry>
 <entry>Hochgestellte Eins</entry>
 </row>
 <row>
-<entry>&amp;#x00B2;</entry>
-<entry>²</entry>
+
+    <entry>²<term><text>hex: &amp;#x00B2;</text></term></entry>
 <entry>SUPERSCRIPT TWO</entry>
 <entry>Hochgestellte Zwei</entry>
 </row>
 <row>
-<entry>&amp;#x00B3;</entry>
-<entry>³</entry>
+
+    <entry>³<term><text>hex: &amp;#x00B3;</text></term></entry>
 <entry>SUPERSCRIPT THREE</entry>
 <entry>Hochgestellte Drei</entry>
 </row>
 <row>
-<entry>&amp;#x2074;</entry>
-<entry>⁴</entry>
+
+    <entry>⁴<term><text>hex: &amp;#x2074;</text></term></entry>
 <entry>SUPERSCRIPT FOUR</entry>
 <entry>Hochgestellte Vier</entry>
 </row>
 <row>
-<entry>&amp;#x2075;</entry>
-<entry>⁵</entry>
+
+    <entry>⁵<term><text>hex: &amp;#x2075;</text></term></entry>
 <entry>SUPERSCRIPT FIVE</entry>
 <entry>Hochgestellte Fünf</entry>
 </row>
 <row>
-<entry>&amp;#x2076;</entry>
-<entry>⁶</entry>
+
+    <entry>⁶<term><text>hex: &amp;#x2076;</text></term></entry>
 <entry>SUPERSCRIPT SIX</entry>
 <entry>Hochgestellte Sechs</entry>
 </row>
 <row>
-<entry>&amp;#x2077;</entry>
-<entry>⁷</entry>
+
+    <entry>⁷<term><text>hex: &amp;#x2077;</text></term></entry>
 <entry>SUPERSCRIPT SEVEN</entry>
 <entry>Hochgestellte Sieben</entry>
 </row>
 <row>
-<entry>&amp;#x2078;</entry>
-<entry>⁸</entry>
+
+    <entry>⁸<term><text>hex: &amp;#x2078;</text></term></entry>
 <entry>SUPERSCRIPT EIGHT</entry>
 <entry>Hochgestellte Acht</entry>
 </row>
 <row>
-<entry>&amp;#x2079;</entry>
-<entry>⁹</entry>
+
+    <entry>⁹<term><text>hex: &amp;#x2079;</text></term></entry>
 <entry>SUPERSCRIPT NINE</entry>
 <entry>Hochgestellte Neun</entry>
 </row>

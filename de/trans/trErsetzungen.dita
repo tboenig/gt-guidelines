@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="trErsetzungen">
+    <title>Ersetzungen</title>
+    <body>
+        <p>Im Allgemeinen bedeutet (die Erstellung von) Ground Truth, das alles auf der gedruckten
+            Seite in gleicher Art und Weise wiedergegeben wird. Ersetzungen oder Normalisierungen
+            widersprechen diesem Prinzip. Aber diesem Prinzip kann in der Realität nicht immer
+            gefolgt werden. Im Folgenden werden einige Beispiele wiedergegeben. </p>
+        <p>Beim Level eins, ist der Interpretationsspielraum unbegrenzt. Somit sind sehr
+            weitreichende Normalisierungen oder Ersetzungen möglich. Im Unterschied zu den Leveln
+            zwei und drei, übertragen diese den Text vorlagengetreuer. </p>
+        <table frame="all" rowsep="1" colsep="1" id="table_nlx_2g4_krb">
+            <title/>
+            <tgroup cols="4">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <colspec colname="c4" colnum="4" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Vorlage</entry>
+                        <entry>Level 1</entry>
+                        <entry>Level 2</entry>
+                        <entry>Level 3</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><image href="images/trErsetzungen1.png" id="image_t43_rg4_krb"
+                            /></entry>
+                        <entry>kinder oder kinď</entry>
+                        <entry>lꝛinď</entry>
+                        <entry>lꝛinď</entry>
+                    </row>
+                    <row>
+                        <entry><image href="images/trErsetzungen2.png" id="image_l3f_bh4_krb"
+                            /></entry>
+                        <entry>wird oder wirt</entry>
+                        <entry>ıvirt</entry>
+                        <entry>ıvirt</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+
+    </body>
+</topic>

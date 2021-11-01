@@ -3,10 +3,10 @@
 <topic id="level_2_und_3_2">
     <title>Level 2 und 3</title>
     <body>
-<p>Für das sogenannte <tt>runde r</tt> steht die Unicode-Entität <tt>&#xa75b; (U+A75B, LATIN SMALL
+        <p>Für das sogenannte <tt>runde r</tt> steht die Unicode-Entität <tt>&#xA75B; (U+A75B, LATIN SMALL
 LETTER R ROTUNDA)</tt>. Es findet sich häufig in Zusammenhang mit dem heute gebräuchlichen
 <tt>r</tt> oder als <tt>et</tt>-Substituent in Abkürzungen für <tt>et cetera</tt>. </p>
-<table id="table_k2t_dwp_mbb">
+        <table id="table_k2t_dwp_mbb" outputclass="guidelines">
 <title>Beispiele für die Transkribtion des runden <tt>r</tt> im Level 2-3 :</title>
 <tgroup cols="2">
 <thead>
@@ -20,13 +20,13 @@ LETTER R ROTUNDA)</tt>. Es findet sich häufig in Zusammenhang mit dem heute geb
 <entry><image href="images/herr.jpg" id="image_l2t_dwp_mbb">
 <alt>Herr (mit rundem r)</alt>
 </image> </entry>
-<entry><codeph>Her&amp;#xA75B;</codeph></entry>
+    <entry>Her&#xA75B;</entry>
 </row>
 <row>
 <entry><image href="images/etc.jpg" id="image_m2t_dwp_mbb">
 <alt>etc. (mit rundem r)</alt>
 </image></entry>
-<entry><codeph>&amp;#xA75B;c.</codeph></entry>
+    <entry>&#xA75B;c.</entry>
 </row>
 </tbody>
 </tgroup>

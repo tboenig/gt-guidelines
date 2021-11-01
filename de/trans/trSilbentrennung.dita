@@ -1,9 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trSilbentrennung">
-  <title>Silbentrennung</title><shortdesc>Die Transkription der Silbentrennung erfolgt nach Vorlage. Dabei können beim Trennungszeichen
-unterschiedliche Varianten vorkommen. Die konkrete Transkription des Trennungsstriches wird in den
-jeweiligen Levels geregelt.</shortdesc>
+  <title>Silbentrennung</title>
 <body>
+<p>Die Transkription der Silbentrennung erfolgt nach Vorlage. Dabei können beim Trennungszeichen
+unterschiedliche Varianten vorkommen. Die konkrete Transkription des Trennungsstriches wird in den
+jeweiligen Levels geregelt.
+</p>
+<section>
+  <title>Level 1</title>
+  <p>Die Transkription der Silbentrennung erfolgt nach Vorlage. Als Silbentrennstrich ist ungeachtet
+        des Erscheinungsbildes im Text, der Bindestrich oder Hyphen-Minus (-) zu verwenden.</p>
+</section>
+  <section>
+    <title>Level 2</title>
+    <p>Die Transkription der Silbentrennung erfolgt nach Vorlage. Eine Unterscheidung zwischen den
+        Silbentrennstrichen <codeph>­</codeph> und <codeph>⸗</codeph> wird nicht vorgenommen. Als
+        Trennstrich ist <codeph>­</codeph> Bedingter Trennstrich oder Soft Hyphen zu
+        ververwenden.</p>
+  </section>
+
+  <section>
+    <title>Level 3</title>
+    <p>Die Transkription der Silbentrennung erfolgt nach Vorlage. Eine Unterscheidung zwischen den
+        Silbentrennstrichen wird vorgenommen. </p>
+  </section>
+<section>
+  <title>Übersicht</title>
+  <table frame="all" rowsep="1" colsep="1" id="table_ekc_zwm_krb">
+    <title>Level der Silbentrennung</title>
+    <tgroup cols="4">
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="1*"/>
+          <colspec colname="c3" colnum="3" colwidth="1*"/>
+          <colspec colname="c4" colnum="4" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Vorlage</entry>
+              <entry>Level 1</entry>
+              <entry>Level 2</entry>
+              <entry>Level 3</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row product="ruleset">
+              <entry><image href="images/trSilbentrennung.png" id="image_r3n_g2n_krb"/></entry>
+              <entry>-<term> HYPHEN-MINUS : hyphen or minus sign <text>hex: &amp;#002D;</text>
+                </term></entry>
+              <entry>-<term>SOFT HYPHEN [SHY] : discretionary hyphen <text>hex: &amp;#x00AD;</text>
+                </term></entry>
+              <entry>-<term>SOFT HYPHEN [SHY] : discretionary hyphen <text>hex: &amp;#x00AD;</text>
+                </term></entry>
+            </row>
+            <row product="ruleset">
+              <entry><image href="images/hyphen_equal.png" id="image_rl3_1th_f1b"/></entry>
+              <entry>-<term> HYPHEN-MINUS : hyphen or minus sign <text>hex: &amp;#002D;</text>
+                </term></entry>
+              <entry>-<term>SOFT HYPHEN [SHY] : discretionary hyphen <text>hex: &amp;#x00AD;</text>
+                </term></entry>
+              <entry>⸗<term>DOUBLE OBLIQUE HYPHEN <text>hex: &amp;#x2E17;</text>
+                </term></entry>
+            </row>
+            <row>
+              <entry><image href="images/trSilbentrennung2.png" id="image_shp_dc4_krb"/></entry>
+              <entry>-<term> HYPHEN-MINUS : hyphen or minus sign <text>hex: &amp;#002D;</text>
+                </term></entry>
+              <entry>-<term>SOFT HYPHEN [SHY] : discretionary hyphen <text>hex: &amp;#x00AD;</text>
+                </term></entry>
+              <entry>⸗<term>DOUBLE OBLIQUE HYPHEN <text>hex: &amp;#x2E17;</text>
+                </term></entry>
+            </row>
+            <row product="ruleset">
+              <entry><image href="images/hypen_equal3.png" id="image_xwr_fwh_f1b" scale="50"
+                /></entry>
+              <entry>-<term> HYPHEN-MINUS : hyphen or minus sign <text>hex: &amp;#002D;</text>
+                </term></entry>
+              <entry>⹀<term>DOUBLE HYPHEN <text>hex: &amp;#x2E40;</text>
+                </term></entry>
+              <entry>⹀<term>DOUBLE HYPHEN <text>hex: &amp;#x2E40;</text>
+                </term></entry>
+            </row>
+          </tbody>
+        </tgroup>
+  </table>
+</section>
+  
+    
 </body>
 </topic>
