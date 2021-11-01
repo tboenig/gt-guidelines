@@ -3,90 +3,160 @@
 <topic id="trBruch">
     <title>Fractions</title>
     <body>
-        <p>Fractions, if present, are represented by their corresponding Unicode entities: </p>
-<table id="table_qcm_f3d_b1b">
-<tgroup cols="2">
-<thead>
-<row>
-<entry>Character</entry>
-<entry>Entity</entry>
-</row>
-</thead>
-<tbody>
-<row>
-<entry>&#xbd;</entry>
-<entry><codeph>U+00BD</codeph></entry>
-</row>
-<row>
-<entry>&#x2153;</entry>
-<entry><codeph>U+2153</codeph></entry>
-</row>
-<row>
-<entry>&#x2154;</entry>
-<entry><codeph>U+2154</codeph></entry>
-</row>
-<row>
-<entry>&#xbc;</entry>
-<entry><codeph>U+00BC</codeph></entry>
-</row>
-<row>
-<entry>&#xbe;</entry>
-<entry><codeph>U+00BE</codeph></entry>
-</row>
-<row>
-<entry>&#x2155;</entry>
-<entry><codeph>U+2155</codeph></entry>
-</row>
-<row>
-<entry>&#x2156;</entry>
-<entry><codeph>U+2156</codeph></entry>
-</row>
-<row>
-<entry>&#x2157;</entry>
-<entry><codeph>U+2157</codeph></entry>
-</row>
-<row>
-<entry>&#x2158;</entry>
-<entry><codeph>U+2158</codeph></entry>
-</row>
-<row>
-<entry>&#x2159;</entry>
-<entry><codeph>U+2159</codeph></entry>
-</row>
-<row>
-<entry>&#x215a;</entry>
-<entry><codeph>U+215A</codeph></entry>
-</row>
-<row>
-<entry>&#x2150;</entry>
-<entry><codeph>U+2150</codeph></entry>
-</row>
-<row>
-<entry>&#x215b;</entry>
-<entry><codeph>U+215B</codeph></entry>
-</row>
-<row>
-<entry>&#x215c;</entry>
-<entry><codeph>U+215C</codeph></entry>
-</row>
-<row>
-<entry>&#x215d;</entry>
-<entry><codeph>U+215D</codeph></entry>
-</row>
-<row>
-<entry>&#x215e;</entry>
-<entry><codeph>U+215E</codeph></entry>
-</row>
-<row>
-<entry>&#x2151;</entry>
-<entry><codeph>U+2151</codeph></entry>
-</row>
-<row>
-<entry>&#x2152;</entry>
-<entry><codeph>U+2152</codeph></entry>
-</row>
-</tbody>
-</tgroup>
-</table>
+        <p>The limitations of Unicode with independent characters must be observed when transcribing fractions. Frequently used fractions have corresponding character encodings (e.g. ½). If the fraction cannot be found in the standardised Unicode tables, a combination of several characters is necessary.</p>
+        <note importance="recommended">It is recommended to encode fractions in a uniform way. The standardised Unicode encodings are to be used and not replaced by combinations. Necessary combinations consist of normal characters and are separated from each other by the fraction bar <b> ⁄</b> <term><text>&amp;#x2089;</text></term> in numerator and denominator. Use of a slash as a fraction bar and superscript and subscript numbers is not permitted. </note>
+        <section>
+            <title>Stand-alone fractions (one character)</title>
+            <p>Fractions, if any, are represented by means of their corresponding encodings or characters.
+                are reproduced: </p>
+            <table id="table_qcm_f3d_b1b">
+                <tgroup cols="1">
+                    <thead>
+                        <row>
+                            <entry>Character or template</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>&#x00BD;<term>VULGAR FRACTION ONE HALF <text>dezimal: &amp;#189;</text>
+                                <text>hex: &amp;#x00BD;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#x2153;<term>VULGAR FRACTION ONE THIRD<text>dezimal: &amp;#8531;</text>
+                                <text>hex: &amp;#x2153;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#x2154;<term>VULGAR FRACTION TWO THIRDS<text>dezimal: &amp;#8532;</text>
+                                <text>hex: &amp;#x2154;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#xbc;<term> VULGAR FRACTION ONE QUARTER<text>dezimal: &amp;#188;</text>
+                                <text>hex: &amp;#x00BC;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry><image href="images/trBruch5.png" id="image_utd_fng_bqb"/>
+                                1&#xbc;<term>One and VULGAR FRACTION ONE QUARTER<text>dezimal:
+                                    1&amp;#188;</text>
+                                    <text>hex: 1&amp;#x00BC;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#xbe;<term>VULGAR FRACTION THREE QUARTERS<text>dezimal: &amp;#190;</text>
+                                <text>hex: &amp;#x00BE;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#x2155;<term>VULGAR FRACTION ONE FIFTH<text>dezimal: &amp;#8533;</text>
+                                <text>hex: &amp;#x2155;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#x2156;<term>VULGAR FRACTION TWO FIFTHS<text>dezimal: &amp;#8534;</text>
+                                <text>hex: &amp;#x2156;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#x2157;<term>VULGAR FRACTION THREE FIFTHS<text>dezimal: &amp;#8535;</text>
+                                <text>hex: &amp;#x2157;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#x2158;<term>VULGAR FRACTION FOUR FIFTHS<text>dezimal: &amp;#8536;</text>
+                                <text>hex: &amp;#x2158;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#x2159;<term>VULGAR FRACTION ONE SIXTH<text>dezimal: &amp;#8537;</text>
+                                <text>hex: &amp;#x2159;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#x215a;<term>VULGAR FRACTION FIVE SIXTHS<text>dezimal:
+                                &amp;#8538;</text>
+                                <text>hex: &amp;#x215A;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#x2150;<term>VULGAR FRACTION ONE SEVENTH<text>dezimal: &amp;#8528;</text>
+                                <text>hex: &amp;#x2150;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#x215b;<term>VULGAR FRACTION ONE EIGHTH<text>dezimal: &amp;#8539;</text>
+                                <text>hex: &amp;#x215B;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#x215c;<term>VULGAR FRACTION THREE EIGHTHS<text>dezimal: &amp;#8540;</text>
+                                <text>hex: &amp;#x215C;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#x215d;<term>VULGAR FRACTION FIVE EIGHTHS<text>dezimal: &amp;#8541;</text>
+                                <text>hex: &amp;#x215D;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#x215e;<term>VULGAR FRACTION SEVEN EIGHTHS<text>dezimal:
+                                &amp;#8542;</text>
+                                <text>hex: &amp;#x215E;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#x2151;<term>VULGAR FRACTION ONE NINTH<text>dezimal: &amp;#8529;</text>
+                                <text>hex: &amp;#x2151;</text></term></entry>
+                        </row>
+                        <row>
+                            <entry>&#x2152;<term>VULGAR FRACTION ONE TENTH<text>dezimal: &amp;#8530;</text>
+                                <text>hex: &amp;#x2152;</text></term></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>Combined fractions (multiple characters)</title>
+            <p>Combined fractions consist of several characters. The numerator and denominator are to be
+                normal characters. These characters are separated by a
+                fraction bar. This is to be transcribed with <b> ⁄</b> <term><text>&amp;#x2044;</text></term>.
+                code.</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_e5s_2zf_bqb">
+                <title/>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c2" colnum="3" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Template</entry>
+                            <entry>Character</entry>
+                            <entry>Comment</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry><image href="images/trBruch1.png" id="image_hlk_2jg_bqb"
+                            /></entry>
+                            <entry>dy⁄dx</entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry><image href="images/trBruch2.png" id="image_m3v_jjg_bqb"
+                            /></entry>
+                            <entry>270⁄19</entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry><image href="images/trBruch3.png" id="image_ojt_hmg_bqb"
+                            /></entry>
+                            <entry>2⁄1</entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry><image href="images/trBruch4.png" id="image_pjb_4mg_bqb"
+                            /></entry>
+                            <entry>2+⁄1</entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>⁄</entry>
+                            <entry>⁄<term>Fraction bar<text>dezimal: &amp;#8260;</text>
+                                <text>hex: &amp;#x2044;</text></term></entry>
+                            <entry>Fraction bar</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        
+        
+
 </body>
 </topic>

@@ -27,26 +27,25 @@ Tabelle dar.</p>
 <tbody>
 <row>
 <entry><image href="images/trSchreibungS1.png" id="image_oyw_g5l_gz"/></entry>
-<entry>Ein <tt>Schaft-s</tt> gefolgt von einem <tt>s</tt> wird vorlagengetreu als
-                                    <codeph>&amp;#x017F;s</codeph> wiedergegeben. </entry>
+<entry>Ein <tt>Schaft-s</tt> gefolgt von einem <tt>s</tt> wird vorlagengetreu als <b>ſs</b>
+                                wiedergegeben. </entry>
 <entry><tt>daſs</tt></entry>
 </row>
 <row>
 <entry><image href="images/trSchreibungS2.png" id="image_hv2_yhl_gz"/></entry>
-<entry>Ein <tt>Schaft-s</tt> gefolgt von einem <tt>z</tt> wird vorlagengetreu als
-                                    <codeph>&amp;#x017F;s</codeph>  wiedergegeben.</entry>
+<entry>Ein <tt>Schaft-s</tt> gefolgt von einem <tt>z</tt> wird vorlagengetreu als <b>ſſz</b>
+                                wiedergegeben.</entry>
 <entry><tt>hauſſzen</tt></entry>
 </row>
 <row>
 <entry><image href="images/trSchreibungS3.png" id="image_wlc_l5l_gz"/></entry>
-<entry>Die Ligatur <tt>Schaft-s + z</tt> wird vorlagengetreu als <tt>ß</tt> wiedergegeben. </entry>
+<entry>Die Ligatur <tt>Schaft-s + z</tt> wird vorlagengetreu als <b>ß</b> wiedergegeben. </entry>
 <entry><tt>daß</tt></entry>
 </row>
 </tbody>
 </tgroup>
 </table>
 </p>
-<p/>
-<p/>
+
     </body>
 </topic>

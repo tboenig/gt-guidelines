@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="lyAllgemein">
     <title>Allgemeines</title>
-    <shortdesc></shortdesc>
+    
     <taskbody>
         <context>
         <p>Strukturell betrachtet besteht ein Buch aus verschiedenen Seitentypen und auf den Seiten
@@ -14,8 +14,8 @@ ebenfalls ausgezeichnet werden können.</p>
         </context>
         <steps>
             <step>
-<cmd>Kennzeichnung des Satzspiegels</cmd>
-</step>
+                <cmd>Kennzeichnung des Satzspiegels/Seitenrand</cmd>
+            </step>
 <step>
 <cmd>Kennzeichnung des Seitentypes</cmd>
 </step>

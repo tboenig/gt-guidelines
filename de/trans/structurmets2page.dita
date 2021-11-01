@@ -2,9 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="structurmets2page">
     <title>Struktur-Konkordanz METS und PAGE</title>
-    <shortdesc>Mit METS wird die (Logische)-Struktur eines Dokumentes abgebildet. Eine
-        Logische-Strukturierung betrifft einzelne Kapitel, Abschnitte sowie besondere Abschnitte
-        (wie Widmungen, Errata). </shortdesc>
+    
     <body>
         <p>Mit METS werden vorallem (Logische)-Strukturen eines Dokumentes abgebildet. Bei einer
             Logischen-Strukturierung werden die einzelnen Kapitel, Abschnitte sowie besondere
@@ -20,7 +18,7 @@
         
 
         <p>
-            <table id="table_w1d_ykm_3jb">
+            <table id="table_w1d_ykm_3jb" frame="all">
                 <tgroup cols="3">
                     <colspec colnum="1" colname="col1" colwidth="1*"/>
                     <colspec colnum="2" colname="col3" colwidth="4.41*"/>
