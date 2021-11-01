@@ -50,9 +50,9 @@
                 zwischen I/J…</title>
             <p>Besonders ist dieser Teil der Dokumentation zu beachten:</p>
             <ul id="ul_alt_cpt_mqb">
-                <li>Unterscheidung von I und J <xref href="trSchreibungIJ.dita">trSchreibungIJ.dita</xref>
+                <li><xref href="trSchreibungIJ.dita">Unterscheidung von I und J</xref>
                 </li>
-                <li>Unterscheidung von u/f, u/v und v/u <xref href="trSchreibungUV.dita">trSchreibungUV.dita</xref>
+                <li><xref href="trSchreibungUV.dita">Unterscheidung von u/f, u/v und v/u</xref>
                 </li>
                 <li><xref href="trSchreibungS.dita">s-Grapheme</xref></li>
                 <li><xref href="trSchreibungR.dita">r-Grapheme</xref></li>
