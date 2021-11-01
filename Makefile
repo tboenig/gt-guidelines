@@ -7,7 +7,7 @@ LANG = en
 MAKEFILE_DIR := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 REPODIR := $(MAKEFILE_DIR)/$(LANG)
 
-DITA_OT_VERSION  = 3.4
+DITA_OT_VERSION  = 3.6
 DITA_OT_DIR      = $(MAKEFILE_DIR)/dita-ot-$(DITA_OT_VERSION)
 DITA_OT_URL = https://github.com/dita-ot/dita-ot/releases/download/$(DITA_OT_VERSION)/dita-ot-$(DITA_OT_VERSION).zip
 
