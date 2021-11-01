@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trPage">
-    <title>Documentation of the PAGE XML Format for Page Content</title>
+    <title>📓 Documentation of the PAGE XML Format for Page Content</title>
 <abstract><shortdesc>The automatically generated documentation provides an overview on all components of the
             schema.</shortdesc></abstract><body>
 <p>The documentation of the PAGE XML schema was generated automatically. For this purpose, the

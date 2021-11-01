@@ -28,9 +28,10 @@
             <created date="March, 2017"/>
         </critdates>
     </bookmeta>
-    <chapter href="trans/index.dita"/>
-    <chapter href="trans/trDokuKonventionen.dita"/>
-
+    <chapter href="trans/index.dita">
+        <topicref href="trans/trDokuKonventionen.dita"/>
+    </chapter>
+    <chapter href="trans/trLevels.dita"/>
     <chapter href="trans/transkription.dita">
         <topicref href="trans/level_1_4.dita"/>
         <topicref href="trans/level_2_2.dita"/>

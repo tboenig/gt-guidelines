@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="transkription">
-  <title>Guidelines for the Ground Truth Transcription</title>
-  <titlealts><navtitle>Transcription</navtitle></titlealts>
+  <title>📑 Transcription</title>
+  
     <abstract>
 <shortdesc>Transcription guidelines for full texts to be used as Ground Truth</shortdesc>
 </abstract>

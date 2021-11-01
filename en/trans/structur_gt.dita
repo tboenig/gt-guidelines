@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="structur_gt">
-<title>Documentation of the OCR-D Structure Ground Truth</title>
+<title>📓 Structure Ground Truth</title>
 <shortdesc>The OCR-D structure Ground Truth contains publications in which only the structures or
                 regions were labelled. The individual regions are marked according to the PAGE
                 scheme.</shortdesc>
