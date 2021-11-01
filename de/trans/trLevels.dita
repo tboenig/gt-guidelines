@@ -54,16 +54,16 @@
                 </li>
                 <li>Unterscheidung von u/f, u/v und v/u <xref href="trSchreibungUV.dita">trSchreibungUV.dita</xref>
                 </li>
-                <li>s-Grapheme <xref href="trSchreibungS.dita">trSchreibungS.dita</xref></li>
-                <li>r-Grapheme <xref href="trSchreibungR.dita">trSchreibungR.dita</xref></li>
-                <li>Ligaturen <xref href="trLigatur.dita">trLigatur.dita</xref>
+                <li><xref href="trSchreibungS.dita">s-Grapheme</xref></li>
+                <li><xref href="trSchreibungR.dita">r-Grapheme</xref></li>
+                <li><xref href="trLigatur.dita">Ligaturen</xref>
                 </li>
-                <li>Umlaute <xref href="trUmlaute.dita">trUmlaute.dita</xref></li>
-                <li>Kürzungsstriche <xref href="trNasalstrich.dita">trNasalstrich.dita</xref>
+                <li> <xref href="trUmlaute.dita">Umlaute</xref></li>
+                <li> <xref href="trNasalstrich.dita">Kürzungsstriche</xref>
                 </li>
-                <li>Diakritika <xref href="trDiakritika.dita">trDiakritika.dita</xref>
+                <li> <xref href="trDiakritika.dita">Diakritika</xref>
                 </li>
-                <li>Silbentrennung <xref href="trSilbentrennung.dita">trSilbentrennung.dita</xref>
+                <li> <xref href="trSilbentrennung.dita">Silbentrennung</xref>
                 </li>
             </ul>
         </section>
