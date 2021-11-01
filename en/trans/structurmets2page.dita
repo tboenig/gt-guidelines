@@ -7,8 +7,8 @@
     <body>
         <p>In the METS file in the <codeph>&lt;mets:structMap TYPE="LOGICAL"></codeph> section, the
             chapters or paragraphs are listed starting with the headings of the chapters or
-            paragraphs of a digitized document (<codeph>&lt;mets:div TYPE="..." LABEL="[Text der
-                Überschrift]"/></codeph>). In the PAGE standard, only the element with the type
+            paragraphs of a digitized document (<codeph>&lt;mets:div TYPE="..."
+                LABEL="[header]"/></codeph>). In the PAGE standard, only the element with the type
             attribute value <codeph>heading</codeph>
             <codeph>&lt;TextRegion type="heading"></codeph>is intended for the documentation of the
             logical structuring. Particular chapters can only be distinguished with the specific

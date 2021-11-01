@@ -5,7 +5,40 @@
 <shortdesc>The OCR-D structure Ground Truth contains publications in which only the structures or
                 regions were labelled. The individual regions are marked according to the PAGE
                 scheme.</shortdesc>
-<body/>
+<body>
+                                <p>The structure-ground truth corpus offered by OCR-D is composed of
+                                                publications from the period 1500 - 1900. On the
+                                                digital copy, individual regions are marked
+                                                according to the PAGE scheme. In addition,
+                                                individual pages are categorised according to their
+                                                content.</p>
+                                <p>The content of the corpus is based on manually recorded zoning
+                                                data, which were collected in the course of the DFG
+                                                project Deutsches Textarchiv. This data originally
+                                                served to support manual transcription in the double
+                                                keying process. No processing (cropping, dewarping)
+                                                of the digitised data was undertaken. In contrast to
+                                                the element repertoire of the PAGE format, parts of
+                                                the data were indexed in greater depth within the
+                                                framework of the DFG project Deutsches Textarchiv.
+                                                This depth of indexing is recorded as a value of the
+                                                  <tt>custom attribute</tt>.</p>
+                                <p>The structure ground truth can also be created in three different
+                                                levels. The levels differ in scope, differentiation
+                                                of the individual page types and regions. Further
+                                                notes and information are presented in the following
+                                                chapters:</p>
+                                <p>
+                                                <ol id="ol_qwp_wxk_lrb">
+                                                  <li><xref href="lySeitentypen.dita"/></li>
+                                                  <li><xref href="lyTextregionen.dita"/><ol
+                                                  id="ol_h2n_wtz_jrb">
+                                                  <li><xref href="ly_level_1_5.dita"/></li>
+                                                  <li><xref href="ly_level_2_5.dita"/></li>
+                                                  </ol></li>
+                                                </ol>
+                                </p>
+                </body>
 
 <related-links>
 <link href="http://www.primaresearch.org/tools/PAGELibraries" format="html" scope="external"><desc>PAGE-XML scheme of the PRImA-Research-Lab</desc></link>
