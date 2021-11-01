@@ -24,49 +24,49 @@
                     <row>
                         <entry>Bold print</entry>
                         <entry>
-                            <codeblock>&lt;TextStyle bold="true"></codeblock>
+                            <codeblock outputclass="language-xml">&lt;TextStyle bold="true"></codeblock>
                         </entry>
                     </row>
                     <row>
                         <entry>Italic print</entry>
                         <entry>
-                            <codeblock>&lt;TextStyle italic="true"></codeblock>
+                            <codeblock outputclass="language-xml">&lt;TextStyle italic="true"></codeblock>
                         </entry>
                     </row>
                     <row>
                         <entry>Spaced letters</entry>
                         <entry>
-                            <codeblock>&lt;TextStyle letterSpaced="true"></codeblock>
+                            <codeblock outputclass="language-xml">&lt;TextStyle letterSpaced="true"></codeblock>
                         </entry>
                     </row>
                     <row>
                         <entry>Small capitals</entry>
                         <entry>
-                            <codeblock>&lt;TextStyle smallCaps="true"></codeblock>
+                            <codeblock outputclass="language-xml">&lt;TextStyle smallCaps="true"></codeblock>
                         </entry>
                     </row>
                     <row>
                         <entry>Printed underlining</entry>
                         <entry>
-                            <codeblock>&lt;TextStyle underlined="true"></codeblock>
+                            <codeblock outputclass="language-xml">&lt;TextStyle underlined="true"></codeblock>
                         </entry>
                     </row>
                     <row>
                         <entry>Strikethrough</entry>
                         <entry>
-                            <codeblock>&lt;TextStyle strikethrough="true"></codeblock>
+                            <codeblock outputclass="language-xml">&lt;TextStyle strikethrough="true"></codeblock>
                         </entry>
                     </row>
                     <row>
                         <entry>Superscript</entry>
                         <entry>
-                            <codeblock>&lt;TextStyle superscript="true"></codeblock>
+                            <codeblock outputclass="language-xml">&lt;TextStyle superscript="true"></codeblock>
                         </entry>
                     </row>
                     <row>
                         <entry>Subscript</entry>
                         <entry>
-                            <codeblock>&lt;TextStyle subscript="true"></codeblock>
+                            <codeblock outputclass="language-xml">&lt;TextStyle subscript="true"></codeblock>
                         </entry>
                     </row>
                 </tbody>

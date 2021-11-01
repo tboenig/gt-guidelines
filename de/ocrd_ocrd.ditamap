@@ -2,7 +2,7 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap xml:lang="de-DE">
     <booktitle>
-        <mainbooktitle>Richtlinien zur Transkription für Ground Truth </mainbooktitle>
+        <mainbooktitle>Ground Truth Richtlinien</mainbooktitle>
 
     </booktitle>
     <bookmeta>
@@ -28,8 +28,9 @@
             <created date="March, 2017"/>
         </critdates>
     </bookmeta>
-    <chapter href="trans/index.dita"/>
-    <chapter href="trans/trDokuKonventionen.dita"/>
+    <chapter href="trans/index.dita">
+        <topicref href="trans/trDokuKonventionen.dita"/>
+    </chapter>
     <chapter href="trans/trLevels.dita"/>
 
     <chapter href="trans/transkription.dita">
@@ -78,10 +79,7 @@
                 <topicref href="trans/tr_dia_level_2_0.dita"/>
                 <topicref href="trans/tr_dia_level_3_0.dita"/>
             </topicref>
-            <topicref href="trans/trSilbentrennung.dita">
-                <topicref href="trans/level_1_8.dita"/>
-                <topicref href="trans/level_2_3.dita"/>
-            </topicref>
+            <topicref href="trans/trSilbentrennung.dita"/>
             <!--<topicref href="trApostrophe.dita"/>-->
         </topicref>
         <topicref href="trans/trSonderzeichen.dita">
@@ -100,6 +98,7 @@
                 <topicref href="trans/tr_level_2_3.dita"/>
             </topicref>
         </topicref>
+        <topicref href="trans/trErsetzungen.dita"/>
         <topicref href="trans/trBeispiele.dita">
             <topicref href="trans/ocr_d_koordinationsgremium_codierung.dita"/>
             <topicref href="trans/trFremdsprache.dita"/>

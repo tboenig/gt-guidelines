@@ -8,7 +8,7 @@
 <p>Kleine römische Zahlen werden mit den kleinen lateinischen Buchstaben gebildet.</p>
 <p><b>Sonderformen</b></p>
 <p>Folgende römische Zahlen werden ebenfalls mit lateinischen Großbuchstaben oder kleinen
-lateinischen Buchstaben und <b>Unicode Hexadezimal-Entität</b> transkribiert.</p>
+            lateinischen Buchstaben und spezifischen Kodierungen transkribiert.</p>
     <fig><title>Beispiel Angabe einer Jahreszahl 1647</title><image placement="inline" align="right"
 href="images/trRom1.png"
 height="23" width="155" id="image_j5c_vq3_b1b" ></image></fig>
@@ -20,6 +20,12 @@ height="23" width="155" id="image_j5c_vq3_b1b" ></image></fig>
 <colspec colname="newCol2" colnum="3" colwidth="1*"/>
 <colspec colname="c2" colnum="4" colwidth="1*"/>
 <tbody>
+                        <row>
+                            <entry/>
+                            <entry>Zeichen</entry>
+                            <entry>mögliche Kodierung u. a. in hexadezimaler Schreibweise</entry>
+                            <entry>römischen Zahl decodiert</entry>
+                        </row>
 <row>
 <entry/>
 <entry>cIↄ</entry>

@@ -9,7 +9,7 @@
   rechtsanschmiegend, oben oder unten) festgelegt wird.
 </p>
 
-<table>
+  <table outputclass="guidelines" frame="all">
   <tgroup cols="3"><thead><row>
     <entry>Zeichen</entry>
     <entry>Entität</entry>

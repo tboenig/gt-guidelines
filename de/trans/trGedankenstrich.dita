@@ -6,7 +6,7 @@
 <p>Gedankenstriche können in verschiedenen Längen auftreten. Soweit sie in dieser Verschiedenheit
 erkannt werden, werden sie als folgende hexadezimale Unicode-Entitäten wiedergegeben: </p>
 
-<table>
+  <table outputclass="guidelines">
   <tgroup cols="3"><thead><row>
     <entry>Zeichen</entry>
     <entry>Entität</entry>

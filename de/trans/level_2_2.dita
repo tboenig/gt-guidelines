@@ -7,9 +7,9 @@
             Zeichen orientiert sich am <b>Gebrauch im Sprach- und Schriftsystem</b>. So werden zum
             Beispiel in Bezug auf <b>Ligaturen nur eigenständige Grapheme (vokalische Ligaturen)</b>
             mit einem spezifischen Codepoint unter Nutzung von <b>standardisierten Kodierungen</b>
-            (Unicode) abgebildet. <b>Drucktechnische Ligaturen (konsonantische Ligaturen)</b> werden
-            grundsätzlich <b>aufgespalten</b>. Die Information Ligatur wird als Formatierungsangabe
-            (wie Fett, Kursiv...) im Ground-Truth dokumentiert. </p>
+            (Unicode) abgebildet. <b>Drucktechnische Ligaturen (konsonantische Ligaturen)</b>
+            <b>werden grundsätzlich</b> aufgespalten. Die Information Ligatur wird als
+            Formatierungsangabe (wie Fett, Kursiv...) im Ground-Truth dokumentiert. </p>
         <p>Kann das Zeichen nur aus der Kombination von zwei Zeichen im Rahmen des Unicode-Standards
             gebildet werden, ist diese Kombination zu verwenden unter Beachtung der durch das
             Koordinierungsgremium festgelegten Kodierungen. Dies betrifft unter anderem Kürzungsstriche, 

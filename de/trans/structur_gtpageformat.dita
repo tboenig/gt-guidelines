@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="structur_gtpageformat">
-    <title>Übersicht und Konkordanz</title>
+    <title>Konkordanz zu Zonen und Regionen im DTA Zot-Format sowie DTABf (TEI)</title>
 
-<shortdesc>Die Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen im
-    DTA Zot-Format, DTABf (TEI) und dem PAGE-Format dar.</shortdesc>
+
     <body>
       <p>Die Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen im
         DTA Zot-Format, DTABf (TEI) und dem PAGE-Format dar. Der Verweis auf Elemente im DTABf und PAGE
         bezieht sich nur auf grundlegende Elemente und nicht deren Kontext. Aus diesem Grund sei auf die
         Dokumentationen des DTABf und PAGE hingewiesen.</p>
-        <table frame="all" rowsep="1" colsep="1" id="table_wws_hhn_ldb">
+              
+<table frame="all" rowsep="1" colsep="1" id="table_wws_hhn_ldb">
         <title>Übersicht und Konkordanz von Kodierungen</title>
 <tgroup cols="7">
 <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -27,10 +27,10 @@
 <entry namest="c3" nameend="c5">PAGE-Format</entry>
 </row>
 <row>
-  <entry>Page <codeph>type="{Wert}"</codeph></entry>
+  <entry>Page <tt>type="{Wert}"</tt></entry>
 <entry>spez. Region</entry>
-  <entry>TextRegion <codeph>type="{Wert}"</codeph></entry>
-  <entry>TextRegion <codeph>custom="ocr-d-structure {type:Wert;}"</codeph></entry>
+  <entry>TextRegion <tt>type="{Wert}"</tt></entry>
+  <entry>TextRegion <tt>custom="ocr-d-structure {type:Wert;}"</tt></entry>
 </row>
 </thead>
 <tbody>
@@ -38,7 +38,7 @@
 <entry>Text (Paragraph)</entry>
 <entry>10</entry>
 <entry>
-<pre>&lt;p>&lt;/p></pre>
+<pre outputclass="linebreak">&lt;p>&lt;/p></pre>
 </entry>
 <entry/>
 <entry/>
@@ -49,7 +49,7 @@
 <entry>Gedicht</entry>
 <entry>11</entry>
 <entry>
-<pre>&lt;lg type="poem"></pre>
+<pre outputclass="linebreak">&lt;lg type="poem"></pre>
 </entry>
 <entry/>
 <entry/>
@@ -60,7 +60,8 @@
 <entry>Überschrift D1</entry>
 <entry>20</entry>
 <entry>
-<pre>&lt;div n="1">&lt;head></pre>
+<pre outputclass="linebreak">&lt;div n="1">
+&lt;head>...</pre>
 </entry>
 <entry/>
 <entry/>
@@ -71,7 +72,8 @@
 <entry>Überschrift D2</entry>
 <entry>21</entry>
 <entry>
-<pre>&lt;div n="2">&lt;head></pre>
+<pre outputclass="linebreak">&lt;div n="2">
+&lt;head>...</pre>
 </entry>
 <entry/>
 <entry/>
@@ -82,7 +84,8 @@
 <entry>Überschrift D3</entry>
 <entry>22</entry>
 <entry>
-<pre>&lt;div n="3">&lt;head></pre>
+<pre outputclass="linebreak">&lt;div n="3">
+&lt;head>...</pre>
 </entry>
 <entry/>
 <entry/>
@@ -93,7 +96,8 @@
 <entry>Überschrift D4</entry>
 <entry>23</entry>
 <entry>
-<pre>&lt;div n="4">&lt;head></pre>
+<pre outputclass="linebreak">&lt;div n="4">
+&lt;head>...</pre>
 </entry>
 <entry/>
 <entry/>
@@ -104,7 +108,8 @@
 <entry>Überschrift D5</entry>
 <entry>24</entry>
 <entry>
-<pre>&lt;div n="5">&lt;head></pre>
+<pre outputclass="linebreak">&lt;div n="5">
+&lt;head>...</pre>
 </entry>
 <entry/>
 <entry/>
@@ -115,7 +120,8 @@
 <entry>Überschrift D6</entry>
 <entry>25</entry>
 <entry>
-<pre>&lt;div n="6">&lt;head></pre>
+<pre outputclass="linebreak">&lt;div n="6">
+&lt;head>...</pre>
 </entry>
 <entry/>
 <entry/>
@@ -126,7 +132,8 @@
 <entry>Überschrift D7</entry>
 <entry>26</entry>
 <entry>
-<pre>&lt;div n="7">&lt;head></pre>
+<pre outputclass="linebreak">&lt;div n="7">
+&lt;head>...</pre>
 </entry>
 <entry/>
 <entry/>
@@ -137,7 +144,7 @@
 <entry>Spalte</entry>
 <entry>30</entry>
 <entry>
-<pre>&lt;cb></pre>
+<pre outputclass="linebreak">&lt;cb></pre>
 </entry>
 <entry/>
 <entry/>
@@ -148,7 +155,8 @@
 <entry>Bildunterschrift</entry>
 <entry>31</entry>
 <entry>
-<pre>&lt;figure>&lt;head></pre>
+<pre outputclass="linebreak">&lt;figure>
+&lt;head>...</pre>
 </entry>
 <entry/>
 <entry/>
@@ -159,7 +167,7 @@
 <entry>Bühnenanweisung</entry>
 <entry>32</entry>
 <entry>
-<pre>&lt;stage></pre>
+<pre outputclass="linebreak">&lt;stage></pre>
 </entry>
 <entry/>
 <entry/>
@@ -170,7 +178,8 @@
 <entry>Liste</entry>
 <entry>33</entry>
 <entry>
-<pre>&lt;list>&lt;item></pre>
+<pre outputclass="linebreak">&lt;list>
+&lt;item>...</pre>
 </entry>
 <entry/>
 <entry/>
@@ -180,7 +189,8 @@
 <row>
 <entry>Inhaltsverzeichnis</entry>
 <entry/>
-<entry><pre>&lt;div type="contents"></pre>… <pre>&lt;list>&lt;item></pre></entry>
+<entry><pre outputclass="linebreak">&lt;div type="contents">...</pre>…
+              <pre outputclass="linebreak">&lt;list>&lt;item>...</pre></entry>
 <entry>table-of-contents</entry>
 <entry/>
 <entry>paragraph</entry>
@@ -190,7 +200,7 @@
 <entry>Front</entry>
 <entry>35</entry>
 <entry>
-<pre>&lt;front></pre>
+<pre outputclass="linebreak">&lt;front>...</pre>
 </entry>
 <entry>title</entry>
 <entry/>
@@ -201,7 +211,7 @@
 <entry>Back</entry>
 <entry>36</entry>
 <entry>
-<pre>&lt;back></pre>
+<pre outputclass="linebreak">&lt;back>...</pre>
 </entry>
 <entry/>
 <entry/>
@@ -212,7 +222,8 @@
 <entry>Seitennummer</entry>
 <entry>40</entry>
 <entry>
-<pre>&lt;pb facs="#f[Bildnummer]"n="[Seitenzahl]"/></pre>
+<pre outputclass="linebreak">&lt;pb facs="#f[Bildnummer]"
+    n="[Seitenzahl]"/></pre>
 </entry>
 <entry/>
 <entry/>
@@ -223,7 +234,8 @@
 <entry>Figurenaufstellung</entry>
 <entry>41</entry>
 <entry>
-<pre>&lt;castList>&lt;castItem></pre>
+<pre outputclass="linebreak">&lt;castList>
+&lt;castItem>...</pre>
 </entry>
 <entry/>
 <entry/>
@@ -233,7 +245,7 @@
 <row>
 <entry>abschließender Gruß (Brief)</entry>
 <entry>42</entry>
-<entry><pre>&lt;closer></pre></entry>
+<entry><pre outputclass="linebreak">&lt;closer>...</pre></entry>
 <entry/>
 <entry/>
 <entry>other</entry>
@@ -242,7 +254,10 @@
 <row>
 <entry>Gedichttitel</entry>
 <entry>43</entry>
-<entry><pre>&lt;lg type="poem">&lt;head></pre> oder <pre>&lt;div type="poem">&lt;head></pre> </entry>
+<entry><pre outputclass="linebreak">&lt;lg type="poem">
+&lt;head>...</pre> oder <pre outputclass="linebreak">&lt;div type="poem">
+&lt;head>...</pre>
+            </entry>
 <entry/>
 <entry/>
 <entry>paragraph</entry>
@@ -252,7 +267,7 @@
 <entry>Strophe eines Gedicht</entry>
 <entry>44</entry>
 <entry>
-<pre>&lt;lg n="[Strophennummer]"></pre>
+<pre outputclass="linebreak">&lt;lg n="[Strophennummer]"></pre>
 </entry>
 <entry/>
 <entry/>
@@ -263,7 +278,7 @@
 <entry>Anrede (Brief)</entry>
 <entry>45</entry>
 <entry>
-<pre>&lt;opener>&lt;salute></pre>
+<pre outputclass="linebreak">&lt;opener>&lt;salute>...</pre>
 </entry>
 <entry/>
 <entry/>
@@ -274,7 +289,7 @@
 <entry>Sprecher im Drama</entry>
 <entry>46</entry>
 <entry>
-<pre>&lt;speaker></pre>
+<pre outputclass="linebreak">&lt;speaker>...</pre>
 </entry>
 <entry/>
 <entry/>
@@ -284,11 +299,11 @@
 <row>
 <entry>Zitat</entry>
 <entry>47</entry>
-<entry><pre>&lt;quote></pre> oder
-<pre>&lt;cit>
+<entry><pre outputclass="linebreak">&lt;quote>...</pre> oder <pre outputclass="linebreak">&lt;cit>
   &lt;quote>[Zitattext]&lt;/quote>
   &lt;bibl>[Urheber des Zitats]&lt;/bibl>
-&lt;/cit></pre> </entry>
+&lt;/cit></pre>
+            </entry>
 <entry/>
 <entry/>
 <entry>paragraph</entry>
@@ -298,7 +313,8 @@
 <entry>Bogensignatur</entry>
 <entry>50</entry>
 <entry>
-<pre>&lt;fw type="sig" place="bottom">[Bogensignatur]&lt;/fw></pre>
+<pre outputclass="linebreak">&lt;fw type="sig" place="bottom">
+  [Bogensignatur]&lt;/fw></pre>
 </entry>
 <entry/>
 <entry/>
@@ -309,7 +325,8 @@
 <entry>Kolumnentitel</entry>
 <entry>60</entry>
 <entry>
-<pre>&lt;fw type="header" place="top">[Kolumnentitel]&lt;/fw></pre>
+<pre outputclass="linebreak">&lt;fw type="header" place="top">
+  [Kolumnentitel]&lt;/fw></pre>
 </entry>
 <entry/>
 <entry/>
@@ -320,7 +337,8 @@
 <entry>Widmung</entry>
 <entry>61</entry>
 <entry>
-<pre>&lt;div type="dedication">&lt;p>[Widmungstext]&lt;/p>&lt;/div></pre>
+<pre outputclass="linebreak">&lt;div type="dedication">
+  &lt;p>[Widmungstext]&lt;/p>&lt;/div></pre>
 </entry>
 <entry/>
 <entry/>
@@ -331,7 +349,7 @@
 <entry>Überschift ohne Hierarchie</entry>
 <entry>62</entry>
 <entry>
-<pre>&lt;div>&lt;head>[Titel]&lt;/head>&lt;/div></pre>
+<pre outputclass="linebreak">&lt;div>&lt;head>[Titel]&lt;/head>&lt;/div></pre>
 </entry>
 <entry/>
 <entry/>
@@ -342,8 +360,9 @@
 <entry>Kapitelzusammenfassung</entry>
 <entry>63</entry>
 <entry>
-<pre>&lt;argument>
-  &lt;p>[Inhaltszusammenfassung Fließtext]&lt;/p>
+<pre outputclass="linebreak">&lt;argument>
+  &lt;p>[Inhaltszusammenfassung oder
+      Fließtext]&lt;/p>
 &lt;/argument></pre>
 </entry>
 <entry/>
@@ -355,8 +374,9 @@
 <entry>Briefdatum</entry>
 <entry>64</entry>
 <entry>
-<pre>&lt;opener>&lt;dateline></pre> oder <pre>&lt;closer>&lt;dateline></pre>
-</entry>
+              <pre outputclass="linebreak">&lt;opener>&lt;dateline>...</pre> oder
+              <pre outputclass="linebreak">&lt;closer>&lt;dateline>...</pre>
+            </entry>
 <entry/>
 <entry/>
 <entry>paragraph</entry>
@@ -366,7 +386,8 @@
 <entry>Fußnote</entry>
 <entry>70</entry>
 <entry>
-<pre>&lt;note place="foot"n="[Fußnotenreferenz]">
+<pre outputclass="linebreak">&lt;note place="foot"
+  n="[Fußnotenreferenz]">
   [Fußnotentext]
 &lt;/note></pre>
 </entry>
@@ -379,7 +400,7 @@
 <entry>fortlaufende Fußnote</entry>
 <entry>71</entry>
 <entry>
-<pre>&lt;note place="foot" 
+<pre outputclass="linebreak">&lt;note place="foot" 
   n="[Fußnotenreferenz]"
   xml:id="[ID 01]"next="#[ID 02]">
   [Fußnotentext]
@@ -394,7 +415,7 @@
 <entry>Endnote</entry>
 <entry>80</entry>
 <entry>
-<pre>&lt;note place="end"
+<pre outputclass="linebreak">&lt;note place="end"
   n="[Endnotenreferenz]"
   xml:id="[ID 02]"prev="#[ID 01]">
   [Endnotentext]
@@ -409,7 +430,8 @@
 <entry>Kustode</entry>
 <entry>90</entry>
 <entry>
-<pre>&lt;fw type="catch" place="bottom">[Kustode]&lt;/fw></pre>
+<pre outputclass="linebreak">&lt;fw type="catch" 
+  place="bottom">[Kustode]&lt;/fw></pre>
 </entry>
 <entry/>
 <entry/>
@@ -420,8 +442,9 @@
 <entry>Marginalie links</entry>
 <entry>91</entry>
 <entry>
-<pre>&lt;note place="left">
-  [links vom Text stehende Marginalien]
+<pre outputclass="linebreak">&lt;note place="left">
+  [links vom Text 
+    stehende Marginalien]
 &lt;/note></pre>
 </entry>
 <entry/>
@@ -433,8 +456,9 @@
 <entry>Marginalie rechts</entry>
 <entry>92</entry>
 <entry>
-<pre>&lt;note place="right">
-  [rechts vom Text stehende Marginalien]
+<pre outputclass="linebreak">&lt;note place="right">
+  [rechts vom Text 
+    stehende Marginalien]
 &lt;/note></pre>
 </entry>
 <entry/>
@@ -446,8 +470,9 @@
 <entry>Tabelle</entry>
 <entry>120</entry>
 <entry>
-<pre>&lt;table>
-  &lt;head>[ggf. Titel der Tabelle]&lt;/head>
+<pre outputclass="linebreak">&lt;table>
+  &lt;head>[ggf. Titel der Tabelle]
+  &lt;/head>
 &lt;row>&lt;cell></pre>
 </entry>
 <entry/>
@@ -459,7 +484,7 @@
 <entry>Auflistung</entry>
 <entry>130</entry>
 <entry>
-<pre>&lt;list>&lt;item></pre>
+<pre outputclass="linebreak">&lt;list>&lt;item>...</pre>
 </entry>
 <entry/>
 <entry/>
@@ -470,7 +495,7 @@
 <entry>math. Formel</entry>
 <entry>140</entry>
 <entry>
-<pre>&lt;formula></pre>
+<pre outputclass="linebreak">&lt;formula>...</pre>
 </entry>
 <entry/>
 <entry>MathsRegion</entry>
@@ -481,7 +506,8 @@
 <entry>horz. Linie</entry>
 <entry>150</entry>
 <entry>
-<pre>&lt;milestone unit="section" rendition="#hr"/></pre>
+<pre outputclass="linebreak">&lt;milestone unit="section" 
+           rendition="#hr"/></pre>
 </entry>
 <entry/>
 <entry>SeparatorRegion</entry>
@@ -492,7 +518,7 @@
 <entry>SpezialText</entry>
 <entry>333</entry>
 <entry>
-<pre>&lt;p>&lt;/p></pre>
+<pre outputclass="linebreak">&lt;p>&lt;/p></pre>
 </entry>
 <entry/>
 <entry/>
@@ -502,7 +528,7 @@
 <row>
 <entry>Spezial Bild</entry>
 <entry>444</entry>
-<entry><pre>&lt;figure></pre></entry>
+<entry><pre outputclass="linebreak">&lt;figure>...</pre></entry>
 <entry/>
 <entry>GraphicRegion</entry>
 <entry/>

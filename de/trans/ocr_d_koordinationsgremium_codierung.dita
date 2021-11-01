@@ -15,7 +15,7 @@ format="pdf" scope="external"/></p>
       
             
         
-<table id="table_fpw_g35_s1b">
+<table id="table_fpw_g35_s1b" frame="all">
 <tgroup cols="8">
 <colspec colnum="1" colname="col1"/>
 <colspec colnum="2" colname="col2"/>
@@ -574,7 +574,7 @@ id="image_o5k_2gz_s1b"/></entry>
 </row>
 <row>
 <entry><image href="images/1EBD.png" id="image_k2d_hqz_s1b"/></entry>
-<entry> </entry>
+<entry>ẽ </entry>
 <entry>1EBD </entry>
 <entry>7869 </entry>
 <entry>Latin small letter e with tilde </entry>
@@ -1135,9 +1135,9 @@ id="image_o5k_2gz_s1b"/></entry>
 </row>
 <row>
 <entry><image href="images/F507.png" id="image_s5b_bsz_s1b"/></entry>
-<entry> </entry>
-<entry>F507 </entry>
-<entry>62727 </entry>
+<entry> </entry>
+<entry>E665</entry>
+<entry>58981 </entry>
 <entry>Latin small letter p with macron above </entry>
 <entry>MUFI </entry>
 <entry>p </entry>
@@ -1645,11 +1645,11 @@ id="image_o5k_2gz_s1b"/></entry>
 </row>
 <row>
 <entry><image href="images/EEDC.png" id="image_sxx_1w1_t1b"/></entry>
-<entry> </entry>
-<entry>EEDC </entry>
-<entry>61148 </entry>
-<entry>Latin small ligature tz </entry>
-<entry>MUFI </entry>
+<entry>ꜩ </entry>
+<entry>A729 </entry>
+<entry>42793 </entry>
+<entry>Latin small letter (ligature) tz </entry>
+<entry>Unicode </entry>
 <entry>t </entry>
 <entry/>
 </row>

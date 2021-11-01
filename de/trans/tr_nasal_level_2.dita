@@ -8,7 +8,7 @@
             zwei Zeichen betrachtet. Es wird eine Zeichenkombination: aus dem Graphem und in der
             Regel aus einer übergestellte Tilde gebildet. Dazu wird der Unicode <tt>U+0303,
                 COMBINING TILDE</tt> genutzt.</p>
-        <p/> <table>
+        <table outputclass="guidelines">
 <tgroup cols="2">
 <thead>
 <row>
@@ -19,11 +19,11 @@
 <tbody>
 <row>
 <entry><image href="images/frommen.jpg"/></entry>
-<entry><codeph>from&amp;#x0303;en</codeph></entry>
+<entry>from&#x0303;en</entry>
 </row>
                     <row>
                         <entry><image href="images/und_macht.jpg" id="image_cdk_dcb_pbb"/></entry>
-                        <entry><codeph>Un&amp;#x0303; macht</codeph></entry>
+                        <entry>Un&#x0303; macht</entry>
                     </row>
 </tbody>
 </tgroup>
