@@ -457,6 +457,12 @@ nav[role=toc] > ul > li ul {
 Navigation DITA
 ****************************************/
 
+.nodeco {
+    color: #555;
+}
+
+
+
 .ulchildlink {
          margin-top: 0pt;    
          margin-bottom: 0pt;
