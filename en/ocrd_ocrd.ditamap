@@ -99,6 +99,7 @@
                 <topicref href="trans/tr_compareLevel1_3.dita"/>
             </topicref>
         </topicref>
+        <topicref href="trans/trErsetzungen.dita"/>
         <topicref href="trans/trBeispiele.dita">
             <topicref href="trans/ocr_d_koordinationsgremium_codierung.dita"/>
             <topicref href="trans/trFremdsprache.dita"/>
