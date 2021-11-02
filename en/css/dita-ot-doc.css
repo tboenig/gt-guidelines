@@ -464,7 +464,7 @@ Navigation DITA
 
 
 .ullinks::before {
-    content: "Themen:" !important;
+    content: "Topics:" !important;
     margin-left: -2em;
     font-weight: bold;
 }
