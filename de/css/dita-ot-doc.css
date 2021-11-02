@@ -457,7 +457,7 @@ nav[role=toc] > ul > li ul {
 Navigation DITA
 ****************************************/
 
-.nodeco {
+a.nodeco {
     color: #555;
 }
 
