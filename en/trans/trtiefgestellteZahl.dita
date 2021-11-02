@@ -6,7 +6,7 @@
         <p>Subscript numbers can occur in chemical formulas or rarely as reference signs.  </p>
 <p>They are transcribed in the form of a specific subscript number as a <b>Unicode encoding</b>.</p>
 <p>
-    <table id="table_vvk_krc_b1b">
+    <table id="table_vvk_krc_b1b" frame="all">
         <tgroup cols="2">
                     <colspec colnum="1" colname="col1"/>
                     <colspec colnum="2" colname="col5"/>

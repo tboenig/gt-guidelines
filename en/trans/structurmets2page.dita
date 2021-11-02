@@ -16,7 +16,7 @@
         
 
         <p>
-            <table id="table_w1d_ykm_3jb">
+            <table id="table_w1d_ykm_3jb" frame="all">
                 <tgroup cols="3">
                     <colspec colnum="1" colname="col1" colwidth="1*"/>
                     <colspec colnum="2" colname="col3" colwidth="4.41*"/>

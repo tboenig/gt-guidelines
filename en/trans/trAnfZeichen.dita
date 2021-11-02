@@ -6,7 +6,7 @@
 <p>The quotation marks in the text are represented with the corresponding Unicode entities to assign
       them unambiguously to the text (left-facing, right-facing, top or bottom).</p>
 
-<table>
+  <table frame="all">
   <tgroup cols="3"><thead><row>
     <entry>Character</entry>
     <entry>Entity</entry>

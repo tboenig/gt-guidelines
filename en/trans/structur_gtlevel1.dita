@@ -47,7 +47,7 @@
                         </row>
                         <row>
                             <entry/>
-                            <entry>Erstellt (Created) <codeph outputclass="hidden" props="XPath"
+                            <entry>Created <codeph outputclass="hidden" props="XPath"
                                     >/PcGts/Metadata/Created/text()='YYYY-MM-DDTHH:mm:ss'</codeph></entry>
                             <entry>x</entry>
                             <entry>x</entry>
@@ -55,7 +55,7 @@
                         </row>
                         <row>
                             <entry/>
-                            <entry>letzte Änderungen (LastChange) <codeph outputclass="hidden" props="XPath"
+                            <entry>Last Change <codeph outputclass="hidden" props="XPath"
                                     >/PcGts/Metadata/LastChange/text()='YYYY-MM-DDTHH:mm:ss'</codeph></entry>
                             <entry>x</entry>
                             <entry>x</entry>
@@ -359,7 +359,7 @@
                             <entry>x</entry>
                         </row>
                         <row outputclass="color4">
-                            <entry>Seitenregion: <b>Illustrations, photos</b></entry>
+                            <entry>Page Region: <b>Illustrations, photos</b></entry>
                             <entry><xref href="lyBildbereiche.dita#lyBildbereiche">Illustrations,
                                     photos</xref> : ImageRegion <codeph outputclass="hidden"
                                     props="XPath">/PcGts/Page/ImageRegion</codeph></entry>
@@ -368,7 +368,7 @@
                             <entry>x</entry>
                         </row>
                         <row outputclass="color5">
-                            <entry>Seitenregion: <b>Book decoration, drawings</b></entry>
+                            <entry>Page Region: <b>Book decoration, drawings</b></entry>
                             <entry><xref href="lyGraphik.dita#lyGraphik">Book decoration,
                                     drawings</xref> : GraphicRegion, <codeph outputclass="hidden"
                                     props="XPath">/PcGts/Page/GraphicRegion</codeph></entry>
@@ -465,7 +465,7 @@
                             <entry>x</entry>
                         </row>
                         <row outputclass="color6">
-                            <entry>Seitenregion: <b>Separation Lines, Separators
+                            <entry>Page Region: <b>Separation Lines, Separators
                                     (SeparatorRegion)</b></entry>
                             <entry><xref href="lySeparatoren.dita#lySeparatoren">Separation Lines,
                                     Separators</xref> : SeparatorRegion, <codeph
@@ -484,7 +484,7 @@
                             <entry>x</entry>
                         </row>
                         <row outputclass="color7">
-                            <entry>Seitenregion: <b>Tables(TableRegion)</b></entry>
+                            <entry>Page Region: <b>Tables(TableRegion)</b></entry>
                             <entry><xref href="lyTabellen.dita#lyTabellen">Tables</xref> :
                                 TableRegion, <codeph outputclass="hidden" props="XPath"
                                     >/PcGts/Page/TableRegion</codeph></entry>
@@ -517,7 +517,7 @@
                             <entry>x</entry>
                         </row>
                         <row outputclass="color8">
-                            <entry>Seitenregion: <b>Line Drawing Region</b></entry>
+                            <entry>Page Region: <b>Line Drawing Region</b></entry>
                             <entry><codeph outputclass="hidden" props="XPath"
                                 >/PcGts/Page/LineDrawingRegion</codeph></entry>
                             <entry/>
@@ -533,7 +533,7 @@
                             <entry>x</entry>
                         </row>
                         <row outputclass="color9">
-                            <entry>Seitenregion: <b>Maps (MapRegion)</b></entry>
+                            <entry>Page Region: <b>Maps (MapRegion)</b></entry>
                             <entry><xref href="lyKarten.dita#lyKarten">Maps</xref> : MapRegion
                                     <codeph outputclass="hidden" props="XPath"
                                     >/PcGts/Page/MapRegion</codeph></entry>
@@ -550,8 +550,7 @@
                             <entry>x</entry>
                         </row>
                         <row outputclass="color10">
-                            <entry>Seitenregion: <b>Mathematical characters
-                                (MathsRegion)</b></entry>
+                            <entry>Page Region: <b>Mathematical characters (MathsRegion)</b></entry>
                             <entry><xref href="lyMathematische_Zeichen.dita#lyMathematische_Zeichen"
                                 >Mathematical characters</xref> : MathsRegion, <codeph
                                     props="XPath" outputclass="hidden">/PcGts/Page/MathsRegion</codeph></entry>
@@ -568,7 +567,7 @@
                             <entry>x</entry>
                         </row>
                         <row outputclass="color11">
-                            <entry>Seitenregion: <b>Chemical symbols (ChemRegion)</b></entry>
+                            <entry>Page Region: <b>Chemical symbols (ChemRegion)</b></entry>
                             <entry><xref href="lyChemische_Symbole.dita#lyChemische_Symbole"
                                 >Chemical symbols</xref> : ChemRegion, <codeph outputclass="hidden" props="XPath"
                                     >/PcGts/Page/ChemRegion</codeph></entry>
@@ -585,7 +584,7 @@
                             <entry>x</entry>
                         </row>
                         <row outputclass="color12">
-                            <entry>Seitenregion: <b>Musical note (MusicRegion)</b></entry>
+                            <entry>Page Region: <b>Musical note (MusicRegion)</b></entry>
                             <entry><xref href="lyNotenzeichen.dita#lyNotenzeichen">Musical
                                     note</xref> : MusicRegion, <codeph outputclass="hidden"
                                     props="XPath">/PcGts/Page/MusicRegion</codeph></entry>
@@ -602,7 +601,7 @@
                             <entry>x</entry>
                         </row>
                         <row outputclass="color13">
-                            <entry>Seitenregion: <b>Advertisement (AdvertRegion)</b></entry>
+                            <entry>Page Region: <b>Advertisement (AdvertRegion)</b></entry>
                             <entry><xref href="lyWerbung.dita#lyWerbung">Advertisement</xref> :
                                 AdvertRegion <codeph outputclass="hidden" props="XPath"
                                     >/PcGts/Page/AdvertRegion</codeph></entry>
@@ -619,7 +618,7 @@
                             <entry>x</entry>
                         </row>
                         <row outputclass="color14">
-                            <entry>Seitenregion: <b>Damage, Dirt, Stains, Noise
+                            <entry>Page Region: <b>Damage, Dirt, Stains, Noise
                                 (NoiseRegion)</b></entry>
                             <entry><xref href="lyRauschen.dita#lyRauschen">Damage, Dirt, Stains,
                                     Noise</xref> : NoiseRegion <codeph outputclass="hidden"
@@ -629,7 +628,7 @@
                             <entry>x</entry>
                         </row>
                         <row outputclass="color15">
-                            <entry>Seitenregion: <b>Unknown (UnknownRegion)</b></entry>
+                            <entry>Page Region: <b>Unknown (UnknownRegion)</b></entry>
                             <entry><codeph outputclass="hidden" props="XPath">/PcGts/Page/UnknownRegion</codeph></entry>
                             <entry>x</entry>
                             <entry>x</entry>

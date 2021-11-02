@@ -4,7 +4,7 @@
   <title>Ligatures</title>
   <body>
     <p>
-      <table id="table_h53_3gm_gz">
+      <table id="table_h53_3gm_gz" frame="all">
         <tgroup cols="5">
           <colspec colnum="1" colname="col1"/>
           <colspec colname="newCol3" colnum="2"/>

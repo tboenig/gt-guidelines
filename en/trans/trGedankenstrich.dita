@@ -6,7 +6,7 @@
     <p>Dashes can occur in different lengths. As far as this difference is recognized, they are
       represented as the following hexadecimal Unicode entities: </p>
 
-<table>
+  <table frame="all">
   <tgroup cols="3"><thead><row>
     <entry>Sign</entry>
     <entry>Entity</entry>

@@ -78,10 +78,7 @@
                 <topicref href="trans/tr_dia_level_2_0.dita"/>
                 <topicref href="trans/tr_dia_level_3_0.dita"/>
             </topicref>
-            <topicref href="trans/trSilbentrennung.dita">
-                <topicref href="trans/level_1_8.dita"/>
-                <topicref href="trans/level_2_3.dita"/>
-            </topicref>
+            <topicref href="trans/trSilbentrennung.dita"/>
             <!--<topicref href="trApostrophe.dita"/>-->
         </topicref>
         <topicref href="trans/trSonderzeichen.dita">

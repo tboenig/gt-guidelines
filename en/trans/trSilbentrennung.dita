@@ -1,8 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trSilbentrennung">
-  <title>Hyphenation</title><shortdesc>Hyphens are transcribed according to the original. There can be several variants of the
-    hyphen. How to transcribe a particular hyphen is regulated in the respective levels.</shortdesc>
+  <title>Hyphenation</title>
 <body>
+<p>Hyphens are transcribed according to the original. There can be several variants of the hyphen.
+      How to transcribe a particular hyphen is regulated in the respective levels.</p>
+<section>
+  <title>Level 1</title>
+  <p>The hyphenation is transcribed according to the original. The hyphen or hyphen-minus (-) is to
+        be used as hyphen, regardless of its appearance in the text.</p>
+</section>
+  <section>
+    <title>Level 2</title>
+      <p>The hyphenation is transcribed according to the original. No distinction is made between
+        hyphens <codeph>­</codeph>and <codeph>⸗</codeph>. Conditional hyphen or soft hyphen
+          <codeph>­</codeph> is to be used as hyphen.</p>
+  </section>
+
+  <section>
+    <title>Level 3</title>
+      <p>Hyphenation is transcribed according to the original. A distinction is made between the
+        hyphens</p>
+  </section>
+<section>
+  <title>Overview</title>
+  <table frame="all" rowsep="1" colsep="1" id="table_ekc_zwm_krb">
+    <title>Level of hyphenation</title>
+    <tgroup cols="4">
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="1*"/>
+          <colspec colname="c3" colnum="3" colwidth="1*"/>
+          <colspec colname="c4" colnum="4" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Original</entry>
+              <entry>Level 1</entry>
+              <entry>Level 2</entry>
+              <entry>Level 3</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row product="ruleset">
+              <entry><image href="images/trSilbentrennung.png" id="image_r3n_g2n_krb"/></entry>
+              <entry>-<term> HYPHEN-MINUS : hyphen or minus sign <text>hex: &amp;#002D;</text>
+                </term></entry>
+              <entry>-<term>SOFT HYPHEN [SHY] : discretionary hyphen <text>hex: &amp;#x00AD;</text>
+                </term></entry>
+              <entry>-<term>SOFT HYPHEN [SHY] : discretionary hyphen <text>hex: &amp;#x00AD;</text>
+                </term></entry>
+            </row>
+            <row product="ruleset">
+              <entry><image href="images/hyphen_equal.png" id="image_rl3_1th_f1b"/></entry>
+              <entry>-<term> HYPHEN-MINUS : hyphen or minus sign <text>hex: &amp;#002D;</text>
+                </term></entry>
+              <entry>-<term>SOFT HYPHEN [SHY] : discretionary hyphen <text>hex: &amp;#x00AD;</text>
+                </term></entry>
+              <entry>⸗<term>DOUBLE OBLIQUE HYPHEN <text>hex: &amp;#x2E17;</text>
+                </term></entry>
+            </row>
+            <row>
+              <entry><image href="images/trSilbentrennung2.png" id="image_shp_dc4_krb"/></entry>
+              <entry>-<term> HYPHEN-MINUS : hyphen or minus sign <text>hex: &amp;#002D;</text>
+                </term></entry>
+              <entry>-<term>SOFT HYPHEN [SHY] : discretionary hyphen <text>hex: &amp;#x00AD;</text>
+                </term></entry>
+              <entry>⸗<term>DOUBLE OBLIQUE HYPHEN <text>hex: &amp;#x2E17;</text>
+                </term></entry>
+            </row>
+            <row product="ruleset">
+              <entry><image href="images/hypen_equal3.png" id="image_xwr_fwh_f1b" scale="50"
+                /></entry>
+              <entry>-<term> HYPHEN-MINUS : hyphen or minus sign <text>hex: &amp;#002D;</text>
+                </term></entry>
+              <entry>⹀<term>DOUBLE HYPHEN <text>hex: &amp;#x2E40;</text>
+                </term></entry>
+              <entry>⹀<term>DOUBLE HYPHEN <text>hex: &amp;#x2E40;</text>
+                </term></entry>
+            </row>
+          </tbody>
+        </tgroup>
+  </table>
+</section>
+  
+    
 </body>
 </topic>

@@ -6,7 +6,7 @@
 <p>Abbreviation lines, which appear as bars or wavy lines above letters and as substituents for
             omitted characters, are generally regarded as a combination of two characters. A
             character combination is formed from the grapheme and the superimposed tilde. For this
-            the Unicode <tt>U+0303, COMBINING TILDE</tt> is used.</p> <table>
+            the Unicode <tt>U+0303, COMBINING TILDE</tt> is used.</p> <table frame="all">
 <tgroup cols="2">
 <thead>
 <row>
