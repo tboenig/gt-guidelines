@@ -3,6 +3,10 @@
 <topic id="unbenannt2">
   <title>Ligatures</title>
   <body>
+
+
+
+
     <p>
       <table id="table_h53_3gm_gz" frame="all">
         <tgroup cols="5">
@@ -38,6 +42,34 @@
               <entry>&#x00E6;<term><text>hex: &amp;#x00E6;</text></term></entry>
               <entry>&#x00E6;<term><text>hex: &amp;#x00E6;</text></term></entry>
               <entry>&#x00E6;<term><text>hex: &amp;#x00E6;</text></term></entry>
+              <entry/>
+            </row>
+            <row product="ruleset">
+              <entry/>
+              <entry>AV</entry>
+              <entry>Ꜹ<term><text>hex: &amp;#xA738;</text></term></entry>
+              <entry>Ꜹ<term><text>hex: &amp;#xA738;</text></term></entry>
+              <entry/>
+            </row>
+            <row product="ruleset">
+              <entry/>
+              <entry>av</entry>
+              <entry>ꜹ<term><text>hex: &amp;#xA739;</text></term></entry>
+              <entry>ꜹ<term><text>hex: &amp;#xA739;</text></term></entry>
+              <entry/>
+            </row>
+            <row product="ruleset">
+              <entry/>
+              <entry>AY</entry>
+              <entry>Ꜽ<term><text>hex: &amp;#xA73C;</text></term></entry>
+              <entry>Ꜽ<term><text>hex: &amp;#xA73C;</text></term></entry>
+              <entry/>
+            </row>
+            <row product="ruleset">
+              <entry/>
+              <entry>ay</entry>
+              <entry>ꜽ<term><text>hex: &amp;#xA73D;</text></term></entry>
+              <entry>ꜽ<term><text>hex: &amp;#xA73D;</text></term></entry>
               <entry/>
             </row>
             <row>
@@ -124,29 +156,56 @@
               <entry>&#xFB05;<term><text>hex: &amp;#xFB05;</text></term></entry>
               <entry/>
             </row>
+            <row product="ruleset">
+              <entry/>
+              <entry>TZ</entry>
+              <entry>Ꜩ<term><text>hex: &amp;#xA728;</text></term></entry>
+              <entry>Ꜩ<term><text>hex: &amp;#xA728;</text></term></entry>
+              <entry outputclass="description">siehe <xref
+                  href="https://de.wikipedia.org/wiki/%EA%9C%A8" format="html" scope="external"
+                  >Ligatur TZ, Artikel in Wikipedia</xref><note importance="recommended"
+                  id="note_yt5_2nr_lrb">The MUFI recommendation is not to be used. </note><xref
+                  href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
+                  format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
+                  Dezember 2015)</xref></entry>
+            </row>
             <row>
               <entry dir="ltr"><image href="images/font_0037.png" height="43" width="20"
                 id="image_ev3_3gm_gz"/><image href="images/font_0075.png" height="42" width="21"
                   id="image_fv3_3gm_gz"/><image href="images/font_0086.png" height="43" width="23"
                     id="image_gv3_3gm_gz"/></entry>
               <entry>tz</entry>
-              <entry>tz</entry>
-              <entry>&#xEEDC;<term><text>hex: &amp;#xEEDC;</text></term></entry>
-              <entry>see <xref
+              <entry>ꜩ<term><text>hex: &amp;#xA729;</text></term></entry>
+              <entry>ꜩ<term><text>hex: &amp;#xA729;</text></term></entry>
+              <entry>see <xref href="https://de.wikipedia.org/wiki/%EA%9C%A8" format="html"
+                  scope="external">Ligatur TZ, Artikel in Wikipedia</xref><note
+                  importance="recommended" id="note_k1t_1mr_lrb">The MUFI recommendation is not to
+                  be used. </note><xref
                   href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
-                  format="pdf" scope="external">MUFI character recommendation (version 4.0; 22
-                  december 2015)</xref></entry>
+                  format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
+                  Dezember 2015)</xref>
+              </entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>ᵫ<term><text>hex: &amp;#x1D6B;</text></term></entry>
+              <entry>ᵫ<term><text>hex: &amp;#x1D6B;</text></term></entry>
+              <entry>ᵫ<term><text>hex: &amp;#x1D6B;</text></term></entry>
+              <entry/>
             </row>
             <row>
               <entry dir="ltr"><image href="images/font_0080.png" height="24" width="29"
                 id="image_hv3_3gm_gz"/></entry>
               <entry>jtzo</entry>
-              <entry>jtzo</entry>
-              <entry>j&#xEEDC;<term><text>hex: &amp;#xEEDC;</text></term>o</entry>
-              <entry>see <xref
+              <entry>jꜩo<term><text>hex: &amp;#xA729;</text></term></entry>
+              <entry>jꜩo<term><text>hex: &amp;#xA729;</text></term></entry>
+              <entry>see <xref href="https://de.wikipedia.org/wiki/%EA%9C%A8" format="html"
+                  scope="external">Ligatur TZ, Artikel in Wikipedia</xref><note
+                  importance="recommended" id="note_st2_nnr_lrb">The MUFI recommendation is not to
+                  be used. </note><xref
                   href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
-                  format="pdf" scope="external">MUFI character recommendation (version 4.0; 22
-                  december 2015)</xref></entry>
+                  format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
+                  Dezember 2015)</xref></entry>
             </row>
             <row>
               <entry dir="ltr"><image href="images/font_0028.png" height="24" width="35"
@@ -171,6 +230,20 @@
               <entry>ij</entry>
               <entry>&#x0133;<term><text>hex: &amp;#x0133;</text></term></entry>
               <entry>&#x0133;<term><text>hex: &amp;#x0133;</text></term></entry>
+              <entry/>
+            </row>
+            <row product="ruleset">
+              <entry/>
+              <entry>VY</entry>
+              <entry>Ꝡ<term><text>hex: &amp;#xA760;</text></term></entry>
+              <entry>Ꝡ<term><text>hex: &amp;#xA760;</text></term></entry>
+              <entry/>
+            </row>
+            <row product="ruleset">
+              <entry/>
+              <entry>vy</entry>
+              <entry>ꝡ<term><text>hex: &amp;#xA761;</text></term></entry>
+              <entry>ꝡ<term><text>hex: &amp;#xA761;</text></term></entry>
               <entry/>
             </row>
             <row>
