@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="trErsetzungen">
+    <title>Substitutions</title>
+    <body>
+        <p>In general, (the creation of) ground truth means that everything on the printed page is
+            reproduced in the same manner. Substitutions or normalisations contradict this
+            principle. But this principle cannot always be followed in reality. Some examples are
+            given below. </p>
+        <p>At level one, the scope for interpretation is unlimited. Thus, very wide-ranging
+            normalisations or substitutions are possible. In contrast to levels two and three, these
+            transfer the text more faithfully.</p>
+        <table frame="all" rowsep="1" colsep="1" id="table_nlx_2g4_krb">
+            <title/>
+            <tgroup cols="4">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <colspec colname="c4" colnum="4" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Vorlage</entry>
+                        <entry>Level 1</entry>
+                        <entry>Level 2</entry>
+                        <entry>Level 3</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><image href="images/trErsetzungen1.png" id="image_t43_rg4_krb"
+                            /></entry>
+                        <entry>kinder oder kinď</entry>
+                        <entry>lꝛinď</entry>
+                        <entry>lꝛinď</entry>
+                    </row>
+                    <row>
+                        <entry><image href="images/trErsetzungen2.png" id="image_l3f_bh4_krb"
+                            /></entry>
+                        <entry>wird oder wirt</entry>
+                        <entry>ıvirt</entry>
+                        <entry>ıvirt</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+
+    </body>
+</topic>

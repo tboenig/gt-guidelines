@@ -4,7 +4,7 @@
     <title>Struktur-Konkordanz METS und PAGE</title>
     
     <body>
-        <p>Mit METS werden vorallem (Logische)-Strukturen eines Dokumentes abgebildet. Bei einer
+        <p>Mit METS werden vor allem (Logische)-Strukturen eines Dokumentes abgebildet. Bei einer
             Logischen-Strukturierung werden die einzelnen Kapitel, Abschnitte sowie besondere
             Abschnitte (wie Widmungen, Errata) in einer METS-Datei dokumentiert. In der METS-Datei
             im Abschnitt <codeph>&lt;mets:structMap TYPE="LOGICAL"></codeph> werden die Kapitel oder

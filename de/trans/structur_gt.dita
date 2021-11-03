@@ -16,9 +16,9 @@ PAGE-Schema.</shortdesc>
             (Cropping, Dewarping) der Digitalisate wurde nicht vorgenommen. Die Daten wurden im
             Rahmen des DFG Projektes Deutsches Textarchiv im Unterschied zum Element-Repertoire des
             PAGE-Formates in Teilen tiefer erschlossen. Diese Tiefenerschließung ist als Wert des
-                <tt>custom-Atributt</tt> festgehalten.</p>
-    <p>Der Struktur-Ground-Truth kann ebenfalls in drei unterschiedlichen Level erstellt werden. Die
-            Level unterscheiden sich dabei im Umfang, der Ausdifferenzierung der einzelnen
+                <i>custom-Atributt</i> festgehalten.</p>
+        <p>Der Struktur-Ground-Truth kann ebenfalls in drei unterschiedlichen Level erstellt werden.
+            Die Level unterscheiden sich dabei im Umfang, der Ausdifferenzierung der einzelnen
             Seitentypen und Regionen. Weitere Hinweise und Informationen werden in den folgenden
             Kapiteln dargestellt:</p>
         <p>

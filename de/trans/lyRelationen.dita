@@ -5,7 +5,7 @@
     <p>Um die Beziehung zwischen zusammenhängenden Regionen zu dokumentieren, ist das Element
         <codeph>&lt;Relations></codeph> zu verwenden. Nach der Festlegung der
         <codeph>&lt;ReadingOrder></codeph> muss mit dem Element <codeph>&lt;Relations></codeph> die
-      Beziehung zwischen den Elementen und Regionen dargestellt werden. Vorallem bei der
+      Beziehung zwischen den Elementen und Regionen dargestellt werden. Vor allem bei der
       Dokumentation der Beziehung einer Initalie zum folgenden Paragraphen wird das Element
         <codeph>&lt;Relations></codeph> verwendet.</p>
     <p>Folgende Beziehungen sind zu dokumentieren. Dabei ist zwischen einem <codeph>join</codeph>

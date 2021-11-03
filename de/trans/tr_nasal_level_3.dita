@@ -20,11 +20,12 @@
 <tbody>
 <row>
 <entry><image href="images/frommen.jpg"/></entry>
-<entry>fro&#xF519;en</entry>
+<entry><codeph>fro&#xF519;en<term><text>fro&amp;#xF519;en</text></term></codeph></entry>
 </row>
                     <row>
                         <entry><image href="images/und_macht.jpg" id="image_pxn_fcb_pbb"/></entry>
-                        <entry>U&#x00F1; macht</entry>
+                        <entry><codeph>U&#x00F1; macht<term><text>U&amp;#x00F1;
+                                macht</text></term></codeph></entry>
                     </row>
 </tbody>
 </tgroup>

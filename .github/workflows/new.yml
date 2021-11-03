@@ -12,7 +12,7 @@ jobs:
       
       - name: Git checkout
         uses: actions/checkout@v2
-      - name: Build Bootstrap ⚙️
+      - name: Build Bootstrap-german ⚙️
         uses: dita-ot/dita-ot-action@master
         with:
           

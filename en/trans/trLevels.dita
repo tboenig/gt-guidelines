@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="trLevels">
+    <title>📢 Ground truth level overview</title>
+    <body>
+        <p>The creation of ground truth (GT) involves several facets. Among other things, GT is
+            subject to a specific purpose or use. The origin of the word <i>ground truth</i> is the
+            German <b>Grundwahrheit</b>. In this sense, it generally means that everything on the
+            printed page is reproduced in the same way. However, individual elements and regions may
+            be reproduced in a simplified or complex and detailed manner. The extent to which this
+            is done depends, among other things, on the purpose, use, scope, affordability,
+            technical availability, and ... This means that in many cases <b>an interpretation is
+                made of individual typographic and graphemic phenomena</b>. In order to make the
+            interpretations made comprehensible, the GT can be <b>transcribed according to
+                corresponding levels of reproduction of the original</b> or, in the case of existing
+            GT, classified or evaluated. A description or explanation of the levels can be found in
+            various places in these guidelines. The following overview lists these level
+            descriptions.</p>
+        <p/>
+        <note>see: Grundwahrheit="ground truth, n.". in Oxford English Dictionary (OED) Online.
+            September 2021. Oxford University Press. <xref
+                href="https://www.oed.com/view/Entry/249130?isAdvanced=false%26result=1%26rskey=f84Hc3%26"
+                format="html" scope="external"> Link (accessed October 28, 2021)</xref> .</note>
+        <section id="section_v4l_k2t_mqb">
+            <title>General explanation of the ground truth levels</title>
+            <ul>
+                <li><xref href="level_1_4.dita">Level 1</xref></li>
+                <li><xref href="level_2_2.dita">Level 2</xref></li>
+                <li><xref href="level_3_1.dita">Level 3</xref></li>
+            </ul>
+        </section>
+        <section id="section_w4l_k2t_mqb">
+            <title>Transcription in the corresponding level?</title>
+            <ul>
+                <li><xref href="tr_level_1_4.dita">How to transcribe in Level 1</xref></li>
+                <li><xref href="tr_level_2_4.dita">How to transcribe in Level 2</xref></li>
+                <li><xref href="tr_level_3_4.dita">How to transcribe in Level 3</xref></li>
+            </ul>
+        </section>
+        <section>
+            <title>Structure-Ground-Truth in the corresponding level?</title>
+            <ul>
+                <li><xref href="ly_level_1_5.dita">Capture of page regions in Level 1</xref></li>
+                <li><xref href="ly_level_2_5.dita">Capture of page regions in Level 2 and Level
+                        3</xref></li>
+            </ul>
+        </section>
+        <section id="section_x4l_k2t_mqb">
+            <title>Explanations of certain cases such as ligatures, punctuation marks, differences
+                between I/J...</title>
+            <p>This part of the documentation should be particularly noted:</p>
+            <ul id="ul_alt_cpt_mqb">
+                <li><xref href="trSchreibungIJ.dita">Distinction between I and J</xref>
+                </li>
+                <li><xref href="trSchreibungUV.dita">Distinction between u/f, u/v and v/u</xref>
+                </li>
+                <li><xref href="trSchreibungS.dita">s-Graphemes</xref></li>
+                <li><xref href="trSchreibungR.dita">r-Grapheme</xref></li>
+                <li><xref href="trLigatur.dita">Ligatures</xref>
+                </li>
+                <li>
+                    <xref href="trUmlaute.dita">Umlauts</xref></li>
+                <li>
+                    <xref href="trNasalstrich.dita">Abbreviation Lines</xref>
+                </li>
+                <li>
+                    <xref href="trDiakritika.dita">Diacritics</xref>
+                </li>
+                <li>
+                    <xref href="trSilbentrennung.dita">Hyphenation</xref>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <title>Übersichten und Beispiele (betrifft die Transkription von Zeichen)</title>
+            <ul id="ul_y4l_k2t_mqb">
+                <li><xref href="trBeispiele.dita">Overviews and examples (concerns transcription of
+                        characters)</xref></li>
+            </ul>
+        </section>
+        <section>
+            <title>Level recommendation</title>
+            <ul>
+                <li>OCR-D recommends Level 2 for ground truth creation/transcription.</li>
+            </ul>
+        </section>
+        <section>
+            <title>What are the levels not?</title>
+            <ul id="ol_z4l_k2t_mqb">
+                <li>In addition to transcription, the classification of the levels also serves to
+                    evaluate ground truth.</li>
+                <li>The levels are not a seal of quality.</li>
+
+
+                <li>When using levels 2 and 3, <b>text-critical automatic recording/transcription is
+                        better possible</b>. The precondition is that the respective model has been
+                    trained with this ground truth.</li>
+
+
+                <li>There is only limited compatibility between the texts in levels 1, 2 and 3. In
+                    most cases, there is only compatibility in the descending direction
+                    (3->2->1).</li>
+
+                <li>The levels can only be used to a limited extent to convert automatically between
+                    individual levels.</li>
+
+            </ul>
+            <sectiondiv id="section_apl_k2t_mqb" outputclass="example_block">
+                <p><b>Problems:</b></p>
+                <p>Some problem cases are listed below. Due to the heterogeneity of the phenomena,
+                    completeness is not possible.</p>
+                <div id="section_bpl_k2t_mqb">
+                    <p><b>The problem of long S</b></p>
+                    <p>siehe: <xref href="https://de.wikipedia.org/wiki/Langes_s" format="html"
+                            scope="external">https://de.wikipedia.org/wiki/Langes_s</xref></p>
+                    <p>Zitat aus Wikipedia:</p>
+                    <ul id="ul_epl_k2t_mqb">
+                        <li>Wachſtube (Wach·stu·be <i>[Room of a security guard]</i>) and Wachstube
+                            (Wachs·tu·be <i>[Tube (see <xref
+                                    href="https://www.dwds.de/wb/Tube#d-1-1" format="html"
+                                    scope="external">https://www.dwds.de/wb/Tube#d-1-1</xref>)
+                                filled with wax]</i>)</li>
+                        <li>Kreiſchen (Krei·schen, Screeching) and Kreischen (Kreis·chen, a small
+                            circle)</li>
+                        <li>Verſendung (Ver·sen·dung <i>[Dispatch: something is sent to another
+                                place]</i> ) and Versendung (Vers·en·dung <i>[the end of a
+                                verse]</i>)</li>
+                        <li>Röschenhof (Rös·chen·hof, a courtyard with small roses) and Röſchenhof
+                            (Rö·schen·hof, from given name Röschen)</li>
+                        <li>Lachſturm (Lach·sturm <i>[hearty laughter]</i>) und Lachsturm
+                            (Lachs·turm <i>[a tower made of the fish salmon]</i>)</li>
+                    </ul>
+                </div>
+                <div id="section_fpl_k2t_mqb">
+                    <p><b>Problem of macron above the sign</b></p>
+                    <p><image href="images/75pJer2.png" id="image_gpl_k2t_mqb"/></p>
+                    <p>Transkription:</p>
+                    <p><codeph>vnderlaſſen/ vñ fuͤrnemlich</codeph> = Level 2</p>
+                    <p>General rule: Level 3: ñ, Level 2 ñ, Level 1 nn (Always consider the
+                        context!!)</p>
+                    <p>The normalised paragraph reads:</p>
+                    <p><codeph>underlassen/</codeph>
+                        <b>and</b>
+                        <codeph>fürnemlich</codeph> = Level 1</p>
+                    <p><codeph>unterlassen/</codeph>
+                        <b>and</b>
+                        <codeph>vornemlich</codeph> = possible level 1 (A very strong normalisation
+                        has been made.)</p>
+                </div>
+                <div id="section_hpl_k2t_mqb">
+                    <p><b>Problem of normalisation of transcriptions/text</b></p>
+                    <p><image href="images/zuzTSEK.png" id="image_ipl_k2t_mqb"/></p>
+                    <ul id="ul_jpl_k2t_mqb">
+                        <li><codeph>ihren Haaren seine Füße,</codeph> = Possible level 1</li>
+                        <li><codeph>yhren harẽ ſeyne fuſſe/</codeph> = Level 2</li>
+                    </ul>
+                    <p><image href="images/0SgtVhU.png" id="image_kpl_k2t_mqb"/></p>
+                    <ul id="ul_lpl_k2t_mqb">
+                        <li><codeph>doch soll der Vischer solch(es) Haar</codeph> = Possible level
+                            1</li>
+                        <li><codeph>doch soll der Vischer sollich haar</codeph> = Level 1</li>
+                        <li><codeph>doch ſoll der Viſcher ſollich haar</codeph> = Level 2</li>
+                    </ul>
+                    <p>Quelle: [Württemberg, Fürstentum]: Des Fürstenthumbs Wirtemberg newe
+                        Landtsordnung/ gebessert vnd gemehret/ sampt darzu gedruckten der armen
+                        Casten/ auch Holtz vnnd Vorst ordnungen. [Tübingen], 1552. In: Deutsches
+                        Textarchiv <xref
+                            href="https://www.deutschestextarchiv.de/wuerttemberg_landtsordnung_1552"
+                            format="html" scope="external"
+                            >https://www.deutschestextarchiv.de/wuerttemberg_landtsordnung_1552</xref>,
+                        retrieved on 05.08.2021.</p>
+                    <p><b>Addition:</b></p>
+                    <p>When using editions, normalisation must also be taken into account. This
+                        example clearly shows this.</p>
+                    <p><image href="images/1Q7koaO.png" id="image_mpl_k2t_mqb"/></p>
+                    <p>Quelle: Sammlung der württembergischen Regierungs-Gesetze / 3: Enthaltend den
+                        dritten Theil der Samml. der Regierungs-Gesetze : … Regierungs-Gesetze vom
+                        Jahre 1727 bis zum Jahre 1805 ( Th. 1, 1489 - 1634, Band 12) [<xref
+                            href="http://opacplus.bsb-muenchen.de/title/BV006590720/ft/bsb10552294?page=702"
+                            format="html" scope="external"
+                            >http://opacplus.bsb-muenchen.de/title/BV006590720/ft/bsb10552294?page=702</xref>]
+                        retrieved on 05.08.2021.</p></div></sectiondiv>
+        </section>
+
+    </body>
+</topic>

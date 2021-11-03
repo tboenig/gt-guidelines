@@ -50,20 +50,20 @@
                 zwischen I/J…</title>
             <p>Besonders ist dieser Teil der Dokumentation zu beachten:</p>
             <ul id="ul_alt_cpt_mqb">
-                <li>Unterscheidung von I und J <xref href="trSchreibungIJ.dita">trSchreibungIJ.dita</xref>
+                <li><xref href="trSchreibungIJ.dita">Unterscheidung von I und J</xref>
                 </li>
-                <li>Unterscheidung von u/f, u/v und v/u <xref href="trSchreibungUV.dita">trSchreibungUV.dita</xref>
+                <li><xref href="trSchreibungUV.dita">Unterscheidung von u/f, u/v und v/u</xref>
                 </li>
-                <li>s-Grapheme <xref href="trSchreibungS.dita">trSchreibungS.dita</xref></li>
-                <li>r-Grapheme <xref href="trSchreibungR.dita">trSchreibungR.dita</xref></li>
-                <li>Ligaturen <xref href="trLigatur.dita">trLigatur.dita</xref>
+                <li><xref href="trSchreibungS.dita">s-Grapheme</xref></li>
+                <li><xref href="trSchreibungR.dita">r-Grapheme</xref></li>
+                <li><xref href="trLigatur.dita">Ligaturen</xref>
                 </li>
-                <li>Umlaute <xref href="trUmlaute.dita">trUmlaute.dita</xref></li>
-                <li>Kürzungsstriche <xref href="trNasalstrich.dita">trNasalstrich.dita</xref>
+                <li> <xref href="trUmlaute.dita">Umlaute</xref></li>
+                <li> <xref href="trNasalstrich.dita">Kürzungsstriche</xref>
                 </li>
-                <li>Diakritika <xref href="trDiakritika.dita">trDiakritika.dita</xref>
+                <li> <xref href="trDiakritika.dita">Diakritika</xref>
                 </li>
-                <li>Silbentrennung <xref href="trSilbentrennung.dita">trSilbentrennung.dita</xref>
+                <li> <xref href="trSilbentrennung.dita">Silbentrennung</xref>
                 </li>
             </ul>
         </section>
@@ -121,8 +121,8 @@
                         <li>Verſendung (Ver·sen·dung <i>[etwas wird an einen anderen Ort
                                 gesendet]</i> ) und Versendung (Vers·en·dung <i>[das Ende eines
                                 Verses]</i>)</li>
-                        <li>Röschenhof (Rös·chen·hof, von kleine Rose) und Röſchenhof (Rö·schen·hof,
-                            vom Eigennamen Röschen)</li>
+                        <li>Röschenhof (Rös·chen·hof, ein Hof mit kleinen Rosen) und Röſchenhof
+                            (Rö·schen·hof, vom Eigennamen Röschen)</li>
                         <li>Lachſturm (Lach·sturm <i>[heftiges Lachen]</i>) und Lachsturm
                             (Lachs·turm <i>[ein Turm der aus dem Fisch Lachs besteht]</i>)</li>
                     </ul>

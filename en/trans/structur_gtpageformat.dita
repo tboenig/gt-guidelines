@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="structur_gtpageformat">
-    <title>Overview and Concordance</title>
+    <title>Structure concordance to zones and regions in DTA Zot format as well as DTABf
+    (TEI)</title>
 
 <shortdesc>The overview and concordance shows in comparison the coding of zones and regions in DTA
     Zot format, DTABf (TEI) and PAGE format.</shortdesc>
     <body>
-      <p>The reference to elements in DTABf and PAGE covers only basic elements and not their
-      context. For more profound information, please refer to the DTABf and PAGE documentation.</p>
+      <p>The overview and concordance compares encodings of zones and regions in the DTA Zot format,
+      DTABf (TEI) and the PAGE format. The reference to elements in DTABf and PAGE refers only to
+      basic elements and not their context. For this reason, reference should be made to the
+      documentation of the DTABf and PAGE.</p>
         <table frame="all" rowsep="1" colsep="1" id="table_wws_hhn_ldb">
         <title>Overview und Concordance of Codings</title>
 <tgroup cols="7">

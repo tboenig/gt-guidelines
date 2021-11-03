@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trLabeling">
-    <title>Documentation for gt-labelling : semantic-labelling OCR ground truth data</title>
+    <title>📓 Documentation for OCR-D-GT-labelling </title>
     <abstract><shortdesc>The automatically generated documentation gives an overview of all
             components of the OCR-D-GT-labelling scheme.</shortdesc></abstract>
     <body>
