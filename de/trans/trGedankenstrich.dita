@@ -24,17 +24,17 @@
         </thead>
         <tbody>
           <row>
-            <entry><image href="images/trGedankenstrich1.jpg" id="image_nb4_bdk_nsb" scale="50"
-                /><image href="images/trGedankenstrich2.jpg" id="image_sj3_cdk_nsb" scale="50"
-              /></entry>
+            <entry><fig><image href="images/trGedankenstrich1.jpg" id="image_nb4_bdk_nsb" scale="50"
+                /></fig><fig><image href="images/trGedankenstrich2.jpg" id="image_sj3_cdk_nsb" scale="50"
+              /></fig></entry>
             <entry><codeph>-</codeph><term>HYPHEN-MINUS : hyphen oder
-                  Bindestrich-Minuszeichen<text>dezimal: &amp;#45;</text>
+                  Bindestrich-Minuszeichen <text>dezimal: &amp;#45;</text>
                 <text>hex: &amp;#x002D;</text></term></entry>
             <entry>Bindestrich, Silbentrennstrich, Minuszeichen </entry>
           </row>
           <row>
-            <entry><image href="images/trGedankenstrich4.jpg" id="image_nb5_bdk_nsb" scale="50"
-              /></entry>
+            <entry><fig><image href="images/trGedankenstrich4.jpg" id="image_nb5_bdk_nsb" scale="50"
+              /></fig></entry>
             <entry><codeph>‒</codeph><term>Figure Dash oder Ziffernstrich <text>dezimal:
                   &amp;#8210;</text>
                 <text>hex: &amp;#x02012;</text></term></entry>
@@ -42,17 +42,17 @@
               <lines>Diese Art des Striches zeichnet sich durch seine spezielle Breite (ziffernbreit) aus. Im Beispielbild ist das deutlich zu sehen.</lines></entry>
           </row>
           <row>
-            <entry><image href="images/trGedankenstrich3.jpg" id="image_byg_3pq_nsb" scale="50"
-                /><image href="images/trGedankenstrich8.png" id="image_xnz_slr_nsb" scale="50"
-              /></entry>
+            <entry><fig><image href="images/trGedankenstrich3.jpg" id="image_byg_3pq_nsb" scale="50"
+                /></fig><fig><image href="images/trGedankenstrich8.png" id="image_xnz_slr_nsb" scale="50"
+              /></fig></entry>
             <entry><codeph>–</codeph><term>EN Dash oder EN-Strich <text>dezimal: &amp;#8211;</text>
                 <text>hex: &amp;#x02013;</text></term></entry>
             <entry>Halbgeviertstrich (Gedankenstrich, Bis-Strich, Wiederholungsstrich )</entry>
           </row>
           <row>
-            <entry><image href="images/trGedankenstrich6.png" id="image_lj3_y3r_nsb"/><image
-                href="images/trGedankenstrich7.png" id="image_lzc_xjr_nsb" scale="50"/><image
-                href="images/trGedankenstrich5.png" id="image_prb_qcr_nsb" scale="50"/></entry>
+            <entry><fig><image href="images/trGedankenstrich6.png" id="image_lj3_y3r_nsb"/></fig><fig><image
+                href="images/trGedankenstrich7.png" id="image_lzc_xjr_nsb" scale="50"/></fig><fig><image
+                href="images/trGedankenstrich5.png" id="image_prb_qcr_nsb" scale="50"/></fig></entry>
             <entry><codeph>—</codeph><term>EM Dash oder EM-Strich <text>dezimal: &amp;#8212;</text>
                 <text>hex: &amp;#x02014;</text></term></entry>
             <entry>Geviertstrich (langer Gedankenstrich, Wiederholungsstrich) </entry>
