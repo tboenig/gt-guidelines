@@ -781,13 +781,11 @@
                     <row>
                         <entry dir="ltr"><image href="images/font_0016.png" height="35" width="69"
                                 id="image_oyr_5fm_gz"/></entry>
-                        <entry>and&#x010F;n oder <i>andern</i><term>verwendet d mit Hatschek
-                                    <text>dezimal:an&amp;#271;n</text>
-                                <text>hex: an&amp;#x010F;n</text></term></entry>
-                        <entry>and&#x010F;n<term>verwendet d mit Hatschek <text>dezimal:
+                        <entry>andern</entry>
+                        <entry>an&#x010F;n<term>verwendet d mit Hatschek <text>dezimal:
                                     an&amp;#271;n</text>
                                 <text>hex: an&amp;#x010F;n</text></term></entry>
-                        <entry>and&#x010F;n<term>verwendet d mit Hatschek <text>dezimal:
+                        <entry>an&#x010F;n<term>verwendet d mit Hatschek <text>dezimal:
                                     an&amp;#271;n</text>
                                 <text>hex: an&#x010F;n</text></term></entry>
                         <entry outputclass="description">Abkürzung für Zeichenkette <i>der</i> auch in einem Wort
