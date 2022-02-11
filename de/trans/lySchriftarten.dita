@@ -42,7 +42,7 @@
                 <title>Schriftarten Beispiele</title>
                 <desc>Quelle: Weichselbaumer, Nikolaus; Seuret, Matthias; Limbach, Saskia et. al.: New Approaches to OCR for Early Printed Books. DigItalia 2-2020.
                     DOI: 10.36181/digitalia-00015.</desc>
-            <image href="images/lySchriftarten.png" id="image_dsl_wkn_ypb" scale="50"/></fig>
+            <image href="images/lySchriftarten.png" id="image_dsl_wkn_ypb" scale="30"/></fig>
             
             <p importance="recommended">Wir empfehlen folgende Schriftfamilien für die Dokumentation
                 der @<tt>fontFamily</tt> zu nutzen: <ul id="ul_fts_ssx_1gb">
