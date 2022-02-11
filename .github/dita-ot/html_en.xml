@@ -21,6 +21,7 @@
       <param name="args.rellinks" value="all"/>
       <param name="args.gen.task.lbl" value="YES"/>
       <param name="args.html5.toc" value="toc"/>
+      <param name="args.breadcrumbs" value="NO"/>
       <param name="nav-toc" value="partial"/>
       <param name="processing-mode" value="strict"/>
       <param name="args.xsl" href="../../en/xsl/custom_ocrd.xsl"/>
