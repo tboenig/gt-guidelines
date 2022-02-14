@@ -457,13 +457,13 @@ nav[role=toc] > ul > li ul {
 
 
 /* ↓ nav-coderef ↓ */
-nav[role=navigation] {
+nav[role=navigation].toc {
   float: left;
   width: 300px;
   background-image: linear-gradient(90deg, #f8f8f8 0%, #ffffff 50%);
 }
 
-nav[role=navigation] li.active > a {
+nav[role=navigation].toc li.active > a {
   font-weight: bold;
   background-color: #e6e6e6;
   padding: 3px;
@@ -474,11 +474,11 @@ nav[role=navigation] li.active > a {
 
 /* ↑ end-nav-ref ↑ */
 
-nav[role=navigation] > ul {
+nav[role=navigation].toc > ul {
   margin-right: 2em;
 }
 
-nav[role=navigation] > ul > li ul {
+nav[role=navigation].toc > ul > li ul {
   margin-left: 1.2em;
 }
 
