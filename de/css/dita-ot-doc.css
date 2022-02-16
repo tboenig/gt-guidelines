@@ -697,7 +697,7 @@ td.gsc-result-info-container, td.gsc-orderby-container {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    /* display: inline-block; */
+    display: inline !important; 
     vertical-align: middle;
     font-weight: bold;
 }
