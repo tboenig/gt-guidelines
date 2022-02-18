@@ -17,7 +17,7 @@ jobs:
         run: git clone https://github.com/OCR-D/ocrd-website.wiki.git
 
       - name: look for1
-        run: cd de && ls  
+        run: ls  
 
      # - name: download DITA dtd
      #   run: cd de/xsl && wget https://github.com/oxygenxml/oxygen-dita-translation-package-builder-addon/archive/refs/heads/master.zip && unzip master.zip  
