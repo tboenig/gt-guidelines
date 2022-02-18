@@ -1,4 +1,4 @@
-name: DITA-OT-OCRD
+name: DITA-OT-OCRD-FAQ
 'on':
   push:
     branches:
@@ -36,21 +36,21 @@ jobs:
       - name: look for
         run: cd de && ls   
       
-    #  - name: Build Bootstrap-german ⚙️
-    #    uses: dita-ot/dita-ot-action@master
-    #    with:
-    #      
-    #      install: |
-    #        apt-get update -q
-    #        export DEBIAN_FRONTEND=noninteractive
-    #        apt-get install -qy --no-install-recommends nodejs
-    #        nodejs -v
-    #      plugins: |
-    #         https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
-    #         https://github.com/infotexture/dita-bootstrap/archive/develop.zip
-    #         https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
-    #      build: |
-    #         dita --project=.github/dita-ot/html.xml
+      - name: Build Bootstrap-german ⚙️
+        uses: dita-ot/dita-ot-action@master
+        with:
+          
+          install: |
+            apt-get update -q
+            export DEBIAN_FRONTEND=noninteractive
+            apt-get install -qy --no-install-recommends nodejs
+            nodejs -v
+          plugins: |
+             https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
+             https://github.com/infotexture/dita-bootstrap/archive/develop.zip
+             https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
+          build: |
+             dita --project=.github/dita-ot/html.xml
             
           
           
@@ -77,12 +77,12 @@ jobs:
 
       
 
-    #  - name: Deploy HTML 🚀
-    #    uses: JamesIves/github-pages-deploy-action@3.7.1
-    #    with:
-    #      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #      BRANCH: gh-pages # The branch the action should deploy to.
-    #      FOLDER: out # The folder the action should deploy.
+      - name: Deploy HTML 🚀
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: out # The folder the action should deploy.
       
           
 
@@ -112,9 +112,9 @@ jobs:
     #      name: OCRD-GT-Guidelines
     #      path: 'out'
 
-    #  - name: Deploy DITA Output to GitHub Pages
-    #    uses: JamesIves/github-pages-deploy-action@3.7.1
-    #    with:
-    #      GITHUB_TOKEN: $
-    #      BRANCH: gh-pages # The branch the action should deploy to.
-    #      FOLDER: out # The folder the action should deploy.
+      - name: Deploy DITA Output to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: $
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: out # The folder the action should deploy.
