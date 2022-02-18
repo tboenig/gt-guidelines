@@ -13,7 +13,7 @@
     
     <xsl:variable name="filename" select="document-uri(.)"/>
     
-    <xsl:variable name="path">../wiki</xsl:variable>
+    <xsl:variable name="path">../ocrd-website.wiki</xsl:variable>
     <xsl:variable name="coll"><xsl:value-of select="$path"/>/?select=GT-Guide*.md;recurse=no</xsl:variable>
     <xsl:variable name="document-uri" select="document-uri(.)"/>
     
