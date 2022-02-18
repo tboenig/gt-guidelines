@@ -4,6 +4,8 @@
     <title>❓ Fragen und Antworten</title>
     <body>
         <p>Im Folgenden werden Antworten zu verschiedenen Problemen der Ground-Truth-Erstellung gegeben. Diese wurden von Nutzern gestellt und sind im OCR-D-Wiki zuerst veröffentlicht.</p>
-        <p>Haben Sie Fragen? Dann schreiben Sie Ihre Frage in das OCR-D-Wiki.</p>
+        <p>Haben Sie Fragen? Dann schreiben Sie Ihre Frage in das <xref
+                href="https://github.com/OCR-D/ocrd-website/wiki#section-on-ground-truth"
+                format="html" scope="external">OCR-D-Wiki.</xref></p>
     </body>
 </topic>
