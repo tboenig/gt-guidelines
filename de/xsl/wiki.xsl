@@ -13,7 +13,7 @@
     
     <xsl:variable name="filename" select="document-uri(.)"/>
     
-    <xsl:variable name="path">../../ocrd-website.wiki</xsl:variable>
+    <xsl:variable name="path">../ocrd-website.wiki</xsl:variable>
     <xsl:variable name="coll"><xsl:value-of select="$path"/>/?select=GT-Guide*.md;recurse=no</xsl:variable>
     <xsl:variable name="document-uri" select="document-uri(.)"/>
     
@@ -28,7 +28,7 @@
                 <xsl:element name="topicref">
                     <xsl:attribute name="class">- map/topicref </xsl:attribute>
                     <xsl:attribute name="format">markdown</xsl:attribute>
-                    <xsl:attribute name="href">wiki<xsl:value-of select="$file"/></xsl:attribute>
+                    <xsl:attribute name="href">ocrd-website.wiki<xsl:value-of select="$file"/></xsl:attribute>
                     
                     
                 </xsl:element>
