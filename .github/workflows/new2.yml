@@ -16,22 +16,25 @@ jobs:
       - name: clone ocrd-wiki
         run: git clone https://github.com/OCR-D/ocrd-website.wiki.git
 
-      - name: download DITA dtd
-        run: cd de/xsl && wget https://github.com/oxygenxml/oxygen-dita-translation-package-builder-addon/archive/refs/heads/master.zip && unzip master.zip  
-      
-      - name: Set up JDK 1.8
-        uses: joschi/setup-jdk@v2
-        with:
-          java-version: '11'
-      
-      - name: Download and install saxon 
-        run: wget https://www.saxonica.com/download/SaxonEE11-1J.zip && unzip SaxonEE11-1J.zip
-             
-      - name: add wiki faq
-        run: sudo java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:de/ocrd_ocrd.ditamap -o:de/ocrd_ocrd_wiki.ditamap
+      - name: look for1
+        run: cd de && ls  
 
-      - name: look for
-        run: cd de && ls   
+     # - name: download DITA dtd
+     #   run: cd de/xsl && wget https://github.com/oxygenxml/oxygen-dita-translation-package-builder-addon/archive/refs/heads/master.zip && unzip master.zip  
+      
+     # - name: Set up JDK 1.8
+     #   uses: joschi/setup-jdk@v2
+     #   with:
+     #     java-version: '11'
+      
+     # - name: Download and install saxon 
+     #   run: wget https://www.saxonica.com/download/SaxonEE11-1J.zip && unzip SaxonEE11-1J.zip
+             
+     # - name: add wiki faq
+     #   run: sudo java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:de/ocrd_ocrd.ditamap -o:de/ocrd_ocrd_wiki.ditamap
+
+     # - name: look for
+     #   run: cd de && ls   
       
     #  - name: Build Bootstrap-german ⚙️
     #    uses: dita-ot/dita-ot-action@master
