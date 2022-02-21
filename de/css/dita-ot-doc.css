@@ -638,9 +638,9 @@ FAQ
 /*****/
 
 .topic.nested1 {
-    border-style: outset;
-    border-radius: 18px;
-    padding: 8px;
+    border-style: outset !important;
+    border-radius: 18px !important;
+    padding: 8px !important;
 }
 
 
