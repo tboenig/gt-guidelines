@@ -638,9 +638,8 @@ FAQ
 /*****/
 
 .topic.nested1 {
-    border-style: outset !important;
-    border-radius: 18px !important;
-    padding: 8px !important;
+    color: #b53333;
+    position: relative;
 }
 
 
