@@ -637,11 +637,17 @@ tr.color15{background-image: linear-gradient(10deg, #f8f8f8 0%, #c8ab37 50%);}
 FAQ
 *****/
 
+article > article.topic.nested1:first-child {
+    margin-top: 10px;
+}
+
+
+
 article.topic.nested1 {
     border-style: outset !important;
     border-radius: 18px !important;
     padding: 8px !important;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 

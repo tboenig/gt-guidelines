@@ -24,6 +24,7 @@
             <xsl:attribute name="href">trans/fa.dita</xsl:attribute>
             <xsl:attribute name="class">- map/topicref bookmap/chapter </xsl:attribute>
             <xsl:for-each select="uri-collection($coll)">
+                <xsl:sort/>
                 <xsl:variable name="file" select="substring-after(iri-to-uri(.), 'wiki')"/>
                 <xsl:element name="topicref">
                     <xsl:attribute name="class">- map/topicref </xsl:attribute>
