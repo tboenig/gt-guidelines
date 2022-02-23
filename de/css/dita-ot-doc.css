@@ -65,7 +65,6 @@ td.td1 {
 
 td.td2 {
   width: 90%;
-  font-size: 36pt; 
   color: #555; 
   box-shadow: none;
   text-align: left;
@@ -74,13 +73,14 @@ td.td2 {
   text-indent: -4px;
   }
 
+span.title {
+    font-size: 36pt;
+}
 
 span.language {
     float:right;
     font-size:12pt;
 }
-
-
 
 div.header {
   font-size: 18pt;
