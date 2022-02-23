@@ -644,8 +644,6 @@ article > article.topic.nested1:first-child {
 
 
 article.topic.nested1 {
-    border-style: outset !important;
-    border-radius: 18px !important;
     padding: 8px !important;
     margin-bottom: 10px;
 }
