@@ -3,8 +3,8 @@
 <topic id="tr_level_2_3">
     <title>Level 3</title>
     <body>
-        <p>In level 3, there is minimal normalisation of spaces. True following the template, spaces
-            are transcribed.</p>
+        <p>In level 3, there is <b>minimal</b> normalisation of spaces. True following the template,
+            spaces are transcribed.</p>
         <example><image href="images/level_2_3.png" id="image_vxh_rmr_n1b" scale="30"/>
             <p>
                 <pre>
@@ -15,13 +15,12 @@
             </p></example>
         <ul id="ul_kx5_r34_rsb">
             <li>
-                <lines>to lines 1, 2 and 3</lines>
-                The punctuation mark (Virgil) is transcribed without a space directly on the
-                    preceding word and without a space after it.
-            </li>
-            <li><lines id="lines_q44_y34_rsb">to line 4</lines>The punctuation mark (Virgil) is
-                transcribed with a space before it and a space after it. No distinction is made in
-                the extent of the space; as a rule, only one space is transcribed at a time.</li>
+                <lines><b>to lines 1, 2 and 3</b></lines> The punctuation mark (Virgil) is
+                transcribed without a space directly on the preceding word and without a space after
+                it. </li>
+            <li><lines id="lines_q44_y34_rsb"><b>to line 4</b></lines>The punctuation mark (Virgil)
+                is transcribed with a space before it and a space after it. No distinction is made
+                in the extent of the space; as a rule, only one space is transcribed at a time.</li>
         </ul>
         <p>Commas are transcribed in the same way as in the example given.</p>
         <p>The print on the page by a spatium that has fallen off during the printing process is not
