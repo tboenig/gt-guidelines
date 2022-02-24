@@ -12,7 +12,7 @@
                     <colspec colname="c2" colnum="2" colwidth="1*"/>
                     
                     <tbody><row>
-                        <entry namest="c1" nameend="c2">Vorlage</entry>
+                        <entry namest="c1" nameend="c2"><b>Vorlage</b></entry>
                         </row>
                         <row>
                             <entry namest="c1" nameend="c2"><image href="images/level_2_3.png"
