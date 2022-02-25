@@ -68,7 +68,7 @@ jobs:
       - name: output dir
         run: cd out && sudo mkdir rules
       - name: transform rules
-        run: sudo java -jar saxon-he-10.5.jar -xsl:de/xsl/rules.xsl -s:de/trans/trFremdsprache.dita -o:out/rules/ruleset_character.json && sudo java -jar saxon-he-10.5.jar -xsl:de/xsl/rules.xsl -s:de/trans/trLigaturen2.dita -o:out/rules/ruleset_ligature.json
+        run: sudo java -jar saxon-ee-11.1.jar -xsl:de/xsl/rules.xsl -s:de/trans/trFremdsprache.dita -o:out/rules/ruleset_character.json && sudo java -jar saxon-ee-11.1.jar -xsl:de/xsl/rules.xsl -s:de/trans/trLigaturen2.dita -o:out/rules/ruleset_ligature.json
 
       
 
