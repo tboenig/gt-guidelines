@@ -22,8 +22,11 @@ jobs:
       - name: Download and install saxon 
         run: wget https://www.saxonica.com/download/SaxonEE11-1J.zip && unzip SaxonEE11-1J.zip
              
-      - name: add wiki faq
+      - name: add wiki faq german
         run: sudo java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:de/ocrd_ocrd.ditamap -o:de/ocrd_ocrd_wiki.ditamap
+
+      - name: add wiki faq english
+        run: sudo java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:en/ocrd_ocrd.ditamap -o:en/ocrd_ocrd_wiki.ditamap  
 
       - name: Build Bootstrap-german ⚙️
         uses: dita-ot/dita-ot-action@master
@@ -43,26 +46,26 @@ jobs:
             
           
           
-    #  - name: Build Bootstrap-english ⚙️
-    #    uses: dita-ot/dita-ot-action@master
-    #    with:
-    #      install: |
-    #        apt-get update -q
-    #        export DEBIAN_FRONTEND=noninteractive
-    #        apt-get install -qy --no-install-recommends nodejs
-    #        nodejs -v
-    #      plugins: |
-    #        https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
-    #        https://github.com/infotexture/dita-bootstrap/archive/develop.zip
-    #        https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
-    #      build: |
-    #       dita --project=.github/dita-ot/html_en.xml
+      - name: Build Bootstrap-english ⚙️
+        uses: dita-ot/dita-ot-action@master
+        with:
+          install: |
+            apt-get update -q
+            export DEBIAN_FRONTEND=noninteractive
+            apt-get install -qy --no-install-recommends nodejs
+            nodejs -v
+          plugins: |
+            https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
+            https://github.com/infotexture/dita-bootstrap/archive/develop.zip
+            https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
+          build: |
+           dita --project=.github/dita-ot/html_en.xml
           
             
-    #  - name: output dir
-    #    run: cd out && sudo mkdir rules
-    #  - name: transform rules
-    #    run: sudo java -jar saxon-he-10.5.jar -xsl:de/xsl/rules.xsl -s:de/trans/trFremdsprache.dita -o:out/rules/ruleset_character.json && sudo java -jar saxon-he-10.5.jar -xsl:de/xsl/rules.xsl -s:de/trans/trLigaturen2.dita -o:out/rules/ruleset_ligature.json
+      - name: output dir
+        run: cd out && sudo mkdir rules
+      - name: transform rules
+        run: sudo java -jar saxon-he-10.5.jar -xsl:de/xsl/rules.xsl -s:de/trans/trFremdsprache.dita -o:out/rules/ruleset_character.json && sudo java -jar saxon-he-10.5.jar -xsl:de/xsl/rules.xsl -s:de/trans/trLigaturen2.dita -o:out/rules/ruleset_ligature.json
 
       
 
