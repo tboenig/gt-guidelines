@@ -13,8 +13,11 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v2
       
-      - name: clone ocrd-wiki
+      - name: clone ocrd-wiki to german
         run: git clone https://github.com/OCR-D/ocrd-website.wiki.git && mv ocrd-website.wiki de/ && cd de && ls
+
+      - name: clone ocrd-wiki to english
+        run: git clone https://github.com/OCR-D/ocrd-website.wiki.git && mv ocrd-website.wiki en/ && cd en && ls
 
       - name: download DITA dtd
         run: cd de/xsl && wget https://github.com/oxygenxml/oxygen-dita-translation-package-builder-addon/archive/refs/heads/master.zip && unzip master.zip  
