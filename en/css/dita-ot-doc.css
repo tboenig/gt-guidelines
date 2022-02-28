@@ -73,7 +73,7 @@ td.td2 {
   text-indent: -4px;
   }
 
-span.title {
+td.td2 > span.title {
     font-size: 36pt;
 }
 
