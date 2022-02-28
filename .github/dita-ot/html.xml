@@ -19,7 +19,7 @@
       <param name="args.hdr" href="../../de/resources/header.xml"/>
       <param name="args.ftr" href="../../de/resources/footer.xml"/>
       <param name="html5.toc.generate" value="yes"/>
-      <param name="args.rellinks" value="noparent"/>
+      <param name="args.rellinks" value="nofamily"/>
       <param name="args.gen.task.lbl" value="YES"/>
       <param name="args.html5.toc" value="toc"/>
       <param name="nav-toc" value="partial"/>
