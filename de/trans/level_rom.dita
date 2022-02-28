@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="level_rom">
+    <title>Level römische Zahlen</title>
+    <body>
+        <p>
+            <table frame="all" rowsep="1" colsep="1" id="table_ipp_p3r_ssb">
+                <title/>
+                <tgroup cols="5">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <colspec colname="c4" colnum="4" colwidth="1*"/>
+                    <colspec colname="newCol5" colnum="5" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Vorlage</entry>
+                            <entry>Level 1</entry>
+                            <entry>Level 2</entry>
+                            <entry>Level 3</entry>
+                            <entry>Wert</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>I</entry>
+                            <entry><tt>Ⅰ</tt></entry>
+                            <entry><tt>Ⅰ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>II</entry>
+                            <entry><tt>Ⅱ</tt></entry>
+                            <entry><tt>Ⅱ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>III</entry>
+                            <entry><tt>Ⅲ</tt></entry>
+                            <entry><tt>Ⅲ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>IV</entry>
+                            <entry><tt>Ⅳ</tt></entry>
+                            <entry><tt>Ⅳ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>V</entry>
+                            <entry><tt>Ⅴ</tt></entry>
+                            <entry><tt>Ⅴ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>VI</entry>
+                            <entry><tt>Ⅵ</tt></entry>
+                            <entry><tt>Ⅵ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>VII</entry>
+                            <entry><tt>Ⅶ</tt></entry>
+                            <entry><tt>Ⅶ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>VIII</entry>
+                            <entry><tt>Ⅷ</tt></entry>
+                            <entry><tt>Ⅷ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>IX</entry>
+                            <entry><tt>Ⅸ</tt></entry>
+                            <entry><tt>Ⅸ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>X</entry>
+                            <entry><tt>Ⅹ</tt></entry>
+                            <entry><tt>Ⅹ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>XI</entry>
+                            <entry><tt>Ⅺ</tt></entry>
+                            <entry><tt>Ⅺ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>XII</entry>
+                            <entry><tt>Ⅻ</tt></entry>
+                            <entry><tt>Ⅻ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>L</entry>
+                            <entry><tt>Ⅼ</tt></entry>
+                            <entry><tt>Ⅼ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>C</entry>
+                            <entry><tt>Ⅽ</tt></entry>
+                            <entry><tt>Ⅽ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>D</entry>
+                            <entry><tt>Ⅾ</tt></entry>
+                            <entry><tt>Ⅾ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>M</entry>
+                            <entry><tt>Ⅿ</tt></entry>
+                            <entry><tt>Ⅿ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>i</entry>
+                            <entry><tt>ⅰ</tt></entry>
+                            <entry><tt>ⅰ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>ii</entry>
+                            <entry><tt>ⅱ</tt></entry>
+                            <entry><tt>ⅱ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>iii</entry>
+                            <entry><tt>ⅲ</tt></entry>
+                            <entry><tt>ⅲ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>iv</entry>
+                            <entry><tt>ⅳ</tt></entry>
+                            <entry><tt>ⅳ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>v</entry>
+                            <entry><tt>ⅴ</tt></entry>
+                            <entry><tt>ⅴ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>vi</entry>
+                            <entry><tt>ⅵ</tt></entry>
+                            <entry><tt>ⅵ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>vii</entry>
+                            <entry><tt>ⅶ</tt></entry>
+                            <entry><tt>ⅶ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>viii</entry>
+                            <entry><tt>ⅷ</tt></entry>
+                            <entry><tt>ⅷ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>ix</entry>
+                            <entry><tt>ⅸ</tt></entry>
+                            <entry><tt>ⅸ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>x</entry>
+                            <entry><tt>ⅹ</tt></entry>
+                            <entry><tt>ⅹ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>xi</entry>
+                            <entry><tt>ⅺ</tt></entry>
+                            <entry><tt>ⅺ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>xii</entry>
+                            <entry><tt>ⅻ</tt></entry>
+                            <entry><tt>ⅻ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>l</entry>
+                            <entry><tt>ⅼ</tt></entry>
+                            <entry><tt>ⅼ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>c</entry>
+                            <entry><tt>ⅽ</tt></entry>
+                            <entry><tt>ⅽ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>d</entry>
+                            <entry><tt>ⅾ</tt></entry>
+                            <entry><tt>ⅾ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row product="ruleset">
+                            <entry/>
+                            <entry>m</entry>
+                            <entry><tt>ⅿ</tt></entry>
+                            <entry><tt>ⅿ</tt></entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry><image href="images/trRom.jpg" id="image_qxl_j2s_ssb"/></entry>
+                            <entry>cIↄ</entry>
+                            <entry>ⅽIↄ</entry>
+                            <entry>ⅽIↄ</entry>
+                            <entry>1000</entry>
+                        </row>
+                        <row>
+                            <entry><image href="images/trRom2.jpg" id="image_z54_k2s_ssb"/></entry>
+                            <entry>Iↄ</entry>
+                            <entry>Iↄ</entry>
+                            <entry>Iↄ</entry>
+                            <entry>500</entry>
+                        </row>
+                        <row>
+                            <entry><image href="images/trRom3.jpg" id="image_hym_l2s_ssb"/></entry>
+                            <entry>c</entry>
+                            <entry>ⅽ</entry>
+                            <entry>ⅽ</entry>
+                            <entry>100</entry>
+                        </row>
+                        <row>
+                            <entry><image href="images/trRom4.jpg" id="image_azq_m2s_ssb"/></entry>
+                            <entry>ↄ </entry>
+                            <entry>ↄ</entry>
+                            <entry>ↄ</entry>
+                            <entry>100</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>Ↄ</entry>
+                            <entry>Ↄ</entry>
+                            <entry>Ↄ</entry>
+                            <entry>100</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>CD </entry>
+                            <entry>ↀ</entry>
+                            <entry>ↀ</entry>
+                            <entry>1000</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>ↁ</entry>
+                            <entry>ↁ</entry>
+                            <entry>ↁ</entry>
+                            <entry>5000</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>ↂ</entry>
+                            <entry>ↂ</entry>
+                            <entry>ↂ</entry>
+                            <entry>10.000</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>ↇ</entry>
+                            <entry>ↇ</entry>
+                            <entry>ↇ</entry>
+                            <entry>50.000</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+    </body>
+</topic>
