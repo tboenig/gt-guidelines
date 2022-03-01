@@ -3,7 +3,7 @@
 <topic id="level_rom">
     <title>Level römische Zahlen</title>
     <body>
-        <p>
+        
             <table frame="all" rowsep="1" colsep="1" id="table_ipp_p3r_ssb">
                 <title/>
                 <tgroup cols="5">
@@ -11,7 +11,7 @@
                     <colspec colname="c2" colnum="2" colwidth="1*"/>
                     <colspec colname="c3" colnum="3" colwidth="1*"/>
                     <colspec colname="c4" colnum="4" colwidth="1*"/>
-                    <colspec colname="newCol5" colnum="5" colwidth="1*"/>
+                    <colspec colname="c5" colnum="5" colwidth="1*"/>
                     <thead>
                         <row>
                             <entry>Vorlage</entry>
@@ -312,6 +312,6 @@
                     </tbody>
                 </tgroup>
             </table>
-        </p>
+        
     </body>
 </topic>
