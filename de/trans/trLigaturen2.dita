@@ -109,35 +109,35 @@
           <row product="ruleset">
             <entry/>
             <entry>ff</entry>
-            <entry>ﬀ<term><text>hex: &amp;#xFB00;</text></term></entry>
+            <entry>ff</entry>
             <entry>ﬀ<term><text>hex: &amp;#xFB00;</text></term></entry>
             <entry/>
           </row>
           <row product="ruleset">
             <entry/>
             <entry>ffi</entry>
-            <entry>ﬃ<term><text>hex: &amp;#xFB03;</text></term></entry>
+            <entry>ffi</entry>
             <entry>ﬃ<term><text>hex: &amp;#xFB03;</text></term></entry>
             <entry/>
           </row>
           <row product="ruleset">
             <entry/>
             <entry>ffl</entry>
-            <entry>ﬄ<term><text>hex: &amp;#xFB04;</text></term></entry>
+            <entry>ffl</entry>
             <entry>ﬄ<term><text>hex: &amp;#xFB04;</text></term></entry>
             <entry/>
           </row>
           <row product="ruleset">
             <entry/>
             <entry>fl</entry>
-            <entry>ﬂ<term><text>hex: &amp;#xFB02;</text></term></entry>
+            <entry>fl</entry>
             <entry>ﬂ<term><text>hex: &amp;#xFB02;</text></term></entry>
             <entry/>
           </row>
           <row product="ruleset">
             <entry/>
             <entry>fi</entry>
-            <entry>ﬁ<term><text>hex: &amp;#xFB01;</text></term></entry>
+            <entry>fi</entry>
             <entry>ﬁ<term><text>hex: &amp;#xFB01;</text></term></entry>
             <entry/>
           </row>
@@ -313,7 +313,7 @@
                 id="image_av3_3gm_gz"/><image href="images/font_0069.png" height="34" width="25"
                 id="image_bv3_3gm_gz"/></entry>
             <entry>st</entry>
-            <entry>&#xFB06;<term><text>hex: &amp;#xFB06;</text></term></entry>
+            <entry>st</entry>
             <entry>&#xFB06;<term><text>hex: &amp;#xFB06;</text></term></entry>
             <entry/>
           </row>
@@ -329,7 +329,7 @@
           <row product="ruleset">
             <entry/>
             <entry>TZ</entry>
-            <entry>Ꜩ<term><text>hex: &amp;#xA728;</text></term></entry>
+            <entry>TZ</entry>
             <entry>Ꜩ<term><text>hex: &amp;#xA728;</text></term></entry>
             <entry outputclass="description">siehe <xref
                 href="https://de.wikipedia.org/wiki/%EA%9C%A8" format="html" scope="external"
@@ -345,7 +345,7 @@
                 id="image_fv3_3gm_gz"/><image href="images/font_0086.png" height="43" width="23"
                 id="image_gv3_3gm_gz"/></entry>
             <entry>tz</entry>
-            <entry>ꜩ<term><text>hex: &amp;#xA729;</text></term></entry>
+            <entry>tz</entry>
             <entry>ꜩ<term><text>hex: &amp;#xA729;</text></term></entry>
             <entry outputclass="description">siehe <xref
                 href="https://de.wikipedia.org/wiki/%EA%9C%A8" format="html" scope="external"
@@ -381,7 +381,7 @@
             <entry dir="ltr"><image href="images/font_0080.png" height="24" width="29"
                 id="image_hv3_3gm_gz"/></entry>
             <entry>jtzo</entry>
-            <entry>jꜩo<term><text>hex: &amp;#xA729;</text></term></entry>
+            <entry>jtzo</entry>
             <entry>jꜩo<term><text>hex: &amp;#xA729;</text></term></entry>
             <entry outputclass="description">siehe <xref
                 href="https://de.wikipedia.org/wiki/%EA%9C%A8" format="html" scope="external"
@@ -412,21 +412,21 @@
             <entry dir="ltr"><image href="images/font_0123.png" height="45" width="20"
                 id="image_qvr_5fm_gz"/></entry>
             <entry>ij</entry>
-            <entry>&#x0133;<term><text>hex: &amp;#x0133;</text></term></entry>
+            <entry>ij</entry>
             <entry>&#x0133;<term><text>hex: &amp;#x0133;</text></term></entry>
             <entry/>
           </row>
           <row product="ruleset">
             <entry/>
             <entry>VY</entry>
-            <entry>Ꝡ<term><text>hex: &amp;#xA760;</text></term></entry>
+            <entry>VY</entry>
             <entry>Ꝡ<term><text>hex: &amp;#xA760;</text></term></entry>
             <entry/>
           </row>
           <row product="ruleset">
             <entry/>
             <entry>vy</entry>
-            <entry>ꝡ<term><text>hex: &amp;#xA761;</text></term></entry>
+            <entry>vy</entry>
             <entry>ꝡ<term><text>hex: &amp;#xA761;</text></term></entry>
             <entry/>
           </row>
