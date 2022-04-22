@@ -135,12 +135,8 @@
                     <p>allgemeine Regel: Level 3: ñ, Level 2 ñ, Level 1 nn (Beachten Sie immer den
                         Kontext!!)</p>
                     <p>Der normalisierte Absatz lautet:</p>
-                    <p><codeph>underlassen/</codeph>
-                        <b>und</b>
-                        <codeph>fürnemlich</codeph> = Level 1</p>
-                    <p><codeph>unterlassen/</codeph>
-                        <b>und</b>
-                        <codeph>vornemlich</codeph> = mögliches Level 1 (Eine sehr starke
+                    <p><codeph>underlassen/ und fürnemlich</codeph> = Level 1</p>
+                    <p><codeph>unterlassen/ und vornemlich</codeph> = mögliches Level 1 (Eine sehr starke
                         Normalisierung wurde vorgenommen.)</p>
                 </div>
                 <div id="section_hpl_k2t_mqb">
