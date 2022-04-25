@@ -22,18 +22,37 @@ jobs:
       - name: download DITA dtd
         run: cd de/xsl && wget https://github.com/oxygenxml/oxygen-dita-translation-package-builder-addon/archive/refs/heads/master.zip && unzip master.zip  
       
-      - name: Download and install saxon 
+      - name: Download and install saxon german
         run: wget https://www.saxonica.com/download/SaxonEE11-1J.zip && unzip SaxonEE11-1J.zip
              
+      - name: wiki markdown ditamap
+        run: java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl format=dita -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:de/ocrd_ocrd.ditamap -o:de/md2dita.ditamap
+      
+      
       - name: add wiki faq german
         run: java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:de/ocrd_ocrd.ditamap -o:de/ocrd_ocrd_wiki.ditamap
 
-      - name: add wiki faq german copy to out
-        run: java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:de/ocrd_ocrd.ditamap -o:out/ocrd_ocrd_wiki.ditamap  
-
+      
       - name: add wiki faq english
         run: java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:en/ocrd_ocrd.ditamap -o:en/ocrd_ocrd_wiki.ditamap  
 
+       - name: md2dita
+         uses: dita-ot/dita-ot-action@master
+         with:
+          input: de/md2dita.ditamap
+          transtype: dita
+          output-path: ditaout
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       #- name: Build Bootstrap-german ⚙️
       #  uses: dita-ot/dita-ot-action@master
       #  with:
