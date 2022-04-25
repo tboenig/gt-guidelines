@@ -31,24 +31,15 @@ jobs:
       - name: add wiki faq english
         run: sudo java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:en/ocrd_ocrd.ditamap -o:en/ocrd_ocrd_wiki.ditamap  
 
-      - name: Build Bootstrap-german
+      - name: Build HTML5 using DITA-OT German
         uses: dita-ot/dita-ot-action@master
         with:
-          dita-ot-version: 3.7.0
-          install: |
-            # Run some arbitrary installation commands
-            apt-get update -q
-            apt-get install -qy --no-install-recommends nodejs
-            nodejs -v
-
-            # Install plugins
-            dita install fox.jason.extend.css
-            dita install org.doctales.xmltask
-            dita install fox.jason.prismjs
-          build: |
-            # Use the dita command line
-            dita --project=.github/dita-ot/html.xml
-     
+            plugins : |
+              fox.jason.extend.css
+              org.doctales.xmltask
+              fox.jason.prismjs
+            project: .github/dita-ot/html.xml
+          
      
      
      
