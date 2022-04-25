@@ -38,7 +38,7 @@ jobs:
 
       - name: md2dita
         uses: dita-ot/dita-ot-action@master
-         with:
+        with:
           input: de/md2dita.ditamap
           transtype: dita
           output-path: ditaout
