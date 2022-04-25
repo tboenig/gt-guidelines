@@ -36,8 +36,8 @@ jobs:
       - name: add wiki faq english
         run: java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:en/ocrd_ocrd.ditamap -o:en/ocrd_ocrd_wiki.ditamap  
 
-       - name: md2dita
-         uses: dita-ot/dita-ot-action@master
+      - name: md2dita
+        uses: dita-ot/dita-ot-action@master
          with:
           input: de/md2dita.ditamap
           transtype: dita
