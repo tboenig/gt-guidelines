@@ -31,38 +31,60 @@ jobs:
       - name: add wiki faq english
         run: sudo java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:en/ocrd_ocrd.ditamap -o:en/ocrd_ocrd_wiki.ditamap  
 
-      - name: Build Bootstrap-german ⚙️
+     - name: Build Bootstrap-german
         uses: dita-ot/dita-ot-action@master
         with:
-          
           install: |
+            # Run some arbitrary installation commands
             apt-get update -q
-            export DEBIAN_FRONTEND=noninteractive
             apt-get install -qy --no-install-recommends nodejs
             nodejs -v
-          plugins: |
-             https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
-             https://github.com/infotexture/dita-bootstrap/archive/develop.zip
-             https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
+
+            # Install plugins
+            dita install fox.jason.extend.css
+            dita install org.doctales.xmltask
+            dita install fox.jason.prismjs
           build: |
-             dita --project=.github/dita-ot/html.xml
+            # Use the dita command line
+            dita --project=.github/dita-ot/html.xml
+     
+     
+     
+     
+     
+     
+     # - name: Build Bootstrap-german ⚙️
+     #   uses: dita-ot/dita-ot-action@master
+     #   with:
+     #     
+     #     install: |
+     #       apt-get update -q
+     #       export DEBIAN_FRONTEND=noninteractive
+     #       apt-get install -qy --no-install-recommends nodejs
+     #       nodejs -v
+     #     plugins: |
+     #        https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
+     #        https://github.com/infotexture/dita-bootstrap/archive/develop.zip
+     #        https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
+     #     build: |
+     #        dita --project=.github/dita-ot/html.xml
             
           
           
-      - name: Build Bootstrap-english ⚙️
-        uses: dita-ot/dita-ot-action@master
-        with:
-          install: |
-            apt-get update -q
-            export DEBIAN_FRONTEND=noninteractive
-            apt-get install -qy --no-install-recommends nodejs
-            nodejs -v
-          plugins: |
-            https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
-            https://github.com/infotexture/dita-bootstrap/archive/develop.zip
-            https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
-          build: |
-           dita --project=.github/dita-ot/html_en.xml
+      #- name: Build Bootstrap-english ⚙️
+      #  uses: dita-ot/dita-ot-action@master
+      #  with:
+      #    install: |
+      #      apt-get update -q
+      #      export DEBIAN_FRONTEND=noninteractive
+      #      apt-get install -qy --no-install-recommends nodejs
+      #      nodejs -v
+      #    plugins: |
+      #      https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
+      #      https://github.com/infotexture/dita-bootstrap/archive/develop.zip
+      #      https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
+      #    build: |
+      #     dita --project=.github/dita-ot/html_en.xml
           
             
       - name: output dir
