@@ -8,7 +8,16 @@
     xmlns:in="http://www.intern.de"
     exclude-result-prefixes="#all"
     version="3.0">
-    <xsl:output indent="yes" omit-xml-declaration="yes" method="xml"/>
+    <xsl:output indent="yes"  
+    
+    method="xml"
+    standalone="no"
+    doctype-public="-//OASIS//DTD DITA BookMap//EN"
+    doctype-system="bookmap.dtd"
+    
+    />
+    
+    
     
     <xsl:param name="format"/>
     
