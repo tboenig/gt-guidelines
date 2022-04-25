@@ -28,8 +28,7 @@ jobs:
       - name: add wiki faq german
         run: java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:de/ocrd_ocrd.ditamap -o:de/ocrd_ocrd_wiki.ditamap
 
-      - name: add wiki faq german copy to out
-        run: java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:de/ocrd_ocrd.ditamap -o:out/rules/ocrd_ocrd_wiki.ditamap  
+      
 
       - name: add wiki faq english
         run: java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:en/ocrd_ocrd.ditamap -o:en/ocrd_ocrd_wiki.ditamap  
@@ -76,6 +75,7 @@ jobs:
              java -jar saxon-ee-11.1.jar -xsl:de/xsl/rules.xsl -s:de/trans/trLigaturen2.dita -o:out/rules/ruleset_ligature.json &&
              java -jar saxon-ee-11.1.jar -xsl:de/xsl/rules.xsl -s:de/trans/trSilbentrennung.dita -o:out/rules/ruleset_hyphenation.json &&
              java -jar saxon-ee-11.1.jar -xsl:de/xsl/rules.xsl -s:de/trans/level_rom.dita -o:out/rules/ruleset_roman_digits.json
+             java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:de/ocrd_ocrd.ditamap -o:out/rules/ocrd_ocrd_wiki.ditamap
 
       
 
