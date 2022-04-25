@@ -34,6 +34,7 @@ jobs:
       - name: Build Bootstrap-german
         uses: dita-ot/dita-ot-action@master
         with:
+          dita-ot-version: 3.7.0
           install: |
             # Run some arbitrary installation commands
             apt-get update -q
