@@ -41,7 +41,7 @@ jobs:
         with:
           input: de/md2dita.ditamap
           transtype: dita
-          output-path: ditaout
+          output-path: out
       
       
       
