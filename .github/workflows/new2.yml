@@ -34,7 +34,7 @@ jobs:
       - name: Build Bootstrap-german ⚙️
         uses: dita-ot/dita-ot-action@master
         with:
-          dita-ot-version: 3.7.0
+          #dita-ot-version: 3.7.0
           install: |
             apt-get update -q
             export DEBIAN_FRONTEND=noninteractive
@@ -52,7 +52,7 @@ jobs:
       - name: Build Bootstrap-english ⚙️
         uses: dita-ot/dita-ot-action@master
         with:
-          dita-ot-version: 3.7.0
+          #dita-ot-version: 3.7.0
           install: |
             apt-get update -q
             export DEBIAN_FRONTEND=noninteractive
