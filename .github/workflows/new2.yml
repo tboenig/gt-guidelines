@@ -53,12 +53,7 @@ jobs:
           -s:en/ocrd_ocrd.ditamap \
           -o:en/ocrd_ocrd_wiki.ditamap  
 
-      #- name: md2dita
-      #  uses: dita-ot/dita-ot-action@master
-      #  with:
-      #    input: de/md2dita.ditamap
-      #    transtype: dita
-      #    output-path: out
+      
       
      
 
@@ -67,19 +62,11 @@ jobs:
       - name: Build Bootstrap-german
         uses: dita-ot/dita-ot-action@master
         with:
-          install: |
-            apt-get update -q
-            export DEBIAN_FRONTEND=noninteractive
-            apt-get install -y apt-utils
-            apt-get install -qy --no-install-recommends nodejs
-            nodejs -v
-
-            # Install plugins
-            dita install https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
-            dita install https://github.com/infotexture/dita-bootstrap/archive/develop.zip
-            dita install https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
-          build: |
-            dita --project=.github/dita-ot/html.xml
+            plugins : |
+              fox.jason.extend.css
+              org.doctales.xmltask
+              fox.jason.prismjs
+            project: .github/dita-ot/html.xml
 
       
       
