@@ -361,10 +361,10 @@
 <p>Beispiel für die Jahresangabe 1647
 <table frame="all" rowsep="1" colsep="1" id="table_mfp_dnd_b1b">
 <tgroup cols="5">
-                    <colspec colname="newCol3" colnum="1" colwidth="1*"/>
-                    <colspec colname="c1" colnum="2" colwidth="1*"/>
-                    <colspec colname="newCol2" colnum="3" colwidth="1*"/>
-                    <colspec colname="c2" colnum="4" colwidth="1*"/>
+                    <colspec colname="newCol3" colnum="1" colwidth="1.64*"/>
+                    <colspec colname="c1" colnum="2" colwidth="1.64*"/>
+                    <colspec colname="newCol2" colnum="3" colwidth="1.64*"/>
+                    <colspec colname="c2" colnum="4" colwidth="2.28*"/>
                     <colspec colname="newCol5" colnum="5" colwidth="1*"/>
                     <tbody>
                         <row product="ruleset">
@@ -377,9 +377,9 @@
                         <row product="ruleset">
                             <entry><image placement="inline" align="right" href="images/trRom1.png"
                                     height="23" width="155" id="image_dnt_2zh_3tb"/></entry>
-                            <entry>ⅽIↄ Iↄ e X L V II.</entry>
-                            <entry>ⅽIↄ Iↄ e X L V II.</entry>
-                            <entry>ⅽⅠↄ Ⅰↄ e Ⅹ Ⅼ Ⅴ Ⅱ.</entry>
+                            <entry>ⅽIↄ Iↄ c X L VII.</entry>
+                            <entry>ⅽIↄ Iↄ c X L VII.</entry>
+                            <entry>ⅽⅠↄ Ⅰↄ ⅽ Ⅹ Ⅼ Ⅶ.</entry>
                             <entry>1647</entry>
                         </row>
                     </tbody>

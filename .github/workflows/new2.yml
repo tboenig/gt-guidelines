@@ -36,38 +36,38 @@ jobs:
       - name: add wiki faq english
         run: java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:en/ocrd_ocrd.ditamap -o:en/ocrd_ocrd_wiki.ditamap  
 
-      - name: md2dita
-        uses: dita-ot/dita-ot-action@master
-        with:
-          input: de/md2dita.ditamap
-          transtype: dita
-          output-path: out
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      #- name: Build Bootstrap-german ⚙️
+      #- name: md2dita
       #  uses: dita-ot/dita-ot-action@master
       #  with:
-          #dita-ot-version: 3.7.0
-      #    install: |
-      #      apt-get update -q
-      #      export DEBIAN_FRONTEND=noninteractive
-      #      apt-get install -qy --no-install-recommends nodejs
-      #      nodejs -v
-      #    plugins: |
-      #       https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
-      #       https://github.com/infotexture/dita-bootstrap/archive/develop.zip
-      #       https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
-      #    build: |
-      #       dita --project=.github/dita-ot/html.xml
+      #    input: de/md2dita.ditamap
+      #    transtype: dita
+      #    output-path: out
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      - name: Build Bootstrap-german ⚙️
+        uses: dita-ot/dita-ot-action@master
+        with:
+          dita-ot-version: 3.7.0
+          install: |
+            apt-get update -q
+            export DEBIAN_FRONTEND=noninteractive
+            apt-get install -qy --no-install-recommends nodejs
+            nodejs -v
+          plugins: |
+             https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
+             https://github.com/infotexture/dita-bootstrap/archive/develop.zip
+             https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
+          build: |
+             dita --project=.github/dita-ot/html.xml
             
           
           
