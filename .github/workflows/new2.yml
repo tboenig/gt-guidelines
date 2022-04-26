@@ -26,15 +26,28 @@ jobs:
         run: wget https://www.saxonica.com/download/SaxonEE11-1J.zip && unzip SaxonEE11-1J.zip
              
       - name: wiki markdown ditamap
-        run: java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl format=dita -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:de/ocrd_ocrd.ditamap -o:de/md2dita.ditamap
+        run: |
+          java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl \
+           format=dita \
+           -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml \
+           -s:de/ocrd_ocrd.ditamap \
+           -o:de/md2dita.ditamap
       
       
       - name: add wiki faq german
-        run: java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:de/ocrd_ocrd.ditamap -o:de/ocrd_ocrd_wiki.ditamap
+        run: |
+           java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl \
+           -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml \
+           -s:de/ocrd_ocrd.ditamap \
+           -o:de/ocrd_ocrd_wiki.ditamap
 
       
       - name: add wiki faq english
-        run: java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml -s:en/ocrd_ocrd.ditamap -o:en/ocrd_ocrd_wiki.ditamap  
+        run: |
+          java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl \
+          -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml \
+          -s:en/ocrd_ocrd.ditamap \
+          -o:en/ocrd_ocrd_wiki.ditamap  
 
       #- name: md2dita
       #  uses: dita-ot/dita-ot-action@master
@@ -44,30 +57,46 @@ jobs:
       #    output-path: out
       
       
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      - name: Build Bootstrap-german ⚙️
+      - name: Build Bootstrap-german
         uses: dita-ot/dita-ot-action@master
         with:
-          
           install: |
+# Run some arbitrary installation commands
             apt-get update -q
-            export DEBIAN_FRONTEND=noninteractive
             apt-get install -qy --no-install-recommends nodejs
             nodejs -v
-          plugins: |
-             https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
-             https://github.com/infotexture/dita-bootstrap/archive/develop.zip
-             https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
+
+            # Install plugins
+            dita install fox.jason.extend.css
+            dita install org.doctales.xmltask
+            dita install fox.jason.prismjs
           build: |
-             dita --project=.github/dita-ot/html.xml
+# Use the dita command line
+            dita --project=.github/dita-ot/html.xml
+
+      
+      
+      
+      
+      
+      
+      
+      
+      #- name: Build Bootstrap-german ⚙️
+      #  uses: dita-ot/dita-ot-action@master
+      #  with:
+      #    
+      #    install: |
+      #      apt-get update -q
+      #      export DEBIAN_FRONTEND=noninteractive
+      #      apt-get install -qy --no-install-recommends nodejs
+      #      nodejs -v
+      #    plugins: |
+      #       https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
+      #       https://github.com/infotexture/dita-bootstrap/archive/develop.zip
+      #       https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
+      #    build: |
+      #       dita --project=.github/dita-ot/html.xml
             
           
           
