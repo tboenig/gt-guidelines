@@ -10,13 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-     
-      - name: installation nodejs
-        run: |
-         curl -fsSL https://deb.nodesource.com/setup_18.x 
-         sudo -E bash -
-         sudo apt-get install -y nodejs
-
       
       - name: Git checkout
         uses: actions/checkout@v2
@@ -66,6 +59,7 @@ jobs:
       - name: Build Bootstrap-german
         uses: dita-ot/dita-ot-action@master
         with:
+            dita-ot-version: 3.5.4
             plugins : |
               fox.jason.extend.css
               org.doctales.xmltask
