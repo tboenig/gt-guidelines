@@ -56,25 +56,21 @@ jobs:
       #    transtype: dita
       #    output-path: out
       
-      
+      -name: apt-get
+       run: apt-get update && apt-get install -y --no-install-recommends apt-utils
+
+
       - name: Build Bootstrap-german
         uses: dita-ot/dita-ot-action@master
         with:
-          install: |
-            apt-get update -q
-            apt-get install -qy --no-install-recommends nodejs
-            nodejs -v
-
-            # Install plugins
-            dita install fox.jason.extend.css
-            dita install org.doctales.xmltask
-            dita install fox.jason.prismjs
+          plugins: |
+            net.infotexture.dita-bootstrap
           build: |
             dita --project=.github/dita-ot/html.xml
 
       
       
-      
+     
       
       
       
