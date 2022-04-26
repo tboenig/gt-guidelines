@@ -61,7 +61,6 @@ jobs:
         uses: dita-ot/dita-ot-action@master
         with:
           install: |
-# Run some arbitrary installation commands
             apt-get update -q
             apt-get install -qy --no-install-recommends nodejs
             nodejs -v
@@ -71,7 +70,6 @@ jobs:
             dita install org.doctales.xmltask
             dita install fox.jason.prismjs
           build: |
-# Use the dita command line
             dita --project=.github/dita-ot/html.xml
 
       
