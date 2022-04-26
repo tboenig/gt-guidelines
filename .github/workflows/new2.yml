@@ -56,8 +56,7 @@ jobs:
       #    transtype: dita
       #    output-path: out
       
-      -name: apt-get
-       run: apt-get update && apt-get install -y --no-install-recommends apt-utils
+      
 
 
       - name: Build Bootstrap-german
