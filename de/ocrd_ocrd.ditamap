@@ -162,7 +162,7 @@
     <chapter href="trans/page_xml_erweiterungen.dita">
         <topicref href="trans/exif_pagexml_konkordanz.dita"/>
     </chapter>
-    <!--<chapter href="trans/fa.dita"/>-->
+    <chapter href="trans/fa.dita"/>
     <chapter href="trans/impressum.dita"/>
 
 
