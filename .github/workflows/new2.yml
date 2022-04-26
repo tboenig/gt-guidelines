@@ -60,6 +60,9 @@ jobs:
       #    transtype: dita
       #    output-path: out
       
+     
+
+
       
       - name: Build Bootstrap-german
         uses: dita-ot/dita-ot-action@master
@@ -67,6 +70,7 @@ jobs:
           install: |
             apt-get update -q
             export DEBIAN_FRONTEND=noninteractive
+            apt-get install -y apt-utils
             apt-get install -qy --no-install-recommends nodejs
             nodejs -v
 
