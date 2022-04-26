@@ -10,12 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: install node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 14
-      - run: npm install
-      - run: npm test
+     
 
 
       
@@ -70,6 +65,10 @@ jobs:
         uses: dita-ot/dita-ot-action@master
         with:
           install: |
+            apt-get update -q
+            apt-get install -qy --no-install-recommends nodejs
+            nodejs -v
+
             # Install plugins
             dita install https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
             dita install https://github.com/infotexture/dita-bootstrap/archive/develop.zip
