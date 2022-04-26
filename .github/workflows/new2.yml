@@ -59,7 +59,7 @@ jobs:
       - name: Build Bootstrap-german
         uses: dita-ot/dita-ot-action@master
         with:
-            dita-ot-version: 3.6.1
+            dita-ot-version: 3.7
             plugins : |
               fox.jason.extend.css
               org.doctales.xmltask
