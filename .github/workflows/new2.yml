@@ -57,20 +57,20 @@ jobs:
       #    output-path: out
       
       
-
-
       - name: Build Bootstrap-german
         uses: dita-ot/dita-ot-action@master
         with:
-          plugins: |
-            net.infotexture.dita-bootstrap
+          install: |
+            # Install plugins
+            dita install https://github.com/jason-fox/jason.fox.extend.css/archive/master.zip
+            dita install https://github.com/infotexture/dita-bootstrap/archive/develop.zip
+            dita install https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
           build: |
             dita --project=.github/dita-ot/html.xml
 
       
       
-     
-      
+
       
       
       
