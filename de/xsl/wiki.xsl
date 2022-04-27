@@ -8,18 +8,14 @@
     xmlns:in="http://www.intern.de"
     exclude-result-prefixes="#all"
     version="3.0">
-    <xsl:output indent="yes"  
+    <xsl:output indent="yes"
     
     method="xml"
-    standalone="no"
+    standalone="yes"
     doctype-public="-//OASIS//DTD DITA BookMap//EN"
     doctype-system="bookmap.dtd"
+        />
     
-    />
-    
-    
-    
-    <xsl:param name="format"/>
     
     <xsl:variable name="filename" select="document-uri(.)"/>
     
@@ -27,25 +23,8 @@
     <xsl:variable name="coll"><xsl:value-of select="$path"/>/?select=GT-Guide*.md;recurse=no</xsl:variable>
     <xsl:variable name="document-uri" select="document-uri(.)"/>
     
-    <xsl:variable name="test">
-        <xsl:element name="chapter">
-            <xsl:attribute name="href">trans/fa.dita</xsl:attribute>
-            <xsl:attribute name="class">- map/topicref bookmap/chapter </xsl:attribute>
-            <xsl:for-each select="uri-collection($coll)">
-                <xsl:sort/>
-                <xsl:variable name="file" select="substring-after(iri-to-uri(.), 'wiki')"/>
-                <xsl:element name="topicref">
-                    <xsl:attribute name="class">- map/topicref </xsl:attribute>
-                    <xsl:attribute name="format">markdown</xsl:attribute>
-                    <xsl:attribute name="href">ocrd-website.wiki<xsl:value-of select="$file"/></xsl:attribute>
-                </xsl:element>
-            </xsl:for-each>
-            
-            
-        </xsl:element>
-    </xsl:variable>
+    
     <xsl:template match="chapter[@href='trans/fa.dita']">
-        
         <xsl:element name="chapter">
             <xsl:attribute name="href">trans/fa.dita</xsl:attribute>
             <xsl:attribute name="class">- map/topicref bookmap/chapter </xsl:attribute>
@@ -63,30 +42,8 @@
     
  
     <xsl:template match="@*|node()">
-        <xsl:choose>
-            <xsl:when test="$format = 'dita'">
-                <bookmap>
-                    <booktitle>
-                        <mainbooktitle>MD-DITA</mainbooktitle>
-                    </booktitle>
-                <xsl:element name="chapter">
-                    <xsl:attribute name="href">trans/fa.dita</xsl:attribute>
-                    <xsl:attribute name="class">- map/topicref bookmap/chapter </xsl:attribute>
-                    <xsl:for-each select="uri-collection($coll)">
-                        <xsl:sort/>
-                        <xsl:variable name="file" select="substring-after(iri-to-uri(.), 'wiki')"/>
-                        <xsl:element name="topicref">
-                            <xsl:attribute name="class">- map/topicref </xsl:attribute>
-                            <xsl:attribute name="format">markdown</xsl:attribute>
-                            <xsl:attribute name="href">ocrd-website.wiki<xsl:value-of select="$file"/></xsl:attribute>
-                        </xsl:element>
-                    </xsl:for-each>
-                   </xsl:element>
-                </bookmap>
-            </xsl:when>
-            <xsl:otherwise><xsl:copy><xsl:apply-templates select="@*|node()"/></xsl:copy></xsl:otherwise>
-        </xsl:choose>
+        <xsl:copy><xsl:apply-templates select="@*|node()"/></xsl:copy>
     </xsl:template>
     
     
-</xsl:stylesheet>    
+</xsl:stylesheet>
