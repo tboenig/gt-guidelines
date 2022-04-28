@@ -80,10 +80,10 @@ jobs:
       - name: output dir
         run: cd out && sudo mkdir rules
       - name: transform rules
-        run: sudo java -jar saxon-ee-11.1.jar -xsl:de/xsl/rules.xsl -s:de/trans/trFremdsprache.dita -o:out/rules/ruleset_character.json &&
-             sudo java -jar saxon-ee-11.1.jar -xsl:de/xsl/rules.xsl -s:de/trans/trLigaturen2.dita -o:out/rules/ruleset_ligature.json &&
-             sudo java -jar saxon-ee-11.1.jar -xsl:de/xsl/rules.xsl -s:de/trans/trSilbentrennung.dita -o:out/rules/ruleset_hyphenation.json &&
-             sudo java -jar saxon-ee-11.1.jar -xsl:de/xsl/rules.xsl -s:de/trans/level_rom.dita -o:out/rules/ruleset_roman_digits.json
+        run: java -jar saxon-ee-11.1.jar -xsl:de/xsl/rules.xsl -s:de/trans/trFremdsprache.dita -o:out/rules/ruleset_character.json &&
+             java -jar saxon-ee-11.1.jar -xsl:de/xsl/rules.xsl -s:de/trans/trLigaturen2.dita -o:out/rules/ruleset_ligature.json &&
+             java -jar saxon-ee-11.1.jar -xsl:de/xsl/rules.xsl -s:de/trans/trSilbentrennung.dita -o:out/rules/ruleset_hyphenation.json &&
+             java -jar saxon-ee-11.1.jar -xsl:de/xsl/rules.xsl -s:de/trans/trRom.dita -o:out/rules/ruleset_roman_digits.json
 
       
 
