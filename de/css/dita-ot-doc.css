@@ -326,8 +326,9 @@ td {
   /*font-size: 1.2em;*/
 }
 
-td.entry {
+td.entry:nth-of-type(2), td.entry:nth-of-type(3), td.entry:nth-of-type(4) {
   font-family: JuniusVF, Bitter, 'Noto Serif', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
 }
 
 th {
