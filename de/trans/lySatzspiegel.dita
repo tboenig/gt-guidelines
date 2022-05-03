@@ -11,6 +11,51 @@
         <p>Nachdem der Typ einer Seite festgelegt wurde, ist die Auszeichnung und Markierung des
             Satzspiegels eine der ersten analytischen Aufgaben, bevor die einzelnen Textregionen festgelegt
             werden. </p>
+        <p>
+            <imagemap id="imagemap_rbs_xrp_ktb">
+                <image href="images/trSatzspiegel.png" id="image_nmt_wrp_ktb"/>
+                <area>
+                    <shape>rect</shape>
+                    <coords>1603, 7, 1982, 96</coords>
+                    <xref href="lyKolumnentitel.dita" format="dita">Kolumnentitel</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>1614, 104, 1979, 189</coords>
+                    <xref href="lySeitenzahl.dita" format="dita">Seitenzahl</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>1600, 311, 1986, 435</coords>
+                    <xref href="lyMarginalie.dita" format="dita">Marginalie</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>1593, 586, 1971, 685</coords>
+                    <xref href="lyAbsatz.dita" format="dita">u.a. Absatz</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>1606, 1692, 2000, 1792</coords>
+                    <xref href="lyFussnote.dita" format="dita">Fussnote</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>1594, 1838, 1992, 1968</coords>
+                    <xref href="lyBogensignatur.dita" format="dita">Bogensignatur</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>1602, 2014, 1984, 2136</coords>
+                    <xref href="lyKustode.dita" format="dita">Kustode</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>1286, 1118, 1452, 1252</coords>
+                    <xref href="lyMarginalie.dita" format="dita">Marginalie</xref>
+                </area>
+            </imagemap>
+        </p>
     </body>
     
 </topic>

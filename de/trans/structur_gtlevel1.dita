@@ -63,18 +63,25 @@
                         </row>
                         <row>
                             <entry>Seitenrand</entry>
-                            <entry>
-                                <codeph outputclass="language-xml" props="XPath">/PcGts/Page/Border/Coords</codeph></entry>
+                            <entry><codeph outputclass="language-xml" props="XPath"
+                                    >/PcGts/Page/Border/Coords</codeph></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
                             <entry>Satzspiegl</entry>
-                            <entry>
-                                <codeph outputclass="language-xml" props="XPath">/PcGts/Page/PrintSpace/Coords</codeph></entry>
+                            <entry><codeph outputclass="language-xml" props="XPath"
+                                    >/PcGts/Page/PrintSpace/Coords</codeph></entry>
                             <entry/>
                             <entry/>
+                            <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>Leserichtung</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/ReadingOrder</codeph></entry>
+                            <entry/>
+                            <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row outputclass="color1">

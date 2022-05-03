@@ -367,14 +367,14 @@
                     <colspec colname="c2" colnum="4" colwidth="2.28*"/>
                     <colspec colname="newCol5" colnum="5" colwidth="1*"/>
                     <tbody>
-                        <row product="ruleset">
+                        <row>
                             <entry>Vorlage</entry>
                             <entry><b><xref href="tr_level_1.dita">Level 1</xref></b></entry>
                             <entry><b><xref href="tr_level_2.dita">Level 2</xref></b></entry>
                             <entry><b><xref href="tr_level_3.dita">Level 3</xref></b></entry>
                             <entry>Kommentar</entry>
                         </row>
-                        <row product="ruleset">
+                        <row>
                             <entry><image placement="inline" align="right" href="images/trRom1.png"
                                     height="23" width="155" id="image_dnt_2zh_3tb"/></entry>
                             <entry>ⅽIↄ Iↄ c X L VII.</entry>
