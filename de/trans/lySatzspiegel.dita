@@ -13,7 +13,7 @@
             werden. </p>
         <p>
             <imagemap id="imagemap_rbs_xrp_ktb" scale="50" >
-                <image href="images/trSatzspiegel.png" id="image_nmt_wrp_ktb"/>
+                <image href="images/trSatzspiegel.png" id="image_nmt_wrp_ktb" outputclass="img2"/>
                 <area>
                     <shape>rect</shape>
                     <coords>1603, 7, 1982, 96</coords>
