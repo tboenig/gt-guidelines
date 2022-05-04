@@ -12,8 +12,8 @@
             Satzspiegels eine der ersten analytischen Aufgaben, bevor die einzelnen Textregionen festgelegt
             werden. </p>
         <p>
-            <imagemap id="imagemap_rbs_xrp_ktb">
-                <image href="images/trSatzspiegel.jpg" id="image_nmt_wrp_ktb" scale="50"/>
+            <imagemap id="imagemap_rbs_xrp_ktb" scale="50" >
+                <image href="images/trSatzspiegel.png" id="image_nmt_wrp_ktb"/>
                 <area>
                     <shape>rect</shape>
                     <coords>1603, 7, 1982, 96</coords>
