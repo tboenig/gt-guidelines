@@ -12,47 +12,42 @@
             Satzspiegels eine der ersten analytischen Aufgaben, bevor die einzelnen Textregionen festgelegt
             werden. </p>
         <p>
-            <imagemap id="imagemap_rbs_xrp_ktb" scale="50" >
-                <image href="images/trSatzspiegel.png" id="image_nmt_wrp_ktb" outputclass="img2"/>
+            <imagemap id="imagemap_rbs_xrp_ktb">
+                <image href="images/trSatzspiegel2.png" id="image_nmt_wrp_ktb" outputclass="img2"/>
                 <area>
                     <shape>rect</shape>
-                    <coords>1603, 7, 1982, 96</coords>
+                    <coords>576, 17, 718, 50</coords>
                     <xref href="lyKolumnentitel.dita" format="dita">Kolumnentitel</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>1614, 104, 1979, 189</coords>
+                    <coords>577, 51, 719, 84</coords>
                     <xref href="lySeitenzahl.dita" format="dita">Seitenzahl</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>1600, 311, 1986, 435</coords>
+                    <coords>574, 146, 716, 179</coords>
                     <xref href="lyMarginalie.dita" format="dita">Marginalie</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>1593, 586, 1971, 685</coords>
-                    <xref href="lyAbsatz.dita" format="dita">u.a. Absatz</xref>
+                    <coords>573, 254, 715, 287</coords>
+                    <xref href="lyAbsatz.dita" format="dita">Fließtext</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>1606, 1692, 2000, 1792</coords>
-                    <xref href="lyFussnote.dita" format="dita">Fussnote</xref>
+                    <coords>574, 711, 716, 744</coords>
+                    <xref href="lyFussnote.dita" format="dita">Fußnote</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>1594, 1838, 1992, 1968</coords>
-                    <xref href="lyBogensignatur.dita" format="dita">Bogensignatur</xref>
+                    <coords>576, 774, 718, 807</coords>
+                    <xref href="lyBogensignatur.dita" format="dita">Boegensignatur</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>1602, 2014, 1984, 2136</coords>
+                    <coords>574, 843, 716, 876</coords>
                     <xref href="lyKustode.dita" format="dita">Kustode</xref>
-                </area>
-                <area>
-                    <shape>rect</shape>
-                    <coords>1286, 1118, 1452, 1252</coords>
-                    <xref href="lyMarginalie.dita" format="dita">Marginalie</xref>
                 </area>
             </imagemap>
         </p>
