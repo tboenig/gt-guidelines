@@ -49,6 +49,11 @@
                     <coords>574, 843, 716, 876</coords>
                     <xref href="lyKustode.dita" format="dita">Kustode</xref>
                 </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>468, 470, 518, 520</coords>
+                    <xref keyref="lyMarginalie.dita" format="xml">Marginalie</xref>
+                </area>
             </imagemap>
         </p>
     </body>
