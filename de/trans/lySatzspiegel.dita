@@ -7,10 +7,10 @@
             Doppelseite) als Satzspiegel bezeichnet. Er ist mit Ausnahme von Titelblatt und
             mehrseitigen Bildern für alle Seiten eines Buches gleich groß. Bezüglich der Elemente
             enthält er den Textkörper einer Seite einschließlich Fußnoten, Überschriften und
-            lebenden Kolumnentiteln. Demgegenüber werden Seitenzahl (so nicht Bestandteil des
+            lebenden Kolumnentiteln. Demgegenüber werden die Seitenzahl (so nicht Bestandteil des
             Kolumnentitels), Marginalien, Kustoden und Bogensignaturen nicht hinzugezählt.</p>
-        <p>Nachdem der Typ einer Seite festgelegt wurde, ist die Analyse des Satzspiegels eine der
-            ersten Erfassungsaufgaben, bevor die einzelnen Textregionen festgelegt werden. </p>
+        <p>Nachdem der Typ einer Seite festgelegt wurde, wird der Satzspiegels betrachtet,
+            bevor die einzelnen Textregionen festgelegt werden. </p>
         <p>
             <imagemap id="imagemap_rbs_xrp_ktb">
                 <image href="images/trSatzspiegel2.png" id="image_nmt_wrp_ktb" outputclass="img2"/>
