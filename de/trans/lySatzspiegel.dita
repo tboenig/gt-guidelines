@@ -42,7 +42,7 @@
                 <area>
                     <shape>rect</shape>
                     <coords>576, 774, 718, 807</coords>
-                    <xref href="lyBogensignatur.dita" format="dita">Boegensignatur</xref>
+                    <xref href="lyBogensignatur.dita" format="dita">Bogensignatur</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
@@ -52,7 +52,7 @@
                 <area>
                     <shape>rect</shape>
                     <coords>468, 470, 518, 520</coords>
-                    <xref keyref="lyMarginalie.dita" format="xml">Marginalie</xref>
+                    <xref href="lyMarginalie.dita" format="dita">Marginalie</xref>
                 </area>
             </imagemap>
         </p>

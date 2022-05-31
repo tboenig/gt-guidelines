@@ -16,43 +16,43 @@
                 <image href="images/trSatzspiegel2.png" id="image_nmt_wrp_ktb" outputclass="img2"/>
                 <area>
                     <shape>rect</shape>
-                    <coords>576, 17, 718, 50</coords>
-                    <xref href="lyKolumnentitel.dita" format="dita">Kolumnentitel</xref>
+                    <coords>586, 2, 728, 35</coords>
+                    <xref href="lyKolumnentitel.dita" format="dita">Column header</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>577, 51, 719, 84</coords>
-                    <xref href="lySeitenzahl.dita" format="dita">Seitenzahl</xref>
+                    <coords>593, 38, 735, 71</coords>
+                    <xref href="lySeitenzahl.dita" format="dita">Page number</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>574, 146, 716, 179</coords>
-                    <xref href="lyMarginalie.dita" format="dita">Marginalie</xref>
+                    <coords>593, 119, 735, 152</coords>
+                    <xref href="lyMarginalie.dita" format="dita">Marginalia</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>573, 254, 715, 287</coords>
-                    <xref href="lyAbsatz.dita" format="dita">Fließtext</xref>
+                    <coords>591, 217, 733, 250</coords>
+                    <xref href="lyAbsatz.dita" format="dita">Text body</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>574, 711, 716, 744</coords>
-                    <xref href="lyFussnote.dita" format="dita">Fußnote</xref>
+                    <coords>590, 631, 732, 664</coords>
+                    <xref href="lyFussnote.dita" format="dita">Footnote</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>576, 774, 718, 807</coords>
-                    <xref href="lyBogensignatur.dita" format="dita">Boegensignatur</xref>
+                    <coords>594, 688, 736, 721</coords>
+                    <xref href="lyBogensignatur.dita" format="dita">Signature mark</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>574, 843, 716, 876</coords>
-                    <xref href="lyKustode.dita" format="dita">Kustode</xref>
+                    <coords>590, 752, 732, 785</coords>
+                    <xref href="lyKustode.dita" format="dita">Catch word</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>468, 470, 518, 520</coords>
-                    <xref keyref="lyMarginalie.dita" format="xml">Marginalie</xref>
+                    <coords>482, 413, 532, 463</coords>
+                    <xref href="lyMarginalie.dita" format="dita">Marginalia</xref>
                 </area>
             </imagemap>
         </p>
