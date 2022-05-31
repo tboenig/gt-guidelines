@@ -6,19 +6,19 @@
        
 <p>Um inhaltliche und formale Zusammenhänge nicht zu zerreißen, werden Regionen auf <b>einer
                 Seite</b> mit einer ReadingOrder (Leserichtung) geordnet und gruppiert. Eine
-            ReadingOrder besteht ausschließlich nur zwischen <b>Regionen</b>. Die Leserichtung in
-            einer Zeile wird nur durch die Reihenfolge der einzelnen Word-Elemente bestimmt, eine
-            explizite Auszeichnung ist nicht vorgesehen. </p>
+            ReadingOrder besteht ausschließlich nur zwischen <b>Regionen</b>. Mit einer ReadingOrder
+            wird einen Ordnung von Regionen festgelegt. Die Leserichtung in einer Zeile wird nur
+            durch die Reihenfolge der einzelnen Word-Elemente bestimmt, eine explizite Auszeichnung
+            ist nicht vorgesehen. </p>
         
         <section>
             <title>Festlegung der Leserichtung</title>
-        <p>Die Festlegung erfolgt pragmatisch. Das bedeutet, dass:</p>
+        <p>Die Festlegung erfolgt pragmatisch. Das bedeutet:</p>
         <ul id="ul_op1_rhp_ktb">
-            <li>die Regionen einer Seite zunächst von links nach rechts (bei linksläufigen Schriften
-                rechts nach links) </li>
-            <li>und von oben nach unten unter Beachtung einer Spalteneinteilung geordnet
-                werden.</li>
-            <li>Fußnoten, Endnoten sind nachdem Regionen wie Absätze zu zuordnen.</li>
+            <li>die Regionen einer Seite sind zunächst von links nach rechts (bei linksläufigen
+                    Schriften rechts nach links) </li>
+            <li>und von oben nach unten unter Beachtung einer Spaltenaufteilung zu ordnen.</li>
+            <li>Fußnoten, Endnoten sind in der Regel nach Regionen wie Absätze zu zuordnen.</li>
             <li>Regionen, die sich außerhalb des Satzspiegels befinden wie Marginalien, Kustoden und
                 Bogensignaturen, sind immer nach den Regionen wie Überschriften, Absätze oder
                 Fußnoten zu betrachten und zu zuordnen.</li>
@@ -26,42 +26,50 @@
         <section>
             <title>Page-Kodierung</title>
             <p>Die Angabe der ReadingOrder erfolgt mit dem Element <codeph>&lt;ReadingOrder></codeph>. </p>
-            <p><ul id="ul_j2l_lx1_vfb"><li>Handelt es sich um in Beziehung stehende Elemente (z.B. bei einer Überschrift und dem dazu
-                folgenden Absatz), ist die Leserichtung vom Typ „geordnet“ in diesem Fall
-                ist das Element <codeph>&lt;OrderedGroup&gt;</codeph> zu verwenden.<ul
-                    id="ul_qzf_chp_ktb">
-                    <li>Durch eine laufende Nummerierung (beginnend bei Null) wird die Leserichtung
-                                bei einer „geordneten“ Leserichtung indiziert und
+            <p><ul id="ul_j2l_lx1_vfb"><li>Handelt es sich um in Beziehung stehende Elemente (z. B. bei einer Überschrift und dem dazu
+                        folgenden Absatz), ist die Leserichtung vom Typ „geordnet“. In diesem Fall
+                        ist das Element <codeph>&lt;OrderedGroup&gt;</codeph> zu verwenden.<ul
+                            id="ul_qzf_chp_ktb">
+                            <li>Durch eine laufende Nummerierung (beginnend bei Null) wird die
+                                Leserichtung bei einer „geordneten“ Leserichtung indiziert und
                                 festgelegt.<codeblock id="codeblock_cwc_hz4_ktb" outputclass="language-xml">&lt;ReadingOrder>
   &lt;OrderedGroup id="ro_1542194237187" caption="Regions reading order">
       &lt;RegionRefIndexed index="0" regionRef="r_1"/>
       &lt;RegionRefIndexed index="1" regionRef="r_2"/>
   &lt;/OrderedGroup>
 &lt;/ReadingOrder></codeblock></li>
-                </ul></li>
-                <li>Handelt es sich um gleichberechtigte Elemente (z.B. bei Werbung), die für sich
-                    allein stehen, ist die Leserichtung vom Typ „ungeordnet“ in diesem Fall ist
-                    das Element <codeph>&lt;UnorderedGroup&gt;</codeph> zu verwenden.<ul
-                        id="ul_z5m_chp_ktb">
-                        <li>Bei der „ungeordneten“ Leserichung wird keine Indizierung vorgenommen.
+                        </ul></li>
+                <li>Handelt es sich um gleichberechtigte Elemente (z. B. bei Werbung), die für sich
+                        allein stehen kann, ist die Leserichtung vom Typ „ungeordnet“. In diesem
+                        Fall ist das Element <codeph>&lt;UnorderedGroup&gt;</codeph> zu
+                            verwenden.<ul id="ul_z5m_chp_ktb">
+                            <li>Bei der „ungeordneten“ Leserichung wird <b>keine</b> Indizierung
+                                vorgenommen.
                                 <codeblock id="codeblock_hhn_hz4_ktb">&lt;ReadingOrder>
   &lt;UnorderedGroup id="ro_1542194237187" caption="Regions reading order">
       &lt;RegionRef regionRef="r_1"/>
       &lt;RegionRef regionRef="r_2"/>
   &lt;/UnorderedGroup>
 &lt;/ReadingOrder></codeblock></li>
-                    </ul></li>
+                        </ul></li>
             </ul></p>
         </section>
         
-<p/>
+
+        
         
         <example><title>Bildbeispiele</title>
 <p><image href="images/lyLeserichtung.png" id="image_oqf_ld4_4bb"/></p>
 <p><image href="images/lyLeserichtung2.png" id="image_y5g_cf4_4bb"/></p>
-            <p><image href="images/lyLeserichtung3.png" id="image_n43_qk4_4bb"/></p></example>
+            <p><image href="images/lyLeserichtung3.png" id="image_n43_qk4_4bb"/></p>
+        </example>
     </body>
     <related-links>
         <link href="structur_gtlevel1.dita"/>
+        <link
+            href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/erasmus_testamenti_1523/GT-PAGE/erasmus_testamenti_1523_0012.xml"
+            format="html" scope="external">
+            <linktext>Beispiel für  ReadingOrder/OrderedGroup </linktext>
+        </link>
     </related-links>
 </topic>
