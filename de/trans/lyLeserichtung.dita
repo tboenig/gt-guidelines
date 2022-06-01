@@ -7,7 +7,7 @@
 <p>Um inhaltliche und formale Zusammenhänge nicht zu zerreißen, werden Regionen auf <b>einer
                 Seite</b> mit einer ReadingOrder (Leserichtung) geordnet und gruppiert. Eine
             ReadingOrder besteht ausschließlich nur zwischen <b>Regionen</b>. Mit einer ReadingOrder
-            wird einen Ordnung von Regionen festgelegt. Die Leserichtung in einer Zeile wird nur
+            wird eine Ordnung von Regionen festgelegt. Die Leserichtung in einer Zeile wird nur
             durch die Reihenfolge der einzelnen Word-Elemente bestimmt, eine explizite Auszeichnung
             ist nicht vorgesehen. </p>
         
@@ -18,10 +18,11 @@
             <li>die Regionen einer Seite sind zunächst von links nach rechts (bei linksläufigen
                     Schriften rechts nach links) </li>
             <li>und von oben nach unten unter Beachtung einer Spaltenaufteilung zu ordnen.</li>
-            <li>Fußnoten, Endnoten sind in der Regel nach Regionen wie Absätze zu zuordnen.</li>
-            <li>Regionen, die sich außerhalb des Satzspiegels befinden wie Marginalien, Kustoden und
-                Bogensignaturen, sind immer nach den Regionen wie Überschriften, Absätze oder
-                Fußnoten zu betrachten und zu zuordnen.</li>
+            <li>Fußnoten, Endnoten sind in der Regel nach den Regionen wie Absätze zu zuordnen.</li>
+            <li>Regionen, die sich außerhalb des <xref href="lySatzspiegel.dita"
+                        >Satzspiegels</xref> befinden wie Marginalien, Kustoden und Bogensignaturen,
+                    sind immer nach den Regionen wie Überschriften, Absätze oder Fußnoten zu
+                    betrachten und zu zuordnen.</li>
         </ul></section>
         <section>
             <title>Page-Kodierung</title>
@@ -38,6 +39,11 @@
       &lt;RegionRefIndexed index="1" regionRef="r_2"/>
   &lt;/OrderedGroup>
 &lt;/ReadingOrder></codeblock></li>
+                            <li><xref scope="external"
+                                    href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/erasmus_testamenti_1523/GT-PAGE/erasmus_testamenti_1523_0012.xml"
+                                    format="html"> Beispiel für eine ReadingOrder/OrderedGroup
+                                </xref>
+                            </li>
                         </ul></li>
                 <li>Handelt es sich um gleichberechtigte Elemente (z. B. bei Werbung), die für sich
                         allein stehen kann, ist die Leserichtung vom Typ „ungeordnet“. In diesem
@@ -45,7 +51,7 @@
                             verwenden.<ul id="ul_z5m_chp_ktb">
                             <li>Bei der „ungeordneten“ Leserichung wird <b>keine</b> Indizierung
                                 vorgenommen.
-                                <codeblock id="codeblock_hhn_hz4_ktb">&lt;ReadingOrder>
+                                <codeblock id="codeblock_hhn_hz4_ktb" outputclass="language-xml">&lt;ReadingOrder>
   &lt;UnorderedGroup id="ro_1542194237187" caption="Regions reading order">
       &lt;RegionRef regionRef="r_1"/>
       &lt;RegionRef regionRef="r_2"/>
@@ -66,10 +72,6 @@
     </body>
     <related-links>
         <link href="structur_gtlevel1.dita"/>
-        <link
-            href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/erasmus_testamenti_1523/GT-PAGE/erasmus_testamenti_1523_0012.xml"
-            format="html" scope="external">
-            <linktext>Beispiel für  ReadingOrder/OrderedGroup </linktext>
-        </link>
+        
     </related-links>
 </topic>
