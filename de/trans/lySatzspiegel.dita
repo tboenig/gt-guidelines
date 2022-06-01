@@ -16,42 +16,42 @@
                 <image href="images/trSatzspiegel2.png" id="image_nmt_wrp_ktb" outputclass="img2"/>
                 <area>
                     <shape>rect</shape>
-                    <coords>576, 17, 718, 50</coords>
+                    <coords>467, 2, 577, 27</coords>
                     <xref href="lyKolumnentitel.dita" format="dita">Kolumnentitel</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>577, 51, 719, 84</coords>
+                    <coords>470, 30, 576, 54</coords>
                     <xref href="lySeitenzahl.dita" format="dita">Seitenzahl</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>574, 146, 716, 179</coords>
+                    <coords>468, 96, 577, 121</coords>
                     <xref href="lyMarginalie.dita" format="dita">Marginalie</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>573, 254, 715, 287</coords>
+                    <coords>466, 171, 574, 198</coords>
                     <xref href="lyAbsatz.dita" format="dita">Fließtext</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>574, 711, 716, 744</coords>
+                    <coords>467, 497, 580, 522</coords>
                     <xref href="lyFussnote.dita" format="dita">Fußnote</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>576, 774, 718, 807</coords>
+                    <coords>466, 542, 577, 568</coords>
                     <xref href="lyBogensignatur.dita" format="dita">Bogensignatur</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>574, 843, 716, 876</coords>
+                    <coords>467, 593, 578, 619</coords>
                     <xref href="lyKustode.dita" format="dita">Kustode</xref>
                 </area>
                 <area>
                     <shape>rect</shape>
-                    <coords>468, 470, 518, 520</coords>
+                    <coords>376, 327, 418, 361</coords>
                     <xref href="lyMarginalie.dita" format="dita">Marginalie</xref>
                 </area>
             </imagemap>
