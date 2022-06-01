@@ -28,7 +28,7 @@
             <p>The ReadingOrder is specified with the <codeph>&lt;ReadingOrder></codeph> element. </p>
             <ul id="ul_blm_1br_stb">
                 <li>If the elements are related (e.g. a heading and the following paragraph), the
-                    reading order is of the type "ordered". In this case, the &lt;OrderedGroup>
+                    reading order is of the type "ordered". In this case, the <codeph>&lt;OrderedGroup></codeph>
                     element must be used.<ul id="ul_nry_fbr_stb">
                         <li>The reading direction for an "ordered" reading direction is indexed and
                             defined by sequential numbering (starting at

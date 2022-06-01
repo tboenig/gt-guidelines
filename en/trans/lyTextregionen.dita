@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyTextregionen">
-<title>Second Step: Page Regions</title>
+<title>Page Regions</title>
 <body>
         <p>On one page there are structurally and contentwise different regions. Once the print
             space has been determined and labelled, the layout is analyzed. Different regions have
