@@ -4,8 +4,10 @@
 <title>Seitenregionen</title>
 <body>
 <p>Auf einer Seite befinden sich verschiedene strukturell sowie inhaltliche unterschiedliche
-Regionen. Nachdem der Satzspiegel bestimmt und ausgezeichnet wurde, wird das Layout analysiert.
-Hierbei sind verschiedene Regionen zu unterscheiden und als diese auszuzeichnen:</p>
+            Regionen. Nachdem der Satzspiegel betrachtet oder im <xref href="structur_gtlevel1.dita"
+                >Erfassungslevel 3 (Struktur-GT Level)</xref> ausgezeichnet wurde, wird das Layout
+            analysiert. Hierbei sind verschiedene Regionen zu unterscheiden und als diese
+            auszuzeichnen:</p>
 <ul id="ul_uxc_wdj_r1b">
 <li><xref href="lytextregion.dita#textregionen__textregion_">Textregion</xref> : TextRegion, </li>
 <li><xref href="lyBildbereiche.dita#lyBildbereiche">Abbildungen, Fotos</xref> : ImageRegion,</li>
