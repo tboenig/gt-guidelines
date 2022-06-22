@@ -17,11 +17,11 @@
             <desc>Link: https://www.deutsche-digitale-bibliothek.de/newspaper/item/MZUUFGMCRVPAJE4WGHIU2HAPCSN36L6G?issuepage=4</desc>
             <image href="images/lyWerbung2.png" id="image_stj_flm_ytb" scale="40"/>
         </fig>
-        <li><xref scope="external"
+        <ul><li><xref scope="external"
             href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/werbung/GT-PAGE/werbung.xml"
             format="html">Beispieldaten für Werbung in einer Zeitung
         </xref>
-        </li>
+        </li></ul>
         <fig>
             <title>Detail Anzeige in einer Zeitung</title>
             <desc>Link: https://www.deutsche-digitale-bibliothek.de/newspaper/item/MZUUFGMCRVPAJE4WGHIU2HAPCSN36L6G?issuepage=4</desc>
