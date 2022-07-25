@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ground_truth_arten">
+    <title>Ground-Truth-Typ</title>
+    <body>
+        <section><title>Dokument-GT</title>
+            <p>Der Ground Truth enthält annotierte und vollständige Dokumente. Ein <b>vollständiges
+                    Dokument</b> ist u.a. ein Buch oder ein Artikel. Annotationen des Textes und der
+                Dokument-Struktur (zum Beispiel: Überschriften, Absätze, Fußnoten) sind vorgenommen
+                worden.</p></section>
+        <section><title>Struktur-GT</title>
+            <p>Der Ground Truth enthält annotierte Dokumentteile wie einzelne Seiten oder Absätze.
+                Ausschließlich die Annotation der <b>Dokument-Struktur</b> (zum Beispiel:
+                Überschriften, Absätze, Fußnoten) ist vorgenommen worden.</p></section>
+        <section><title>Struktur und Text-GT</title>
+            <p>Der Ground Truth enthält annotierte Dokumentteile wie einzelne Seiten oder Absätze.
+                Annotationen des <b>Textes und der Dokument-Struktur</b> (zum Beispiel:
+                Überschriften, Absätze, Fußnoten) sind vorgenommen worden.</p></section>
+        <section><title>Zeilen-GT</title>
+            <p>Der Ground Truth enthält ausschließlich annotierte <b>Dokumentzeilen</b>.
+                Annotationen des Textes sowie der Zeile sind vorgenommen worden.</p></section>
+    </body>
+    <related-links>
+        <link href="structur_gt.dita"/>
+        <link href="transkription.dita"/>
+    </related-links>
+</topic>

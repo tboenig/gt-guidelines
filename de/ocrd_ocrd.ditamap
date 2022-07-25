@@ -4,7 +4,7 @@
     <booktitle>
         <mainbooktitle>Ground Truth Richtlinien</mainbooktitle>
 
-    </booktitle>
+    </booktitle> 
     <bookmeta>
         <authorinformation>
             <personinfo>
@@ -30,6 +30,7 @@
     </bookmeta>
     <chapter href="trans/index.dita">
         <topicref href="trans/trDokuKonventionen.dita"/>
+        <topicref href="trans/ground_truth_typ.dita"/>
     </chapter>
     <chapter href="trans/trLevels.dita"/>
 

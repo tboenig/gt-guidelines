@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ground_truth_arten">
+    <title>Ground Truth Type</title>
+    <body>
+        <section><title>Document GT</title>
+            <p>The Ground Truth contains annotated and complete documents. A <b>complete
+                    document</b> is, for example, a book or an article. Annotations of the text and
+                document structure (for example: headings, paragraphs, footnotes) have been
+                made.</p></section>
+        <section><title>Structure GT</title>
+            <p>The ground truth contains annotated document parts such as individual pages or
+                paragraphs. Exclusively annotation of the <b>document structure</b> (for example:
+                headings, paragraphs, footnotes) has been done.</p></section>
+        <section>
+            <title>Structure and text GT</title>
+            <p>Ground truth contains annotated document parts such as individual pages or
+                paragraphs. Annotations of the <b>text and document structure</b> (for example:
+                headings, paragraphs, footnotes) have been made.</p></section>
+        <section><title><b>Line GT</b></title>
+            <p>The ground truth contains annotated <b>document lines</b> only. Annotations of the
+                text as well as the line have been made.</p></section>
+    </body>
+    <related-links>
+        <link href="structur_gt.dita"/>
+        <link href="transkription.dita"/>
+    </related-links>
+</topic>
