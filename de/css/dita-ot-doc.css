@@ -120,9 +120,10 @@ pre,
 .filepath,
 .msgnum,
 .option,
-.parmname {
+.parmname 
+.codeph {
   color: #777;
-  font-family: 'Noto Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, 'Courier New', monospace, JuniusVF;
+  font-family: 'Noto Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, 'Courier New', monospace, JuniusVF !important;
   font-size: 90%;
 }
 
