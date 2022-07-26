@@ -60,8 +60,7 @@ jobs:
         uses: dita-ot/dita-ot-action@master
         with:
             install: |
-              apt-get update -q
-              apt-get install -qy --no-install-recommends nodejs
+              sudo apt install nodejs
             dita-ot-version: 3.7
             plugins : |
               fox.jason.extend.css
