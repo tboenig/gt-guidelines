@@ -39,6 +39,10 @@ jobs:
       - name: Download and install node
         run: |
            sudo apt install nodejs
+           sudo mkdir /opt/app
+           cd /opt/app
+           sudo ln -s /user/bin/node /opt/app
+
       
       - name: add wiki faq german
         run: |
