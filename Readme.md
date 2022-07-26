@@ -3,7 +3,7 @@
 - mainpage: https://ocr-d.de/de/gt-guidelines/trans
 - beta-version: 
      -    german: https://tboenig.github.io/gt-guidelines/html/trans/index.html
-     -    english: https://tboenig.github.io/gt-guidelines/html_en/trans/index.html
+     -    english: https://tboenig.github.io/gt-guidelines/html_en/en/trans/index.html
 
 
 
