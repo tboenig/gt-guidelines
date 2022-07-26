@@ -62,7 +62,7 @@ jobs:
             install: |
               apt-get update -q
               export DEBIAN_FRONTEND=noninteractive
-              apt-get install -y apt-utils
+              apt-get install -qy --no-install-recommends apt-utils
               apt-get install -qy --no-install-recommends nodejs
             dita-ot-version: 3.7
             plugins : |
