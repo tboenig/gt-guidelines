@@ -36,10 +36,7 @@ jobs:
            wget https://www.saxonica.com/download/SaxonEE11-1J.zip
            unzip SaxonEE11-1J.zip
              
-      - name: Set Node.js version 12.x
-        uses: actions/setup-node@v1
-        with:
-            node-version: 12.x
+      
            
 
       
@@ -62,6 +59,9 @@ jobs:
       - name: Build Bootstrap-german
         uses: dita-ot/dita-ot-action@master
         with:
+            install: |
+              apt-get update -q
+              apt-get install -qy --no-install-recommends nodejs
             dita-ot-version: 3.7
             plugins : |
               fox.jason.extend.css
