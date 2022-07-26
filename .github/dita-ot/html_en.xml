@@ -7,7 +7,7 @@
       <ditaval href="html.ditaval"/>
     </profile>
   </context>
- <deliverable name="HTML5" id="html">
+ <deliverable name="HTML5" id="html_en">
     <context idref="html_en"/>
     <output href="html_en"/>
     <publication transtype="html5">
