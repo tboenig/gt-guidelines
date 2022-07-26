@@ -48,7 +48,7 @@ jobs:
       
       - name: add wiki faq english
         run: |
-          java -jar saxon-ee-11.1.jar -xsl:de/xsl/wiki.xsl \
+          java -jar saxon-ee-11.1.jar -xsl:en/xsl/wiki.xsl \
           -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml \
           -s:en/ocrd_ocrd.ditamap \
           -o:en/ocrd_ocrd_wiki.ditamap  
@@ -86,17 +86,7 @@ jobs:
              sudo java -jar saxon-ee-11.1.jar -xsl:de/xsl/rules.xsl -s:de/trans/trRom.dita -o:out/rules/ruleset_roman_digits.json
 
       
-
-    #  - name: Deploy HTML 🚀
-    #    uses: JamesIves/github-pages-deploy-action@3.7.1
-    #    with:
-    #      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #      BRANCH: gh-pages # The branch the action should deploy to.
-    #      FOLDER: out # The folder the action should deploy.
-      
-          
-
-      
+    
      # - name: Build PDF
      #   uses: dita-ot/dita-ot-action@master
      #   with:
