@@ -298,7 +298,9 @@ Tables
 ****************************************/
 .frame-all {
     border: solid 1px;
-    max-width: 70% !important;
+    /**max-width: 70% !important;**/
+    display: block;
+    overflow-x: auto;
 }
 
 
@@ -580,7 +582,7 @@ footer {
     margin: 0;
     padding: 0.5em 1em;
     position: fixed;
-    right: 0;
+    /**right: 0;**/
     opacity: 0.5;
     border-radius: 20px;
     border-top-color: #777;
