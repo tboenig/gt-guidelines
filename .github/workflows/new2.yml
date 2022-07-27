@@ -62,24 +62,31 @@ jobs:
             install: |
               apt-get update -q
               export DEBIAN_FRONTEND=noninteractive
-              apt-get install -qy --no-install-recommends apt-utils
               apt-get install -qy --no-install-recommends nodejs
             dita-ot-version: 3.7
             plugins : |
               fox.jason.extend.css
+              net.infotexture.dita-bootstrap
               org.doctales.xmltask
               fox.jason.prismjs
+              fox.jason.favicon
             project: .github/dita-ot/html.xml
 
 
       - name: Build Bootstrap-english
         uses: dita-ot/dita-ot-action@master
         with:
+            install: |
+              apt-get update -q
+              export DEBIAN_FRONTEND=noninteractive
+              apt-get install -qy --no-install-recommends nodejs
             dita-ot-version: 3.7
             plugins : |
               fox.jason.extend.css
+              net.infotexture.dita-bootstrap
               org.doctales.xmltask
               fox.jason.prismjs
+              fox.jason.favicon
             project: .github/dita-ot/html_en.xml      
 
           
