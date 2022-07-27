@@ -298,7 +298,7 @@ Notes
 Tables
 ****************************************/
 .frame-all {
-    border: solid 1px;
+  border: solid 0px !important;
     /**max-width: 70% !important;**/
     display: block;
     overflow-x: auto;
