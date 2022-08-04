@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sprache">
+    <title>Sprache</title>
+    <body>
+<section>
+    <title>Seite</title>
+    <p></p>
+</section>
+        <section>
+            <title>Region</title>
+            <p></p>
+        </section>
+        <section>
+            <title>Zeile</title>
+            <p></p>
+        </section>
+        <section>
+            <title>Wort</title>
+            <p></p>
+        </section>
+        <p></p>
+    </body>
+</topic>
