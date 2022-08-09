@@ -49,8 +49,8 @@
         <p>Die Werte der Attribute werden vom PAGE-XML-Schema vorgegeben. Sie entsprechen der <b>ISO
                 639</b> zur Kennzeichnung von Sprachen. Angegeben wird nicht ein Kürzel, sondern die
             von der ISO normierte Sprachbezeichnung. </p>
-        <p importance="high">Da die Sprachangabe auf verschiedenen Ebenen möglich ist, gilt folgende
-            Regelung, untergeordnete Ebene haben Vorrang vor der Angabe der höheren Ebene.</p>
+        <note type="tip" importance="high">Da die Sprachangabe auf verschiedenen Ebenen möglich ist, gilt folgende
+            Regelung, untergeordnete Ebene haben Vorrang vor der Angabe der höheren Ebene.</note>
         
 <section>
     <title>Page : Seite</title>
@@ -60,18 +60,18 @@
                         href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml"
                         format="html">nn_auszug_1701_061.xml</xref>
                     </desc><image href="images/sprache_page.png" id="image_bzf_cry_l5b" scale="50"/></fig>
-                    <p importance="high">Auf dieser Seite werden nur zwei Sprachen verwendet, aus
+                    <note type="tip" importance="high">Auf dieser Seite werden nur zwei Sprachen verwendet, aus
                         diesem Grund kann die Haupt- und Nebensprache (<i>@primaryLanguage,
-                            @secondaryLanguage</i>) angegebene werden.</p></li>
+                            @secondaryLanguage</i>) angegebene werden.</note></li>
                 <li><codeph>&lt;Page primaryLanguage="German"></codeph><fig><title>Beispielseite mit vier Sprachen</title><desc><xref scope="external"
                     href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/zesen_assenat_1670/GT-PAGE/zesen_assenat_1670_0382.xml"
                     format="html">zesen_assenat_1670_0382.xml</xref></desc><image
                             href="images/sprache_page2.png" id="image_td2_4sz_l5b" scale="50"
-                        /></fig><p importance="high">Auf dieser Seite werden vier Sprachen (Deutsch,
+                    /></fig><note type="tip" importance="high">Auf dieser Seite werden vier Sprachen (Deutsch,
                         Latein, Griechisch, Hebräisch) verwendet. Die Hauptsprache ist Deutsch, sie
                         wird angegeben. Die weiteren Sprachen werden auf der Wort-Ebene angegeben.
                         Wenn keine Wortsegmentierung verfügbar ist, wird empfohlen, die Angabe der
-                        Sprache im METS-Datensatz (GT-labelling) anzugeben. </p></li></ul>
+                        Sprache im METS-Datensatz (GT-labelling) anzugeben. </note></li></ul>
             
 </section>
         <section>
@@ -101,10 +101,10 @@
                         href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml"
                         format="html">nn_auszug_1701_061.xml</xref></desc><image
                         href="images/sprache_line.png" id="image_mvz_sqy_l5b" scale="50"/></fig>
-                    <p importance="high">Im Beispiel ist zu sehen, dass sowohl deutsch als auch
+                    <note type="tip" importance="high">Im Beispiel ist zu sehen, dass sowohl deutsch als auch
                         lateinische Worte in der Zeile vorhanden sind. Es wird nur die Hauptsprache
                             <i>primaryLanguage</i> angegeben. Die Angabe einer secondaryLanguage ist
-                        nicht möglich. </p></li>
+                        nicht möglich. </note></li>
             </ul>
             <p/>
         </section>
