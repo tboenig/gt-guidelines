@@ -46,7 +46,7 @@
             </table></p>
         <p>Unterschieden wird zwischen der <i>language</i> (Sprache), <i>primary language</i> (Erst-
             oder Hauptsprache) und der <i>secondary language</i> (Zweit- oder Nebensprache).
-                <i>language</i>, <i>primary language</i> und <i>secondary language</i> sind
+                <i>Language</i>, <i>primary language</i> und <i>secondary language</i> sind
             Attribute (siehe <xref href="#sprache/table_r34_hly_l5b">Tabelle</xref>).</p>
         <p>Die Werte der Attribute werden vom PAGE-XML-Schema vorgegeben. Sie entsprechen der
                     <b><xref href="https://de.wikipedia.org/wiki/ISO_639" format="html"
