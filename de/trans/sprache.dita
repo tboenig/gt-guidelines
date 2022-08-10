@@ -44,7 +44,7 @@
                     </tbody>
                 </tgroup>
             </table></p>
-        <p>Unterschieden wird zwischen der <i>language</i> (Sprache),<i>primary language</i> (Erst-
+        <p>Unterschieden wird zwischen der <i>language</i> (Sprache), <i>primary language</i> (Erst-
             oder Hauptsprache) und der <i>secondary language</i> (Zweit- oder Nebensprache).
                 <i>language</i>, <i>primary language</i> und <i>secondary language</i> sind
             Attribute (siehe <xref href="#sprache/table_r34_hly_l5b">Tabelle</xref>).</p>
@@ -105,14 +105,17 @@
                         format="html">nn_auszug_1701_061.xml</xref></desc><image href="images/sprache_line1.png" id="image_td3_bsy_l5b" scale="50"/></fig>
                 </li>
                 <li><codeph>&lt;TextLine primaryLanguage="Latin"></codeph>
-                    <fig><title>TextLine mit zwei Sprachen</title><desc><xref scope="external"
-                        href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml"
-                        format="html">nn_auszug_1701_061.xml</xref></desc><image
-                        href="images/sprache_line.png" id="image_mvz_sqy_l5b" scale="50"/></fig>
-                    <note type="remember">Im Beispiel ist zu sehen, dass sowohl deutsch als auch
-                        lateinische Worte in der Zeile vorhanden sind. Es wird nur die Hauptsprache
-                            <i>primaryLanguage</i> angegeben. Die Angabe einer secondaryLanguage ist
-                        nicht möglich. </note></li>
+                    <fig>
+                        <title>TextLine mit zwei Sprachen</title>
+                        <desc><xref scope="external"
+                                href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml"
+                                format="html">nn_auszug_1701_061.xml</xref></desc>
+                        <image href="images/sprache_line.png" id="image_mvz_sqy_l5b" scale="50"/>
+                    </fig>
+                    <note type="remember">Im Beispiel ist zu sehen, dass sowohl deutschsprachige als
+                        auch lateinischsprachige Worte in der Zeile vorhanden sind. Es wird nur die
+                        Hauptsprache <i>primaryLanguage</i> angegeben. Die Angabe einer
+                        secondaryLanguage ist nicht möglich. </note></li>
             </ul>
             <p/>
         </section>
