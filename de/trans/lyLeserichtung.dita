@@ -79,10 +79,10 @@
                         </ul></li><li>In einigen Fällen ist auch eine Mischform von <i>ungeordnet</i> und <i>geordnet</i> möglich.
                         Innerhalb eines Anzeigenteils einer Zeitung sind die einzelnen Anzeigen
                             <i>ungeordnet</i>. Aber innerhalb der Anzeige kann davon ausgegangen
-                        werden, das u.a. Abstätze, Grafiken in geordneten Beziehungen zu einander
-                        stehen. <ul id="ul_g3q_wy4_ytb">
+                        werden, das u.a. Abstätze, Grafiken in <i>geordneten Beziehungen</i> zu
+                        einander stehen. <ul id="ul_g3q_wy4_ytb">
                             <li>
-                                <codeblock id="codeblock_f15_dz4_ytb" outputclass="language-xml">&lt;ReadingOrder>
+<codeblock id="codeblock_f15_dz4_ytb" outputclass="language-xml">&lt;ReadingOrder>
 	&lt;UnorderedGroup id="ab1">
 		&lt;UnorderedGroup id="ug19">
 			&lt;OrderedGroup id="og19">
@@ -104,12 +104,17 @@
 &lt;/ReadingOrder>
 </codeblock>
                             </li>
-                            <li><fig>
-                                    <title>Mischform von ungeordneter und geordneter Leserichtung</title>
-                                <desc><xref scope="external" format="html"
-                                    href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/werbung/GT-PAGE/werbung_unordered.xml">werbung_unordered.xml</xref></desc>
-                                <image href="images/lyLeserichtung_misch.jpg" scale="50"
-                                    id="image_yxj_y2p_ytb"/></fig></li>
+                            <li>
+                                <fig>
+                                    <title>Mischform von ungeordneter und geordneter
+                                        Leserichtung</title>
+                                    <desc><xref scope="external" format="html"
+                                            href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/werbung/GT-PAGE/werbung_unordered.xml"
+                                            >werbung_unordered.xml</xref></desc>
+                                    <image href="images/lyLeserichtung_misch.jpg" scale="50"
+                                        id="image_yxj_y2p_ytb"/>
+                                </fig>
+                            </li>
                         </ul></li>
                 </ul>
             </p>

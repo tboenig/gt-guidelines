@@ -128,13 +128,12 @@
                         Hauptsprache <i>primaryLanguage</i> angegeben. Die Angabe einer
                         secondaryLanguage ist nicht möglich. </note></li>
             </ul>
-            <p/>
         </section>
         <section>
             <title>Word : Wort</title>
             <p><codeph>&lt;Word language="Latin"></codeph></p>
             <fig>
-                <title>Word in Latein</title>
+                <title>Wort in Latein</title>
                 <desc><xref scope="external"
                         href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml"
                         format="html">nn_auszug_1701_061.xml</xref></desc>
