@@ -640,20 +640,6 @@
                         <entry/>
                     </row>
                     <row product="ruleset">
-                        <entry dir="ltr"><image href="images/font_0091.png" height="31" width="27"
-                                id="image_eyr_5fm_gz"/></entry>
-                        <entry>&#xA75F;<term>v mit diagonalem Strich <text>dezimal:
-                                    &amp;#42847;</text>
-                                <text>hex:&amp;#xA75F;</text></term></entry>
-                        <entry>&#xA75F;<term>v mit diagonalem Strich <text>dezimal:
-                                    &amp;#42847;</text>
-                                <text>hex:&amp;#xA75F;</text></term></entry>
-                        <entry>&#xA75F;<term>v mit diagonalem Strich <text>dezimal:
-                                    &amp;#42847;</text>
-                                <text>hex:&amp;#xA75F;</text></term></entry>
-                        <entry/>
-                    </row>
-                    <row product="ruleset">
                         <entry dir="ltr"><image href="images/font_0022.png" height="47" width="23"
                                 id="image_fyr_5fm_gz"/></entry>
                         <entry>&#x03C8;<term>griechischer Kleinbuchstabe psi <text>dezimal:
@@ -856,7 +842,7 @@
                                     an der Oder, 1662.</xref></p>
                         </entry>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0068.png" height="36" width="34"
                                 id="image_vyr_5fm_gz"/></entry>
                         <entry>&#x03BF;&#x03C2;<term>Ligatur aus byzantinischer Zeit
