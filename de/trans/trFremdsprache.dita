@@ -349,31 +349,15 @@
                     </row>
                     <row product="ruleset">
                         <entry dir="ltr"><image href="images/font_0002.png" height="73" width="38"
-                                id="image_uwr_5fm_gz"/></entry>
-                        <entry>q&#x0301;&#x037E;<term>q mit kombiniertem Akut und
-                                griechischem Fragezeichen <text>dezimal:q&amp;#769;&amp;#894;</text>
-                                <text>hex: q&amp;#x0301;&amp;#x037E;</text></term></entry>
-                        <entry>q&#x0301;&#x037E;<term>q mit kombiniertem Akut und
-                                griechischem Fragezeichen <text>dezimal:</text>
-                                <text>hex: q&amp;#769;&amp;#894;
-                                q&amp;#x0301;&amp;#x037E;</text></term></entry>
-                        <entry>&#xE8BF;&#x037E;<term>q mit abschließendem et versehen und
-                                griechischem Fragezeichen
-                                    <text>dezimal:&amp;#59583;&amp;#894;</text>
-                                <text>hex:&amp;#xE8BF;&amp;#x037E;</text></term></entry>
-                        <entry/>
-                    </row>
-                    <row product="ruleset">
-                        <entry dir="ltr"><image href="images/font_0001.png" height="51" width="34"
-                                id="image_vwr_5fm_gz"/></entry>
+                                id="image_gsc_fgq_p5b"/><image href="images/font_0001.png"
+                                height="51" width="34" id="image_vwr_5fm_gz"/></entry>
                         <entry>q&#x0301;&#x037E;<term>q mit kombiniertem Akut und
                                 griechischem Fragezeichen <text>dezimal:q&amp;#769;&amp;#894;</text>
                                 <text>hex: q&amp;#x0301;&amp;#x037E;</text></term></entry>
                         <entry>q&#x0301;&#x037E;<term>q mit kombiniertem Akut und
                                 griechischem Fragezeichen <text>dezimal:q&amp;#769;&amp;#894;</text>
                                 <text>hex: q&amp;#x0301;&amp;#x037E;</text></term></entry>
-                        <entry>&#xE8BF;&#x037E;<term>q mit abschließendem et versehen und
-                                griechischem Fragezeichen
+                        <entry>&#xE8BF;&#x0301;<term>q mit kombiniertem Akut mit abschließendem et
                                     <text>dezimal:&amp;#59583;&amp;#894;</text>
                                 <text>hex:&amp;#xE8BF;&amp;#x037E;</text></term></entry>
                         <entry/>
