@@ -1,9 +1,9 @@
 # Web
 
-- mainpage: https://ocr-d.de/de/gt-guidelines/trans
+- mainpage: https://ocr-d.de/de/gt-guidelines/
 - beta-version: 
-     -    german: https://tboenig.github.io/gt-guidelines/html/trans/index.html
-     -    english: https://tboenig.github.io/gt-guidelines/html_en/trans/index.html
+     -    German: https://tboenig.github.io/gt-guidelines/html/trans/index.html
+     -    English: https://tboenig.github.io/gt-guidelines/html_en/trans/index.html
 
 
 
