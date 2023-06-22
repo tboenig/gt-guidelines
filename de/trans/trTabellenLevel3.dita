@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trTabellenLevel3">
-    <title>Tabelle Level 3 "table structure"</title>
+    <title>Tabelle Level 3 <i>table structure</i></title>
     <body>
-        <p></p>
+        <p>
+            <ul><li><xref scope="external"
+                href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/table/GT-PAGE/buecher_volkswirtschaft_1893_0257_800px_table_detection.xml"
+                format="html">Beispieldaten 
+            </xref>
+            </li>
+            </ul>
+            
+        </p>
     </body>
 </topic>

@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trTabellenLevel4">
-    <title>Tabelle Level 4 "full table structure"</title>
+    <title>Tabelle Level 4 <i>full table structure</i></title>
     <body>
-        <p></p>
+        <p>
+            <ul><li><xref scope="external"
+                href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/table/GT-PAGE/buecher_volkswirtschaft_1893_0257_800px_full_table_structure.xml"
+                format="html">Beispieldaten</xref>
+            </li>
+            </ul>
+            
+        </p>
     </body>
 </topic>
