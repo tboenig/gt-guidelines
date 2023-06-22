@@ -13,16 +13,15 @@ Zeichen, die nicht auf der Tastatur abgebildet sind, erfolgt entweder </p>
 <li>ebenfalls sind die Transkriptions-Level zu beachten.</li>
 </ul>
 <p>Eine Mischung von verschiedenen Unicode-Schreibungen ist zu vermeiden. Auf modernisierende
-Veränderungen ist zu verzichten, sowie Druckfehler sind zu übernehmen.</p>
-<p>
-            <table id="table_yqq_mx4_wxb" frame="all">
-                <title>Übersicht über die Erfassungslevel von Tabellen</title>
+            Veränderungen ist zu verzichten, sowie Druckfehler sind zu übernehmen. </p>
+        <p><table frame="all"
+            id="simpletable_ikn_ykp_wxb"><title>Übersicht über die Erfassungslevel von Tabellen</title>
                 <tgroup cols="5">
-                    <colspec colnum="1" colname="col1"/>
-                    <colspec colnum="2" colname="col3"/>
-                    <colspec colnum="3" colname="col4"/>
-                    <colspec colnum="4" colname="col5"/>
-                    <colspec colname="newCol5" colnum="5"/>
+                    <colspec colname="c1" colwidth="1*"/>
+                    <colspec colname="c2" colwidth="1*"/>
+                    <colspec colname="c3" colwidth="1*"/>
+                    <colspec colname="c4" colwidth="1*"/>
+                    <colspec colname="c5" colwidth="1*"/>
                     <thead>
                         <row>
                             <entry>Ziel</entry>
@@ -34,7 +33,7 @@ Veränderungen ist zu verzichten, sowie Druckfehler sind zu übernehmen.</p>
                     </thead>
                     <tbody>
                         <row>
-                            <entry>nur Texterkennung, <ul id="ul_kfk_qx4_wxb">
+                            <entry>nur Texterkennung, <ul id="ul_irg_clp_wxb">
                                     <li>LSTM-geeignete Zeilensegmentierung (auch über Spalten
                                         hinweg)</li>
                                 </ul></entry>
@@ -44,24 +43,24 @@ Veränderungen ist zu verzichten, sowie Druckfehler sind zu übernehmen.</p>
                             <entry>1</entry>
                         </row>
                         <row>
-                            <entry>Texterkennung mit Kontext,<ul id="ul_e3k_ly4_wxb">
+                            <entry>Texterkennung mit Kontext,<ul id="ul_kgx_clp_wxb">
                                     <li>Tabellen als <codeph>TableRegion</codeph>
                                         gekennzeichnet</li>
                                     <li>innere Struktur wird ausschließlich mit
                                             <codeph>TextRegion</codeph> gekennzeichnet</li>
                                 </ul></entry>
                             <entry>table detection</entry>
-                            <entry>OLR-Training</entry>
+                            <entry>OCR-Training</entry>
                             <entry>global</entry>
                             <entry>2</entry>
                         </row>
                         <row>
-                            <entry>Texterkennung mit Kontext und Struktur<ul id="ul_xsh_ry4_wxb">
+                            <entry>Texterkennung mit Kontext und Struktur<ul id="ul_ut4_dlp_wxb">
                                     <li>Tabellen als <codeph>TableRegion</codeph>
                                         gekennzeichnet</li>
                                     <li>Zeilen und Zellen mit <codeph>Roles</codeph> und
                                             <codeph>TableCellRole</codeph></li>
-                                    <li>Vergabe und Verwendung der Attribute:<ul id="ul_vcr_mbp_wxb">
+                                    <li>Vergabe und Verwendung der Attribute:<ul id="ul_vt4_dlp_wxb">
                                             <li><codeph>rows</codeph> und
                                                 <codeph>columns</codeph></li>
                                             <li><codeph>rowIndex</codeph> und
@@ -84,8 +83,7 @@ Veränderungen ist zu verzichten, sowie Druckfehler sind zu übernehmen.</p>
                         </row>
                     </tbody>
                 </tgroup>
-            </table>
-        </p>
+            </table></p>
 </body>
 <related-links>
 <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TextRegion" format="dita"/>
