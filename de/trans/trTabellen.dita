@@ -3,21 +3,86 @@
 <topic id="trTabellen">
     <title>Tabellen</title>
     <body>
-<p>Die Erfassung des Textes in Tabellen erfolgt grundsätzlich vorlagengetreu im Unicode-Format
-(Kodierung in UTF-8) des zum Zeitpunkt der Erfassung gültigen Unicode-Standards. Die Schreibung von
+<p>Die Erfassung von GT der Tabellen umfasst, kann sich nach unterschiedlichen Zielvorstellungen für
+            den Gebrauch sowie die verwendeten Be- und Verarbeitungswerkzeuge des GT richten. Aus
+            diesem Grund stehen unterschiedliche Level der Erfassung zur Verfügung.</p><p>Grundsätzlich werden die Inhalte von Tabellen vorlagengetreu im Unicode-Format
+(Kodierung in UTF-8) des zum Zeitpunkt der Erfassung gültigen Unicode-Standards erfasst. Die Schreibung von
 Zeichen, die nicht auf der Tastatur abgebildet sind, erfolgt entweder </p>
 <ul id="ul_ynb_lcs_b1b">
-<li>als Unicode Hexadezimal-Entität oder </li>
-<li>als Zeichen.</li>
+<li>als Unicode Hexadezimal-Entität oder Zeichen.</li>
+<li>ebenfalls sind die Transkriptions-Level zu beachten.</li>
 </ul>
 <p>Eine Mischung von verschiedenen Unicode-Schreibungen ist zu vermeiden. Auf modernisierende
 Veränderungen ist zu verzichten, sowie Druckfehler sind zu übernehmen.</p>
-<p>Ausnahmen und Abweichungen davon werden ausführlich in diesem Dokument besprochen.</p>
-<p>Die Struktur der Tabelle wird als Attributwerte im Element <b><xref
-href="../pagexml/pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TableRegion" format="dita"
->TableRegion</xref></b> angegeben. Sie dazu die Dokumentation des PageXML-Formates.</p>
+<p>
+            <table id="table_yqq_mx4_wxb">
+                <title>Übersicht über die Erfassungslevel von Tabellen</title>
+                <tgroup cols="4">
+                    <colspec colnum="1" colname="col1"/>
+                    <colspec colnum="2" colname="col3"/>
+                    <colspec colnum="3" colname="col4"/>
+                    <colspec colnum="4" colname="col5"/>
+                    <thead>
+                        <row>
+                            <entry>Ziel</entry>
+                            <entry>Level/Kommentar</entry>
+                            <entry>GT-Schwerpunkt</entry>
+                            <entry>Separator</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>nur Texterkennung, <ul id="ul_kfk_qx4_wxb">
+                                    <li>LSTM-geeignete Zeilensegmentierung (auch über Spalten
+                                        hinweg)</li>
+                                </ul></entry>
+                            <entry>sparse text</entry>
+                            <entry>OCR-Training</entry>
+                            <entry>ohne</entry>
+                        </row>
+                        <row>
+                            <entry>Texterkennung mit Kontext,<ul id="ul_e3k_ly4_wxb">
+                                    <li>Tabellen als <codeph>TableRegion</codeph>
+                                        gekennzeichnet</li>
+                                    <li>innere Struktur wird ausschließlich mit
+                                            <codeph>TextRegion</codeph> gekennzeichnet</li>
+                                </ul></entry>
+                            <entry>table detection</entry>
+                            <entry>OLR-Training</entry>
+                            <entry>global</entry>
+                        </row>
+                        <row>
+                            <entry>Texterkennung mit Kontext und Struktur<ul id="ul_xsh_ry4_wxb">
+                                    <li>Tabellen als <codeph>TableRegion</codeph>
+                                        gekennzeichnet</li>
+                                    <li>Zeilen und Zellen mit <codeph>Roles</codeph> und
+                                            <codeph>TableCellRole</codeph></li>
+                                    <li>Vergabe und Verwendung der Attribute:<ul id="ul_vcr_mbp_wxb">
+                                            <li><codeph>rows</codeph> und
+                                                <codeph>columns</codeph></li>
+                                            <li><codeph>rowIndex</codeph> und
+                                                  <codeph>columnIndex</codeph></li>
+                                        </ul></li>
+                                </ul></entry>
+                            <entry>table structure</entry>
+                            <entry>OLR-Evaluierung</entry>
+                            <entry>global/lokal?</entry>
+                        </row>
+                        <row>
+                            <entry>Texterkennung mit Kontext und Struktur und Semantik, d.h. zus.
+                                    <codeph>@header</codeph> und rekursive Tabellen, sodaß jeweils
+                                homogen (<codeph>Grid</codeph>)</entry>
+                            <entry>full table structure</entry>
+                            <entry/>
+                            <entry>lokal-rekursiv</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
 </body>
 <related-links>
 <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TextRegion" format="dita"/>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TableRegion" format="dita"/>
 </related-links>
 </topic>
