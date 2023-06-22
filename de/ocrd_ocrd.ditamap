@@ -96,7 +96,17 @@
             <topicref href="trans/trTabellenLevel2.dita"/>
             <topicref href="trans/trTabellenLevel3.dita"/>
             <topicref href="trans/trTabellenLevel4.dita"/>
-        </topicref>
+            <topicref href="trans/trTabellenWerkzeuge.dita">
+                <topicref href="trans/trTabellen_Aletheia.dita"/>
+                <topicref href="trans/trTabellenTranskribus.dita"/>
+            </topicref>
+            <topicref href="trans/trTabellenFormat.dita">
+                    <topicref href="trans/trTabellen_Page.dita"/>
+                    <topicref href="trans/trTabellen_TranskribusPage.dita"/>
+                    <topicref href="trans/trTabellen_ALTO.dita"/>
+            </topicref>
+            <topicref href="trans/trTabellenLabelling.dita"/>
+            </topicref>
         <topicref href="trans/trHandschrift.dita"/>
         <topicref href="trans/trZeichensetzung.dita">
             <topicref href="trans/trGedankenstrich.dita"/>
