@@ -3,6 +3,32 @@
 <topic id="trTabellenTyp">
     <title>Tabellen Typen</title>
     <body>
-        <p></p>
+        <p>Tabellen können in folgende Typen unterteilt werden: </p>
+        <dl>
+            <dlentry>
+                <dt>einfache Tabelle</dt>
+                <dd>Einfache Tabelle besitzen keine spaltenübergreifenden Zellen. 
+                    In den meisten Fällen werden Separatoren zur Kennzeichnung und Abgrenzung der Zeilen und Spalten verwendet aber auch die Möglichkeit fehlender Separatoren kann vorkommen.
+                    Zeilen und Spalten können schnell und einfach erkannt werden.
+                </dd>
+            </dlentry>
+            <dlentry>
+                <dt>komplexe Tabelle</dt>
+                <dd>Komplexe besitzen spaltenübergreifende Zellen. Separatoren zur Abgrenzung von Zeilen und Spalten können nicht, teilweise oder vollständig vorhanden sein.
+                    Dieser Tabellentyp kann unter anderem durch weitere Bestandteile wie Legenden, Fußnoten/Endnoten, Beschriftungen, Fußzeilen sowie durch ein detailreichen
+                    Tabellenkopf komplex gestaltet sein.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>tabellen-ähnliche Strukturen die als Tabelle definiert werden</dt>
+                <dd>
+                    <p>Diese Strukturen besitzen in der Regel keine Separatoren. Zu erkennen sind
+                        aufeinanderfolgende Zeilen, eine Spalten Anordnung, eine erkennbare
+                        Ausrichtung des Textes. Diese können z. Bsp. Gegenüberstellungen von
+                        Text/Zahlenpassagen sein. Vergleichbar sind auch diese Strukturen mit
+                        verschiedenen Listenformen (sortierte, unsortierte, definitorische). Es wird
+                        empfohlen diese Formen als Listen oder Paragrafen zu annotieren.</p>
+                </dd>
+            </dlentry>
+        </dl>
     </body>
 </topic>
