@@ -15,19 +15,21 @@ Zeichen, die nicht auf der Tastatur abgebildet sind, erfolgt entweder </p>
 <p>Eine Mischung von verschiedenen Unicode-Schreibungen ist zu vermeiden. Auf modernisierende
 Veränderungen ist zu verzichten, sowie Druckfehler sind zu übernehmen.</p>
 <p>
-            <table id="table_yqq_mx4_wxb">
+            <table id="table_yqq_mx4_wxb" frame="all">
                 <title>Übersicht über die Erfassungslevel von Tabellen</title>
-                <tgroup cols="4">
+                <tgroup cols="5">
                     <colspec colnum="1" colname="col1"/>
                     <colspec colnum="2" colname="col3"/>
                     <colspec colnum="3" colname="col4"/>
                     <colspec colnum="4" colname="col5"/>
+                    <colspec colname="newCol5" colnum="5"/>
                     <thead>
                         <row>
                             <entry>Ziel</entry>
-                            <entry>Level/Kommentar</entry>
+                            <entry>Kommentar</entry>
                             <entry>GT-Schwerpunkt</entry>
                             <entry>Separator</entry>
+                            <entry>Level</entry>
                         </row>
                     </thead>
                     <tbody>
@@ -39,6 +41,7 @@ Veränderungen ist zu verzichten, sowie Druckfehler sind zu übernehmen.</p>
                             <entry>sparse text</entry>
                             <entry>OCR-Training</entry>
                             <entry>ohne</entry>
+                            <entry>1</entry>
                         </row>
                         <row>
                             <entry>Texterkennung mit Kontext,<ul id="ul_e3k_ly4_wxb">
@@ -50,6 +53,7 @@ Veränderungen ist zu verzichten, sowie Druckfehler sind zu übernehmen.</p>
                             <entry>table detection</entry>
                             <entry>OLR-Training</entry>
                             <entry>global</entry>
+                            <entry>2</entry>
                         </row>
                         <row>
                             <entry>Texterkennung mit Kontext und Struktur<ul id="ul_xsh_ry4_wxb">
@@ -67,6 +71,7 @@ Veränderungen ist zu verzichten, sowie Druckfehler sind zu übernehmen.</p>
                             <entry>table structure</entry>
                             <entry>OLR-Evaluierung</entry>
                             <entry>global/lokal?</entry>
+                            <entry>3</entry>
                         </row>
                         <row>
                             <entry>Texterkennung mit Kontext und Struktur und Semantik, d.h. zus.
@@ -75,6 +80,7 @@ Veränderungen ist zu verzichten, sowie Druckfehler sind zu übernehmen.</p>
                             <entry>full table structure</entry>
                             <entry/>
                             <entry>lokal-rekursiv</entry>
+                            <entry>4</entry>
                         </row>
                     </tbody>
                 </tgroup>

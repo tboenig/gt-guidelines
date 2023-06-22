@@ -90,7 +90,13 @@
             <topicref href="trans/trHochgestellteZahl.dita"/>
             <topicref href="trans/trtiefgestellteZahl.dita"/>
         </topicref>
-        <topicref href="trans/trTabellen.dita"/>
+        <topicref href="trans/trTabellen.dita">
+            <topicref href="trans/trTabellenTyp.dita"/>
+            <topicref href="trans/trTabellenLevel1.dita"/>
+            <topicref href="trans/trTabellenLevel2.dita"/>
+            <topicref href="trans/trTabellenLevel3.dita"/>
+            <topicref href="trans/trTabellenLevel4.dita"/>
+        </topicref>
         <topicref href="trans/trHandschrift.dita"/>
         <topicref href="trans/trZeichensetzung.dita">
             <topicref href="trans/trGedankenstrich.dita"/>
