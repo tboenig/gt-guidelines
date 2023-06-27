@@ -10,7 +10,7 @@
  <deliverable name="HTML5" id="html">
     <context idref="html"/>
     <output href="html"/>
-    <publication transtype="html5">
+    <publication transtype="html5-bootstrap">
       <param name="default.language" value="de"/>
       <param name="args.copycss" value="yes"/>
       <param name="args.css" value="dita-ot-doc.css"/>
