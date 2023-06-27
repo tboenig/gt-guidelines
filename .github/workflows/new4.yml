@@ -71,7 +71,6 @@ jobs:
               https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
               https://github.com/infotexture/dita-bootstrap/archive/master.zip
               https://github.com/infotexture/dita-bootstrap.lunr/archive/master.zip
-              org.doctales.xmltask
               fox.jason.prismjs
               fox.jason.favicon
             project: .github/dita-ot/html.xml
