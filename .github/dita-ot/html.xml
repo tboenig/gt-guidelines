@@ -24,7 +24,7 @@
       <param name="args.html5.toc" value="toc"/>
       <param name="nav-toc" value="partial"/>
       <param name="processing-mode" value="strict"/>
-      <param name="lunr.search" value="https://tboenig.github.io/gt-guidelines/html/trans"/>
+      <param name="lunr.search" value="https://tboenig.github.io/gt-guidelines/html"/>
       <param name="args.xsl" href="../../de/xsl/custom_ocrd.xsl"/>
     </publication>
   </deliverable>
