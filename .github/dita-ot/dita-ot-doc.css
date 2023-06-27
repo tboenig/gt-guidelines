@@ -27,9 +27,10 @@ body {
   color: #333;
   margin: 0;
   padding: 1em;
+  font-family: JuniusVF, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* ↓ header-coderef ↓ */
+/* ↓ header-coderef ↓ 
 
 table.header {
   padding: 1px;
@@ -78,7 +79,7 @@ th {
   font-family: JuniusVF, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 10pt;
 }
-
+*/
 code,
 pre,
 .cmdname,
@@ -257,7 +258,7 @@ Notes
 /****************************************
 Tables
 ****************************************/
-
+/*
 table {
   border-color: Silver;
   border-style: solid;
@@ -291,7 +292,7 @@ th {
 caption {
   text-align: left;
 }
-
+*/
 /****************************************
 ToolTips and Highlight Link
 ****************************************/
