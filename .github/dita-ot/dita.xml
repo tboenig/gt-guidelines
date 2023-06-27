@@ -10,7 +10,7 @@
  <deliverable name="HTML5" id="html">
     <context idref="html"/>
     <output href="html"/>
-    <publication transtype="html5">
+    <publication transtype="dita">
       <param name="default.language" value="de"/>
       <param name="args.copycss" value="yes"/>
       <param name="args.css" value="dita-ot-doc.css"/>
@@ -24,7 +24,6 @@
       <param name="args.html5.toc" value="toc"/>
       <param name="nav-toc" value="partial"/>
       <param name="processing-mode" value="strict"/>
-      <param name="lunr.search" value="https://tboenig.github.io/gt-guidelines/html/trans"/>
       <param name="args.xsl" href="../../de/xsl/custom_ocrd.xsl"/>
     </publication>
   </deliverable>

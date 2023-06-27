@@ -3,7 +3,9 @@
 <topic id="trTabellen">
     <title>Tabellen</title>
     <body>
-        <p>Die Erstellung und Einschätzung von GT der Tabellen umfasst, setzt voraus, dass vorhandene Tabellen als solche erkannt und definiert werden. Im Folgenden können Tabellen bedarfsgerecht und zielgerichtet annotiert werden.</p><section>
+        <p>Die Erstellung und Einschätzung von GT der Tabellen umfasst, setzt voraus, dass vorhandene Tabellen als solche erkannt und definiert werden. Im Folgenden können Tabellen bedarfsgerecht und zielgerichtet annotiert werden.</p>
+        <bodydiv outputclass="nav-pills">
+        <section>
                 <title>Merkmale</title>
                 <p>Tabellen können an folgenden <b>Merkmalen</b> erkannt werden: <ul id="ul_sdh_5sq_wxb">
                 <li>an der Ausrichtung des Textes oder der Textblöcke in Zeilen (waagerecht) und
@@ -102,7 +104,7 @@
             </ul>
             <p>Eine Mischung von verschiedenen Unicode-Schreibungen ist zu vermeiden. Auf modernisierende
                 Veränderungen ist zu verzichten, sowie Druckfehler sind zu übernehmen. </p>
-        </section>
+        </section></bodydiv>
         
         
 

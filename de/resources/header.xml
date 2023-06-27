@@ -6,8 +6,18 @@
   <td class="td2"><span class="title"><a href="https://ocr-d.de/de/gt-guidelines/trans/" class="nodeco">Ground Truth Richtlinien</a></span><span class="language"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span><br/>
   <span class="small">OCR-D: Koordinierte Förderinitiative zur Weiterentwicklung von Verfahren der Optical Character Recognition gefördert von der DFG</span>
   <br/>
-    <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
-    <div class="gcse-search"></div> 
+  <ul class="navbar-nav ms-auto">
+      <li class="nav-item d-flex align-items-center">
+        <span class="nav-link py-2 pe-2"><i class="bi bi-search"/></span>
+        <form class="bd-search position-relative me-auto" onsubmit="return search(this);">
+          <input id="search-input" type="search" dir="auto" class="form-control ds-input"
+            placeholder="Search…" aria-label="Search for…"
+            style="position: relative; vertical-align: top;" />
+        </form>
+      </li>
+    </ul>
+    <!--<script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+    <div class="gcse-search"></div> -->
   </td>
 </tr>
   </table>
