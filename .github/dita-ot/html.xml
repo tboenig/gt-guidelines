@@ -13,12 +13,11 @@
     <publication transtype="html5-bootstrap">
       <param name="default.language" value="de"/>
       <param name="args.copycss" value="yes"/>
-      <!--<param name="args.css" value="dita-ot-doc.css"/>-->
       <param name="args.csspath" value="css"/>
       <param name="args.cssroot" path="../../de/css"/>
       <param name="args.hdr" href="../../de/resources/header.xml"/>
       <param name="args.ftr" href="../../de/resources/footer.xml"/>
-      <param name="html5.toc.generate" value="yes"/>
+      <param name="html5.toc.generate" value="no"/>
       <param name="args.rellinks" value="noparent"/>
       <param name="args.gen.task.lbl" value="YES"/>
       <param name="args.html5.toc" value="toc"/>
