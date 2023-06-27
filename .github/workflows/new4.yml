@@ -87,7 +87,6 @@ jobs:
             plugins : |
               fox.jason.extend.css
               net.infotexture.dita-bootstrap
-              org.doctales.xmltask
               fox.jason.prismjs
               fox.jason.favicon
             project: .github/dita-ot/html_en.xml      
