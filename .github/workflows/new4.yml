@@ -69,8 +69,8 @@ jobs:
               dita install https://github.com/infotexture/dita-bootstrap.lunr/archive/master.zip
             dita-ot-version: 4.1
             plugins : |
-              https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
-              https://github.com/infotexture/dita-bootstrap/archive/master.zip
+              fox.jason.extend.css
+              net.infotexture.dita-bootstrap
               fox.jason.prismjs
               fox.jason.favicon
             project: .github/dita-ot/html.xml
