@@ -1,13 +1,5 @@
 /* DITA Open Toolkit documentation style */
 
-/****************************************
-Import Prism
-****************************************/
-
-@import url("https://prismjs.com/themes/prism.css");
-
-/* DITA Open Toolkit documentation style */
-
 /* Based on almond.css by Alvaro Montoro */
 
 /* stylelint-disable -- Ignore stylelint rules on almond.css */
