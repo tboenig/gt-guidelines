@@ -1,0 +1,36 @@
+/*
+  This sample applies the default Bootstrap 5 theme and any additional CSS overrides
+   ↓ For a custom look-and-feel, a generated Bootstrap theme could be added below ↓
+*/
+
+/* ↑ End generated Bootstrap theme ↑ */
+
+/* ↓  Additional custom overrides  ↓ */
+
+footer {
+  background-color: #e7f1ff;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  margin-top: 3rem;
+}
+
+/* Add Bootstrap’s own documentation example highlight */
+
+.bd-example {
+  position: relative;
+  padding: 1rem;
+  margin: 1rem -0.75rem 0;
+  border: solid #dee2e6 1px;
+}
+
+.custom-popover {
+  --bs-popover-max-width: 200px;
+  --bs-popover-border-color: var(--bs-primary);
+  --bs-popover-header-bg: var(--bs-primary);
+  --bs-popover-header-color: var(--bs-white);
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: 0.5rem;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bs-primary);
+}

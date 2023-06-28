@@ -6,6 +6,7 @@ broomer.sh
 *.jar
 *.txt
 /de/saxon/*
+css_alt
 *.xmp
 *.wiki
 *.md
