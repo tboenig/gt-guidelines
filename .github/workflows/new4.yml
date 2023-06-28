@@ -1,4 +1,4 @@
-name: DITA-OT-OCRD-FAQ
+name: DITA-OT-OCRD-FAQ_V4
 on:
   push:
     tags:
