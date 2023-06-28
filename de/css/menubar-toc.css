@@ -1,0 +1,27 @@
+/*!
+ *  This file is part of the DITA Bootstrap plug-in for DITA Open Toolkit.
+ *  See the accompanying LICENSE file for applicable licenses.
+ */
+
+/*! This value keeps the sidebar-nav below the menubar-toc
+ *  main content window compared with the sidebar-nav
+ */
+@media (min-width: 992px) {
+  .bs-sidebar {
+    height: calc(100vh - 13rem);
+    top: 9rem;
+  }
+  .bs-scrollspy {
+    top: 9rem;
+    height: calc(100vh - 13rem);
+  }
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article [tabindex='0'] {
+  scroll-margin-top: 9rem;
+  scroll-margin-bottom: 100px;
+}

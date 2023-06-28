@@ -1,0 +1,14 @@
+/*!
+ *  This file is part of the DITA Bootstrap plug-in for DITA Open Toolkit.
+ *  See the accompanying LICENSE file for applicable licenses.
+ */
+
+/*! These values define the relative width of the
+ * main content window compared with the sidebar-nav
+ */
+.bs-container {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-areas: 'main';
+  grid-template-columns: 1fr;
+}
