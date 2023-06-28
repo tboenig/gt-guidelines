@@ -22,8 +22,7 @@
                 <p>Der GT mit Tabellen, kann sich nach unterschiedlichen Zielvorstellungen für den Gebrauch sowie
             die verwendeten Be- und Verarbeitungswerkzeuge des GT richten. Aus diesem Grund stehen
             unterschiedliche Level der Erfassung zur Verfügung.</p>
-                <p><table frame="all"
-                    id="simpletable_ikn_ykp_wxb"><title>Übersicht über die Erfassungslevel von Tabellen</title>
+                <p><table id="simpletable_ikn_ykp_wxb"><title>Übersicht über die Erfassungslevel von Tabellen</title>
                     <tgroup cols="5">
                         <colspec colname="c1" colwidth="1*"/>
                         <colspec colname="c2" colwidth="1*"/>
