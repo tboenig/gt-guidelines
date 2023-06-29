@@ -74,7 +74,7 @@ jobs:
               https://github.com/infotexture/dita-bootstrap.lunr/archive/develop.zip
               fox.jason.prismjs
               fox.jason.favicon
-            project: .github/dita-ot/html_test.xml
+            project: .github/dita-ot/html-test.xml
 
 
       - name: Build Bootstrap-english
