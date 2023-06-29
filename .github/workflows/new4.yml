@@ -49,7 +49,7 @@ jobs:
            -catalog:de/xsl/oxygen-dita-translation-package-builder-addon-master/config/catalogs/catalog.xml \
            -s:de/ocrd_ocrd.ditamap \
            -o:de/ocrd_ocrd_wiki.ditamap
-
+           sudo cp de/ocrd_ocrd_wiki.ditamap out/
       
       - name: add wiki faq english
         run: |
