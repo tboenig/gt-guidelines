@@ -15,8 +15,8 @@
       <param name="args.copycss" value="yes"/>
       <param name="args.csspath" value="css"/>
       <param name="args.cssroot" path="."/>
-      <param name="args.hdr" href="../../documentation/resources/header.xml"/>
-      <param name="args.ftr" href="../../documentation/resources/footer.xml"/>
+      <param name="args.hdr" href="../../de/resources/header.xml"/>
+      <param name="args.ftr" href="../../de/resources/footer.xml"/>
       <param name="html5.toc.generate" value="no"/>
       <param name="args.rellinks" value="none"/>
       <param name="args.html5.toc" value="toc"/>
