@@ -8,22 +8,45 @@
       <link rel="stylesheet" type="text/css" href="../css/theme.css">
       <title>Simple Type pc:TextDataTypeSimpleType</title>
       
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
       </head>
    <body id="TextDataTypeSimpleType">
       <header role="banner">
          <nav class="navbar navbar-expand-lg  bg-ocrd">
             <script src="https://prismjs.com/prism.js"><!--Prism javascript code for highlighting--></script>
             
+            
             <div class="container">
-               <a class="navbar-brand" href="/">
-                  <a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D" height="64px"></a>
-                  Ground Truth Richtlinien
-                  </a>
-               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+               <!-- This shows the menu on mobile -->
+               
+               <div class="bd-navbar-toggle">
+                  <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" aria-controls="bdSidebar" aria-label="Toggle docs navigation">
+                     <i class="bi bi-list"></i>
+                     </button>
+                  </div>
+               <a class="navbar-brand" href="https://ocr-d.de/de/gt-guidelines/trans/">
+                  <img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D" height="64px">
+                  Ground Truth Richtlinien</a>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               <button class="navbar-toggler py-2 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="bi bi-three-dots"></i>
                   </button>
+               
+               
+               
+               
                
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   
@@ -110,6 +133,45 @@
     <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
     <div class="gcse-search"></div>
 --></header>
+      <nav class="toc" role="navigation">
+         <ul>
+            <li><a href="../trans/index.html">Die Ground Truth Richtlinien</a></li>
+            <li><a href="../trans/trLevels.html">📢 Übersicht der Ground-Truth-Level</a></li>
+            <li><a href="../trans/transkription.html">📑 Transkription</a></li>
+            <li><a href="../trans/layout.html">📰 Layout und Struktur</a></li>
+            <li><a href="../trans/structur_gt.html">📓 Struktur-Ground-Truth</a></li>
+            <li><a href="../trans/trLabeling.html">📓 Dokumentation des OCR-D-GT-labelling</a></li>
+            <li><a href="../trans/trPage.html">📓 Dokumentation des PAGE XML Formats</a><ul>
+                  <li><a href="../pagexml/Main_schema.html">Main Schema</a></li>
+                  <li><a href="../pagexml/Element.html">Element</a></li>
+                  <li><a href="../pagexml/Complex_Type.html">Complex Type</a></li>
+                  <li><a href="../pagexml/Simple_Type.html">Simple Type</a><ul>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_ConfSimpleType.html">Simple Type pc:ConfSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_PointsType.html">Simple Type pc:PointsType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_GroupTypeSimpleType.html">Simple Type pc:GroupTypeSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_ColourSimpleType.html">Simple Type pc:ColourSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_UnderlineStyleSimpleType.html">Simple Type pc:UnderlineStyleSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_ChartTypeSimpleType.html">Simple Type pc:ChartTypeSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_GraphicsTypeSimpleType.html">Simple Type pc:GraphicsTypeSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_ColourDepthSimpleType.html">Simple Type pc:ColourDepthSimpleType</a></li>
+                        <li class="active"><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.html">Simple Type pc:TextDataTypeSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_ScriptSimpleType.html">Simple Type pc:ScriptSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_ProductionSimpleType.html">Simple Type pc:ProductionSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_LanguageSimpleType.html">Simple Type pc:LanguageSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_ReadingDirectionSimpleType.html">Simple Type pc:ReadingDirectionSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.html">Simple Type pc:TextTypeSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextLineOrderSimpleType.html">Simple Type pc:TextLineOrderSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_AlignSimpleType.html">Simple Type pc:AlignSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_PageTypeSimpleType.html">Simple Type pc:PageTypeSimpleType</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+            <li><a href="../trans/page_xml_erweiterungen.html">📚 Page XML Erweiterungen</a></li>
+            <li><a href="../trans/fa.html">❓ Fragen und Antworten</a></li>
+            <li><a href="../trans/impressum.html">Impressum</a></li>
+         </ul>
+      </nav>
       <main role="main">
          <article role="article" aria-labelledby="ariaid-title1">
             
@@ -193,7 +255,7 @@
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded257818e119')" title="copy clipboard" class="ccb">📋</button><code id="coded257818e119">Examples:
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded258913e119')" title="copy clipboard" class="ccb">📋</button><code id="coded258913e119">Examples:
 "123.456", "+1234.456",
 "-1234.456", "-.456", "-456"</code></pre>
                                           </td>
@@ -226,7 +288,7 @@
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded257818e134')" title="copy clipboard" class="ccb">📋</button><code id="coded257818e134">Examples:
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded258913e134')" title="copy clipboard" class="ccb">📋</button><code id="coded258913e134">Examples:
 "123.456", "+1234.456", "-1.2344e56",
 "-.45E-6", "INF", "-INF", "NaN"</code></pre>
                                           </td>
@@ -259,7 +321,7 @@
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded257818e149')" title="copy clipboard" class="ccb">📋</button><code id="coded257818e149">Examples:
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded258913e149')" title="copy clipboard" class="ccb">📋</button><code id="coded258913e149">Examples:
 "123456", "+00000012", "-1", "-456"</code></pre>
                                           </td>
                                        </tr>
@@ -291,7 +353,7 @@
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded257818e164')" title="copy clipboard" class="ccb">📋</button><code id="coded257818e164">Examples: "true", "false", "1", "0"</code></pre>
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded258913e164')" title="copy clipboard" class="ccb">📋</button><code id="coded258913e164">Examples: "true", "false", "1", "0"</code></pre>
                                           </td>
                                        </tr>
                                     
@@ -322,7 +384,7 @@
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded257818e179')" title="copy clipboard" class="ccb">📋</button><code id="coded257818e179">Examples:
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded258913e179')" title="copy clipboard" class="ccb">📋</button><code id="coded258913e179">Examples:
 "2001-10-26", "2001-10-26+02:00",
 "2001-10-26Z", "2001-10-26+00:00",
 "-2001-10-26", "-20000-04-01"</code></pre>
@@ -356,7 +418,7 @@
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded257818e195')" title="copy clipboard" class="ccb">📋</button><code id="coded257818e195">Examples:
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded258913e195')" title="copy clipboard" class="ccb">📋</button><code id="coded258913e195">Examples:
 "21:32:52", "21:32:52+02:00", "19:32:52Z",
 "19:32:52+00:00", "21:32:52.12679"</code></pre>
                                           </td>
@@ -389,7 +451,7 @@
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded257818e210')" title="copy clipboard" class="ccb">📋</button><code id="coded257818e210">Examples:
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded258913e210')" title="copy clipboard" class="ccb">📋</button><code id="coded258913e210">Examples:
 "2001-10-26T21:32:52", "2001-10-26T21:32:52+02:00",
 "2001-10-26T19:32:52Z", "2001-10-26T19:32:52+00:00",
 "-2001-10-26T21:32:52", "2001-10-26T21:32:52.12679"</code></pre>
@@ -423,7 +485,7 @@
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded257818e225')" title="copy clipboard" class="ccb">📋</button><code id="coded257818e225">Generic text string</code></pre>
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded258913e225')" title="copy clipboard" class="ccb">📋</button><code id="coded258913e225">Generic text string</code></pre>
                                           </td>
                                        </tr>
                                     
@@ -454,7 +516,7 @@
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded257818e240')" title="copy clipboard" class="ccb">📋</button><code id="coded257818e240">An XSD type that is not listed or a custom type
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded258913e240')" title="copy clipboard" class="ccb">📋</button><code id="coded258913e240">An XSD type that is not listed or a custom type
 (use dataTypeDetails attribute).</code></pre>
                                           </td>
                                        </tr>
@@ -519,7 +581,7 @@
                               document.execCommand("copy");
                               $temp.remove();
                               }
-                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded257818e297')" title="copy clipboard" class="ccb">📋</button><code id="coded257818e297"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>simpleType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>TextDataTypeSimpleType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded258913e297')" title="copy clipboard" class="ccb">📋</button><code id="coded258913e297"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>simpleType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>TextDataTypeSimpleType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>restriction</span> <span class="ph token attr-name">base</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>xsd:decimal<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
       <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -578,13 +640,14 @@
       <footer role="contentinfo">
          <footer>
             
-            <p class="text-center text-muted">       
-               Ground Truth Richtlinien<br>
-               OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical
-               Character Recognition gefördert von der DFG</p>
-            
-            
             <div class="container">
+               
+               <p class="text-center text-muted">       
+                  Ground Truth Richtlinien<br>
+                  OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical
+                  Character Recognition gefördert von der DFG</p>
+               
+               
                
                <div class="row py-5">
                   

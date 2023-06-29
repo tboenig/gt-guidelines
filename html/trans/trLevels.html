@@ -8,22 +8,45 @@
       <link rel="stylesheet" type="text/css" href="../css/theme.css">
       <title>📢 Übersicht der Ground-Truth-Level</title>
       
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
       </head>
    <body id="trLevels">
       <header role="banner">
          <nav class="navbar navbar-expand-lg  bg-ocrd">
             <script src="https://prismjs.com/prism.js"><!--Prism javascript code for highlighting--></script>
             
+            
             <div class="container">
-               <a class="navbar-brand" href="/">
-                  <a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D" height="64px"></a>
-                  Ground Truth Richtlinien
-                  </a>
-               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+               <!-- This shows the menu on mobile -->
+               
+               <div class="bd-navbar-toggle">
+                  <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" aria-controls="bdSidebar" aria-label="Toggle docs navigation">
+                     <i class="bi bi-list"></i>
+                     </button>
+                  </div>
+               <a class="navbar-brand" href="https://ocr-d.de/de/gt-guidelines/trans/">
+                  <img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D" height="64px">
+                  Ground Truth Richtlinien</a>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               <button class="navbar-toggler py-2 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="bi bi-three-dots"></i>
                   </button>
+               
+               
+               
+               
                
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   
@@ -110,6 +133,20 @@
     <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
     <div class="gcse-search"></div>
 --></header>
+      <nav class="toc" role="navigation">
+         <ul>
+            <li><a href="../trans/index.html">Die Ground Truth Richtlinien</a></li>
+            <li class="active"><a href="../trans/trLevels.html">📢 Übersicht der Ground-Truth-Level</a></li>
+            <li><a href="../trans/transkription.html">📑 Transkription</a></li>
+            <li><a href="../trans/layout.html">📰 Layout und Struktur</a></li>
+            <li><a href="../trans/structur_gt.html">📓 Struktur-Ground-Truth</a></li>
+            <li><a href="../trans/trLabeling.html">📓 Dokumentation des OCR-D-GT-labelling</a></li>
+            <li><a href="../trans/trPage.html">📓 Dokumentation des PAGE XML Formats</a></li>
+            <li><a href="../trans/page_xml_erweiterungen.html">📚 Page XML Erweiterungen</a></li>
+            <li><a href="../trans/fa.html">❓ Fragen und Antworten</a></li>
+            <li><a href="../trans/impressum.html">Impressum</a></li>
+         </ul>
+      </nav>
       <main role="main">
          <article role="article" aria-labelledby="ariaid-title1">
             
@@ -376,13 +413,14 @@
       <footer role="contentinfo">
          <footer>
             
-            <p class="text-center text-muted">       
-               Ground Truth Richtlinien<br>
-               OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical
-               Character Recognition gefördert von der DFG</p>
-            
-            
             <div class="container">
+               
+               <p class="text-center text-muted">       
+                  Ground Truth Richtlinien<br>
+                  OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical
+                  Character Recognition gefördert von der DFG</p>
+               
+               
                
                <div class="row py-5">
                   
