@@ -104,7 +104,12 @@ jobs:
              sudo java -jar saxon-ee-11.1.jar -xsl:de/xsl/rules.xsl -s:de/trans/trSilbentrennung.dita -o:out/rules/ruleset_hyphenation.json &&
              sudo java -jar saxon-ee-11.1.jar -xsl:de/xsl/rules.xsl -s:de/trans/trRom.dita -o:out/rules/ruleset_roman_digits.json
 
-      
+      - name: copy images
+        run: |
+          cp de/resources/dfg_logo_schriftzug_blau_foerderung_4c.jpg out/html/resources/
+          cp de/resources/icon20x24px-exported-transparent.png       out/html/resources/
+          
+            
     
      # - name: Build PDF
      #   uses: dita-ot/dita-ot-action@master
