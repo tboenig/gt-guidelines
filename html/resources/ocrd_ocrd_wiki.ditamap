@@ -1,0 +1,204 @@
+<bookmap xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+          xml:lang="de-DE"
+          ditaarch:DITAArchVersion="1.2"
+          domains="(map bookmap)                          (topic delay-d)                          (map mapgroup-d)                          (topic indexing-d)                           (topic xnal-d)                          (topic hi-d)                           (topic ut-d)                           (topic hazard-d)                          (topic abbrev-d)                          (topic pr-d)                           (topic sw-d)                          (topic ui-d)                         "
+          class="- map/map bookmap/bookmap ">
+   <booktitle class="- topic/title bookmap/booktitle ">
+      <mainbooktitle class="- topic/ph bookmap/mainbooktitle ">Ground Truth Richtlinien</mainbooktitle>
+   </booktitle>
+   <bookmeta class="- map/topicmeta bookmap/bookmeta ">
+      <authorinformation class="+ topic/author xnal-d/authorinformation ">
+         <personinfo class="+ topic/data xnal-d/personinfo ">
+            <namedetails class="+ topic/data xnal-d/namedetails ">
+               <personname class="+ topic/data xnal-d/personname ">
+                  <firstname class="+ topic/data xnal-d/firstname ">Matthias</firstname>
+                  <lastname class="+ topic/data xnal-d/lastname ">Boenig</lastname>
+               </personname>
+            </namedetails>
+         </personinfo>
+         <organizationinfo class="+ topic/data xnal-d/organizationinfo ">
+            <namedetails class="+ topic/data xnal-d/namedetails ">
+               <organizationnamedetails class="+ topic/ph xnal-d/organizationnamedetails ">
+                  <organizationname class="+ topic/ph xnal-d/organizationname ">OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie
+                            der Wissenschaften (BBAW)</organizationname>
+               </organizationnamedetails>
+            </namedetails>
+         </organizationinfo>
+      </authorinformation>
+      <critdates class="- topic/critdates ">
+         <created date="March, 2017" class="- topic/created "/>
+      </critdates>
+   </bookmeta>
+   <chapter href="trans/index.dita" class="- map/topicref bookmap/chapter ">
+      <topicref href="trans/trDokuKonventionen.dita" class="- map/topicref "/>
+      <topicref href="trans/ground_truth_typ.dita" class="- map/topicref "/>
+   </chapter>
+   <chapter href="trans/trLevels.dita" class="- map/topicref bookmap/chapter "/>
+   <chapter href="trans/transkription.dita" class="- map/topicref bookmap/chapter ">
+      <topicref href="trans/level_1_4.dita" class="- map/topicref "/>
+      <topicref href="trans/level_2_2.dita" class="- map/topicref "/>
+      <topicref href="trans/level_3_1.dita" class="- map/topicref "/>
+      <topicref href="trans/trGrundsaetze.dita" class="- map/topicref ">
+         <topicref href="trans/tr_level_1_4.dita" class="- map/topicref "/>
+         <topicref href="trans/tr_level_2_4.dita" class="- map/topicref "/>
+         <topicref href="trans/tr_level_3_4.dita" class="- map/topicref "/>
+      </topicref>
+      <topicref href="trans/sprache.dita" class="- map/topicref "/>
+      <topicref href="trans/trSchreibweisen.dita" class="- map/topicref ">
+         <topicref href="trans/trSchreibungIJ.dita" class="- map/topicref ">
+            <topicref href="trans/level_1_2.dita" class="- map/topicref "/>
+            <topicref href="trans/level_2_und_3.dita" class="- map/topicref "/>
+         </topicref>
+         <topicref href="trans/trSchreibungUV.dita" class="- map/topicref ">
+            <topicref href="trans/level_1_3.dita" class="- map/topicref "/>
+            <topicref href="trans/level_2_und_3_0.dita" class="- map/topicref "/>
+         </topicref>
+         <topicref href="trans/trSchreibungS.dita" class="- map/topicref ">
+            <topicref href="trans/level_1_5.dita" class="- map/topicref "/>
+            <topicref href="trans/level_2_und_3_1.dita" class="- map/topicref "/>
+         </topicref>
+         <topicref href="trans/trSchreibungR.dita" class="- map/topicref ">
+            <topicref href="trans/level_1_6.dita" class="- map/topicref "/>
+            <topicref href="trans/level_2_und_3_2.dita" class="- map/topicref "/>
+         </topicref>
+         <topicref href="trans/trLigatur.dita" class="- map/topicref ">
+            <topicref href="trans/tr_level_1.dita" class="- map/topicref "/>
+            <topicref href="trans/tr_level_2.dita" class="- map/topicref "/>
+            <topicref href="trans/tr_level_3.dita" class="- map/topicref "/>
+         </topicref>
+         <topicref href="trans/trUmlaute.dita" class="- map/topicref ">
+            <topicref href="trans/level_1_7.dita" class="- map/topicref "/>
+            <topicref href="trans/level_2_und_3_3.dita" class="- map/topicref "/>
+            <topicref href="trans/level_3_2.dita" class="- map/topicref "/>
+         </topicref>
+         <topicref href="trans/trNasalstrich.dita" class="- map/topicref ">
+            <topicref href="trans/tr_nasal_level_1.dita" class="- map/topicref "/>
+            <topicref href="trans/tr_nasal_level_2.dita" class="- map/topicref "/>
+            <topicref href="trans/tr_nasal_level_3.dita" class="- map/topicref "/>
+         </topicref>
+         <topicref href="trans/trDiakritika.dita" class="- map/topicref ">
+            <topicref href="trans/tr_dia_level_1_0.dita" class="- map/topicref "/>
+            <topicref href="trans/tr_dia_level_2_0.dita" class="- map/topicref "/>
+            <topicref href="trans/tr_dia_level_3_0.dita" class="- map/topicref "/>
+         </topicref>
+         <topicref href="trans/trSilbentrennung.dita" class="- map/topicref "/>
+         <!--<topicref href="trApostrophe.dita"/>-->
+      </topicref>
+      <topicref href="trans/trSonderzeichen.dita" class="- map/topicref ">
+         <topicref href="trans/trBruch.dita" class="- map/topicref "/>
+         <topicref href="trans/trRom.dita" class="- map/topicref "/>
+         <topicref href="trans/trHochgestellteZahl.dita" class="- map/topicref "/>
+         <topicref href="trans/trtiefgestellteZahl.dita" class="- map/topicref "/>
+      </topicref>
+      <topicref href="trans/trTabellen.dita" class="- map/topicref ">
+         <topicref href="trans/trTabellenTyp.dita" class="- map/topicref "/>
+         <topicref href="trans/trTabellenLevel1.dita" class="- map/topicref "/>
+         <topicref href="trans/trTabellenLevel2.dita" class="- map/topicref "/>
+         <topicref href="trans/trTabellenLevel3.dita" class="- map/topicref "/>
+         <topicref href="trans/trTabellenLevel4.dita" class="- map/topicref "/>
+         <topicref href="trans/trTabellenWerkzeuge.dita" class="- map/topicref ">
+            <topicref href="trans/trTabellen_Aletheia.dita" class="- map/topicref "/>
+            <topicref href="trans/trTabellenTranskribus.dita" class="- map/topicref "/>
+         </topicref>
+         <topicref href="trans/trTabellenFormat.dita" class="- map/topicref ">
+            <topicref href="trans/trTabellen_Page.dita" class="- map/topicref "/>
+            <topicref href="trans/trTabellen_TranskribusPage.dita" class="- map/topicref "/>
+            <topicref href="trans/trTabellen_ALTO.dita" class="- map/topicref "/>
+         </topicref>
+         <topicref href="trans/trTabellenLabelling.dita" class="- map/topicref "/>
+      </topicref>
+      <topicref href="trans/trHandschrift.dita" class="- map/topicref "/>
+      <topicref href="trans/trZeichensetzung.dita" class="- map/topicref ">
+         <topicref href="trans/trGedankenstrich.dita" class="- map/topicref "/>
+         <topicref href="trans/trAnfZeichen.dita" class="- map/topicref "/>
+         <topicref href="trans/leerzeichen.dita" class="- map/topicref ">
+            <topicref href="trans/tr_level_1_3.dita" class="- map/topicref "/>
+            <topicref href="trans/tr_level_2_3.dita" class="- map/topicref "/>
+            <topicref href="trans/tr_compareLevel1_3.dita" class="- map/topicref "/>
+         </topicref>
+      </topicref>
+      <topicref href="trans/trErsetzungen.dita" class="- map/topicref "/>
+      <topicref href="trans/trBeispiele.dita" class="- map/topicref ">
+         <topicref href="trans/ocr_d_koordinationsgremium_codierung.dita"
+                    class="- map/topicref "/>
+         <topicref href="trans/trFremdsprache.dita" class="- map/topicref "/>
+         <topicref href="trans/trLigaturen2.dita" class="- map/topicref "/>
+      </topicref>
+   </chapter>
+   <chapter href="trans/layout.dita" class="- map/topicref bookmap/chapter ">
+      <topicref href="trans/lyAllgemein.dita" class="- map/topicref "/>
+      <topicref href="trans/lySeitentypen.dita" class="- map/topicref "/>
+      <topicref href="trans/lyRand.dita" class="- map/topicref "/>
+      <topicref href="trans/lySatzspiegel.dita" class="- map/topicref "/>
+      <topicref href="trans/lyTextregionen.dita" class="- map/topicref ">
+         <topicref href="trans/ly_level_1_5.dita" class="- map/topicref "/>
+         <topicref href="trans/ly_level_2_5.dita" class="- map/topicref "/>
+         <topicref href="trans/lyRelationen.dita" class="- map/topicref "/>
+         <topicref href="trans/lytextregion.dita" class="- map/topicref ">
+            <topicref href="trans/lyAbsatz.dita" class="- map/topicref "/>
+            <topicref href="trans/lyUeberschrift.dita" class="- map/topicref "/>
+            <topicref href="trans/lyKolumnentitel.dita" class="- map/topicref "/>
+            <topicref href="trans/lySeitenzahl.dita" class="- map/topicref "/>
+            <topicref href="trans/lyMarginalie.dita" class="- map/topicref "/>
+            <topicref href="trans/lyFussnote.dita" class="- map/topicref "/>
+            <topicref href="trans/lyInitiale.dita" class="- map/topicref "/>
+            <topicref href="trans/lyBogensignatur.dita" class="- map/topicref "/>
+            <topicref href="trans/lyKustode.dita" class="- map/topicref "/>
+            <topicref href="trans/lyDiskontinuierlich.dita" class="- map/topicref "/>
+            <topicref href="trans/lyInhaltsverzeichnis.dita" class="- map/topicref "/>
+         </topicref>
+         <topicref href="trans/lyBildbereiche.dita" class="- map/topicref "/>
+         <topicref href="trans/lyGraphik.dita" class="- map/topicref "/>
+         <topicref href="trans/lySeparatoren.dita" class="- map/topicref ">
+            <topicref href="trans/level_1_1.dita" class="- map/topicref "/>
+            <topicref href="trans/level_2_1.dita" class="- map/topicref "/>
+         </topicref>
+         <topicref href="trans/lyTabellen.dita" class="- map/topicref "/>
+         <topicref href="trans/lyKarten.dita" class="- map/topicref "/>
+         <topicref href="trans/lyMathematische_Zeichen.dita" class="- map/topicref "/>
+         <topicref href="trans/lyChemische_Symbole.dita" class="- map/topicref "/>
+         <topicref href="trans/lyNotenzeichen.dita" class="- map/topicref "/>
+         <topicref href="trans/lyWerbung.dita" class="- map/topicref "/>
+         <topicref href="trans/lyRauschen.dita" class="- map/topicref "/>
+         <topicref href="trans/lySonstiges.dita" class="- map/topicref "/>
+      </topicref>
+      <topicref href="trans/lyTypographie.dita" class="- map/topicref ">
+         <topicref href="trans/lySchriftarten.dita" class="- map/topicref "/>
+         <topicref href="trans/lyLigatur.dita" class="- map/topicref "/>
+      </topicref>
+      <topicref href="trans/lyLeserichtung.dita" class="- map/topicref "/>
+   </chapter>
+   <chapter href="trans/structur_gt.dita" class="- map/topicref bookmap/chapter ">
+      <topicref href="structur_gt.ditamap" format="ditamap" class="- map/topicref "/>
+   </chapter>
+   <chapter href="trans/trLabeling.dita" class="- map/topicref bookmap/chapter ">
+      <topicref href="labeling/labeling_gt.ditamap"
+                 format="ditamap"
+                 class="- map/topicref "/>
+   </chapter>
+   <chapter href="trans/trPage.dita" class="- map/topicref bookmap/chapter ">
+      <topicref href="pagexml/dok.ditamap" format="ditamap" class="- map/topicref "/>
+   </chapter>
+   <chapter href="trans/page_xml_erweiterungen.dita"
+             class="- map/topicref bookmap/chapter ">
+      <topicref href="trans/exif_pagexml_konkordanz.dita" class="- map/topicref "/>
+   </chapter>
+   <chapter href="trans/fa.dita" class="- map/topicref bookmap/chapter ">
+      <topicref class="- map/topicref "
+                 format="markdown"
+                 href="ocrd-website.wiki/GT-Guide-1-Aid.md"/>
+      <topicref class="- map/topicref "
+                 format="markdown"
+                 href="ocrd-website.wiki/GT-Guide-Transcription-of-incunabula-some-problems-with-words.md"/>
+      <topicref class="- map/topicref "
+                 format="markdown"
+                 href="ocrd-website.wiki/GT-Guide-Transkriptionsprobleme-bei-Inkunabeln.md"/>
+      <topicref class="- map/topicref "
+                 format="markdown"
+                 href="ocrd-website.wiki/GT-Guide-Use-special-fonts.md"/>
+      <topicref class="- map/topicref "
+                 format="markdown"
+                 href="ocrd-website.wiki/GT-Guide-W%C3%A4hrungssymbol.md"/>
+   </chapter>
+   <chapter href="trans/impressum.dita" class="- map/topicref bookmap/chapter "/>
+</bookmap>
