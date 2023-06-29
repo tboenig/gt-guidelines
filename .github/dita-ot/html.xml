@@ -2,7 +2,7 @@
 <?xml-model href="https://www.dita-ot.org/rng/project.rnc" type="application/relax-ng-compact-syntax"?>
 <project xmlns="https://www.dita-ot.org/project">
   <context id="html" name="HTML">
-    <input href="../../de/ocrd_ocrd_wiki.ditamap"/>
+    <input href="../../de/ocrd_ocrd.ditamap"/>
     <profile>
       <ditaval href="html.ditaval"/>
     </profile>
@@ -13,8 +13,9 @@
 <publication transtype="html5-bootstrap">
       <param name="default.language" value="de"/>
       <param name="args.copycss" value="yes"/>
+      <param name="args.css" value="theme.css"/>
       <param name="args.csspath" value="css"/>
-      <param name="args.cssroot" path="."/>
+      <param name="args.cssroot" path="../../de/css"/>
       <param name="args.hdr" href="../../de/resources/header.xml"/>
       <param name="args.ftr" href="../../de/resources/footer.xml"/>
       <param name="html5.toc.generate" value="no"/>
