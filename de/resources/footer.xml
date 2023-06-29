@@ -23,7 +23,7 @@
             alt="Logo OCR-D"
             height="64px"/><br/>
         <img
-          src="dfg_logo_schriftzug_blau_foerderung_4c.jpg"
+          src="../dfg_logo_schriftzug_blau_foerderung_4c.jpg"
           class="my-2"
           alt="Logo funded by DFG"
           heigt="64px"/>
@@ -54,7 +54,7 @@
       <div class="col-6 col-md">
         <h5>Impressum</h5>
         <ul class="list-unstyled">
-          <li><a href="/impressum.html">Impressum</a></li>
+          <li><a href="/gt-guidelines/html/trans/impressum.html">Impressum</a></li>
          </ul>
       </div>
     </div>

@@ -40,7 +40,7 @@
         This is a dark/light color theme toggler
         It requires JavaScript to function.
       -->
-          <li class="nav-item dropdown">
+          <!--<li class="nav-item dropdown">
             <a
               href="#"
               class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show"
@@ -50,20 +50,14 @@
               data-bs-display="static"
               >
               <span class="bs-toggler-light">
-                <i class="bi bi-brightness-high-fill" />
-              </span>
-              <span class="bs-toggler-dark"><i
-                class="bi bi-moon-stars-fill"
-              /></span>
-              <span class="bs-toggler-auto"><i class="bi bi-circle-half" />
+                <img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"/>
               </span>
               
-              <span class="d-lg-none ms-2">Toggle theme</span>
             </a>
             <ul
               class="dropdown-menu dropdown-menu-end"
               aria-labelledby="bd-theme"
-              style="--bs-dropdown-min-width: 6rem;"
+              style="-\-bs-dropdown-min-width: 6rem;"
               data-bs-popper="static"
               >
               <li>
@@ -87,6 +81,64 @@
                 </button>
               </li>
               
+            </ul>
+          </li>-->
+          <li class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              data-bs-display="static"
+              >
+              <span class="bs-toggler-de">
+                <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language"/>
+              </span>
+              <span class="bs-toggler-en">
+                <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language"/>
+              </span>
+              <span class="bs-toggler-auto">
+                <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language"/>
+              </span>
+              <span class="d-lg-none ms-2">Toggle Language</span>
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="bd-theme"
+              style="--bs-dropdown-min-width: 6rem;"
+              data-bs-popper="static"
+              >
+              <li>
+                <button
+                  type="button"
+                  class="dropdown-item d-flex align-items-center"
+                  data-bs-theme-value="de"
+                  >
+                  <i class="bi de"/>
+                  <span class="ms-2"><a href="https://ocr-d.de/de/gt-guidelines/trans/">de</a></span>
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="dropdown-item d-flex align-items-center"
+                  data-bs-theme-value="en"
+                  >
+                  <i class="bi en"/>
+                  <span class="ms-2"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span>
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="dropdown-item d-flex align-items-center"
+                  data-bs-theme-value="auto"
+                  >
+                  <i class="bi bi-circle-half"/>
+                  <span class="ms-2">Auto</span>
+                </button>
+              </li>
             </ul>
           </li>
         </ul>
