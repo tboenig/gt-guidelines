@@ -152,4 +152,229 @@
                            <td class="entry rowsep-1" headers="sprache__table_r34_hly_l5b__entry__3">@primaryLanguage und @secondaryLanguage</td>
                            </tr>
                         
-      
+                        <tr class="row">
+                           
+                           <td class="entry colsep-1 rowsep-1" headers="sprache__table_r34_hly_l5b__entry__1">Region</td>
+                           
+                           <td class="entry colsep-1 rowsep-1" headers="sprache__table_r34_hly_l5b__entry__2">TextRegion</td>
+                           
+                           <td class="entry rowsep-1" headers="sprache__table_r34_hly_l5b__entry__3">@primaryLanguage und @secondaryLanguage</td>
+                           </tr>
+                        
+                        <tr class="row">
+                           
+                           <td class="entry colsep-1 rowsep-1" headers="sprache__table_r34_hly_l5b__entry__1">Zeile</td>
+                           
+                           <td class="entry colsep-1 rowsep-1" headers="sprache__table_r34_hly_l5b__entry__2">TextLine</td>
+                           
+                           <td class="entry rowsep-1" headers="sprache__table_r34_hly_l5b__entry__3">@primaryLanguage</td>
+                           </tr>
+                        
+                        <tr class="row">
+                           
+                           <td class="entry colsep-1" headers="sprache__table_r34_hly_l5b__entry__1">Wort</td>
+                           
+                           <td class="entry colsep-1" headers="sprache__table_r34_hly_l5b__entry__2">Word</td>
+                           
+                           <td class="entry" headers="sprache__table_r34_hly_l5b__entry__3">@language</td>
+                           </tr>
+                        </tbody>
+                  </table>
+               </div>
+               
+               <p class="p">Unterschieden wird zwischen der <em class="ph i">language</em> (Sprache), <em class="ph i">primary language</em> (Erst-
+                  oder Hauptsprache) und der <em class="ph i">secondary language</em> (Zweit- oder Nebensprache).
+                  <em class="ph i">Language</em>, <em class="ph i">primary language</em> und <em class="ph i">secondary language</em> sind
+                  Attribute (siehe <a class="xref" href="#sprache__table_r34_hly_l5b">Tabelle</a>).</p>
+               
+               <p class="p">Die Werte der Attribute werden vom PAGE-XML-Schema vorgegeben. Sie entsprechen der
+                  <strong class="ph b"><a class="xref" href="https://de.wikipedia.org/wiki/ISO_639" target="_blank" rel="external noopener">ISO 639</a></strong> zur Kennzeichnung von Sprachen. Angegeben
+                  wird nicht ein Kürzel, sondern die von der ISO normierte Sprachbezeichnung. </p>
+               
+               <div class="note remember note_remember"><span class="note__title">Merke:</span> Da die Sprachangaben auf verschiedenen Ebenen möglich sind, gilt
+                  folgende Regelung, untergeordnete Ebenen haben Vorrang vor der Angabe der höheren
+                  Ebenen.</div>
+               
+               
+               <section class="section">
+                  <h2 class="title sectiontitle">Page : Seite</h2>
+                  
+                  
+                  <ul class="ul" id="sprache__ul_lmv_hsz_l5b">
+                     
+                     <li class="li"><code class="ph codeph">&lt;Page primaryLanguage="German" secondaryLanguage="Latin"&gt;</code>
+                        
+                        <figure class="fig fignone">
+                           <figcaption><span class="fig--title-label">Abbildung 1. </span>Beispielseite mit zwei Sprachen. <span class="desc figdesc"><a class="xref" href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml" target="_blank" rel="external noopener">nn_auszug_1701_061.xml</a>
+                                 </span></figcaption>
+                           
+                           
+                           <img class="image" id="sprache__image_bzf_cry_l5b" src="images/sprache_page.png" height="682" width="540">
+                           </figure>
+                        
+                        <div class="note remember note_remember"><span class="note__title">Merke:</span> Auf dieser Seite werden nur zwei Sprachen verwendet, aus
+                           diesem Grund kann die Haupt- und Nebensprache (<em class="ph i">@primaryLanguage,
+                              @secondaryLanguage</em>) angegeben werden.</div>
+                     </li>
+                     
+                     <li class="li"><code class="ph codeph">&lt;Page primaryLanguage="German"&gt;</code><figure class="fig fignone">
+                           <figcaption><span class="fig--title-label">Abbildung 2. </span>Beispielseite mit vier Sprachen. <span class="desc figdesc"><a class="xref" href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/zesen_assenat_1670/GT-PAGE/zesen_assenat_1670_0382.xml" target="_blank" rel="external noopener">zesen_assenat_1670_0382.xml</a></span></figcaption><img class="image" id="sprache__image_td2_4sz_l5b" src="images/sprache_page2.png" height="796" width="454"></figure>
+                        <div class="note remember note_remember"><span class="note__title">Merke:</span> Auf dieser Seite werden vier Sprachen (Deutsch,
+                           Latein, Griechisch, Hebräisch) verwendet. Die Hauptsprache ist Deutsch, sie
+                           wird angegeben. Die weiteren Sprachen werden auf der Wort-Ebene angegeben.
+                           Wenn keine Wortsegmentierung verfügbar ist, wird empfohlen, die Angabe der
+                           Sprache im METS-Datensatz (GT-labelling) anzugeben. </div>
+                     </li>
+                  </ul>
+                  
+                  </section>
+               
+               <section class="section">
+                  <h2 class="title sectiontitle">TextRegion : Region</h2>
+                  
+                  
+                  <ul class="ul" id="sprache__ul_obx_l5z_l5b">
+                     
+                     <li class="li"><code class="ph codeph">&lt;TextRegion primaryLanguage="Latin"&gt;</code>
+                        
+                        <figure class="fig fignone">
+                           <figcaption><span class="fig--title-label">Abbildung 3. </span>Textregion mit einer Sprache. <span class="desc figdesc"><a class="xref" href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml" target="_blank" rel="external noopener">nn_auszug_1701_061.xml</a></span></figcaption>
+                           
+                           
+                           <img class="image" id="sprache__image_skm_ksy_l5b" src="images/sprache_region.png" height="155" width="910">
+                           </figure>
+                     </li>
+                     
+                     <li class="li"><code class="ph codeph">&lt;TextRegion primaryLanguage="German"
+                           secondaryLanguage="Latin"&gt;</code><figure class="fig fignone">
+                           <figcaption><span class="fig--title-label">Abbildung 4. </span>Textregion mit zwei Sprachen. <span class="desc figdesc"><a class="xref" href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml" target="_blank" rel="external noopener">nn_auszug_1701_061.xml</a></span></figcaption>
+                           
+                           
+                           <img class="image" id="sprache__image_axl_hsy_l5b" src="images/sprache_region2.png" height="570" width="896">
+                           </figure>
+                     </li>
+                     </ul>
+                  </section>
+               
+               <section class="section">
+                  <h2 class="title sectiontitle">TextLine : Zeile</h2>
+                  
+                  
+                  <ul class="ul" id="sprache__ul_qnl_jty_l5b">
+                     
+                     <li class="li"><code class="ph codeph">&lt;TextLine primaryLanguage="Latin"&gt;</code>
+                        
+                        <figure class="fig fignone">
+                           <figcaption><span class="fig--title-label">Abbildung 5. </span>TextLine mit einer Sprache. <span class="desc figdesc"><a class="xref" href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml" target="_blank" rel="external noopener">nn_auszug_1701_061.xml</a></span></figcaption>
+                           
+                           
+                           <img class="image" id="sprache__image_td3_bsy_l5b" src="images/sprache_line1.png" height="130" width="1190">
+                           </figure>
+                        </li>
+                     
+                     <li class="li"><code class="ph codeph">&lt;TextLine primaryLanguage="Latin"&gt;</code>
+                        
+                        <figure class="fig fignone">
+                           <figcaption><span class="fig--title-label">Abbildung 6. </span>TextLine mit zwei Sprachen. <span class="desc figdesc"><a class="xref" href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml" target="_blank" rel="external noopener">nn_auszug_1701_061.xml</a></span></figcaption>
+                           
+                           
+                           <img class="image" id="sprache__image_mvz_sqy_l5b" src="images/sprache_line.png" height="89" width="1176">
+                           </figure>
+                        
+                        <div class="note remember note_remember"><span class="note__title">Merke:</span> Im Beispiel ist zu sehen, dass sowohl deutschsprachige als
+                           auch lateinischsprachige Worte in der Zeile vorhanden sind. Es wird nur die
+                           Hauptsprache <em class="ph i">primaryLanguage</em> angegeben. Die Angabe einer
+                           secondaryLanguage ist nicht möglich. </div>
+                     </li>
+                     </ul>
+                  </section>
+               
+               <section class="section">
+                  <h2 class="title sectiontitle">Word : Wort</h2>
+                  
+                  
+                  <p class="p"><code class="ph codeph">&lt;Word language="Latin"&gt;</code></p>
+                  
+                  <figure class="fig fignone">
+                     <figcaption><span class="fig--title-label">Abbildung 7. </span>Wort in Latein. <span class="desc figdesc"><a class="xref" href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml" target="_blank" rel="external noopener">nn_auszug_1701_061.xml</a></span></figcaption>
+                     
+                     
+                     <img class="image" id="sprache__image_ekp_kry_l5b" src="images/sprache_word.png" height="148" width="709">
+                     </figure>
+                  </section>
+               
+               </div>
+            </article>
+      </main>
+      <footer role="contentinfo">
+         <footer>
+            
+            <p class="text-center text-muted">       
+               Ground Truth Richtlinien<br>
+               OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical
+               Character Recognition gefördert von der DFG</p>
+            
+            
+            <div class="container">
+               
+               <div class="row py-5">
+                  
+                  <div class="col-12 col-md">
+                     
+                     <h5>Ground Truth Richtlinien</h5>
+                     <img src="../resources/ocrd.png" class="my-2" alt="Logo OCR-D" height="64px"><br>
+                     <img src="../resources/dfg_logo_schriftzug_blau_foerderung_4c.jpg" class="my-2" alt="Logo funded by DFG" height="64px">
+                     
+                     </div>
+                  
+                  <div class="col-6 col-md">
+                     
+                     <h5>Source</h5>
+                     
+                     <ul class="list-unstyled">
+                        
+                        <li><a href="https://github.com/OCR-D/gt-guidelines">GT Guidelines Source Code</a></li>
+                        
+                        <li><a href="https://github.com/tboenig/gt-guidelines">Developer Version</a></li>
+                        </ul>
+                     </div>
+                  
+                  <div class="col-6 col-md">
+                     
+                     <h5>Community</h5>
+                     
+                     <ul class="list-unstyled">
+                        
+                        <li><a href="https://ocr-d.de/de/community">OCR-D community</a></li>
+                        
+                        <li><a href="https://github.com/OCR-D/ocrd-website/wiki#section-on-ground-truth">Hilfe, Wiki und Support Forum</a></li>
+                        </ul>
+                     </div>
+                  
+                  <div class="col-6 col-md">
+                     
+                     <h5>Projekt</h5>
+                     
+                     <ul class="list-unstyled">
+                        
+                        <li>
+                           <a href="https://ocr-d.de/en/about">OCR-D Projekt</a>
+                           </li>
+                        </ul>
+                     </div>
+                  
+                  <div class="col-6 col-md">
+                     
+                     <h5>Impressum</h5>
+                     
+                     <ul class="list-unstyled">
+                        
+                        <li><a href="/gt-guidelines/html/trans/impressum.html">Impressum</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </footer>
+      </footer>
+   </body>
+</html>

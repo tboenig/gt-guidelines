@@ -141,4 +141,159 @@
                            
                            <p class="p">Dies trifft zu, wenn die Initialie nur ein Zeichen oder Buchstaben
                               und kein ganzes Wort umfassen.</p>
+                        </li>
+                        
+                        <li class="li"> bei <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code> und
+                           <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code><p class="p">Dies trifft zu, wenn der Absatz in Spalten aufgeteilt wurde und das
+                              letzte Wort des Paragraphen wird im folgenden Absatz fortgesetzt.</p>
+                        </li>
+                        </ul>
+                  </li>
+                  
+                  <li class="li">Verwendung von <code class="ph codeph">link</code><ul class="ul">
+                        
+                        <li class="li">bei <code class="ph codeph">caption</code> und <code class="ph codeph">image floating</code></li>
+                        
+                        <li class="li">bei <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code> und
+                           <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code>
+                           
+                           <p class="p">Dies trifft zu, wenn der Absatz in Spalten aufgeteilt wurde und das
+                              letzte Wort des Pragraphen nicht im folgenden Absatz fortgesetzt wird. Es handelt
+                              sich
+                              dabei um einen fortgesetzten Paragraphen.</p>
+                        </li>
+                        
+                        <li class="li">bei <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="drop-cap"&gt;</code></code> und
+                           <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code>
+                           
+                           <p class="p">Dies trifft zu, wenn die Initalie (drop-cap) ein ganzes Wort
+                              umfasst.</p>
+                        </li>
+                        </ul>
+                  </li>
+                  </ol>
                
+               <div class="example" id="lyRelation__relations">
+                  <h2 class="title sectiontitle">Relations</h2>
+                  
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script>
+        function htmlDecode(input)
+            {
+               var e = document.createElement('div');
+               e.innerHTML = input;
+               return e.childNodes[0].nodeValue;
+            }
+        
+        
+        
+        function copyToClipboard(element) 
+            {
+               var $temp = $("<textarea></textarea>");
+                     $("body").append($temp);
+                     var a = $(element).html().trim().replace(/<br>/g, '\n').replace(/<\/?[^>]+>/g, '');
+                     var x = htmlDecode(a);
+                     $temp.val(x).select();
+                     document.execCommand("copy");
+                     $temp.remove();
+                     }
+                     </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded362438e167')" title="copy clipboard" class="ccb">📋</button><code id="coded362438e167"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>ReadingOrder</span><span class="ph token punctuation">&gt;</span></span>
+            <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>OrderedGroup</span> <span class="ph token attr-name">id</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>ro_1542737988725<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">caption</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>Regions reading order<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>RegionRefIndexed</span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>1<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">regionRef</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>TextRegion_1476719248728_212<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+                <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>RegionRefIndexed</span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>2<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">regionRef</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>r_7_1<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+                <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>RegionRefIndexed</span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>3<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">regionRef</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>region_1476719221656_210<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+                <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>RegionRefIndexed</span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>4<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">regionRef</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>region_1476719208569_209<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+                <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>RegionRefIndexed</span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>5<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">regionRef</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>TextRegion_1476719753697_244<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+                <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>RegionRefIndexed</span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>6<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">regionRef</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>r_13_1<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+                <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>RegionRefIndexed</span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>7<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">regionRef</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>r_15_1<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+              <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>OrderedGroup</span><span class="ph token punctuation">&gt;</span></span>
+        <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>ReadingOrder</span><span class="ph token punctuation">&gt;</span></span>
+        <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>Relations</span><span class="ph token punctuation">&gt;</span></span>
+            <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>Relation</span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>join<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>RegionRef</span> <span class="ph token attr-name">regionRef</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>region_1476719208569_209<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+                <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>RegionRef</span> <span class="ph token attr-name">regionRef</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>TextRegion_1476719753697_244<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+            <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>Relation</span><span class="ph token punctuation">&gt;</span></span>
+ <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>Relations</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+                  <img class="image" id="lyRelation__image_pxh_vmf_wfb" src="images/lyRelationen.jpg"></div>
+               
+               
+               </div>
+            
+            
+            <nav role="navigation" class="related-links">
+               <div class="linklist relinfo"><strong>Zugehörige Informationen</strong><br><ul class="linklist"></ul>
+               </div>
+            </nav>
+            </article>
+      </main>
+      <footer role="contentinfo">
+         <footer>
+            
+            <p class="text-center text-muted">       
+               Ground Truth Richtlinien<br>
+               OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical
+               Character Recognition gefördert von der DFG</p>
+            
+            
+            <div class="container">
+               
+               <div class="row py-5">
+                  
+                  <div class="col-12 col-md">
+                     
+                     <h5>Ground Truth Richtlinien</h5>
+                     <img src="../resources/ocrd.png" class="my-2" alt="Logo OCR-D" height="64px"><br>
+                     <img src="../resources/dfg_logo_schriftzug_blau_foerderung_4c.jpg" class="my-2" alt="Logo funded by DFG" height="64px">
+                     
+                     </div>
+                  
+                  <div class="col-6 col-md">
+                     
+                     <h5>Source</h5>
+                     
+                     <ul class="list-unstyled">
+                        
+                        <li><a href="https://github.com/OCR-D/gt-guidelines">GT Guidelines Source Code</a></li>
+                        
+                        <li><a href="https://github.com/tboenig/gt-guidelines">Developer Version</a></li>
+                        </ul>
+                     </div>
+                  
+                  <div class="col-6 col-md">
+                     
+                     <h5>Community</h5>
+                     
+                     <ul class="list-unstyled">
+                        
+                        <li><a href="https://ocr-d.de/de/community">OCR-D community</a></li>
+                        
+                        <li><a href="https://github.com/OCR-D/ocrd-website/wiki#section-on-ground-truth">Hilfe, Wiki und Support Forum</a></li>
+                        </ul>
+                     </div>
+                  
+                  <div class="col-6 col-md">
+                     
+                     <h5>Projekt</h5>
+                     
+                     <ul class="list-unstyled">
+                        
+                        <li>
+                           <a href="https://ocr-d.de/en/about">OCR-D Projekt</a>
+                           </li>
+                        </ul>
+                     </div>
+                  
+                  <div class="col-6 col-md">
+                     
+                     <h5>Impressum</h5>
+                     
+                     <ul class="list-unstyled">
+                        
+                        <li><a href="/gt-guidelines/html/trans/impressum.html">Impressum</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </footer>
+      </footer>
+   </body>
+</html>
