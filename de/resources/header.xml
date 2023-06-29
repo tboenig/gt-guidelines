@@ -95,14 +95,7 @@
               <span class="bs-toggler-de">
                 <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language"/>
               </span>
-              <span class="bs-toggler-en">
-                <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language"/>
-              </span>
-              <span class="bs-toggler-auto">
-                <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language"/>
-              </span>
-              <span class="d-lg-none ms-2">Toggle Language</span>
-            </a>
+              </a>
             <ul
               class="dropdown-menu dropdown-menu-end"
               aria-labelledby="bd-theme"
