@@ -25,7 +25,7 @@
       <param name="processing-mode" value="strict"/>
       <param name="icons.include" value="yes"/>
       <param name="popovers.include" value="yes"/>
-      <param name="lunr.search" value="https://tboenig.github.io/gt-guidelines/html/trans"/>
+      <param name="lunr.search" value="https://tboenig.github.io/gt-guidelines/html"/>
       <param name="args.xsl" href="../../de/xsl/custom_ocrd.xsl"/>
     </publication>
   </deliverable>
