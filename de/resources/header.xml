@@ -106,16 +106,6 @@
                   <span class="ms-2"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span>
                 </button>
               </li>
-              <li>
-                <button
-                  type="button"
-                  class="dropdown-item d-flex align-items-center"
-                  data-bs-theme-value="auto"
-                  >
-                  <i class="bi bi-circle-half"/>
-                  <span class="ms-2">Auto</span>
-                </button>
-              </li>
             </ul>
           </li>
         </ul>

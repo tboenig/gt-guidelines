@@ -1,19 +1,9 @@
-<!--<div class="footer">
-
- <details>
-   <summary>Veröffentlicht von OCR-D.</summary>
-   <p>Die Richtlinien für die Ground Truth Transkription basieren auf dem <a href="https://ocr-d.github.io/">OCR-D specs v3.4.0</a></p>
-</details> 
-</div>-->
-
-
-
-
-
 <footer>
+<p class="text-center text-muted">       
+Ground Truth Richtlinien<br>
+OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical Character Recognition gefördert von der DFG</p>
+
   <div class="container">
-    
-    
     <div class="row py-5">
       <div class="col-12 col-md">
         <h5>Ground Truth Richtlinien</h5>
