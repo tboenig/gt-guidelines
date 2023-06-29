@@ -13,39 +13,91 @@
       </head>
    <body id="level_3_0">
       <header role="banner">
-         <div class="header">
+         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <script src="https://prismjs.com/prism.js"><!--Prism javascript code for highlighting--></script>
             
-            <table style="border: 0px;  width: 100%;" class="header">
+            <div class="container">
+               <a class="navbar-brand" href="/">
+                  <a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"></a>
+                  Ground Truth Richtlinien
+                  </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
                
-               <tr>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   
-                  <td class="td1"><a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"></a></td>
                   
-                  <td class="td2"><span class="title"><a href="https://ocr-d.de/de/gt-guidelines/trans/" class="nodeco">Ground Truth Richtlinien</a></span><span class="language"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span><br>
-                     <span class="small">OCR-D: Koordinierte Förderinitiative zur Weiterentwicklung von Verfahren der Optical
-                        Character Recognition gefördert von der DFG</span>
-                     <br>
+                  <ul class="navbar-nav ms-auto">
                      
-                     <ul class="navbar-nav ms-auto">
+                     <li class="nav-item d-flex align-items-center">
+                        <span class="nav-link py-2 pe-2"><i class="bi bi-search"></i></span>
                         
-                        <li class="nav-item d-flex align-items-center">
-                           <span class="nav-link py-2 pe-2"><i class="bi bi-search"></i></span>
+                        <form class="bd-search position-relative me-auto" onsubmit="return search(this);">
+                           <input type="search" class="form-control ds-input" id="search-input" placeholder="Search docs..." aria-label="Search docs for..." dir="auto" style="position: relative; vertical-align: top;">
+                           </form>
+                        </li>
+                     <!--
+        This is a dark/light color theme toggler
+        It requires JavaScript to function.
+      -->
+                     
+                     <li class="nav-item dropdown">
+                        <a href="#" class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show" id="bd-theme" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                           <span class="bs-toggler-light">
+                              <i class="bi bi-brightness-high-fill"></i>
+                              </span>
+                           <span class="bs-toggler-dark"><i class="bi bi-moon-stars-fill"></i></span>
+                           <span class="bs-toggler-auto"><i class="bi bi-circle-half"></i>
+                              </span>
                            
-                           <form class="bd-search position-relative me-auto" onsubmit="return search(this);">
-                              <input id="search-input" type="search" dir="auto" class="form-control ds-input" placeholder="Search…" aria-label="Search for…" style="position: relative; vertical-align: top;">
-                              </form>
-                           </li>
-                        </ul>
-                     <!--<script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
-    <div class="gcse-search"></div> -->
-                     </td>
-                  </tr>
-               </table>
-            
-            <hr>
-            </div>
-      </header>
+                           <span class="d-lg-none ms-2">Toggle theme</span>
+                           </a>
+                        
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 6rem;" data-bs-popper="static">
+                           
+                           <li>
+                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+                                 <i class="bi"></i>
+                                 <span class="ms-2"><a href="https://ocr-d.de/de/gt-guidelines/trans/">de</a></span>
+                                 </button>
+                              </li>
+                           
+                           <li>
+                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+                                 <i class="bi"></i>
+                                 <span class="ms-2"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span>
+                                 </button>
+                              </li>
+                           
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         <!--<table style="border: 0px;  width: 100%;" class="header">
+<tr>
+  <td class="td1"><a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"/></a></td>
+  <td class="td2"><span class="title"><a href="https://ocr-d.de/de/gt-guidelines/trans/" class="nodeco">
+    Ground Truth Richtlinien</a></span><span class="language"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span><br/>
+  <span class="small">OCR-D: Koordinierte Förderinitiative zur Weiterentwicklung von Verfahren der Optical Character Recognition gefördert von der DFG</span>
+  <br/>
+  <ul class="navbar-nav ms-auto">
+      <li class="nav-item d-flex align-items-center">
+        <span class="nav-link py-2 pe-2"><i class="bi bi-search"/></span>
+        <form class="bd-search position-relative me-auto" onsubmit="return search(this);">
+          <input id="search-input" type="search" dir="auto" class="form-control ds-input"
+            placeholder="Search…" aria-label="Search for…"
+            style="position: relative; vertical-align: top;" />
+        </form>
+      </li>
+    </ul>
+    <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+    <div class="gcse-search"></div>
+  </td>
+</tr>
+  </table> --></header>
       <nav class="toc" role="navigation">
          <ul>
             <li><a href="../trans/index.html">Die Ground Truth Richtlinien</a></li>
@@ -118,17 +170,77 @@
             
             </article>
       </main>
-      <footer role="contentinfo">
-         <div class="footer">
+      <footer role="contentinfo"><!--<div class="footer">
+
+ <details>
+   <summary>Veröffentlicht von OCR-D.</summary>
+   <p>Die Richtlinien für die Ground Truth Transkription basieren auf dem <a href="https://ocr-d.github.io/">OCR-D specs v3.4.0</a></p>
+</details> 
+</div>-->
+         <footer>
             
-            
-            <details>
+            <div class="container">
                
-               <summary>Veröffentlicht von OCR-D.</summary>
                
-               <p>Die Richtlinien für die Ground Truth Transkription basieren auf dem <a href="https://ocr-d.github.io/">OCR-D specs v3.4.0</a></p>
-               </details> 
-            </div>
+               
+               <div class="row py-5">
+                  
+                  <div class="col-12 col-md">
+                     
+                     <h5>Ground Truth Richtlinien</h5>
+                     <img src="../resources/ocrd.png" class="my-2" alt="Logo OCR-D" height="64px"><br>
+                     <img src="dfg_logo_schriftzug_blau_foerderung_4c.jpg" class="my-2" alt="Logo funded by DFG" heigt="64px">
+                     
+                     </div>
+                  
+                  <div class="col-6 col-md">
+                     
+                     <h5>Source</h5>
+                     
+                     <ul class="list-unstyled">
+                        
+                        <li><a href="https://github.com/OCR-D/gt-guidelines">GT Guidelines Source Code</a></li>
+                        
+                        <li><a href="https://github.com/tboenig/gt-guidelines">Developer Version</a></li>
+                        </ul>
+                     </div>
+                  
+                  <div class="col-6 col-md">
+                     
+                     <h5>Community</h5>
+                     
+                     <ul class="list-unstyled">
+                        
+                        <li><a href="https://ocr-d.de/de/community">OCR-D community</a></li>
+                        
+                        <li><a href="https://github.com/OCR-D/ocrd-website/wiki#section-on-ground-truth">Hilfe, Wiki und Support Forum</a></li>
+                        </ul>
+                     </div>
+                  
+                  <div class="col-6 col-md">
+                     
+                     <h5>Projekt</h5>
+                     
+                     <ul class="list-unstyled">
+                        
+                        <li>
+                           <a href="https://ocr-d.de/en/about">OCR-D Projekt</a>
+                           </li>
+                        </ul>
+                     </div>
+                  
+                  <div class="col-6 col-md">
+                     
+                     <h5>Impressum</h5>
+                     
+                     <ul class="list-unstyled">
+                        
+                        <li><a href="/impressum.html">Impressum</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </footer>
       </footer>
    </body>
 </html>
