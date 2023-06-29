@@ -139,6 +139,91 @@
   }
 }
 
+/*!
+ *  This file is part of the DITA Bootstrap plug-in for DITA Open Toolkit.
+ *  See the accompanying LICENSE file for applicable licenses.
+ */
+
+/*! These values define the relative width of the
+ *  main content window compared with the sidebar-nav
+ */
+
+.bd-links {
+  overflow: auto;
+  font-weight: 600;
+  padding-left: none;
+}
+
+.bd-links a {
+  padding: 0.1875rem 0.5rem;
+  margin-top: 0.125rem;
+  text-decoration: none;
+  color: var(--bs-body-color);
+}
+
+.bd-links a:hover {
+  color: var(--bs-link-hover-color);
+}
+
+.bd-links span {
+  color: var(--bs-body-color);
+}
+
+.bd-links span:hover {
+  color: var(--bs-link-hover-color);
+}
+
+@media (min-width: 768px) {
+  .bd-links {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5rem;
+    display: block !important;
+    height: calc(100vh - 7rem);
+    padding-left: 0.25rem;
+    margin-left: -0.25rem;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .bd-links > ul {
+    padding: 1.5rem 0.75rem;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+  }
+}
+
+.bd-links li li a {
+  font-size: 0.875em;
+}
+
+.bd-links .btn {
+  padding-top: 0.25rem;
+  font-weight: 600;
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+  color: var(--bs-body-color);
+}
+
+.bd-links svg:hover {
+  color: var(--bs-link-hover-color);
+}
+
+[dir='rtl'] .bd-links svg {
+  transform: rotate(180deg);
+}
+
+.bd-links .btn[aria-expanded='true'] svg {
+  transform: rotate(90deg);
+}
+
+.bd-links .active {
+  font-weight: 600;
+  color: var(--bs-body-color);
+}
+
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)

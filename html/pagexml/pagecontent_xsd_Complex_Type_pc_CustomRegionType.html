@@ -26,6 +26,41 @@
                
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   
+                  <ul class="navbar-nav">
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">📢 Übersicht der Ground-Truth-Level</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">📑 Transkription</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">📰 Layout und Struktur</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">📓 Struktur-Ground-Truth</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">📓 Dokumentation des OCR-D-GT-labelling</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">📓 Dokumentation des PAGE XML Formats</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">📚 Page XML Erweiterungen</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">❓ Fragen und Antworten</a>
+                        </li>
+                     </ul>
+                  
                   
                   <ul class="navbar-nav ms-auto">
                      
@@ -37,52 +72,10 @@
                            </form>
                         </li>
                      <!--
-        This is a dark/light color theme toggler
+        This is a language toggler
         It requires JavaScript to function.
-      -->
-                     <!--<li class="nav-item dropdown">
-            <a
-              href="#"
-              class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show"
-              id="bd-theme"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-              data-bs-display="static"
-              >
-              <span class="bs-toggler-light">
-                <img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"/>
-              </span>
-              
-            </a>
-            <ul
-              class="dropdown-menu dropdown-menu-end"
-              aria-labelledby="bd-theme"
-              style="-\-bs-dropdown-min-width: 6rem;"
-              data-bs-popper="static"
-              >
-              <li>
-                <button
-                  type="button"
-                  class="dropdown-item d-flex align-items-center"
-                  data-bs-theme-value="light"
-                  >
-                  <i class="bi" />
-                  <span class="ms-2"><a href="https://ocr-d.de/de/gt-guidelines/trans/">de</a></span>
-                </button>
-              </li>
-              <li>
-                <button
-                  type="button"
-                  class="dropdown-item d-flex align-items-center"
-                  data-bs-theme-value="dark"
-                  >
-                  <i class="bi" />
-                  <span class="ms-2"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span>
-                </button>
-              </li>
-              
-            </ul>
-          </li>-->
+        -->
+                     
                      
                      <li class="nav-item dropdown">
                         <a href="#" class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-theme" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
@@ -119,104 +112,10 @@
                   </div>
                </div>
             </nav>
-         <!--<table style="border: 0px;  width: 100%;" class="header">
-<tr>
-  <td class="td1"><a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"/></a></td>
-  <td class="td2"><span class="title"><a href="https://ocr-d.de/de/gt-guidelines/trans/" class="nodeco">
-    Ground Truth Richtlinien</a></span><span class="language"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span><br/>
-  <span class="small">OCR-D: Koordinierte Förderinitiative zur Weiterentwicklung von Verfahren der Optical Character Recognition gefördert von der DFG</span>
-  <br/>
-  <ul class="navbar-nav ms-auto">
-      <li class="nav-item d-flex align-items-center">
-        <span class="nav-link py-2 pe-2"><i class="bi bi-search"/></span>
-        <form class="bd-search position-relative me-auto" onsubmit="return search(this);">
-          <input id="search-input" type="search" dir="auto" class="form-control ds-input"
-            placeholder="Search…" aria-label="Search for…"
-            style="position: relative; vertical-align: top;" />
-        </form>
-      </li>
-    </ul>
+         <!--google search 
     <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
     <div class="gcse-search"></div>
-  </td>
-</tr>
-  </table> --></header>
-      <nav class="toc" role="navigation">
-         <ul>
-            <li><a href="../trans/index.html">Die Ground Truth Richtlinien</a></li>
-            <li><a href="../trans/trLevels.html">📢 Übersicht der Ground-Truth-Level</a></li>
-            <li><a href="../trans/transkription.html">📑 Transkription</a></li>
-            <li><a href="../trans/layout.html">📰 Layout und Struktur</a></li>
-            <li><a href="../trans/structur_gt.html">📓 Struktur-Ground-Truth</a></li>
-            <li><a href="../trans/trLabeling.html">📓 Dokumentation des OCR-D-GT-labelling</a></li>
-            <li><a href="../trans/trPage.html">📓 Dokumentation des PAGE XML Formats</a><ul>
-                  <li><a href="../pagexml/Main_schema.html">Main Schema</a></li>
-                  <li><a href="../pagexml/Element.html">Element</a></li>
-                  <li><a href="../pagexml/Complex_Type.html">Complex Type</a><ul>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_PcGtsType.html">Complex Type pc:PcGtsType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_MetadataType.html">Complex Type pc:MetadataType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_UserDefinedType.html">Complex Type pc:UserDefinedType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_UserAttributeType.html">Complex Type pc:UserAttributeType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_MetadataItemType.html">Complex Type pc:MetadataItemType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_LabelsType.html">Complex Type pc:LabelsType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_LabelType.html">Complex Type pc:LabelType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.html">Complex Type pc:PageType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_AlternativeImageType.html">Complex Type pc:AlternativeImageType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_BorderType.html">Complex Type pc:BorderType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_CoordsType.html">Complex Type pc:CoordsType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_PrintSpaceType.html">Complex Type pc:PrintSpaceType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.html">Complex Type pc:ReadingOrderType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_OrderedGroupType.html">Complex Type pc:OrderedGroupType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.html">Complex Type pc:RegionRefIndexedType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.html">Complex Type pc:OrderedGroupIndexedType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.html">Complex Type pc:UnorderedGroupIndexedType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_RegionRefType.html">Complex Type pc:RegionRefType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.html">Complex Type pc:UnorderedGroupType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_LayersType.html">Complex Type pc:LayersType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_LayerType.html">Complex Type pc:LayerType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_RelationsType.html">Complex Type pc:RelationsType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_RelationType.html">Complex Type pc:RelationType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_TextStyleType.html">Complex Type pc:TextStyleType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_TextRegionType.html">Complex Type pc:TextRegionType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_RegionType.html">Complex Type pc:RegionType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_RolesType.html">Complex Type pc:RolesType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_TableCellRoleType.html">Complex Type pc:TableCellRoleType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_ImageRegionType.html">Complex Type pc:ImageRegionType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_LineDrawingRegionType.html">Complex Type pc:LineDrawingRegionType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_GraphicRegionType.html">Complex Type pc:GraphicRegionType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_TableRegionType.html">Complex Type pc:TableRegionType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_ChartRegionType.html">Complex Type pc:ChartRegionType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_SeparatorRegionType.html">Complex Type pc:SeparatorRegionType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_MathsRegionType.html">Complex Type pc:MathsRegionType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_ChemRegionType.html">Complex Type pc:ChemRegionType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_MusicRegionType.html">Complex Type pc:MusicRegionType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_AdvertRegionType.html">Complex Type pc:AdvertRegionType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_NoiseRegionType.html">Complex Type pc:NoiseRegionType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_UnknownRegionType.html">Complex Type pc:UnknownRegionType</a></li>
-                        <li class="active"><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_CustomRegionType.html">Complex Type pc:CustomRegionType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_GridType.html">Complex Type pc:GridType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_GridPointsType.html">Complex Type pc:GridPointsType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_TextLineType.html">Complex Type pc:TextLineType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_BaselineType.html">Complex Type pc:BaselineType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_WordType.html">Complex Type pc:WordType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_GlyphType.html">Complex Type pc:GlyphType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_GraphemesType.html">Complex Type pc:GraphemesType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_GraphemeType.html">Complex Type pc:GraphemeType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html">Complex Type pc:GraphemeBaseType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_TextEquivType.html">Complex Type pc:TextEquivType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_NonPrintingCharType.html">Complex Type pc:NonPrintingCharType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_GraphemeGroupType.html">Complex Type pc:GraphemeGroupType</a></li>
-                        <li><a href="../pagexml/pagecontent_xsd_Complex_Type_pc_MapRegionType.html">Complex Type pc:MapRegionType</a></li>
-                     </ul>
-                  </li>
-                  <li><a href="../pagexml/Simple_Type.html">Simple Type</a></li>
-               </ul>
-            </li>
-            <li><a href="../trans/page_xml_erweiterungen.html">📚 Page XML Erweiterungen</a></li>
-            <li><a href="../trans/fa.html">❓ Fragen und Antworten</a></li>
-            <li><a href="../trans/impressum.html">Impressum</a></li>
-         </ul>
-      </nav>
+--></header>
       <main role="main">
          <article role="article" aria-labelledby="ariaid-title1">
             
@@ -264,7 +163,7 @@
                               document.execCommand("copy");
                               $temp.remove();
                               }
-                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded437130e75')" title="copy clipboard" class="ccb">📋</button><code id="coded437130e75">Regions containing content that is not covered
+                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded425790e75')" title="copy clipboard" class="ccb">📋</button><code id="coded425790e75">Regions containing content that is not covered
 by the default types (text, graphic, image,
 line drawing, chart, table, separator, maths,
 map, music, chem, advert, noise, unknown).</code></pre>
@@ -279,7 +178,7 @@ map, music, chem, advert, noise, unknown).</code></pre>
                            
                            <div class="p">
                               
-                              <div class="fig imagemap" id="CustomRegionType__pagecontent_xsd_Complex_Type_pc_CustomRegionType"><img usemap="#d437130e89" class="image" src="img/pagecontent_xsd_Complex_Type_pc_CustomRegionType.jpeg"><map name="d437130e89" id="d437130e89"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_id" alt="Attribute pc:RegionType / @id" title="Attribute pc:RegionType / @id" shape="rect" coords="462,190,611,276"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_custom" alt="Attribute pc:RegionType / @custom" title="Attribute pc:RegionType / @custom" shape="rect" coords="462,296,641,382"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_comments" alt="Attribute pc:RegionType / @comments" title="Attribute pc:RegionType / @comments" shape="rect" coords="462,452,662,538"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_continuation" alt="Attribute pc:RegionType / @continuation" title="Attribute pc:RegionType / @continuation" shape="rect" coords="462,558,677,644"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_AlternativeImage" alt="Element pc:RegionType / pc:AlternativeImage" title="Element pc:RegionType / pc:AlternativeImage" shape="rect" coords="617,780,983,866"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_Coords" alt="Element pc:RegionType / pc:Coords" title="Element pc:RegionType / pc:Coords" shape="rect" coords="617,936,894,1022"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_UserDefined" alt="Element pc:RegionType / pc:UserDefined" title="Element pc:RegionType / pc:UserDefined" shape="rect" coords="617,1042,943,1128"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_Labels" alt="Element pc:RegionType / pc:Labels" title="Element pc:RegionType / pc:Labels" shape="rect" coords="617,1148,885,1234"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_Roles" alt="Element pc:RegionType / pc:Roles" title="Element pc:RegionType / pc:Roles" shape="rect" coords="617,1304,878,1390"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_TextRegion" alt="Element pc:RegionType / pc:TextRegion" title="Element pc:RegionType / pc:TextRegion" shape="rect" coords="759,1486,1075,1572"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_ImageRegion" alt="Element pc:RegionType / pc:ImageRegion" title="Element pc:RegionType / pc:ImageRegion" shape="rect" coords="759,1592,1093,1678"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_LineDrawingRegion" alt="Element pc:RegionType / pc:LineDrawingRegion" title="Element pc:RegionType / pc:LineDrawingRegion" shape="rect" coords="759,1698,1151,1784"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_GraphicRegion" alt="Element pc:RegionType / pc:GraphicRegion" title="Element pc:RegionType / pc:GraphicRegion" shape="rect" coords="759,1804,1108,1890"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_TableRegion" alt="Element pc:RegionType / pc:TableRegion" title="Element pc:RegionType / pc:TableRegion" shape="rect" coords="759,1910,1087,1996"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_ChartRegion" alt="Element pc:RegionType / pc:ChartRegion" title="Element pc:RegionType / pc:ChartRegion" shape="rect" coords="759,2016,1085,2102"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_SeparatorRegion" alt="Element pc:RegionType / pc:SeparatorRegion" title="Element pc:RegionType / pc:SeparatorRegion" shape="rect" coords="759,2122,1129,2208"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_MathsRegion" alt="Element pc:RegionType / pc:MathsRegion" title="Element pc:RegionType / pc:MathsRegion" shape="rect" coords="759,2228,1092,2314"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_ChemRegion" alt="Element pc:RegionType / pc:ChemRegion" title="Element pc:RegionType / pc:ChemRegion" shape="rect" coords="759,2334,1090,2420"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_MusicRegion" alt="Element pc:RegionType / pc:MusicRegion" title="Element pc:RegionType / pc:MusicRegion" shape="rect" coords="759,2440,1090,2526"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_AdvertRegion" alt="Element pc:RegionType / pc:AdvertRegion" title="Element pc:RegionType / pc:AdvertRegion" shape="rect" coords="759,2546,1096,2632"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_NoiseRegion" alt="Element pc:RegionType / pc:NoiseRegion" title="Element pc:RegionType / pc:NoiseRegion" shape="rect" coords="759,2652,1090,2738"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_UnknownRegion" alt="Element pc:RegionType / pc:UnknownRegion" title="Element pc:RegionType / pc:UnknownRegion" shape="rect" coords="759,2758,1120,2844"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_CustomRegion" alt="Element pc:RegionType / pc:CustomRegion" title="Element pc:RegionType / pc:CustomRegion" shape="rect" coords="759,2864,1108,2950"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType" alt="Complex Type pc:RegionType" title="Complex Type pc:RegionType" shape="rect" coords="412,6,825,87"><area href="#CustomRegionType_type" alt="Attribute pc:CustomRegionType / @type" title="Attribute pc:CustomRegionType / @type" shape="rect" coords="434,3059,613,3145"></map></div>
+                              <div class="fig imagemap" id="CustomRegionType__pagecontent_xsd_Complex_Type_pc_CustomRegionType"><img usemap="#d425790e89" class="image" src="img/pagecontent_xsd_Complex_Type_pc_CustomRegionType.jpeg"><map name="d425790e89" id="d425790e89"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_id" alt="Attribute pc:RegionType / @id" title="Attribute pc:RegionType / @id" shape="rect" coords="462,190,611,276"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_custom" alt="Attribute pc:RegionType / @custom" title="Attribute pc:RegionType / @custom" shape="rect" coords="462,296,641,382"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_comments" alt="Attribute pc:RegionType / @comments" title="Attribute pc:RegionType / @comments" shape="rect" coords="462,452,662,538"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_continuation" alt="Attribute pc:RegionType / @continuation" title="Attribute pc:RegionType / @continuation" shape="rect" coords="462,558,677,644"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_AlternativeImage" alt="Element pc:RegionType / pc:AlternativeImage" title="Element pc:RegionType / pc:AlternativeImage" shape="rect" coords="617,780,983,866"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_Coords" alt="Element pc:RegionType / pc:Coords" title="Element pc:RegionType / pc:Coords" shape="rect" coords="617,936,894,1022"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_UserDefined" alt="Element pc:RegionType / pc:UserDefined" title="Element pc:RegionType / pc:UserDefined" shape="rect" coords="617,1042,943,1128"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_Labels" alt="Element pc:RegionType / pc:Labels" title="Element pc:RegionType / pc:Labels" shape="rect" coords="617,1148,885,1234"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_Roles" alt="Element pc:RegionType / pc:Roles" title="Element pc:RegionType / pc:Roles" shape="rect" coords="617,1304,878,1390"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_TextRegion" alt="Element pc:RegionType / pc:TextRegion" title="Element pc:RegionType / pc:TextRegion" shape="rect" coords="759,1486,1075,1572"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_ImageRegion" alt="Element pc:RegionType / pc:ImageRegion" title="Element pc:RegionType / pc:ImageRegion" shape="rect" coords="759,1592,1093,1678"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_LineDrawingRegion" alt="Element pc:RegionType / pc:LineDrawingRegion" title="Element pc:RegionType / pc:LineDrawingRegion" shape="rect" coords="759,1698,1151,1784"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_GraphicRegion" alt="Element pc:RegionType / pc:GraphicRegion" title="Element pc:RegionType / pc:GraphicRegion" shape="rect" coords="759,1804,1108,1890"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_TableRegion" alt="Element pc:RegionType / pc:TableRegion" title="Element pc:RegionType / pc:TableRegion" shape="rect" coords="759,1910,1087,1996"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_ChartRegion" alt="Element pc:RegionType / pc:ChartRegion" title="Element pc:RegionType / pc:ChartRegion" shape="rect" coords="759,2016,1085,2102"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_SeparatorRegion" alt="Element pc:RegionType / pc:SeparatorRegion" title="Element pc:RegionType / pc:SeparatorRegion" shape="rect" coords="759,2122,1129,2208"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_MathsRegion" alt="Element pc:RegionType / pc:MathsRegion" title="Element pc:RegionType / pc:MathsRegion" shape="rect" coords="759,2228,1092,2314"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_ChemRegion" alt="Element pc:RegionType / pc:ChemRegion" title="Element pc:RegionType / pc:ChemRegion" shape="rect" coords="759,2334,1090,2420"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_MusicRegion" alt="Element pc:RegionType / pc:MusicRegion" title="Element pc:RegionType / pc:MusicRegion" shape="rect" coords="759,2440,1090,2526"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_AdvertRegion" alt="Element pc:RegionType / pc:AdvertRegion" title="Element pc:RegionType / pc:AdvertRegion" shape="rect" coords="759,2546,1096,2632"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_NoiseRegion" alt="Element pc:RegionType / pc:NoiseRegion" title="Element pc:RegionType / pc:NoiseRegion" shape="rect" coords="759,2652,1090,2738"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_UnknownRegion" alt="Element pc:RegionType / pc:UnknownRegion" title="Element pc:RegionType / pc:UnknownRegion" shape="rect" coords="759,2758,1120,2844"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_CustomRegion" alt="Element pc:RegionType / pc:CustomRegion" title="Element pc:RegionType / pc:CustomRegion" shape="rect" coords="759,2864,1108,2950"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType" alt="Complex Type pc:RegionType" title="Complex Type pc:RegionType" shape="rect" coords="412,6,825,87"><area href="#CustomRegionType_type" alt="Attribute pc:CustomRegionType / @type" title="Attribute pc:CustomRegionType / @type" shape="rect" coords="434,3059,613,3145"></map></div>
                               </div>
                            </td>
                         </tr>
@@ -440,7 +339,7 @@ map, music, chem, advert, noise, unknown).</code></pre>
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded437130e765')" title="copy clipboard" class="ccb">📋</button><code id="coded437130e765">Is this region a continuation of another region
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded425790e765')" title="copy clipboard" class="ccb">📋</button><code id="coded425790e765">Is this region a continuation of another region
 (in previous column or page, for example)?</code></pre>
                                           </td>
                                        </tr>
@@ -479,7 +378,7 @@ map, music, chem, advert, noise, unknown).</code></pre>
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded437130e790')" title="copy clipboard" class="ccb">📋</button><code id="coded437130e790">For generic use</code></pre>
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded425790e790')" title="copy clipboard" class="ccb">📋</button><code id="coded425790e790">For generic use</code></pre>
                                           </td>
                                        </tr>
                                     
@@ -528,7 +427,7 @@ map, music, chem, advert, noise, unknown).</code></pre>
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded437130e832')" title="copy clipboard" class="ccb">📋</button><code id="coded437130e832">Information on the type of content represented by this region</code></pre>
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded425790e832')" title="copy clipboard" class="ccb">📋</button><code id="coded425790e832">Information on the type of content represented by this region</code></pre>
                                           </td>
                                        </tr>
                                     </tbody>
@@ -562,7 +461,7 @@ map, music, chem, advert, noise, unknown).</code></pre>
                               document.execCommand("copy");
                               $temp.remove();
                               }
-                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded437130e850')" title="copy clipboard" class="ccb">📋</button><code id="coded437130e850"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>complexType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>CustomRegionType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded425790e850')" title="copy clipboard" class="ccb">📋</button><code id="coded425790e850"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>complexType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>CustomRegionType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>Regions containing content that is not covered by the default types (text, graphic, image, line drawing, chart, table, separator, maths, map, music, chem, advert, noise, unknown).<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -628,7 +527,7 @@ map, music, chem, advert, noise, unknown).</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded437130e1064')" title="copy clipboard" class="ccb">📋</button><code id="coded437130e1064">Information on the type of content represented by this region</code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded425790e1064')" title="copy clipboard" class="ccb">📋</button><code id="coded425790e1064">Information on the type of content represented by this region</code></pre>
                               </td>
                            </tr>
                         
@@ -724,7 +623,7 @@ map, music, chem, advert, noise, unknown).</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded437130e1161')" title="copy clipboard" class="ccb">📋</button><code id="coded437130e1161"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>type<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded425790e1161')" title="copy clipboard" class="ccb">📋</button><code id="coded425790e1161"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>type<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>Information on the type of content represented by this region<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -756,7 +655,7 @@ map, music, chem, advert, noise, unknown).</code></pre>
                      
                      <h5>Ground Truth Richtlinien</h5>
                      <img src="../resources/ocrd.png" class="my-2" alt="Logo OCR-D" height="64px"><br>
-                     <img src="../resources/dfg_logo_schriftzug_blau_foerderung_4c.jpg" class="my-2" alt="Logo funded by DFG" heigt="64px">
+                     <img src="../resources/dfg_logo_schriftzug_blau_foerderung_4c.jpg" class="my-2" alt="Logo funded by DFG" height="64px">
                      
                      </div>
                   
