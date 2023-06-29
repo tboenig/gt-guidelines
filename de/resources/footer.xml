@@ -1,9 +1,10 @@
 <footer>
+<div class="container">
 <p class="text-center text-muted">       
 Ground Truth Richtlinien<br/>
 OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical Character Recognition gefördert von der DFG</p>
 
-  <div class="container">
+  
     <div class="row py-5">
       <div class="col-12 col-md">
         <h5>Ground Truth Richtlinien</h5>
