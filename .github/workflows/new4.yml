@@ -70,8 +70,8 @@ jobs:
             dita-ot-version: 4.1
             plugins : |
               https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
-              https://github.com/infotexture/dita-bootstrap/archive/master.zip
-              https://github.com/infotexture/dita-bootstrap.lunr/archive/master.zip
+              https://github.com/infotexture/dita-bootstrap/archive/develop.zip
+              https://github.com/infotexture/dita-bootstrap.lunr/archive/develop.zip
               fox.jason.prismjs
               fox.jason.favicon
             project: .github/dita-ot/html.xml
@@ -106,7 +106,6 @@ jobs:
 
       - name: copy images
         run: |
-          ls
           sudo cp de/resources/dfg_logo_schriftzug_blau_foerderung_4c.jpg out/html/resources/
           sudo cp de/resources/icon20x24px-exported-transparent.png out/html/resources/
           
