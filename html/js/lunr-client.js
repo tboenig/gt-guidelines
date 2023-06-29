@@ -1,6 +1,6 @@
 const LUNR_DATA = {"version":"2.3.9","fields":["t","b","k"],"fieldVectors":[],"invertedIndex":[],"pipeline":["stemmer"]};
 const PREVIEW_LOOKUP = {};
-const BASE_URL = 'https://tboenig.github.io/gt-guidelines/html/trans/';
+const BASE_URL = 'https://tboenig.github.io/gt-guidelines/html/';
 
 // Parse search results into HTML
 function parseLunrResults(results) {
