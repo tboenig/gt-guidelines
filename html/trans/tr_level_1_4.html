@@ -41,35 +41,86 @@
         This is a dark/light color theme toggler
         It requires JavaScript to function.
       -->
+                     <!--<li class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show"
+              id="bd-theme"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              data-bs-display="static"
+              >
+              <span class="bs-toggler-light">
+                <img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"/>
+              </span>
+              
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="bd-theme"
+              style="-\-bs-dropdown-min-width: 6rem;"
+              data-bs-popper="static"
+              >
+              <li>
+                <button
+                  type="button"
+                  class="dropdown-item d-flex align-items-center"
+                  data-bs-theme-value="light"
+                  >
+                  <i class="bi" />
+                  <span class="ms-2"><a href="https://ocr-d.de/de/gt-guidelines/trans/">de</a></span>
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="dropdown-item d-flex align-items-center"
+                  data-bs-theme-value="dark"
+                  >
+                  <i class="bi" />
+                  <span class="ms-2"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span>
+                </button>
+              </li>
+              
+            </ul>
+          </li>-->
                      
                      <li class="nav-item dropdown">
-                        <a href="#" class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show" id="bd-theme" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
-                           <span class="bs-toggler-light">
-                              <i class="bi bi-brightness-high-fill"></i>
+                        <a href="#" class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-theme" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                           <span class="bs-toggler-de">
+                              <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language">
                               </span>
-                           <span class="bs-toggler-dark"><i class="bi bi-moon-stars-fill"></i></span>
-                           <span class="bs-toggler-auto"><i class="bi bi-circle-half"></i>
+                           <span class="bs-toggler-en">
+                              <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language">
                               </span>
-                           
-                           <span class="d-lg-none ms-2">Toggle theme</span>
+                           <span class="bs-toggler-auto">
+                              <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language">
+                              </span>
+                           <span class="d-lg-none ms-2">Toggle Language</span>
                            </a>
                         
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 6rem;" data-bs-popper="static">
                            
                            <li>
-                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
-                                 <i class="bi"></i>
+                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="de">
+                                 <i class="bi de"></i>
                                  <span class="ms-2"><a href="https://ocr-d.de/de/gt-guidelines/trans/">de</a></span>
                                  </button>
                               </li>
                            
                            <li>
-                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
-                                 <i class="bi"></i>
+                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="en">
+                                 <i class="bi en"></i>
                                  <span class="ms-2"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span>
                                  </button>
                               </li>
                            
+                           <li>
+                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+                                 <i class="bi bi-circle-half"></i>
+                                 <span class="ms-2">Auto</span>
+                                 </button>
+                              </li>
                            </ul>
                         </li>
                      </ul>
@@ -191,7 +242,7 @@
                      
                      <h5>Ground Truth Richtlinien</h5>
                      <img src="../resources/ocrd.png" class="my-2" alt="Logo OCR-D" height="64px"><br>
-                     <img src="dfg_logo_schriftzug_blau_foerderung_4c.jpg" class="my-2" alt="Logo funded by DFG" heigt="64px">
+                     <img src="../dfg_logo_schriftzug_blau_foerderung_4c.jpg" class="my-2" alt="Logo funded by DFG" heigt="64px">
                      
                      </div>
                   
@@ -237,7 +288,7 @@
                      
                      <ul class="list-unstyled">
                         
-                        <li><a href="/impressum.html">Impressum</a></li>
+                        <li><a href="/gt-guidelines/html/trans/impressum.html">Impressum</a></li>
                         </ul>
                      </div>
                   </div>
