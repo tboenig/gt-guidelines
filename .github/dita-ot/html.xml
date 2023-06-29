@@ -27,11 +27,5 @@
       <param name="lunr.search" value="https://tboenig.github.io/gt-guidelines/html"/>
       <param name="args.xsl" href="../../de/xsl/custom_ocrd.xsl"/>
     </publication>
-
-
-
-
-
-
   </deliverable>
-  </project>
+</project>
