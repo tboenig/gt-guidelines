@@ -10,23 +10,26 @@
  <deliverable name="HTML5" id="html">
     <context idref="html"/>
     <output href="html"/>
-    <publication transtype="html5">
+<publication transtype="html5-bootstrap">
       <param name="default.language" value="de"/>
       <param name="args.copycss" value="yes"/>
-      <param name="args.css" value="theme.css"/>
       <param name="args.csspath" value="css"/>
       <param name="args.cssroot" path="."/>
-      <param name="args.hdr" href="../../de/resources/header.xml"/>
-      <param name="args.ftr" href="../../de/resources/footer.xml"/>
-      <param name="html5.toc.generate" value="yes"/>
-      <param name="args.rellinks" value="noparent"/>
-      <param name="args.gen.task.lbl" value="YES"/>
+      <param name="args.hdr" href="../../documentation/resources/header.xml"/>
+      <param name="args.ftr" href="../../documentation/resources/footer.xml"/>
+      <param name="html5.toc.generate" value="no"/>
+      <param name="args.rellinks" value="none"/>
       <param name="args.html5.toc" value="toc"/>
-      <param name="nav-toc" value="partial"/>
+      <param name="nav-toc" value="collapsible"/>
       <param name="processing-mode" value="strict"/>
+      <param name="icons.include" value="yes"/>
+      <param name="popovers.include" value="yes"/>
       <param name="lunr.search" value="https://tboenig.github.io/gt-guidelines/html"/>
-      <param name="args.xsl" href="../../en/xsl/custom_ocrd.xsl"/>
+      <param name="args.xsl" href="../../de/xsl/custom_ocrd.xsl"/>
     </publication>
+
+
+
 
 
 
