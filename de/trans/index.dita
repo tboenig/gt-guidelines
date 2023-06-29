@@ -23,7 +23,7 @@
         
 
     </body>
-    <related-links><linklist outputclass="linklist_index"><title>Die Guidelines gliedern sich in folgende Bereiche:</title>
+    <!--<related-links><linklist outputclass="linklist_index"><title>Die Guidelines gliedern sich in folgende Bereiche:</title>
         <link href="trLevels.dita"/>        
         <link href="transkription.dita"/>
         <link href="layout.dita"/>
@@ -33,5 +33,5 @@
         <link href="page_xml_erweiterungen.dita"/>
         <link href="fa.dita"/>
     </linklist>
-    </related-links>
+    </related-links>-->
 </topic>
