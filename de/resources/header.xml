@@ -1,9 +1,121 @@
-<div class="header">
-  <script src="https://prismjs.com/prism.js"><!--Prism javascript code for highlighting--></script>
-<table style="border: 0px;  width: 100%;" class="header">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <script src="https://prismjs.com/prism.js"><!--Prism javascript code for highlighting--></script>
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"/></a>
+        Ground Truth Richtlinien
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon" />
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item d-flex align-items-center">
+            <span class="nav-link py-2 pe-2"><i class="bi bi-search" /></span>
+            <form
+              class="bd-search position-relative me-auto"
+              onsubmit="return search(this);"
+              >
+              <input
+                type="search"
+                class="form-control ds-input"
+                id="search-input"
+                placeholder="Search docs..."
+                aria-label="Search docs for..."
+                dir="auto"
+                style="position: relative; vertical-align: top;"
+              />
+            </form>
+          </li>
+          <!--
+        This is a dark/light color theme toggler
+        It requires JavaScript to function.
+      -->
+          <li class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show"
+              id="bd-theme"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              data-bs-display="static"
+              >
+              <span class="bs-toggler-light">
+                <i class="bi bi-brightness-high-fill" />
+              </span>
+              <span class="bs-toggler-dark"><i
+                class="bi bi-moon-stars-fill"
+              /></span>
+              <span class="bs-toggler-auto"><i class="bi bi-circle-half" />
+              </span>
+              
+              <span class="d-lg-none ms-2">Toggle theme</span>
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="bd-theme"
+              style="--bs-dropdown-min-width: 6rem;"
+              data-bs-popper="static"
+              >
+              <li>
+                <button
+                  type="button"
+                  class="dropdown-item d-flex align-items-center"
+                  data-bs-theme-value="light"
+                  >
+                  <i class="bi" />
+                  <span class="ms-2"><a href="https://ocr-d.de/de/gt-guidelines/trans/">de</a></span>
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="dropdown-item d-flex align-items-center"
+                  data-bs-theme-value="dark"
+                  >
+                  <i class="bi" />
+                  <span class="ms-2"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span>
+                </button>
+              </li>
+              
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--<table style="border: 0px;  width: 100%;" class="header">
 <tr>
   <td class="td1"><a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"/></a></td>
-  <td class="td2"><span class="title"><a href="https://ocr-d.de/de/gt-guidelines/trans/" class="nodeco">Ground Truth Richtlinien</a></span><span class="language"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span><br/>
+  <td class="td2"><span class="title"><a href="https://ocr-d.de/de/gt-guidelines/trans/" class="nodeco">
+    Ground Truth Richtlinien</a></span><span class="language"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span><br/>
   <span class="small">OCR-D: Koordinierte Förderinitiative zur Weiterentwicklung von Verfahren der Optical Character Recognition gefördert von der DFG</span>
   <br/>
   <ul class="navbar-nav ms-auto">
@@ -16,10 +128,9 @@
         </form>
       </li>
     </ul>
-    <!--<script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
-    <div class="gcse-search"></div> -->
+    <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+    <div class="gcse-search"></div>
   </td>
 </tr>
-  </table>
-  <hr/>
-</div>
+  </table> -->
+  
