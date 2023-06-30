@@ -5,133 +5,34 @@
       <meta name="copyright" content="(C) Copyright 2023">
       <meta name="generator" content="DITA-OT">
       <link rel="stylesheet" type="text/css" href="../css/commonltr.css">
+      <link rel="stylesheet" type="text/css" href="../css/dita-ot-doc.css">
       <title>Complex Type pc:UserDefinedType</title>
-      
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-      </head>
+   </head>
    <body id="UserDefinedType">
       <header role="banner">
-         <nav class="navbar navbar-expand-lg  bg-ocrd">
+         <div class="header">
             <script src="https://prismjs.com/prism.js"><!--Prism javascript code for highlighting--></script>
             
+            <table style="border: 0px;  width: 100%;" class="header">
+               
+               <tr>
+                  
+                  <td class="td1"><a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"></a></td>
+                  
+                  <td class="td2"><a href="https://ocr-d.de/de/gt-guidelines/trans/" class="nodeco">Ground Truth Richtlinien</a><span class="language"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span><br>
+                     <span class="small">OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical
+                        Character Recognition gefördert von der DFG</span>
+                     <br>
+                     <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+                     
+                     <div class="gcse-search"></div> 
+                     </td>
+                  </tr>
+               </table>
             
-            <div class="container">
-               <!-- This shows the menu on mobile -->
-               
-               <div class="bd-navbar-toggle">
-                  <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" aria-controls="bdSidebar" aria-label="Toggle docs navigation">
-                     <i class="bi bi-list"></i>
-                     </button>
-                  </div>
-               <a class="navbar-brand" href="https://ocr-d.de/de/gt-guidelines/trans/">
-                  <img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D" height="64px">
-                  Ground Truth Richtlinien</a>
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               <button class="navbar-toggler py-2 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <i class="bi bi-three-dots"></i>
-                  </button>
-               
-               
-               
-               
-               
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  
-                  <ul class="navbar-nav">
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">📢 GT-Level</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">📑 Transkription</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">📰 Layout</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">📓 Struktur-GT</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">📓 GT-labelling</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">📓 PAGE Format</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">📚 Page Addon</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">❓ FAQ</a>
-                        </li>
-                     </ul>
-                  
-                  
-                  <ul class="navbar-nav ms-auto">
-                     
-                     <li class="nav-item d-flex align-items-center">
-                        <span class="nav-link py-2 pe-2"><i class="bi bi-search"></i></span>
-                        
-                        <form class="bd-search position-relative me-auto" onsubmit="return search(this);">
-                           <input type="search" class="form-control ds-input" id="search-input" placeholder="Search docs..." aria-label="Search docs for..." dir="auto" style="position: relative; vertical-align: top;">
-                           </form>
-                        </li>
-                     <!--
-        This is a language toggler
-        It requires JavaScript to function.
-        -->
-                     
-                     
-                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-theme" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
-                           <span class="bs-toggler-de">
-                              <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language">
-                              </span>
-                           </a>
-                        
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 6rem;" data-bs-popper="static">
-                           
-                           <li>
-                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="de">
-                                 <i class="bi de"></i>
-                                 <span class="ms-2"><a href="https://ocr-d.de/de/gt-guidelines/trans/">de</a></span>
-                                 </button>
-                              </li>
-                           
-                           <li>
-                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="en">
-                                 <i class="bi en"></i>
-                                 <span class="ms-2"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span>
-                                 </button>
-                              </li>
-                           </ul>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </nav>
-         <!--google search 
-    <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
-    <div class="gcse-search"></div>
---></header>
+            <hr>
+            </div>
+      </header>
       <main role="main">
          <article role="article" aria-labelledby="ariaid-title1">
             
@@ -179,7 +80,7 @@
                               document.execCommand("copy");
                               $temp.remove();
                               }
-                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded538263e41')" title="copy clipboard" class="ccb">📋</button><code id="coded538263e41">Container for user-defined attributes</code></pre>
+                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded543007e75')" title="copy clipboard" class="ccb">📋</button><code id="coded543007e75">Container for user-defined attributes</code></pre>
                            </td>
                         </tr>
                      
@@ -191,7 +92,7 @@
                            
                            <div class="p">
                               
-                              <div class="fig imagemap" id="UserDefinedType__pagecontent_xsd_Complex_Type_pc_UserDefinedType"><img usemap="#d538263e55" class="image" src="img/pagecontent_xsd_Complex_Type_pc_UserDefinedType.jpeg"><map name="d538263e55" id="d538263e55"><area href="#UserDefinedType_UserAttribute" alt="Element pc:UserDefinedType / pc:UserAttribute" title="Element pc:UserDefinedType / pc:UserAttribute" shape="rect" coords="539,0,870,86"></map></div>
+                              <div class="fig imagemap" id="UserDefinedType__pagecontent_xsd_Complex_Type_pc_UserDefinedType"><img usemap="#d543007e89" class="image" src="img/pagecontent_xsd_Complex_Type_pc_UserDefinedType.jpeg"><map name="d543007e89" id="d543007e89"><area href="#UserDefinedType_UserAttribute" alt="Element pc:UserDefinedType / pc:UserAttribute" title="Element pc:UserDefinedType / pc:UserAttribute" shape="rect" coords="539,0,870,86"></map></div>
                               </div>
                            </td>
                         </tr>
@@ -269,7 +170,7 @@
                               document.execCommand("copy");
                               $temp.remove();
                               }
-                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded538263e185')" title="copy clipboard" class="ccb">📋</button><code id="coded538263e185"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>complexType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>UserDefinedType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded543007e219')" title="copy clipboard" class="ccb">📋</button><code id="coded543007e219"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>complexType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>UserDefinedType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>Container for user-defined attributes<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -313,7 +214,7 @@
                               
                               <div class="p">
                                  
-                                 <div class="fig imagemap" id="UserDefinedType_UserAttribute__pagecontent_xsd_Element_pc_UserAttribute"><img usemap="#d538263e364" class="image" src="img/pagecontent_xsd_Element_pc_UserAttribute.jpeg"><map name="d538263e364" id="d538263e364"><area href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.html#UserAttributeType_name" alt="Attribute pc:UserAttributeType / @name" title="Attribute pc:UserAttributeType / @name" shape="rect" coords="443,153,622,239"><area href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.html#UserAttributeType_description" alt="Attribute pc:UserAttributeType / @description" title="Attribute pc:UserAttributeType / @description" shape="rect" coords="443,259,648,345"><area href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.html#UserAttributeType_type" alt="Attribute pc:UserAttributeType / @type" title="Attribute pc:UserAttributeType / @type" shape="rect" coords="443,365,765,451"><area href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.html#UserAttributeType_value" alt="Attribute pc:UserAttributeType / @value" title="Attribute pc:UserAttributeType / @value" shape="rect" coords="443,471,622,557"><area href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.html#UserAttributeType" alt="Complex Type pc:UserAttributeType" title="Complex Type pc:UserAttributeType" shape="rect" coords="393,6,699,50"></map></div>
+                                 <div class="fig imagemap" id="UserDefinedType_UserAttribute__pagecontent_xsd_Element_pc_UserAttribute"><img usemap="#d543007e398" class="image" src="img/pagecontent_xsd_Element_pc_UserAttribute.jpeg"><map name="d543007e398" id="d543007e398"><area href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.html#UserAttributeType_name" alt="Attribute pc:UserAttributeType / @name" title="Attribute pc:UserAttributeType / @name" shape="rect" coords="443,153,622,239"><area href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.html#UserAttributeType_description" alt="Attribute pc:UserAttributeType / @description" title="Attribute pc:UserAttributeType / @description" shape="rect" coords="443,259,648,345"><area href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.html#UserAttributeType_type" alt="Attribute pc:UserAttributeType / @type" title="Attribute pc:UserAttributeType / @type" shape="rect" coords="443,365,765,451"><area href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.html#UserAttributeType_value" alt="Attribute pc:UserAttributeType / @value" title="Attribute pc:UserAttributeType / @value" shape="rect" coords="443,471,622,557"><area href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.html#UserAttributeType" alt="Complex Type pc:UserAttributeType" title="Complex Type pc:UserAttributeType" shape="rect" coords="393,6,699,50"></map></div>
                                  </div>
                               </td>
                            </tr>
@@ -477,7 +378,7 @@
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded538263e626')" title="copy clipboard" class="ccb">📋</button><code id="coded538263e626"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>UserAttribute<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:UserAttributeType<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">minOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>1<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">maxOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>unbounded<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded543007e660')" title="copy clipboard" class="ccb">📋</button><code id="coded543007e660"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>UserAttribute<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:UserAttributeType<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">minOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>1<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">maxOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>unbounded<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
 <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>element</span><span class="ph token punctuation">&gt;</span></span></code></pre>
                               </td>
                            </tr>
@@ -499,7 +400,7 @@
                
                
                
-               <div class="row py-5">
+               <div class="row2 py-5">
                   
                   <div class="col-12 col-md">
                      

@@ -5,133 +5,34 @@
       <meta name="copyright" content="(C) Copyright 2023">
       <meta name="generator" content="DITA-OT">
       <link rel="stylesheet" type="text/css" href="../css/commonltr.css">
+      <link rel="stylesheet" type="text/css" href="../css/dita-ot-doc.css">
       <title>Complex Type pc:TableRegionType</title>
-      
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-      </head>
+   </head>
    <body id="TableRegionType">
       <header role="banner">
-         <nav class="navbar navbar-expand-lg  bg-ocrd">
+         <div class="header">
             <script src="https://prismjs.com/prism.js"><!--Prism javascript code for highlighting--></script>
             
+            <table style="border: 0px;  width: 100%;" class="header">
+               
+               <tr>
+                  
+                  <td class="td1"><a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"></a></td>
+                  
+                  <td class="td2"><a href="https://ocr-d.de/de/gt-guidelines/trans/" class="nodeco">Ground Truth Richtlinien</a><span class="language"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span><br>
+                     <span class="small">OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical
+                        Character Recognition gefördert von der DFG</span>
+                     <br>
+                     <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+                     
+                     <div class="gcse-search"></div> 
+                     </td>
+                  </tr>
+               </table>
             
-            <div class="container">
-               <!-- This shows the menu on mobile -->
-               
-               <div class="bd-navbar-toggle">
-                  <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" aria-controls="bdSidebar" aria-label="Toggle docs navigation">
-                     <i class="bi bi-list"></i>
-                     </button>
-                  </div>
-               <a class="navbar-brand" href="https://ocr-d.de/de/gt-guidelines/trans/">
-                  <img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D" height="64px">
-                  Ground Truth Richtlinien</a>
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               <button class="navbar-toggler py-2 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <i class="bi bi-three-dots"></i>
-                  </button>
-               
-               
-               
-               
-               
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  
-                  <ul class="navbar-nav">
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">📢 GT-Level</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">📑 Transkription</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">📰 Layout</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">📓 Struktur-GT</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">📓 GT-labelling</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">📓 PAGE Format</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">📚 Page Addon</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">❓ FAQ</a>
-                        </li>
-                     </ul>
-                  
-                  
-                  <ul class="navbar-nav ms-auto">
-                     
-                     <li class="nav-item d-flex align-items-center">
-                        <span class="nav-link py-2 pe-2"><i class="bi bi-search"></i></span>
-                        
-                        <form class="bd-search position-relative me-auto" onsubmit="return search(this);">
-                           <input type="search" class="form-control ds-input" id="search-input" placeholder="Search docs..." aria-label="Search docs for..." dir="auto" style="position: relative; vertical-align: top;">
-                           </form>
-                        </li>
-                     <!--
-        This is a language toggler
-        It requires JavaScript to function.
-        -->
-                     
-                     
-                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-theme" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
-                           <span class="bs-toggler-de">
-                              <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language">
-                              </span>
-                           </a>
-                        
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 6rem;" data-bs-popper="static">
-                           
-                           <li>
-                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="de">
-                                 <i class="bi de"></i>
-                                 <span class="ms-2"><a href="https://ocr-d.de/de/gt-guidelines/trans/">de</a></span>
-                                 </button>
-                              </li>
-                           
-                           <li>
-                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="en">
-                                 <i class="bi en"></i>
-                                 <span class="ms-2"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span>
-                                 </button>
-                              </li>
-                           </ul>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </nav>
-         <!--google search 
-    <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
-    <div class="gcse-search"></div>
---></header>
+            <hr>
+            </div>
+      </header>
       <main role="main">
          <article role="article" aria-labelledby="ariaid-title1">
             
@@ -179,7 +80,7 @@
                               document.execCommand("copy");
                               $temp.remove();
                               }
-                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e41')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e41">Tabular data in any form is represented with a table
+                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e75')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e75">Tabular data in any form is represented with a table
 region. Rows and columns may or may not have separator
 lines; these lines are not separator regions.</code></pre>
                            </td>
@@ -193,7 +94,7 @@ lines; these lines are not separator regions.</code></pre>
                            
                            <div class="p">
                               
-                              <div class="fig imagemap" id="TableRegionType__pagecontent_xsd_Complex_Type_pc_TableRegionType"><img usemap="#d264921e55" class="image" src="img/pagecontent_xsd_Complex_Type_pc_TableRegionType.jpeg"><map name="d264921e55" id="d264921e55"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_id" alt="Attribute pc:RegionType / @id" title="Attribute pc:RegionType / @id" shape="rect" coords="462,190,611,276"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_custom" alt="Attribute pc:RegionType / @custom" title="Attribute pc:RegionType / @custom" shape="rect" coords="462,296,641,382"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_comments" alt="Attribute pc:RegionType / @comments" title="Attribute pc:RegionType / @comments" shape="rect" coords="462,452,662,538"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_continuation" alt="Attribute pc:RegionType / @continuation" title="Attribute pc:RegionType / @continuation" shape="rect" coords="462,558,677,644"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_AlternativeImage" alt="Element pc:RegionType / pc:AlternativeImage" title="Element pc:RegionType / pc:AlternativeImage" shape="rect" coords="617,780,983,866"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_Coords" alt="Element pc:RegionType / pc:Coords" title="Element pc:RegionType / pc:Coords" shape="rect" coords="617,936,894,1022"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_UserDefined" alt="Element pc:RegionType / pc:UserDefined" title="Element pc:RegionType / pc:UserDefined" shape="rect" coords="617,1042,943,1128"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_Labels" alt="Element pc:RegionType / pc:Labels" title="Element pc:RegionType / pc:Labels" shape="rect" coords="617,1148,885,1234"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_Roles" alt="Element pc:RegionType / pc:Roles" title="Element pc:RegionType / pc:Roles" shape="rect" coords="617,1304,878,1390"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_TextRegion" alt="Element pc:RegionType / pc:TextRegion" title="Element pc:RegionType / pc:TextRegion" shape="rect" coords="759,1486,1075,1572"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_ImageRegion" alt="Element pc:RegionType / pc:ImageRegion" title="Element pc:RegionType / pc:ImageRegion" shape="rect" coords="759,1592,1093,1678"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_LineDrawingRegion" alt="Element pc:RegionType / pc:LineDrawingRegion" title="Element pc:RegionType / pc:LineDrawingRegion" shape="rect" coords="759,1698,1151,1784"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_GraphicRegion" alt="Element pc:RegionType / pc:GraphicRegion" title="Element pc:RegionType / pc:GraphicRegion" shape="rect" coords="759,1804,1108,1890"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_TableRegion" alt="Element pc:RegionType / pc:TableRegion" title="Element pc:RegionType / pc:TableRegion" shape="rect" coords="759,1910,1087,1996"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_ChartRegion" alt="Element pc:RegionType / pc:ChartRegion" title="Element pc:RegionType / pc:ChartRegion" shape="rect" coords="759,2016,1085,2102"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_SeparatorRegion" alt="Element pc:RegionType / pc:SeparatorRegion" title="Element pc:RegionType / pc:SeparatorRegion" shape="rect" coords="759,2122,1129,2208"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_MathsRegion" alt="Element pc:RegionType / pc:MathsRegion" title="Element pc:RegionType / pc:MathsRegion" shape="rect" coords="759,2228,1092,2314"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_ChemRegion" alt="Element pc:RegionType / pc:ChemRegion" title="Element pc:RegionType / pc:ChemRegion" shape="rect" coords="759,2334,1090,2420"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_MusicRegion" alt="Element pc:RegionType / pc:MusicRegion" title="Element pc:RegionType / pc:MusicRegion" shape="rect" coords="759,2440,1090,2526"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_AdvertRegion" alt="Element pc:RegionType / pc:AdvertRegion" title="Element pc:RegionType / pc:AdvertRegion" shape="rect" coords="759,2546,1096,2632"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_NoiseRegion" alt="Element pc:RegionType / pc:NoiseRegion" title="Element pc:RegionType / pc:NoiseRegion" shape="rect" coords="759,2652,1090,2738"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_UnknownRegion" alt="Element pc:RegionType / pc:UnknownRegion" title="Element pc:RegionType / pc:UnknownRegion" shape="rect" coords="759,2758,1120,2844"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_CustomRegion" alt="Element pc:RegionType / pc:CustomRegion" title="Element pc:RegionType / pc:CustomRegion" shape="rect" coords="759,2864,1108,2950"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType" alt="Complex Type pc:RegionType" title="Complex Type pc:RegionType" shape="rect" coords="412,6,825,87"><area href="#TableRegionType_Grid" alt="Element pc:TableRegionType / pc:Grid" title="Element pc:TableRegionType / pc:Grid" shape="rect" coords="548,3059,794,3145"></map></div>
+                              <div class="fig imagemap" id="TableRegionType__pagecontent_xsd_Complex_Type_pc_TableRegionType"><img usemap="#d357284e89" class="image" src="img/pagecontent_xsd_Complex_Type_pc_TableRegionType.jpeg"><map name="d357284e89" id="d357284e89"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_id" alt="Attribute pc:RegionType / @id" title="Attribute pc:RegionType / @id" shape="rect" coords="462,190,611,276"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_custom" alt="Attribute pc:RegionType / @custom" title="Attribute pc:RegionType / @custom" shape="rect" coords="462,296,641,382"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_comments" alt="Attribute pc:RegionType / @comments" title="Attribute pc:RegionType / @comments" shape="rect" coords="462,452,662,538"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_continuation" alt="Attribute pc:RegionType / @continuation" title="Attribute pc:RegionType / @continuation" shape="rect" coords="462,558,677,644"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_AlternativeImage" alt="Element pc:RegionType / pc:AlternativeImage" title="Element pc:RegionType / pc:AlternativeImage" shape="rect" coords="617,780,983,866"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_Coords" alt="Element pc:RegionType / pc:Coords" title="Element pc:RegionType / pc:Coords" shape="rect" coords="617,936,894,1022"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_UserDefined" alt="Element pc:RegionType / pc:UserDefined" title="Element pc:RegionType / pc:UserDefined" shape="rect" coords="617,1042,943,1128"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_Labels" alt="Element pc:RegionType / pc:Labels" title="Element pc:RegionType / pc:Labels" shape="rect" coords="617,1148,885,1234"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_Roles" alt="Element pc:RegionType / pc:Roles" title="Element pc:RegionType / pc:Roles" shape="rect" coords="617,1304,878,1390"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_TextRegion" alt="Element pc:RegionType / pc:TextRegion" title="Element pc:RegionType / pc:TextRegion" shape="rect" coords="759,1486,1075,1572"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_ImageRegion" alt="Element pc:RegionType / pc:ImageRegion" title="Element pc:RegionType / pc:ImageRegion" shape="rect" coords="759,1592,1093,1678"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_LineDrawingRegion" alt="Element pc:RegionType / pc:LineDrawingRegion" title="Element pc:RegionType / pc:LineDrawingRegion" shape="rect" coords="759,1698,1151,1784"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_GraphicRegion" alt="Element pc:RegionType / pc:GraphicRegion" title="Element pc:RegionType / pc:GraphicRegion" shape="rect" coords="759,1804,1108,1890"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_TableRegion" alt="Element pc:RegionType / pc:TableRegion" title="Element pc:RegionType / pc:TableRegion" shape="rect" coords="759,1910,1087,1996"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_ChartRegion" alt="Element pc:RegionType / pc:ChartRegion" title="Element pc:RegionType / pc:ChartRegion" shape="rect" coords="759,2016,1085,2102"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_SeparatorRegion" alt="Element pc:RegionType / pc:SeparatorRegion" title="Element pc:RegionType / pc:SeparatorRegion" shape="rect" coords="759,2122,1129,2208"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_MathsRegion" alt="Element pc:RegionType / pc:MathsRegion" title="Element pc:RegionType / pc:MathsRegion" shape="rect" coords="759,2228,1092,2314"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_ChemRegion" alt="Element pc:RegionType / pc:ChemRegion" title="Element pc:RegionType / pc:ChemRegion" shape="rect" coords="759,2334,1090,2420"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_MusicRegion" alt="Element pc:RegionType / pc:MusicRegion" title="Element pc:RegionType / pc:MusicRegion" shape="rect" coords="759,2440,1090,2526"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_AdvertRegion" alt="Element pc:RegionType / pc:AdvertRegion" title="Element pc:RegionType / pc:AdvertRegion" shape="rect" coords="759,2546,1096,2632"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_NoiseRegion" alt="Element pc:RegionType / pc:NoiseRegion" title="Element pc:RegionType / pc:NoiseRegion" shape="rect" coords="759,2652,1090,2738"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_UnknownRegion" alt="Element pc:RegionType / pc:UnknownRegion" title="Element pc:RegionType / pc:UnknownRegion" shape="rect" coords="759,2758,1120,2844"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType_CustomRegion" alt="Element pc:RegionType / pc:CustomRegion" title="Element pc:RegionType / pc:CustomRegion" shape="rect" coords="759,2864,1108,2950"><area href="pagecontent_xsd_Complex_Type_pc_RegionType.html#RegionType" alt="Complex Type pc:RegionType" title="Complex Type pc:RegionType" shape="rect" coords="412,6,825,87"><area href="#TableRegionType_Grid" alt="Element pc:TableRegionType / pc:Grid" title="Element pc:TableRegionType / pc:Grid" shape="rect" coords="548,3059,794,3145"></map></div>
                               </div>
                            </td>
                         </tr>
@@ -346,7 +247,7 @@ lines; these lines are not separator regions.</code></pre>
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e727')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e727">The background colour of the region</code></pre>
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e761')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e761">The background colour of the region</code></pre>
                                           </td>
                                        </tr>
                                     
@@ -384,7 +285,7 @@ lines; these lines are not separator regions.</code></pre>
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e752')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e752">The number of columns present in the table</code></pre>
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e786')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e786">The number of columns present in the table</code></pre>
                                           </td>
                                        </tr>
                                     
@@ -433,7 +334,7 @@ lines; these lines are not separator regions.</code></pre>
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e794')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e794">Is this region a continuation of another region
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e828')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e828">Is this region a continuation of another region
 (in previous column or page, for example)?</code></pre>
                                           </td>
                                        </tr>
@@ -472,7 +373,7 @@ lines; these lines are not separator regions.</code></pre>
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e819')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e819">For generic use</code></pre>
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e853')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e853">For generic use</code></pre>
                                           </td>
                                        </tr>
                                     
@@ -510,7 +411,7 @@ lines; these lines are not separator regions.</code></pre>
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e844')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e844">Specifies whether the region also contains
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e878')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e878">Specifies whether the region also contains
 text</code></pre>
                                           </td>
                                        </tr>
@@ -562,7 +463,7 @@ text</code></pre>
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e890')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e890">The colour of the lines used in the region</code></pre>
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e924')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e924">The colour of the lines used in the region</code></pre>
                                           </td>
                                        </tr>
                                     
@@ -600,7 +501,7 @@ text</code></pre>
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e915')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e915">Specifies the presence of line separators</code></pre>
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e949')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e949">Specifies the presence of line separators</code></pre>
                                           </td>
                                        </tr>
                                     
@@ -638,7 +539,7 @@ text</code></pre>
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e941')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e941">The angle the rectangle encapsulating a	region
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e975')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e975">The angle the rectangle encapsulating a	region
 has to be rotated in clockwise direction
 in order to correct the present	skew
 (negative values indicate anti-clockwise rotation).
@@ -680,7 +581,7 @@ Range: -179.999,180</code></pre>
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e966')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e966">The number of rows present in the table</code></pre>
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e1000')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e1000">The number of rows present in the table</code></pre>
                                           </td>
                                        </tr>
                                     </tbody>
@@ -714,7 +615,7 @@ Range: -179.999,180</code></pre>
                               document.execCommand("copy");
                               $temp.remove();
                               }
-                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e984')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e984"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>complexType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>TableRegionType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e1018')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e1018"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>complexType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>TableRegionType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>Tabular data in any form is represented with a table region. Rows and columns may or may not have separator lines; these lines are not separator regions.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -817,7 +718,7 @@ Range: -179.999,180</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e1734')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e1734">The angle the rectangle encapsulating a	region
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e1768')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e1768">The angle the rectangle encapsulating a	region
 has to be rotated in clockwise direction
 in order to correct the present	skew
 (negative values indicate anti-clockwise rotation).
@@ -917,7 +818,7 @@ Range: -179.999,180</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e1831')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e1831"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>orientation<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>float<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e1865')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e1865"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>orientation<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>float<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>The angle the rectangle encapsulating a region has to be rotated in clockwise direction in order to correct the present skew (negative values indicate anti-clockwise rotation). Range: -179.999,180<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -975,7 +876,7 @@ Range: -179.999,180</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e1942')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e1942">The number of rows present in the table</code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e1976')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e1976">The number of rows present in the table</code></pre>
                               </td>
                            </tr>
                         
@@ -1071,7 +972,7 @@ Range: -179.999,180</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e2039')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e2039"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>rows<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>int<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e2073')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e2073"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>rows<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>int<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>The number of rows present in the table<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -1129,7 +1030,7 @@ Range: -179.999,180</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e2150')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e2150">The number of columns present in the table</code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e2184')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e2184">The number of columns present in the table</code></pre>
                               </td>
                            </tr>
                         
@@ -1225,7 +1126,7 @@ Range: -179.999,180</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e2247')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e2247"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>columns<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>int<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e2281')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e2281"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>columns<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>int<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>The number of columns present in the table<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -1283,7 +1184,7 @@ Range: -179.999,180</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e2359')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e2359">The colour of the lines used in the region</code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e2393')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e2393">The colour of the lines used in the region</code></pre>
                               </td>
                            </tr>
                         
@@ -1547,7 +1448,7 @@ Range: -179.999,180</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e2665')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e2665"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>lineColour<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:ColourSimpleType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e2699')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e2699"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>lineColour<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:ColourSimpleType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>The colour of the lines used in the region<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -1605,7 +1506,7 @@ Range: -179.999,180</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e2776')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e2776">The background colour of the region</code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e2810')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e2810">The background colour of the region</code></pre>
                               </td>
                            </tr>
                         
@@ -1869,7 +1770,7 @@ Range: -179.999,180</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e3082')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e3082"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>bgColour<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:ColourSimpleType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e3116')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e3116"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>bgColour<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:ColourSimpleType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>The background colour of the region<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -1927,7 +1828,7 @@ Range: -179.999,180</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e3193')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e3193">Specifies the presence of line separators</code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e3227')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e3227">Specifies the presence of line separators</code></pre>
                               </td>
                            </tr>
                         
@@ -2023,7 +1924,7 @@ Range: -179.999,180</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e3290')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e3290"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>lineSeparators<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>boolean<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e3324')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e3324"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>lineSeparators<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>boolean<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>Specifies the presence of line separators<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -2081,7 +1982,7 @@ Range: -179.999,180</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e3401')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e3401">Specifies whether the region also contains
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e3435')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e3435">Specifies whether the region also contains
 text</code></pre>
                               </td>
                            </tr>
@@ -2178,7 +2079,7 @@ text</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e3498')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e3498"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>embText<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>boolean<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e3532')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e3532"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>embText<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>boolean<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>Specifies whether the region also contains text<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -2236,7 +2137,7 @@ text</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e3609')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e3609">Table grid (visible or virtual grid lines)</code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e3643')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e3643">Table grid (visible or virtual grid lines)</code></pre>
                               </td>
                            </tr>
                         
@@ -2248,7 +2149,7 @@ text</code></pre>
                               
                               <div class="p">
                                  
-                                 <div class="fig imagemap" id="TableRegionType_Grid__pagecontent_xsd_Element_pc_Grid"><img usemap="#d264921e3623" class="image" src="img/pagecontent_xsd_Element_pc_Grid.jpeg"><map name="d264921e3623" id="d264921e3623"><area href="pagecontent_xsd_Complex_Type_pc_GridType.html#GridType_GridPoints" alt="Element pc:GridType / pc:GridPoints" title="Element pc:GridType / pc:GridPoints" shape="rect" coords="533,78,840,164"><area href="pagecontent_xsd_Complex_Type_pc_GridType.html#GridType" alt="Complex Type pc:GridType" title="Complex Type pc:GridType" shape="rect" coords="328,6,549,50"></map></div>
+                                 <div class="fig imagemap" id="TableRegionType_Grid__pagecontent_xsd_Element_pc_Grid"><img usemap="#d357284e3657" class="image" src="img/pagecontent_xsd_Element_pc_Grid.jpeg"><map name="d357284e3657" id="d357284e3657"><area href="pagecontent_xsd_Complex_Type_pc_GridType.html#GridType_GridPoints" alt="Element pc:GridType / pc:GridPoints" title="Element pc:GridType / pc:GridPoints" shape="rect" coords="533,78,840,164"><area href="pagecontent_xsd_Complex_Type_pc_GridType.html#GridType" alt="Complex Type pc:GridType" title="Complex Type pc:GridType" shape="rect" coords="328,6,549,50"></map></div>
                                  </div>
                               </td>
                            </tr>
@@ -2353,7 +2254,7 @@ text</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e3765')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e3765"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>Grid</span> <span class="ph token attr-name"><span class="ph token namespace">xmlns:</span>pc</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e3799')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e3799"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>Grid</span> <span class="ph token attr-name"><span class="ph token namespace">xmlns:</span>pc</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>GridPoints</span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">points</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>{2,unbounded}<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span><span class="ph token namespace">pc:</span>GridPoints</span><span class="ph token punctuation">&gt;</span></span>
 <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span><span class="ph token namespace">pc:</span>Grid</span><span class="ph token punctuation">&gt;</span></span></code></pre>
                               </td>
@@ -2384,7 +2285,7 @@ text</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded264921e3848')" title="copy clipboard" class="ccb">📋</button><code id="coded264921e3848"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>Grid<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:GridType<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">minOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>0<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">maxOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>1<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded357284e3882')" title="copy clipboard" class="ccb">📋</button><code id="coded357284e3882"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>Grid<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:GridType<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">minOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>0<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">maxOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>1<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>Table grid (visible or virtual grid lines)<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -2409,7 +2310,7 @@ text</code></pre>
                
                
                
-               <div class="row py-5">
+               <div class="row2 py-5">
                   
                   <div class="col-12 col-md">
                      
