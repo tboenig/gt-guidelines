@@ -1052,3 +1052,10 @@ Glossary
   margin-right: -15px;
   margin-left: -15px;
 }
+
+/* Lists */
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
