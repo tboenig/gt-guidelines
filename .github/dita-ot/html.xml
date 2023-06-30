@@ -20,8 +20,9 @@
       <param name="args.ftr" href="../../de/resources/footer.xml"/>
       <param name="html5.toc.generate" value="yes"/>
       <param name="args.rellinks" value="noparent"/>
+      <param name="args.gen.task.lbl" value="YES"/>
       <param name="args.html5.toc" value="toc"/>
-      <param name="nav-toc" value="collapsible"/>
+      <param name="nav-toc" value="partial"/>
       <param name="processing-mode" value="strict"/>
       <param name="icons.include" value="yes"/>
       <param name="popovers.include" value="yes"/>
