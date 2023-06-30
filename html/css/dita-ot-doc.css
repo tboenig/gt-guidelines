@@ -1056,3 +1056,14 @@ a.link[href*='dita-ot_day']::after,
   display: inline;
   margin-left: 6px;
 }
+
+/****************************************/
+
+/* custom footer */
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
