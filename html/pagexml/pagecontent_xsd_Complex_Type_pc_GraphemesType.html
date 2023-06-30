@@ -10,29 +10,143 @@
    </head>
    <body id="GraphemesType">
       <header role="banner">
-         <div class="header">
+         <nav class="navbar navbar-expand-lg  bg-ocrd">
             <script src="https://prismjs.com/prism.js"><!--Prism javascript code for highlighting--></script>
             
-            <table style="border: 0px;  width: 100%;" class="header">
-               
-               <tr>
-                  
-                  <td class="td1"><a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"></a></td>
-                  
-                  <td class="td2"><a href="https://ocr-d.de/de/gt-guidelines/trans/" class="nodeco">Ground Truth Richtlinien</a><span class="language"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span><br>
-                     <span class="small">OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical
-                        Character Recognition gefördert von der DFG</span>
-                     <br>
-                     <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
-                     
-                     <div class="gcse-search"></div> 
-                     </td>
-                  </tr>
-               </table>
             
-            <hr>
-            </div>
-      </header>
+            <div class="container">
+               <!-- This shows the menu on mobile -->
+               
+               <div class="bd-navbar-toggle">
+                  <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" aria-controls="bdSidebar" aria-label="Toggle docs navigation">
+                     <i class="bi bi-list"></i>
+                     </button>
+                  </div>
+               <a class="navbar-brand" href="https://ocr-d.de/de/gt-guidelines/trans/">
+                  <img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D" height="64px">
+                  Ground Truth Richtlinien</a>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               <button class="navbar-toggler py-2 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="bi bi-three-dots"></i>
+                  </button>
+               
+               
+               
+               
+               
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  
+                  <ul class="navbar-nav">
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">GT-Level</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Transkription</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Layout</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Struktur-GT</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">GT-labelling</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">PAGE Format</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">PAGE Addon</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                     </ul>
+                  
+                  
+                  <ul class="navbar-nav ms-auto">
+                     
+                     <li class="nav-item d-flex align-items-center">
+                        <span class="nav-link py-2 pe-2"><i class="bi bi-search"></i></span>
+                        <!--<form
+              class="bd-search position-relative me-auto"
+              onsubmit="return search(this);"
+              >
+              <input
+                type="search"
+                class="form-control ds-input"
+                id="search-input"
+                placeholder="Search docs..."
+                aria-label="Search docs for..."
+                dir="auto"
+                style="position: relative; vertical-align: top;"
+              />
+            </form>-->
+                        <!--google search -->
+                        <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+                        
+                        <div class="gcse-search"></div>
+                        
+                        
+                        
+                        </li>
+                     <!--
+        This is a language toggler
+        It requires JavaScript to function.
+        -->
+                     
+                     
+                     <li class="nav-item dropdown">
+                        <a href="#" class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-theme" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                           <span class="bs-toggler-de">
+                              <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language">
+                              </span>
+                           </a>
+                        
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 6rem;" data-bs-popper="static">
+                           
+                           <li>
+                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="de">
+                                 <i class="bi de"></i>
+                                 <span class="ms-2"><a href="https://ocr-d.de/de/gt-guidelines/trans/">de</a></span>
+                                 </button>
+                              </li>
+                           
+                           <li>
+                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="en">
+                                 <i class="bi en"></i>
+                                 <span class="ms-2"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span>
+                                 </button>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         <!--google search 
+    <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+    <div class="gcse-search"></div>
+--></header>
       <nav class="toc" role="navigation">
          <ul>
             <li><a href="../trans/index.html">Die Ground Truth Richtlinien</a></li>
@@ -156,7 +270,7 @@
                               document.execCommand("copy");
                               $temp.remove();
                               }
-                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e75')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e75">Container for graphemes, grapheme groups and
+                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e75')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e75">Container for graphemes, grapheme groups and
 non-printing characters.</code></pre>
                            </td>
                         </tr>
@@ -169,7 +283,7 @@ non-printing characters.</code></pre>
                            
                            <div class="p">
                               
-                              <div class="fig imagemap" id="GraphemesType__pagecontent_xsd_Complex_Type_pc_GraphemesType"><img usemap="#d542574e89" class="image" src="img/pagecontent_xsd_Complex_Type_pc_GraphemesType.jpeg"><map name="d542574e89" id="d542574e89"><area href="#GraphemesType_Grapheme" alt="Element pc:GraphemesType / pc:Grapheme" title="Element pc:GraphemesType / pc:Grapheme" shape="rect" coords="530,0,836,86"><area href="#GraphemesType_NonPrintingChar" alt="Element pc:GraphemesType / pc:NonPrintingChar" title="Element pc:GraphemesType / pc:NonPrintingChar" shape="rect" coords="530,106,893,192"><area href="#GraphemesType_GraphemeGroup" alt="Element pc:GraphemesType / pc:GraphemeGroup" title="Element pc:GraphemesType / pc:GraphemeGroup" shape="rect" coords="530,212,896,298"></map></div>
+                              <div class="fig imagemap" id="GraphemesType__pagecontent_xsd_Complex_Type_pc_GraphemesType"><img usemap="#d285999e89" class="image" src="img/pagecontent_xsd_Complex_Type_pc_GraphemesType.jpeg"><map name="d285999e89" id="d285999e89"><area href="#GraphemesType_Grapheme" alt="Element pc:GraphemesType / pc:Grapheme" title="Element pc:GraphemesType / pc:Grapheme" shape="rect" coords="530,0,836,86"><area href="#GraphemesType_NonPrintingChar" alt="Element pc:GraphemesType / pc:NonPrintingChar" title="Element pc:GraphemesType / pc:NonPrintingChar" shape="rect" coords="530,106,893,192"><area href="#GraphemesType_GraphemeGroup" alt="Element pc:GraphemesType / pc:GraphemeGroup" title="Element pc:GraphemesType / pc:GraphemeGroup" shape="rect" coords="530,212,896,298"></map></div>
                               </div>
                            </td>
                         </tr>
@@ -247,7 +361,7 @@ non-printing characters.</code></pre>
                               document.execCommand("copy");
                               $temp.remove();
                               }
-                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e224')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e224"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>complexType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>GraphemesType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e224')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e224"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>complexType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>GraphemesType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>Container for graphemes, grapheme groups and non-printing characters.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -292,7 +406,7 @@ non-printing characters.</code></pre>
                               
                               <div class="p">
                                  
-                                 <div class="fig imagemap" id="GraphemesType_Grapheme__pagecontent_xsd_Element_pc_Grapheme"><img usemap="#d542574e454" class="image" src="img/pagecontent_xsd_Element_pc_Grapheme.jpeg"><map name="d542574e454" id="d542574e454"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_id" alt="Attribute pc:GraphemeBaseType / @id" title="Attribute pc:GraphemeBaseType / @id" shape="rect" coords="446,305,595,391"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_index" alt="Attribute pc:GraphemeBaseType / @index" title="Attribute pc:GraphemeBaseType / @index" shape="rect" coords="446,411,738,497"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_ligature" alt="Attribute pc:GraphemeBaseType / @ligature" title="Attribute pc:GraphemeBaseType / @ligature" shape="rect" coords="446,619,650,705"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_charType" alt="Attribute pc:GraphemeBaseType / @charType" title="Attribute pc:GraphemeBaseType / @charType" shape="rect" coords="446,725,768,811"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_custom" alt="Attribute pc:GraphemeBaseType / @custom" title="Attribute pc:GraphemeBaseType / @custom" shape="rect" coords="446,907,625,993"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_comments" alt="Attribute pc:GraphemeBaseType / @comments" title="Attribute pc:GraphemeBaseType / @comments" shape="rect" coords="446,1063,646,1149"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_TextEquiv" alt="Element pc:GraphemeBaseType / pc:TextEquiv" title="Element pc:GraphemeBaseType / pc:TextEquiv" shape="rect" coords="601,1233,902,1319"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType" alt="Complex Type pc:GraphemeBaseType" title="Complex Type pc:GraphemeBaseType" shape="rect" coords="396,121,891,202"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeType.html#GraphemeType_Coords" alt="Element pc:GraphemeType / pc:Coords" title="Element pc:GraphemeType / pc:Coords" shape="rect" coords="532,1429,809,1515"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeType.html#GraphemeType" alt="Complex Type pc:GraphemeType" title="Complex Type pc:GraphemeType" shape="rect" coords="368,6,772,87"></map></div>
+                                 <div class="fig imagemap" id="GraphemesType_Grapheme__pagecontent_xsd_Element_pc_Grapheme"><img usemap="#d285999e454" class="image" src="img/pagecontent_xsd_Element_pc_Grapheme.jpeg"><map name="d285999e454" id="d285999e454"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_id" alt="Attribute pc:GraphemeBaseType / @id" title="Attribute pc:GraphemeBaseType / @id" shape="rect" coords="446,305,595,391"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_index" alt="Attribute pc:GraphemeBaseType / @index" title="Attribute pc:GraphemeBaseType / @index" shape="rect" coords="446,411,738,497"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_ligature" alt="Attribute pc:GraphemeBaseType / @ligature" title="Attribute pc:GraphemeBaseType / @ligature" shape="rect" coords="446,619,650,705"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_charType" alt="Attribute pc:GraphemeBaseType / @charType" title="Attribute pc:GraphemeBaseType / @charType" shape="rect" coords="446,725,768,811"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_custom" alt="Attribute pc:GraphemeBaseType / @custom" title="Attribute pc:GraphemeBaseType / @custom" shape="rect" coords="446,907,625,993"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_comments" alt="Attribute pc:GraphemeBaseType / @comments" title="Attribute pc:GraphemeBaseType / @comments" shape="rect" coords="446,1063,646,1149"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_TextEquiv" alt="Element pc:GraphemeBaseType / pc:TextEquiv" title="Element pc:GraphemeBaseType / pc:TextEquiv" shape="rect" coords="601,1233,902,1319"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType" alt="Complex Type pc:GraphemeBaseType" title="Complex Type pc:GraphemeBaseType" shape="rect" coords="396,121,891,202"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeType.html#GraphemeType_Coords" alt="Element pc:GraphemeType / pc:Coords" title="Element pc:GraphemeType / pc:Coords" shape="rect" coords="532,1429,809,1515"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeType.html#GraphemeType" alt="Complex Type pc:GraphemeType" title="Complex Type pc:GraphemeType" shape="rect" coords="368,6,772,87"></map></div>
                                  </div>
                               </td>
                            </tr>
@@ -407,7 +521,7 @@ non-printing characters.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e720')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e720"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>Grapheme</span> <span class="ph token attr-name">charType</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">comments</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">custom</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">id</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">ligature</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name"><span class="ph token namespace">xmlns:</span>pc</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e720')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e720"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>Grapheme</span> <span class="ph token attr-name">charType</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">comments</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">custom</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">id</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">ligature</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name"><span class="ph token namespace">xmlns:</span>pc</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>TextEquiv</span> <span class="ph token attr-name">comments</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">conf</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">dataType</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">dataTypeDetails</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>{0,unbounded}<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span><span class="ph token namespace">pc:</span>TextEquiv</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>Coords</span> <span class="ph token attr-name">conf</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">points</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>{1,1}<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span><span class="ph token namespace">pc:</span>Coords</span><span class="ph token punctuation">&gt;</span></span>
 <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span><span class="ph token namespace">pc:</span>Grapheme</span><span class="ph token punctuation">&gt;</span></span></code></pre>
@@ -476,7 +590,7 @@ non-printing characters.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e985')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e985">Type of character represented by the
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e985')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e985">Type of character represented by the
 grapheme, group, or non-printing character element.</code></pre>
                                              </td>
                                           </tr>
@@ -515,7 +629,7 @@ grapheme, group, or non-printing character element.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e1010')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e1010">For generic use</code></pre>
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e1010')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e1010">For generic use</code></pre>
                                              </td>
                                           </tr>
                                        
@@ -553,7 +667,7 @@ grapheme, group, or non-printing character element.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e1036')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e1036">For generic use</code></pre>
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e1036')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e1036">For generic use</code></pre>
                                              </td>
                                           </tr>
                                        
@@ -602,7 +716,7 @@ grapheme, group, or non-printing character element.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e1077')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e1077">Order index of grapheme, group, or non-printing character
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e1077')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e1077">Order index of grapheme, group, or non-printing character
 within the parent container (graphemes or glyph or grapheme group).</code></pre>
                                              </td>
                                           </tr>
@@ -648,7 +762,7 @@ within the parent container (graphemes or glyph or grapheme group).</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e1111')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e1111"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>Grapheme<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:GraphemeType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span></code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e1111')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e1111"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>Grapheme<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:GraphemeType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span></code></pre>
                               </td>
                            </tr>
                         </tbody>
@@ -685,7 +799,7 @@ within the parent container (graphemes or glyph or grapheme group).</code></pre>
                               
                               <div class="p">
                                  
-                                 <div class="fig imagemap" id="GraphemesType_NonPrintingChar__pagecontent_xsd_Element_pc_NonPrintingChar"><img usemap="#d542574e1184" class="image" src="img/pagecontent_xsd_Element_pc_NonPrintingChar.jpeg"><map name="d542574e1184" id="d542574e1184"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_id" alt="Attribute pc:GraphemeBaseType / @id" title="Attribute pc:GraphemeBaseType / @id" shape="rect" coords="503,305,652,391"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_index" alt="Attribute pc:GraphemeBaseType / @index" title="Attribute pc:GraphemeBaseType / @index" shape="rect" coords="503,411,795,497"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_ligature" alt="Attribute pc:GraphemeBaseType / @ligature" title="Attribute pc:GraphemeBaseType / @ligature" shape="rect" coords="503,619,707,705"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_charType" alt="Attribute pc:GraphemeBaseType / @charType" title="Attribute pc:GraphemeBaseType / @charType" shape="rect" coords="503,725,825,811"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_custom" alt="Attribute pc:GraphemeBaseType / @custom" title="Attribute pc:GraphemeBaseType / @custom" shape="rect" coords="503,907,682,993"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_comments" alt="Attribute pc:GraphemeBaseType / @comments" title="Attribute pc:GraphemeBaseType / @comments" shape="rect" coords="503,1063,703,1149"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_TextEquiv" alt="Element pc:GraphemeBaseType / pc:TextEquiv" title="Element pc:GraphemeBaseType / pc:TextEquiv" shape="rect" coords="658,1233,959,1319"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType" alt="Complex Type pc:GraphemeBaseType" title="Complex Type pc:GraphemeBaseType" shape="rect" coords="453,121,948,202"><area href="pagecontent_xsd_Complex_Type_pc_NonPrintingCharType.html#NonPrintingCharType" alt="Complex Type pc:NonPrintingCharType" title="Complex Type pc:NonPrintingCharType" shape="rect" coords="425,6,829,87"></map></div>
+                                 <div class="fig imagemap" id="GraphemesType_NonPrintingChar__pagecontent_xsd_Element_pc_NonPrintingChar"><img usemap="#d285999e1184" class="image" src="img/pagecontent_xsd_Element_pc_NonPrintingChar.jpeg"><map name="d285999e1184" id="d285999e1184"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_id" alt="Attribute pc:GraphemeBaseType / @id" title="Attribute pc:GraphemeBaseType / @id" shape="rect" coords="503,305,652,391"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_index" alt="Attribute pc:GraphemeBaseType / @index" title="Attribute pc:GraphemeBaseType / @index" shape="rect" coords="503,411,795,497"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_ligature" alt="Attribute pc:GraphemeBaseType / @ligature" title="Attribute pc:GraphemeBaseType / @ligature" shape="rect" coords="503,619,707,705"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_charType" alt="Attribute pc:GraphemeBaseType / @charType" title="Attribute pc:GraphemeBaseType / @charType" shape="rect" coords="503,725,825,811"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_custom" alt="Attribute pc:GraphemeBaseType / @custom" title="Attribute pc:GraphemeBaseType / @custom" shape="rect" coords="503,907,682,993"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_comments" alt="Attribute pc:GraphemeBaseType / @comments" title="Attribute pc:GraphemeBaseType / @comments" shape="rect" coords="503,1063,703,1149"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_TextEquiv" alt="Element pc:GraphemeBaseType / pc:TextEquiv" title="Element pc:GraphemeBaseType / pc:TextEquiv" shape="rect" coords="658,1233,959,1319"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType" alt="Complex Type pc:GraphemeBaseType" title="Complex Type pc:GraphemeBaseType" shape="rect" coords="453,121,948,202"><area href="pagecontent_xsd_Complex_Type_pc_NonPrintingCharType.html#NonPrintingCharType" alt="Complex Type pc:NonPrintingCharType" title="Complex Type pc:NonPrintingCharType" shape="rect" coords="425,6,829,87"></map></div>
                                  </div>
                               </td>
                            </tr>
@@ -800,7 +914,7 @@ within the parent container (graphemes or glyph or grapheme group).</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e1429')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e1429"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>NonPrintingChar</span> <span class="ph token attr-name">charType</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">comments</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">custom</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">id</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">ligature</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name"><span class="ph token namespace">xmlns:</span>pc</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e1429')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e1429"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>NonPrintingChar</span> <span class="ph token attr-name">charType</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">comments</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">custom</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">id</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">ligature</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name"><span class="ph token namespace">xmlns:</span>pc</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>TextEquiv</span> <span class="ph token attr-name">comments</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">conf</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">dataType</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">dataTypeDetails</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>{0,unbounded}<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span><span class="ph token namespace">pc:</span>TextEquiv</span><span class="ph token punctuation">&gt;</span></span>
 <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span><span class="ph token namespace">pc:</span>NonPrintingChar</span><span class="ph token punctuation">&gt;</span></span></code></pre>
                               </td>
@@ -868,7 +982,7 @@ within the parent container (graphemes or glyph or grapheme group).</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e1654')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e1654">Type of character represented by the
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e1654')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e1654">Type of character represented by the
 grapheme, group, or non-printing character element.</code></pre>
                                              </td>
                                           </tr>
@@ -907,7 +1021,7 @@ grapheme, group, or non-printing character element.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e1679')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e1679">For generic use</code></pre>
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e1679')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e1679">For generic use</code></pre>
                                              </td>
                                           </tr>
                                        
@@ -945,7 +1059,7 @@ grapheme, group, or non-printing character element.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e1705')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e1705">For generic use</code></pre>
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e1705')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e1705">For generic use</code></pre>
                                              </td>
                                           </tr>
                                        
@@ -994,7 +1108,7 @@ grapheme, group, or non-printing character element.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e1746')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e1746">Order index of grapheme, group, or non-printing character
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e1746')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e1746">Order index of grapheme, group, or non-printing character
 within the parent container (graphemes or glyph or grapheme group).</code></pre>
                                              </td>
                                           </tr>
@@ -1040,7 +1154,7 @@ within the parent container (graphemes or glyph or grapheme group).</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e1780')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e1780"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>NonPrintingChar<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:NonPrintingCharType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span></code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e1780')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e1780"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>NonPrintingChar<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:NonPrintingCharType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span></code></pre>
                               </td>
                            </tr>
                         </tbody>
@@ -1077,7 +1191,7 @@ within the parent container (graphemes or glyph or grapheme group).</code></pre>
                               
                               <div class="p">
                                  
-                                 <div class="fig imagemap" id="GraphemesType_GraphemeGroup__pagecontent_xsd_Element_pc_GraphemeGroup"><img usemap="#d542574e1853" class="image" src="img/pagecontent_xsd_Element_pc_GraphemeGroup.jpeg"><map name="d542574e1853" id="d542574e1853"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_id" alt="Attribute pc:GraphemeBaseType / @id" title="Attribute pc:GraphemeBaseType / @id" shape="rect" coords="547,305,696,391"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_index" alt="Attribute pc:GraphemeBaseType / @index" title="Attribute pc:GraphemeBaseType / @index" shape="rect" coords="547,411,839,497"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_ligature" alt="Attribute pc:GraphemeBaseType / @ligature" title="Attribute pc:GraphemeBaseType / @ligature" shape="rect" coords="547,619,751,705"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_charType" alt="Attribute pc:GraphemeBaseType / @charType" title="Attribute pc:GraphemeBaseType / @charType" shape="rect" coords="547,725,869,811"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_custom" alt="Attribute pc:GraphemeBaseType / @custom" title="Attribute pc:GraphemeBaseType / @custom" shape="rect" coords="547,907,726,993"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_comments" alt="Attribute pc:GraphemeBaseType / @comments" title="Attribute pc:GraphemeBaseType / @comments" shape="rect" coords="547,1063,747,1149"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_TextEquiv" alt="Element pc:GraphemeBaseType / pc:TextEquiv" title="Element pc:GraphemeBaseType / pc:TextEquiv" shape="rect" coords="702,1233,1003,1319"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType" alt="Complex Type pc:GraphemeBaseType" title="Complex Type pc:GraphemeBaseType" shape="rect" coords="497,121,992,202"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeGroupType.html#GraphemeGroupType_Grapheme" alt="Element pc:GraphemeGroupType / pc:Grapheme" title="Element pc:GraphemeGroupType / pc:Grapheme" shape="rect" coords="633,1429,939,1515"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeGroupType.html#GraphemeGroupType_NonPrintingChar" alt="Element pc:GraphemeGroupType / pc:NonPrintingChar" title="Element pc:GraphemeGroupType / pc:NonPrintingChar" shape="rect" coords="633,1535,996,1621"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeGroupType.html#GraphemeGroupType" alt="Complex Type pc:GraphemeGroupType" title="Complex Type pc:GraphemeGroupType" shape="rect" coords="469,6,873,87"></map></div>
+                                 <div class="fig imagemap" id="GraphemesType_GraphemeGroup__pagecontent_xsd_Element_pc_GraphemeGroup"><img usemap="#d285999e1853" class="image" src="img/pagecontent_xsd_Element_pc_GraphemeGroup.jpeg"><map name="d285999e1853" id="d285999e1853"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_id" alt="Attribute pc:GraphemeBaseType / @id" title="Attribute pc:GraphemeBaseType / @id" shape="rect" coords="547,305,696,391"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_index" alt="Attribute pc:GraphemeBaseType / @index" title="Attribute pc:GraphemeBaseType / @index" shape="rect" coords="547,411,839,497"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_ligature" alt="Attribute pc:GraphemeBaseType / @ligature" title="Attribute pc:GraphemeBaseType / @ligature" shape="rect" coords="547,619,751,705"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_charType" alt="Attribute pc:GraphemeBaseType / @charType" title="Attribute pc:GraphemeBaseType / @charType" shape="rect" coords="547,725,869,811"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_custom" alt="Attribute pc:GraphemeBaseType / @custom" title="Attribute pc:GraphemeBaseType / @custom" shape="rect" coords="547,907,726,993"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_comments" alt="Attribute pc:GraphemeBaseType / @comments" title="Attribute pc:GraphemeBaseType / @comments" shape="rect" coords="547,1063,747,1149"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType_TextEquiv" alt="Element pc:GraphemeBaseType / pc:TextEquiv" title="Element pc:GraphemeBaseType / pc:TextEquiv" shape="rect" coords="702,1233,1003,1319"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.html#GraphemeBaseType" alt="Complex Type pc:GraphemeBaseType" title="Complex Type pc:GraphemeBaseType" shape="rect" coords="497,121,992,202"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeGroupType.html#GraphemeGroupType_Grapheme" alt="Element pc:GraphemeGroupType / pc:Grapheme" title="Element pc:GraphemeGroupType / pc:Grapheme" shape="rect" coords="633,1429,939,1515"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeGroupType.html#GraphemeGroupType_NonPrintingChar" alt="Element pc:GraphemeGroupType / pc:NonPrintingChar" title="Element pc:GraphemeGroupType / pc:NonPrintingChar" shape="rect" coords="633,1535,996,1621"><area href="pagecontent_xsd_Complex_Type_pc_GraphemeGroupType.html#GraphemeGroupType" alt="Complex Type pc:GraphemeGroupType" title="Complex Type pc:GraphemeGroupType" shape="rect" coords="469,6,873,87"></map></div>
                                  </div>
                               </td>
                            </tr>
@@ -1191,7 +1305,7 @@ within the parent container (graphemes or glyph or grapheme group).</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e2141')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e2141"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>GraphemeGroup</span> <span class="ph token attr-name">charType</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">comments</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">custom</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">id</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">ligature</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name"><span class="ph token namespace">xmlns:</span>pc</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e2141')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e2141"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>GraphemeGroup</span> <span class="ph token attr-name">charType</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">comments</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">custom</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">id</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">ligature</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name"><span class="ph token namespace">xmlns:</span>pc</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>TextEquiv</span> <span class="ph token attr-name">comments</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">conf</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">dataType</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">dataTypeDetails</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>{0,unbounded}<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span><span class="ph token namespace">pc:</span>TextEquiv</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>Grapheme</span> <span class="ph token attr-name">charType</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">comments</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">custom</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">id</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">ligature</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>{1,1}<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span><span class="ph token namespace">pc:</span>Grapheme</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>NonPrintingChar</span> <span class="ph token attr-name">charType</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">comments</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">custom</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">id</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">index</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">ligature</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>{1,1}<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span><span class="ph token namespace">pc:</span>NonPrintingChar</span><span class="ph token punctuation">&gt;</span></span>
@@ -1261,7 +1375,7 @@ within the parent container (graphemes or glyph or grapheme group).</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e2529')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e2529">Type of character represented by the
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e2529')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e2529">Type of character represented by the
 grapheme, group, or non-printing character element.</code></pre>
                                              </td>
                                           </tr>
@@ -1300,7 +1414,7 @@ grapheme, group, or non-printing character element.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e2554')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e2554">For generic use</code></pre>
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e2554')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e2554">For generic use</code></pre>
                                              </td>
                                           </tr>
                                        
@@ -1338,7 +1452,7 @@ grapheme, group, or non-printing character element.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e2580')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e2580">For generic use</code></pre>
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e2580')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e2580">For generic use</code></pre>
                                              </td>
                                           </tr>
                                        
@@ -1387,7 +1501,7 @@ grapheme, group, or non-printing character element.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e2621')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e2621">Order index of grapheme, group, or non-printing character
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e2621')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e2621">Order index of grapheme, group, or non-printing character
 within the parent container (graphemes or glyph or grapheme group).</code></pre>
                                              </td>
                                           </tr>
@@ -1433,7 +1547,7 @@ within the parent container (graphemes or glyph or grapheme group).</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded542574e2655')" title="copy clipboard" class="ccb">📋</button><code id="coded542574e2655"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>GraphemeGroup<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:GraphemeGroupType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span></code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded285999e2655')" title="copy clipboard" class="ccb">📋</button><code id="coded285999e2655"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>GraphemeGroup<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:GraphemeGroupType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span></code></pre>
                               </td>
                            </tr>
                         </tbody>

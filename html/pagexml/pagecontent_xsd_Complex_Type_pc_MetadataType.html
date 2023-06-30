@@ -10,29 +10,143 @@
    </head>
    <body id="MetadataType">
       <header role="banner">
-         <div class="header">
+         <nav class="navbar navbar-expand-lg  bg-ocrd">
             <script src="https://prismjs.com/prism.js"><!--Prism javascript code for highlighting--></script>
             
-            <table style="border: 0px;  width: 100%;" class="header">
-               
-               <tr>
-                  
-                  <td class="td1"><a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"></a></td>
-                  
-                  <td class="td2"><a href="https://ocr-d.de/de/gt-guidelines/trans/" class="nodeco">Ground Truth Richtlinien</a><span class="language"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span><br>
-                     <span class="small">OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical
-                        Character Recognition gefördert von der DFG</span>
-                     <br>
-                     <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
-                     
-                     <div class="gcse-search"></div> 
-                     </td>
-                  </tr>
-               </table>
             
-            <hr>
-            </div>
-      </header>
+            <div class="container">
+               <!-- This shows the menu on mobile -->
+               
+               <div class="bd-navbar-toggle">
+                  <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" aria-controls="bdSidebar" aria-label="Toggle docs navigation">
+                     <i class="bi bi-list"></i>
+                     </button>
+                  </div>
+               <a class="navbar-brand" href="https://ocr-d.de/de/gt-guidelines/trans/">
+                  <img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D" height="64px">
+                  Ground Truth Richtlinien</a>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               <button class="navbar-toggler py-2 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="bi bi-three-dots"></i>
+                  </button>
+               
+               
+               
+               
+               
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  
+                  <ul class="navbar-nav">
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">GT-Level</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Transkription</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Layout</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Struktur-GT</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">GT-labelling</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">PAGE Format</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">PAGE Addon</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                     </ul>
+                  
+                  
+                  <ul class="navbar-nav ms-auto">
+                     
+                     <li class="nav-item d-flex align-items-center">
+                        <span class="nav-link py-2 pe-2"><i class="bi bi-search"></i></span>
+                        <!--<form
+              class="bd-search position-relative me-auto"
+              onsubmit="return search(this);"
+              >
+              <input
+                type="search"
+                class="form-control ds-input"
+                id="search-input"
+                placeholder="Search docs..."
+                aria-label="Search docs for..."
+                dir="auto"
+                style="position: relative; vertical-align: top;"
+              />
+            </form>-->
+                        <!--google search -->
+                        <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+                        
+                        <div class="gcse-search"></div>
+                        
+                        
+                        
+                        </li>
+                     <!--
+        This is a language toggler
+        It requires JavaScript to function.
+        -->
+                     
+                     
+                     <li class="nav-item dropdown">
+                        <a href="#" class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-theme" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                           <span class="bs-toggler-de">
+                              <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language">
+                              </span>
+                           </a>
+                        
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 6rem;" data-bs-popper="static">
+                           
+                           <li>
+                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="de">
+                                 <i class="bi de"></i>
+                                 <span class="ms-2"><a href="https://ocr-d.de/de/gt-guidelines/trans/">de</a></span>
+                                 </button>
+                              </li>
+                           
+                           <li>
+                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="en">
+                                 <i class="bi en"></i>
+                                 <span class="ms-2"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span>
+                                 </button>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         <!--google search 
+    <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+    <div class="gcse-search"></div>
+--></header>
       <nav class="toc" role="navigation">
          <ul>
             <li><a href="../trans/index.html">Die Ground Truth Richtlinien</a></li>
@@ -139,7 +253,7 @@
                            
                            <div class="p">
                               
-                              <div class="fig imagemap" id="MetadataType__pagecontent_xsd_Complex_Type_pc_MetadataType"><img usemap="#d545034e77" class="image" src="img/pagecontent_xsd_Complex_Type_pc_MetadataType.jpeg"><map name="d545034e77" id="d545034e77"><area href="#MetadataType_externalRef" alt="Attribute pc:MetadataType / @externalRef" title="Attribute pc:MetadataType / @externalRef" shape="rect" coords="334,75,543,161"><area href="#MetadataType_Creator" alt="Element pc:MetadataType / pc:Creator" title="Element pc:MetadataType / pc:Creator" shape="rect" coords="489,245,668,331"><area href="#MetadataType_Created" alt="Element pc:MetadataType / pc:Created" title="Element pc:MetadataType / pc:Created" shape="rect" coords="489,351,707,437"><area href="#MetadataType_LastChange" alt="Element pc:MetadataType / pc:LastChange" title="Element pc:MetadataType / pc:LastChange" shape="rect" coords="489,559,707,645"><area href="#MetadataType_Comments" alt="Element pc:MetadataType / pc:Comments" title="Element pc:MetadataType / pc:Comments" shape="rect" coords="489,767,668,853"><area href="#MetadataType_UserDefined" alt="Element pc:MetadataType / pc:UserDefined" title="Element pc:MetadataType / pc:UserDefined" shape="rect" coords="489,873,815,959"><area href="#MetadataType_MetadataItem" alt="Element pc:MetadataType / pc:MetadataItem" title="Element pc:MetadataType / pc:MetadataItem" shape="rect" coords="489,979,827,1065"></map></div>
+                              <div class="fig imagemap" id="MetadataType__pagecontent_xsd_Complex_Type_pc_MetadataType"><img usemap="#d288459e77" class="image" src="img/pagecontent_xsd_Complex_Type_pc_MetadataType.jpeg"><map name="d288459e77" id="d288459e77"><area href="#MetadataType_externalRef" alt="Attribute pc:MetadataType / @externalRef" title="Attribute pc:MetadataType / @externalRef" shape="rect" coords="334,75,543,161"><area href="#MetadataType_Creator" alt="Element pc:MetadataType / pc:Creator" title="Element pc:MetadataType / pc:Creator" shape="rect" coords="489,245,668,331"><area href="#MetadataType_Created" alt="Element pc:MetadataType / pc:Created" title="Element pc:MetadataType / pc:Created" shape="rect" coords="489,351,707,437"><area href="#MetadataType_LastChange" alt="Element pc:MetadataType / pc:LastChange" title="Element pc:MetadataType / pc:LastChange" shape="rect" coords="489,559,707,645"><area href="#MetadataType_Comments" alt="Element pc:MetadataType / pc:Comments" title="Element pc:MetadataType / pc:Comments" shape="rect" coords="489,767,668,853"><area href="#MetadataType_UserDefined" alt="Element pc:MetadataType / pc:UserDefined" title="Element pc:MetadataType / pc:UserDefined" shape="rect" coords="489,873,815,959"><area href="#MetadataType_MetadataItem" alt="Element pc:MetadataType / pc:MetadataItem" title="Element pc:MetadataType / pc:MetadataItem" shape="rect" coords="489,979,827,1065"></map></div>
                               </div>
                            </td>
                         </tr>
@@ -254,7 +368,7 @@
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e340')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e340">External reference of any kind</code></pre>
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e340')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e340">External reference of any kind</code></pre>
                                           </td>
                                        </tr>
                                     </tbody>
@@ -288,7 +402,7 @@
                               document.execCommand("copy");
                               $temp.remove();
                               }
-                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e358')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e358"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>complexType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>MetadataType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e358')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e358"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>complexType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>MetadataType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>sequence</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>Creator<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>Created<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>dateTime<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
@@ -366,7 +480,7 @@
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e868')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e868">External reference of any kind</code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e868')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e868">External reference of any kind</code></pre>
                               </td>
                            </tr>
                         
@@ -462,7 +576,7 @@
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e965')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e965"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>externalRef<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e965')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e965"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>externalRef<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>External reference of any kind<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -567,7 +681,7 @@
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e1133')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e1133"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>Creator<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span></code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e1133')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e1133"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>Creator<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span></code></pre>
                               </td>
                            </tr>
                         </tbody>
@@ -621,7 +735,7 @@
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e1204')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e1204">The timestamp has to be in UTC (Coordinated
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e1204')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e1204">The timestamp has to be in UTC (Coordinated
 Universal Time) and not local time.</code></pre>
                               </td>
                            </tr>
@@ -698,7 +812,7 @@ Universal Time) and not local time.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e1274')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e1274"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>Created<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>dateTime<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e1274')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e1274"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>Created<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>dateTime<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>The timestamp has to be in UTC (Coordinated Universal Time) and not local time.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -756,7 +870,7 @@ Universal Time) and not local time.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e1386')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e1386">The timestamp has to be in UTC
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e1386')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e1386">The timestamp has to be in UTC
 (Coordinated Universal Time)
 and not local time.</code></pre>
                               </td>
@@ -834,7 +948,7 @@ and not local time.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e1456')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e1456"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>LastChange<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>dateTime<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e1456')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e1456"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>LastChange<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>dateTime<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>The timestamp has to be in UTC (Coordinated Universal Time) and not local time.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -957,7 +1071,7 @@ and not local time.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e1648')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e1648"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>Comments<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">minOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>0<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">maxOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>1<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e1648')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e1648"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>Comments<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">minOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>0<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">maxOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>1<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
 <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>element</span><span class="ph token punctuation">&gt;</span></span></code></pre>
                               </td>
                            </tr>
@@ -995,7 +1109,7 @@ and not local time.</code></pre>
                               
                               <div class="p">
                                  
-                                 <div class="fig imagemap" id="MetadataType_UserDefined__pagecontent_xsd_Element_pc_UserDefined"><img usemap="#d545034e1752" class="image" src="img/pagecontent_xsd_Element_pc_UserDefined.jpeg"><map name="d545034e1752" id="d545034e1752"><area href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.html#UserDefinedType_UserAttribute" alt="Element pc:UserDefinedType / pc:UserAttribute" title="Element pc:UserDefinedType / pc:UserAttribute" shape="rect" coords="593,78,924,164"><area href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.html#UserDefinedType" alt="Complex Type pc:UserDefinedType" title="Complex Type pc:UserDefinedType" shape="rect" coords="388,6,689,50"></map></div>
+                                 <div class="fig imagemap" id="MetadataType_UserDefined__pagecontent_xsd_Element_pc_UserDefined"><img usemap="#d288459e1752" class="image" src="img/pagecontent_xsd_Element_pc_UserDefined.jpeg"><map name="d288459e1752" id="d288459e1752"><area href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.html#UserDefinedType_UserAttribute" alt="Element pc:UserDefinedType / pc:UserAttribute" title="Element pc:UserDefinedType / pc:UserAttribute" shape="rect" coords="593,78,924,164"><area href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.html#UserDefinedType" alt="Complex Type pc:UserDefinedType" title="Complex Type pc:UserDefinedType" shape="rect" coords="388,6,689,50"></map></div>
                                  </div>
                               </td>
                            </tr>
@@ -1100,7 +1214,7 @@ and not local time.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e1894')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e1894"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>UserDefined</span> <span class="ph token attr-name"><span class="ph token namespace">xmlns:</span>pc</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e1894')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e1894"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>UserDefined</span> <span class="ph token attr-name"><span class="ph token namespace">xmlns:</span>pc</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>UserAttribute</span> <span class="ph token attr-name">description</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>{1,unbounded}<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span><span class="ph token namespace">pc:</span>UserAttribute</span><span class="ph token punctuation">&gt;</span></span>
 <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span><span class="ph token namespace">pc:</span>UserDefined</span><span class="ph token punctuation">&gt;</span></span></code></pre>
                               </td>
@@ -1131,7 +1245,7 @@ and not local time.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e1998')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e1998"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>UserDefined<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:UserDefinedType<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">minOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>0<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">maxOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>1<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e1998')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e1998"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>UserDefined<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:UserDefinedType<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">minOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>0<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">maxOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>1<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
 <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>element</span><span class="ph token punctuation">&gt;</span></span></code></pre>
                               </td>
                            </tr>
@@ -1169,7 +1283,7 @@ and not local time.</code></pre>
                               
                               <div class="p">
                                  
-                                 <div class="fig imagemap" id="MetadataType_MetadataItem__pagecontent_xsd_Element_pc_MetadataItem"><img usemap="#d545034e2102" class="image" src="img/pagecontent_xsd_Element_pc_MetadataItem.jpeg"><map name="d545034e2102" id="d545034e2102"><area href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.html#MetadataItemType_type" alt="Attribute pc:MetadataItemType / @type" title="Attribute pc:MetadataItemType / @type" shape="rect" coords="450,153,772,239"><area href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.html#MetadataItemType_name" alt="Attribute pc:MetadataItemType / @name" title="Attribute pc:MetadataItemType / @name" shape="rect" coords="450,309,629,395"><area href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.html#MetadataItemType_value" alt="Attribute pc:MetadataItemType / @value" title="Attribute pc:MetadataItemType / @value" shape="rect" coords="450,465,629,551"><area href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.html#MetadataItemType_date" alt="Attribute pc:MetadataItemType / @date" title="Attribute pc:MetadataItemType / @date" shape="rect" coords="450,621,668,707"><area href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.html#MetadataItemType_Labels" alt="Element pc:MetadataItemType / pc:Labels" title="Element pc:MetadataItemType / pc:Labels" shape="rect" coords="605,741,873,827"><area href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.html#MetadataItemType" alt="Complex Type pc:MetadataItemType" title="Complex Type pc:MetadataItemType" shape="rect" coords="400,6,713,50"></map></div>
+                                 <div class="fig imagemap" id="MetadataType_MetadataItem__pagecontent_xsd_Element_pc_MetadataItem"><img usemap="#d288459e2102" class="image" src="img/pagecontent_xsd_Element_pc_MetadataItem.jpeg"><map name="d288459e2102" id="d288459e2102"><area href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.html#MetadataItemType_type" alt="Attribute pc:MetadataItemType / @type" title="Attribute pc:MetadataItemType / @type" shape="rect" coords="450,153,772,239"><area href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.html#MetadataItemType_name" alt="Attribute pc:MetadataItemType / @name" title="Attribute pc:MetadataItemType / @name" shape="rect" coords="450,309,629,395"><area href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.html#MetadataItemType_value" alt="Attribute pc:MetadataItemType / @value" title="Attribute pc:MetadataItemType / @value" shape="rect" coords="450,465,629,551"><area href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.html#MetadataItemType_date" alt="Attribute pc:MetadataItemType / @date" title="Attribute pc:MetadataItemType / @date" shape="rect" coords="450,621,668,707"><area href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.html#MetadataItemType_Labels" alt="Element pc:MetadataItemType / pc:Labels" title="Element pc:MetadataItemType / pc:Labels" shape="rect" coords="605,741,873,827"><area href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.html#MetadataItemType" alt="Complex Type pc:MetadataItemType" title="Complex Type pc:MetadataItemType" shape="rect" coords="400,6,713,50"></map></div>
                                  </div>
                               </td>
                            </tr>
@@ -1274,7 +1388,7 @@ and not local time.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e2297')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e2297"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>MetadataItem</span> <span class="ph token attr-name">date</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name"><span class="ph token namespace">xmlns:</span>pc</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e2297')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e2297"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>MetadataItem</span> <span class="ph token attr-name">date</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name"><span class="ph token namespace">xmlns:</span>pc</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span><span class="ph token namespace">pc:</span>Labels</span> <span class="ph token attr-name">comments</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">externalId</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">externalModel</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span> <span class="ph token attr-name">prefix</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span><span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>{0,unbounded}<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span><span class="ph token namespace">pc:</span>Labels</span><span class="ph token punctuation">&gt;</span></span>
 <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span><span class="ph token namespace">pc:</span>MetadataItem</span><span class="ph token punctuation">&gt;</span></span></code></pre>
                               </td>
@@ -1353,7 +1467,7 @@ and not local time.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e2507')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e2507">E.g. imagePhotometricInterpretation</code></pre>
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e2507')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e2507">E.g. imagePhotometricInterpretation</code></pre>
                                              </td>
                                           </tr>
                                        
@@ -1391,7 +1505,7 @@ and not local time.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e2532')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e2532">Type of metadata (e.g. author)</code></pre>
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e2532')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e2532">Type of metadata (e.g. author)</code></pre>
                                              </td>
                                           </tr>
                                        
@@ -1429,7 +1543,7 @@ and not local time.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e2558')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e2558">E.g. RGB</code></pre>
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e2558')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e2558">E.g. RGB</code></pre>
                                              </td>
                                           </tr>
                                        </tbody>
@@ -1463,7 +1577,7 @@ and not local time.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded545034e2576')" title="copy clipboard" class="ccb">📋</button><code id="coded545034e2576"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>MetadataItem<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:MetadataItemType<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">minOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>0<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">maxOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>unbounded<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded288459e2576')" title="copy clipboard" class="ccb">📋</button><code id="coded288459e2576"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>MetadataItem<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:MetadataItemType<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">minOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>0<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">maxOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>unbounded<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
 <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>element</span><span class="ph token punctuation">&gt;</span></span></code></pre>
                               </td>
                            </tr>

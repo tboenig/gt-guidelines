@@ -10,29 +10,143 @@
    </head>
    <body id="TextEquivType">
       <header role="banner">
-         <div class="header">
+         <nav class="navbar navbar-expand-lg  bg-ocrd">
             <script src="https://prismjs.com/prism.js"><!--Prism javascript code for highlighting--></script>
             
-            <table style="border: 0px;  width: 100%;" class="header">
-               
-               <tr>
-                  
-                  <td class="td1"><a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"></a></td>
-                  
-                  <td class="td2"><a href="https://ocr-d.de/de/gt-guidelines/trans/" class="nodeco">Ground Truth Richtlinien</a><span class="language"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span><br>
-                     <span class="small">OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical
-                        Character Recognition gefördert von der DFG</span>
-                     <br>
-                     <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
-                     
-                     <div class="gcse-search"></div> 
-                     </td>
-                  </tr>
-               </table>
             
-            <hr>
-            </div>
-      </header>
+            <div class="container">
+               <!-- This shows the menu on mobile -->
+               
+               <div class="bd-navbar-toggle">
+                  <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" aria-controls="bdSidebar" aria-label="Toggle docs navigation">
+                     <i class="bi bi-list"></i>
+                     </button>
+                  </div>
+               <a class="navbar-brand" href="https://ocr-d.de/de/gt-guidelines/trans/">
+                  <img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D" height="64px">
+                  Ground Truth Richtlinien</a>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               <button class="navbar-toggler py-2 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="bi bi-three-dots"></i>
+                  </button>
+               
+               
+               
+               
+               
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  
+                  <ul class="navbar-nav">
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">GT-Level</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Transkription</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Layout</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Struktur-GT</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">GT-labelling</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">PAGE Format</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">PAGE Addon</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                     </ul>
+                  
+                  
+                  <ul class="navbar-nav ms-auto">
+                     
+                     <li class="nav-item d-flex align-items-center">
+                        <span class="nav-link py-2 pe-2"><i class="bi bi-search"></i></span>
+                        <!--<form
+              class="bd-search position-relative me-auto"
+              onsubmit="return search(this);"
+              >
+              <input
+                type="search"
+                class="form-control ds-input"
+                id="search-input"
+                placeholder="Search docs..."
+                aria-label="Search docs for..."
+                dir="auto"
+                style="position: relative; vertical-align: top;"
+              />
+            </form>-->
+                        <!--google search -->
+                        <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+                        
+                        <div class="gcse-search"></div>
+                        
+                        
+                        
+                        </li>
+                     <!--
+        This is a language toggler
+        It requires JavaScript to function.
+        -->
+                     
+                     
+                     <li class="nav-item dropdown">
+                        <a href="#" class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-theme" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                           <span class="bs-toggler-de">
+                              <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language">
+                              </span>
+                           </a>
+                        
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 6rem;" data-bs-popper="static">
+                           
+                           <li>
+                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="de">
+                                 <i class="bi de"></i>
+                                 <span class="ms-2"><a href="https://ocr-d.de/de/gt-guidelines/trans/">de</a></span>
+                                 </button>
+                              </li>
+                           
+                           <li>
+                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="en">
+                                 <i class="bi en"></i>
+                                 <span class="ms-2"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span>
+                                 </button>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         <!--google search 
+    <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+    <div class="gcse-search"></div>
+--></header>
       <nav class="toc" role="navigation">
          <ul>
             <li><a href="../trans/index.html">Die Ground Truth Richtlinien</a></li>
@@ -139,7 +253,7 @@
                            
                            <div class="p">
                               
-                              <div class="fig imagemap" id="TextEquivType__pagecontent_xsd_Complex_Type_pc_TextEquivType"><img usemap="#d312235e77" class="image" src="img/pagecontent_xsd_Complex_Type_pc_TextEquivType.jpeg"><map name="d312235e77" id="d312235e77"><area href="#TextEquivType_index" alt="Attribute pc:TextEquivType / @index" title="Attribute pc:TextEquivType / @index" shape="rect" coords="339,75,674,161"><area href="#TextEquivType_conf" alt="Attribute pc:TextEquivType / @conf" title="Attribute pc:TextEquivType / @conf" shape="rect" coords="339,283,657,369"><area href="#TextEquivType_dataType" alt="Attribute pc:TextEquivType / @dataType" title="Attribute pc:TextEquivType / @dataType" shape="rect" coords="339,439,747,525"><area href="#TextEquivType_dataTypeDetails" alt="Attribute pc:TextEquivType / @dataTypeDetails" title="Attribute pc:TextEquivType / @dataTypeDetails" shape="rect" coords="339,621,596,707"><area href="#TextEquivType_comments" alt="Attribute pc:TextEquivType / @comments" title="Attribute pc:TextEquivType / @comments" shape="rect" coords="339,803,539,889"><area href="#TextEquivType_PlainText" alt="Element pc:TextEquivType / pc:PlainText" title="Element pc:TextEquivType / pc:PlainText" shape="rect" coords="453,923,632,1009"><area href="#TextEquivType_Unicode" alt="Element pc:TextEquivType / pc:Unicode" title="Element pc:TextEquivType / pc:Unicode" shape="rect" coords="453,1157,632,1243"></map></div>
+                              <div class="fig imagemap" id="TextEquivType__pagecontent_xsd_Complex_Type_pc_TextEquivType"><img usemap="#d55978e77" class="image" src="img/pagecontent_xsd_Complex_Type_pc_TextEquivType.jpeg"><map name="d55978e77" id="d55978e77"><area href="#TextEquivType_index" alt="Attribute pc:TextEquivType / @index" title="Attribute pc:TextEquivType / @index" shape="rect" coords="339,75,674,161"><area href="#TextEquivType_conf" alt="Attribute pc:TextEquivType / @conf" title="Attribute pc:TextEquivType / @conf" shape="rect" coords="339,283,657,369"><area href="#TextEquivType_dataType" alt="Attribute pc:TextEquivType / @dataType" title="Attribute pc:TextEquivType / @dataType" shape="rect" coords="339,439,747,525"><area href="#TextEquivType_dataTypeDetails" alt="Attribute pc:TextEquivType / @dataTypeDetails" title="Attribute pc:TextEquivType / @dataTypeDetails" shape="rect" coords="339,621,596,707"><area href="#TextEquivType_comments" alt="Attribute pc:TextEquivType / @comments" title="Attribute pc:TextEquivType / @comments" shape="rect" coords="339,803,539,889"><area href="#TextEquivType_PlainText" alt="Element pc:TextEquivType / pc:PlainText" title="Element pc:TextEquivType / pc:PlainText" shape="rect" coords="453,923,632,1009"><area href="#TextEquivType_Unicode" alt="Element pc:TextEquivType / pc:Unicode" title="Element pc:TextEquivType / pc:Unicode" shape="rect" coords="453,1157,632,1243"></map></div>
                               </div>
                            </td>
                         </tr>
@@ -267,7 +381,7 @@
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e342')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e342">OCR confidence value (between 0 and 1)</code></pre>
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e342')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e342">OCR confidence value (between 0 and 1)</code></pre>
                                           </td>
                                        </tr>
                                     
@@ -307,7 +421,7 @@
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e371')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e371">Type of text content (is it free text or a number, for instance).
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e371')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e371">Type of text content (is it free text or a number, for instance).
 This is only a descriptive attribute, the text type
 is not checked during XML validation.</code></pre>
                                           </td>
@@ -347,7 +461,7 @@ is not checked during XML validation.</code></pre>
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e397')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e397">Refinement for dataType attribute. Can be a regular expression, for instance.</code></pre>
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e397')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e397">Refinement for dataType attribute. Can be a regular expression, for instance.</code></pre>
                                           </td>
                                        </tr>
                                     
@@ -385,7 +499,7 @@ is not checked during XML validation.</code></pre>
                                              document.execCommand("copy");
                                              $temp.remove();
                                              }
-                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e422')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e422">Used for sort order in case multiple TextEquivs are defined.
+                                             </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e422')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e422">Used for sort order in case multiple TextEquivs are defined.
 The text content with the lowest index should be interpreted
 as the main text content.</code></pre>
                                           </td>
@@ -421,7 +535,7 @@ as the main text content.</code></pre>
                               document.execCommand("copy");
                               $temp.remove();
                               }
-                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e440')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e440"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>complexType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>TextEquivType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e440')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e440"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>complexType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>TextEquivType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>sequence</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>PlainText<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">minOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>0<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
       <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -524,7 +638,7 @@ as the main text content.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e1056')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e1056">Used for sort order in case multiple TextEquivs are defined.
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e1056')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e1056">Used for sort order in case multiple TextEquivs are defined.
 The text content with the lowest index should be interpreted
 as the main text content.</code></pre>
                               </td>
@@ -653,7 +767,7 @@ as the main text content.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e1191')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e1191"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>index<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">use</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>optional<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e1191')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e1191"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>index<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">use</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>optional<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>Used for sort order in case multiple TextEquivs are defined. The text content with the lowest index should be interpreted as the main text content.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -716,7 +830,7 @@ as the main text content.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e1365')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e1365">OCR confidence value (between 0 and 1)</code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e1365')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e1365">OCR confidence value (between 0 and 1)</code></pre>
                               </td>
                            </tr>
                         
@@ -854,7 +968,7 @@ as the main text content.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e1515')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e1515"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>conf<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:ConfSimpleType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e1515')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e1515"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>conf<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:ConfSimpleType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>OCR confidence value (between 0 and 1)<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -912,7 +1026,7 @@ as the main text content.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e1626')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e1626">Type of text content (is it free text or a number, for instance).
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e1626')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e1626">Type of text content (is it free text or a number, for instance).
 This is only a descriptive attribute, the text type
 is not checked during XML validation.</code></pre>
                               </td>
@@ -1001,7 +1115,7 @@ is not checked during XML validation.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e1712')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e1712">Examples:
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e1712')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e1712">Examples:
 "123.456", "+1234.456",
 "-1234.456", "-.456", "-456"</code></pre>
                                              </td>
@@ -1034,7 +1148,7 @@ is not checked during XML validation.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e1727')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e1727">Examples:
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e1727')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e1727">Examples:
 "123.456", "+1234.456", "-1.2344e56",
 "-.45E-6", "INF", "-INF", "NaN"</code></pre>
                                              </td>
@@ -1067,7 +1181,7 @@ is not checked during XML validation.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e1742')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e1742">Examples:
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e1742')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e1742">Examples:
 "123456", "+00000012", "-1", "-456"</code></pre>
                                              </td>
                                           </tr>
@@ -1099,7 +1213,7 @@ is not checked during XML validation.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e1757')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e1757">Examples: "true", "false", "1", "0"</code></pre>
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e1757')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e1757">Examples: "true", "false", "1", "0"</code></pre>
                                              </td>
                                           </tr>
                                        
@@ -1130,7 +1244,7 @@ is not checked during XML validation.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e1772')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e1772">Examples:
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e1772')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e1772">Examples:
 "2001-10-26", "2001-10-26+02:00",
 "2001-10-26Z", "2001-10-26+00:00",
 "-2001-10-26", "-20000-04-01"</code></pre>
@@ -1164,7 +1278,7 @@ is not checked during XML validation.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e1788')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e1788">Examples:
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e1788')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e1788">Examples:
 "21:32:52", "21:32:52+02:00", "19:32:52Z",
 "19:32:52+00:00", "21:32:52.12679"</code></pre>
                                              </td>
@@ -1197,7 +1311,7 @@ is not checked during XML validation.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e1803')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e1803">Examples:
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e1803')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e1803">Examples:
 "2001-10-26T21:32:52", "2001-10-26T21:32:52+02:00",
 "2001-10-26T19:32:52Z", "2001-10-26T19:32:52+00:00",
 "-2001-10-26T21:32:52", "2001-10-26T21:32:52.12679"</code></pre>
@@ -1231,7 +1345,7 @@ is not checked during XML validation.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e1818')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e1818">Generic text string</code></pre>
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e1818')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e1818">Generic text string</code></pre>
                                              </td>
                                           </tr>
                                        
@@ -1262,7 +1376,7 @@ is not checked during XML validation.</code></pre>
                                                 document.execCommand("copy");
                                                 $temp.remove();
                                                 }
-                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e1833')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e1833">An XSD type that is not listed or a custom type
+                                                </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e1833')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e1833">An XSD type that is not listed or a custom type
 (use dataTypeDetails attribute).</code></pre>
                                              </td>
                                           </tr>
@@ -1327,7 +1441,7 @@ is not checked during XML validation.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e1890')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e1890"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>dataType<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:TextDataTypeSimpleType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e1890')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e1890"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>dataType<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>pc:TextDataTypeSimpleType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>Type of text content (is it free text or a number, for instance). This is only a descriptive attribute, the text type is not checked during XML validation.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -1385,7 +1499,7 @@ is not checked during XML validation.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e2002')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e2002">Refinement for dataType attribute. Can be a regular expression, for instance.</code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e2002')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e2002">Refinement for dataType attribute. Can be a regular expression, for instance.</code></pre>
                               </td>
                            </tr>
                         
@@ -1481,7 +1595,7 @@ is not checked during XML validation.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e2099')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e2099"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>dataTypeDetails<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e2099')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e2099"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>dataTypeDetails<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>Refinement for dataType attribute. Can be a regular expression, for instance.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -1606,7 +1720,7 @@ is not checked during XML validation.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e2294')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e2294"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>comments<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span></code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e2294')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e2294"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>comments<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span></code></pre>
                               </td>
                            </tr>
                         </tbody>
@@ -1660,7 +1774,7 @@ is not checked during XML validation.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e2365')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e2365">Text in a "simple" form (ASCII or extended ASCII
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e2365')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e2365">Text in a "simple" form (ASCII or extended ASCII
 as mostly used for typing). I.e. no use of
 special characters for ligatures (should be
 stored as two separate characters) etc.</code></pre>
@@ -1748,7 +1862,7 @@ stored as two separate characters) etc.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e2447')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e2447"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>PlainText<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">minOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>0<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e2447')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e2447"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>PlainText<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">minOccurs</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>0<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>Text in a "simple" form (ASCII or extended ASCII as mostly used for typing). I.e. no use of special characters for ligatures (should be stored as two separate characters) etc.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -1806,7 +1920,7 @@ stored as two separate characters) etc.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e2569')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e2569">Correct encoding of the original, always using
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e2569')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e2569">Correct encoding of the original, always using
 the corresponding Unicode code point. I.e.
 ligatures have to be represented as one
 character etc.</code></pre>
@@ -1885,7 +1999,7 @@ character etc.</code></pre>
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded312235e2639')" title="copy clipboard" class="ccb">📋</button><code id="coded312235e2639"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>Unicode<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded55978e2639')" title="copy clipboard" class="ccb">📋</button><code id="coded55978e2639"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>element</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>Unicode<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>Correct encoding of the original, always using the corresponding Unicode code point. I.e. ligatures have to be represented as one character etc.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>

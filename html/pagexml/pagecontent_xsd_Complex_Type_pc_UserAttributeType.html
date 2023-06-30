@@ -10,29 +10,143 @@
    </head>
    <body id="UserAttributeType">
       <header role="banner">
-         <div class="header">
+         <nav class="navbar navbar-expand-lg  bg-ocrd">
             <script src="https://prismjs.com/prism.js"><!--Prism javascript code for highlighting--></script>
             
-            <table style="border: 0px;  width: 100%;" class="header">
-               
-               <tr>
-                  
-                  <td class="td1"><a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"></a></td>
-                  
-                  <td class="td2"><a href="https://ocr-d.de/de/gt-guidelines/trans/" class="nodeco">Ground Truth Richtlinien</a><span class="language"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span><br>
-                     <span class="small">OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical
-                        Character Recognition gefördert von der DFG</span>
-                     <br>
-                     <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
-                     
-                     <div class="gcse-search"></div> 
-                     </td>
-                  </tr>
-               </table>
             
-            <hr>
-            </div>
-      </header>
+            <div class="container">
+               <!-- This shows the menu on mobile -->
+               
+               <div class="bd-navbar-toggle">
+                  <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" aria-controls="bdSidebar" aria-label="Toggle docs navigation">
+                     <i class="bi bi-list"></i>
+                     </button>
+                  </div>
+               <a class="navbar-brand" href="https://ocr-d.de/de/gt-guidelines/trans/">
+                  <img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D" height="64px">
+                  Ground Truth Richtlinien</a>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               <button class="navbar-toggler py-2 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="bi bi-three-dots"></i>
+                  </button>
+               
+               
+               
+               
+               
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  
+                  <ul class="navbar-nav">
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">GT-Level</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Transkription</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Layout</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Struktur-GT</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">GT-labelling</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">PAGE Format</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">PAGE Addon</a>
+                        </li>
+                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                     </ul>
+                  
+                  
+                  <ul class="navbar-nav ms-auto">
+                     
+                     <li class="nav-item d-flex align-items-center">
+                        <span class="nav-link py-2 pe-2"><i class="bi bi-search"></i></span>
+                        <!--<form
+              class="bd-search position-relative me-auto"
+              onsubmit="return search(this);"
+              >
+              <input
+                type="search"
+                class="form-control ds-input"
+                id="search-input"
+                placeholder="Search docs..."
+                aria-label="Search docs for..."
+                dir="auto"
+                style="position: relative; vertical-align: top;"
+              />
+            </form>-->
+                        <!--google search -->
+                        <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+                        
+                        <div class="gcse-search"></div>
+                        
+                        
+                        
+                        </li>
+                     <!--
+        This is a language toggler
+        It requires JavaScript to function.
+        -->
+                     
+                     
+                     <li class="nav-item dropdown">
+                        <a href="#" class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-theme" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                           <span class="bs-toggler-de">
+                              <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language">
+                              </span>
+                           </a>
+                        
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 6rem;" data-bs-popper="static">
+                           
+                           <li>
+                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="de">
+                                 <i class="bi de"></i>
+                                 <span class="ms-2"><a href="https://ocr-d.de/de/gt-guidelines/trans/">de</a></span>
+                                 </button>
+                              </li>
+                           
+                           <li>
+                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="en">
+                                 <i class="bi en"></i>
+                                 <span class="ms-2"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span>
+                                 </button>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         <!--google search 
+    <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+    <div class="gcse-search"></div>
+--></header>
       <nav class="toc" role="navigation">
          <ul>
             <li><a href="../trans/index.html">Die Ground Truth Richtlinien</a></li>
@@ -156,7 +270,7 @@
                               document.execCommand("copy");
                               $temp.remove();
                               }
-                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded538751e75')" title="copy clipboard" class="ccb">📋</button><code id="coded538751e75">Structured custom data defined by name, type and value.</code></pre>
+                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded282182e75')" title="copy clipboard" class="ccb">📋</button><code id="coded282182e75">Structured custom data defined by name, type and value.</code></pre>
                            </td>
                         </tr>
                      
@@ -168,7 +282,7 @@
                            
                            <div class="p">
                               
-                              <div class="fig imagemap" id="UserAttributeType__pagecontent_xsd_Complex_Type_pc_UserAttributeType"><img usemap="#d538751e89" class="image" src="img/pagecontent_xsd_Complex_Type_pc_UserAttributeType.jpeg"><map name="d538751e89" id="d538751e89"><area href="#UserAttributeType_name" alt="Attribute pc:UserAttributeType / @name" title="Attribute pc:UserAttributeType / @name" shape="rect" coords="389,75,568,161"><area href="#UserAttributeType_description" alt="Attribute pc:UserAttributeType / @description" title="Attribute pc:UserAttributeType / @description" shape="rect" coords="389,181,594,267"><area href="#UserAttributeType_type" alt="Attribute pc:UserAttributeType / @type" title="Attribute pc:UserAttributeType / @type" shape="rect" coords="389,287,711,373"><area href="#UserAttributeType_value" alt="Attribute pc:UserAttributeType / @value" title="Attribute pc:UserAttributeType / @value" shape="rect" coords="389,393,568,479"></map></div>
+                              <div class="fig imagemap" id="UserAttributeType__pagecontent_xsd_Complex_Type_pc_UserAttributeType"><img usemap="#d282182e89" class="image" src="img/pagecontent_xsd_Complex_Type_pc_UserAttributeType.jpeg"><map name="d282182e89" id="d282182e89"><area href="#UserAttributeType_name" alt="Attribute pc:UserAttributeType / @name" title="Attribute pc:UserAttributeType / @name" shape="rect" coords="389,75,568,161"><area href="#UserAttributeType_description" alt="Attribute pc:UserAttributeType / @description" title="Attribute pc:UserAttributeType / @description" shape="rect" coords="389,181,594,267"><area href="#UserAttributeType_type" alt="Attribute pc:UserAttributeType / @type" title="Attribute pc:UserAttributeType / @type" shape="rect" coords="389,287,711,373"><area href="#UserAttributeType_value" alt="Attribute pc:UserAttributeType / @value" title="Attribute pc:UserAttributeType / @value" shape="rect" coords="389,393,568,479"></map></div>
                               </div>
                            </td>
                         </tr>
@@ -305,7 +419,7 @@
                               document.execCommand("copy");
                               $temp.remove();
                               }
-                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded538751e301')" title="copy clipboard" class="ccb">📋</button><code id="coded538751e301"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>complexType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>UserAttributeType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded282182e301')" title="copy clipboard" class="ccb">📋</button><code id="coded282182e301"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>complexType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>UserAttributeType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>Structured custom data defined by name, type and value.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
@@ -442,7 +556,7 @@
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded538751e723')" title="copy clipboard" class="ccb">📋</button><code id="coded538751e723"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>name<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span></code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded282182e723')" title="copy clipboard" class="ccb">📋</button><code id="coded282182e723"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>name<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span></code></pre>
                               </td>
                            </tr>
                         </tbody>
@@ -563,7 +677,7 @@
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded538751e878')" title="copy clipboard" class="ccb">📋</button><code id="coded538751e878"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>description<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span></code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded282182e878')" title="copy clipboard" class="ccb">📋</button><code id="coded282182e878"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>description<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span></code></pre>
                               </td>
                            </tr>
                         </tbody>
@@ -742,7 +856,7 @@
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded538751e1105')" title="copy clipboard" class="ccb">📋</button><code id="coded538751e1105"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>type<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded282182e1105')" title="copy clipboard" class="ccb">📋</button><code id="coded282182e1105"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>type<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>simpleType</span><span class="ph token punctuation">&gt;</span></span>
     <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>restriction</span> <span class="ph token attr-name">base</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
       <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>xsd:string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
@@ -872,7 +986,7 @@
                                  document.execCommand("copy");
                                  $temp.remove();
                                  }
-                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded538751e1378')" title="copy clipboard" class="ccb">📋</button><code id="coded538751e1378"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>value<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span></code></pre>
+                                 </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded282182e1378')" title="copy clipboard" class="ccb">📋</button><code id="coded282182e1378"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>attribute</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>value<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">type</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span></code></pre>
                               </td>
                            </tr>
                         </tbody>
