@@ -1062,6 +1062,14 @@ Glossary
   margin-left: -15px;
 }
 
+footer {
+    padding: 1rem 0;
+    font-size: .875rem;
+    background-color: #e9ecef;
+    border-top: 1px solid #dee2e6;
+}
+
+
 /* Lists */
 
 .list-unstyled {
