@@ -70,11 +70,11 @@ jobs:
             dita-ot-version: 4.1
             plugins : |
               https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
-              https://github.com/infotexture/dita-bootstrap/archive/develop.zip
-              https://github.com/infotexture/dita-bootstrap.lunr/archive/develop.zip
+              https://github.com/infotexture/dita-bootstrap/archive/master.zip
+              https://github.com/infotexture/dita-bootstrap.lunr/archive/master.zip
               fox.jason.prismjs
               fox.jason.favicon
-            project: .github/dita-ot/html-test.xml
+            project: .github/dita-ot/html.xml
 
 
       - name: Build Bootstrap-english
