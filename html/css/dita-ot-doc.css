@@ -1044,11 +1044,35 @@ Glossary
 
 /****************************************/
 
-/* custom footer */
+/* Custom */
+
+/* header */
+
+.bg-ocrd {
+    background-image: linear-gradient(10deg, #f8f8f8 0%, #c8ab37 50%);
+}
+
+
+/* footer */
 
 .row2 {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+}
+
+footer {
+    padding: 1rem 0;
+    font-size: .875rem;
+    background-color: #e9ecef;
+    border-top: 1px solid #dee2e6;
+}
+
+
+/* Lists */
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
 }

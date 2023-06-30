@@ -10,84 +10,165 @@
    </head>
    <body id="trLigatur">
       <header role="banner">
-         <nav class="navbar navbar-expand-lg  bg-ocrd">
+         <header>
             <script src="https://prismjs.com/prism.js"><!--Prism javascript code for highlighting--></script>
             
-            
-            <div class="container">
-               <!-- This shows the menu on mobile -->
+            <nav class="navbar navbar-expand-md navbar-dark bg-ocrd flex-column flex-md-row">
                
-               <div class="bd-navbar-toggle">
-                  <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" aria-controls="bdSidebar" aria-label="Toggle docs navigation">
-                     <i class="bi bi-list"></i>
+               <div class="container">
+                  <a class="navbar-brand" href="https://ocr-d.de/de/gt-guidelines/trans/">
+                     <img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D" height="64px">
+                     Ground Truth Richtlinien
+                     </a>
+                  <button class="navbar-toggler my-2" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
                      </button>
+                  
+                  
+                  <div class="collapse navbar-collapse" id="navbarToggle">
+                     
+                     <ul class="navbar-nav mr-auto flex-row">
+                        
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="codeDropdownMenuLink" href="#" role="button" aria-expanded="false">
+                              GT-Level</a>
+                           
+                           </li>
+                        
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="communityDropdownMenuLink" href="#" role="button" aria-expanded="false">
+                              Transkription </a>
+                           </li>
+                        
+                        <li class="nav-item d-none d-lg-block">
+                           <a class="nav-link" href="/dev/">Layout</a>
+                           </li>
+                        
+                        <li class="nav-item d-none d-lg-block">
+                           <a class="nav-link" href="/download">Struktur-GT</a>
+                           </li>
+                        
+                        <li class="nav-item d-none d-lg-block">
+                           <a class="nav-link" href="/plugins">GT-labelling</a>
+                           </li>
+                        
+                        <li class="nav-item d-none d-lg-block">
+                           <a class="nav-link" href="/plugins">PAGE Format</a>
+                           </li>
+                        
+                        <li class="nav-item d-none d-lg-block">
+                           <a class="nav-link" href="/plugins">PAGE Addon</a>
+                           </li>
+                        
+                        <li class="nav-item d-none d-lg-block">
+                           <a class="nav-link" href="/plugins">FAQ</a>
+                           </li>
+                        
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="communityDropdownMenuLink" href="#" role="button" aria-expanded="false">
+                              <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language"></a>
+                           
+                           <div class="dropdown-menu" aria-labelledby="codeDropdownMenuLink">
+                              <a class="dropdown-item" href="https://ocr-d.de/de/gt-guidelines/trans/">deutsch</a>
+                              <a class="dropdown-item" href="https://ocr-d.de/en/gt-guidelines/trans/">english</a>
+                              </div>
+                           </li>
+                        </ul>
+                     
+                     
+                     <div id="docsearch">
+                        <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+                        
+                        <div class="gcse-search"></div>
+                        </div>
+                     </div>
                   </div>
-               <a class="navbar-brand" href="https://ocr-d.de/de/gt-guidelines/trans/">
-                  <img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D" height="64px">
-                  Ground Truth Richtlinien</a>
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               <button class="navbar-toggler py-2 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <i class="bi bi-three-dots"></i>
-                  </button>
-               
-               
-               
-               
-               
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  
-                  <ul class="navbar-nav">
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">GT-Level</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Transkription</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Layout</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Struktur-GT</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">GT-labelling</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">PAGE Format</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">PAGE Addon</a>
-                        </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">FAQ</a>
-                        </li>
-                     </ul>
-                  
-                  
-                  <ul class="navbar-nav ms-auto">
-                     
-                     <li class="nav-item d-flex align-items-center">
-                        <span class="nav-link py-2 pe-2"><i class="bi bi-search"></i></span>
-                        <!--<form
+               </nav>
+            </header>
+         <!--###############
+
+
+
+
+<nav class="navbar navbar-expand-lg  bg-ocrd">
+    <script src="https://prismjs.com/prism.js"><!-\-Prism javascript code for highlighting-\-></script>
+    
+    <div class="container">
+      <!-\- This shows the menu on mobile -\->
+      <div class="bd-navbar-toggle">
+        <button
+          class="navbar-toggler p-2"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#bdSidebar"
+          aria-controls="bdSidebar"
+          aria-label="Toggle docs navigation"
+          >
+          <i class="bi bi-list"/>
+        </button>
+      </div>
+      <a class="navbar-brand" href="https://ocr-d.de/de/gt-guidelines/trans/">
+        <img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D" height="64px"/>
+      Ground Truth Richtlinien</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      <button
+        class="navbar-toggler py-2 px-2"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+        <i class="bi bi-three-dots"/>
+      </button>
+      
+      
+      
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">GT-Level</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Transkription</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Layout</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Struktur-GT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">GT-labelling</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PAGE Format</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PAGE Addon</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+        </ul>
+      
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item d-flex align-items-center">
+            <span class="nav-link py-2 pe-2"><i class="bi bi-search" /></span>
+            <!-\-<form
               class="bd-search position-relative me-auto"
               onsubmit="return search(this);"
               >
@@ -100,53 +181,70 @@
                 dir="auto"
                 style="position: relative; vertical-align: top;"
               />
-            </form>-->
-                        <!--google search -->
-                        <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
-                        
-                        <div class="gcse-search"></div>
-                        
-                        
-                        
-                        </li>
-                     <!--
+            </form>-\->
+            <!-\-google search -\->
+              <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+              <div class="gcse-search"></div>
+
+
+
+          </li>
+          <!-\-
         This is a language toggler
         It requires JavaScript to function.
-        -->
-                     
-                     
-                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-theme" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
-                           <span class="bs-toggler-de">
-                              <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language">
-                              </span>
-                           </a>
-                        
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 6rem;" data-bs-popper="static">
-                           
-                           <li>
-                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="de">
-                                 <i class="bi de"></i>
-                                 <span class="ms-2"><a href="https://ocr-d.de/de/gt-guidelines/trans/">de</a></span>
-                                 </button>
-                              </li>
-                           
-                           <li>
-                              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="en">
-                                 <i class="bi en"></i>
-                                 <span class="ms-2"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span>
-                                 </button>
-                              </li>
-                           </ul>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </nav>
-         <!--google search 
+        -\->
+          
+          <li class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              data-bs-display="static"
+              >
+              <span class="bs-toggler-de">
+                <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language"/>
+              </span>
+              </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="bd-theme"
+              style="-\-bs-dropdown-min-width: 6rem;"
+              data-bs-popper="static"
+              >
+              <li>
+                <button
+                  type="button"
+                  class="dropdown-item d-flex align-items-center"
+                  data-bs-theme-value="de"
+                  >
+                  <i class="bi de"/>
+                  <span class="ms-2"><a href="https://ocr-d.de/de/gt-guidelines/trans/">de</a></span>
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="dropdown-item d-flex align-items-center"
+                  data-bs-theme-value="en"
+                  >
+                  <i class="bi en"/>
+                  <span class="ms-2"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span>
+                </button>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+<!-\-google search 
     <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
     <div class="gcse-search"></div>
---></header>
+-\->
+  --></header>
       <nav class="toc" role="navigation">
          <ul>
             <li><a href="../trans/index.html">Die Ground Truth Richtlinien</a></li>
@@ -231,7 +329,7 @@
                   
                   <div class="col-12 col-md">
                      
-                     <h5>Ground Truth Richtlinien</h5>
+                     <h5></h5>
                      <img src="../resources/ocrd.png" class="my-2" alt="Logo OCR-D" height="64px"><br>
                      <img src="../resources/dfg_logo_schriftzug_blau_foerderung_4c.jpg" class="my-2" alt="Logo funded by DFG" height="64px">
                      
