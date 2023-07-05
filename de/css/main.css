@@ -180,10 +180,7 @@ img {
     vertical-align: middle;
     border-style: none
 }
-svg {
-    overflow: hidden;
-    vertical-align: middle
-}
+
 table {
     border-collapse: collapse
 }
@@ -475,10 +472,7 @@ mark,
     content: "\2014\00A0"
 }
 .img-fluid,
-.teaser svg {
-    max-width: 100%;
-    height: auto
-}
+
 .img-thumbnail {
     padding: .25rem;
     background-color: #fff;
@@ -668,7 +662,6 @@ nav.toc,
 .col-lg-4,
 .col-lg-5,
 .col-lg-6,
-.teaser svg,
 .col-lg-7,
 .col-lg-8,
 .col-lg-9,
@@ -1246,8 +1239,7 @@ nav.toc,
         flex: 0 0 41.6666666667%;
         max-width: 41.6666666667%
     }
-    .col-lg-6,
-    .teaser svg {
+    .col-lg-6 {
         flex: 0 0 50%;
         max-width: 50%
     }
@@ -2007,7 +1999,6 @@ textarea.form-control {
 .form-control.is-valid {
     border-color: #28a745;
     padding-right: calc(1.5em + .75rem);
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
     background-position: right calc(.375em + .1875rem) center;
     background-size: calc(.75em + .375rem) calc(.75em + .375rem)
@@ -2026,7 +2017,7 @@ textarea.form-control.is-valid {
 .custom-select.is-valid {
     border-color: #28a745;
     padding-right: calc(.75em + 2.3125rem);
-    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") #fff no-repeat center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem)
+    
 }
 .was-validated .custom-select:valid:focus,
 .custom-select.is-valid:focus {
@@ -2104,7 +2095,6 @@ textarea.form-control.is-valid {
 .form-control.is-invalid {
     border-color: #dc3545;
     padding-right: calc(1.5em + .75rem);
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
     background-position: right calc(.375em + .1875rem) center;
     background-size: calc(.75em + .375rem) calc(.75em + .375rem)
@@ -2123,7 +2113,6 @@ textarea.form-control.is-invalid {
 .custom-select.is-invalid {
     border-color: #dc3545;
     padding-right: calc(.75em + 2.3125rem);
-    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e") #fff no-repeat center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem)
 }
 .was-validated .custom-select:invalid:focus,
 .custom-select.is-invalid:focus {
@@ -6202,7 +6191,6 @@ button.bg-dark:focus {
     margin-right: .25rem !important
 }
 .mb-1,
-.btn-success svg,
 .my-1 {
     margin-bottom: .25rem !important
 }
@@ -8180,9 +8168,7 @@ blockquote.lq p.p,
 .docs-banner .nav-link {
     padding: 0
 }
-.docs-banner-dev svg {
-    fill: #856404
-}
+
 .docs-banner-new {
     color: #3563ab;
     background-color: #dce4f0
@@ -8370,16 +8356,7 @@ footer .conference-banner {
 .teasers {
     text-align: center
 }
-.teaser svg {
-    fill: #1d365d
-}
-.teaser svg:hover,
-.teaser svg:focus {
-    fill: #3563ab
-}
-.btn-success svg {
-    fill: #fff
-}
+
 .finch {
     margin-top: 3em
 }
@@ -8432,12 +8409,8 @@ a.link[href *= 'dita-ot_day']::after,
     padding-top: 0;
     padding-bottom: 0
 }
-.navbar svg {
-    fill: #b9c8e0
-}
-.navbar-brand svg {
-    margin-right: 0.5rem
-}
+
+
 .navbar-nav .nav-item {
     padding-top: .5rem;
     padding-bottom: .5rem

@@ -1079,6 +1079,20 @@ footer {
 }
 
 
+/* paragraph */
+
+p.text-center {
+    text-align: center !important
+}
+
+p.text-muted {
+    color: #6c757d !important
+}
+
+
+
+
+
 /* Lists */
 
 .list-unstyled {
