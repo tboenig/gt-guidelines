@@ -36,14 +36,20 @@
           <li class="nav-item d-none d-lg-block">
             <a class="nav-link" href="/plugins">FAQ</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="communityDropdownMenuLink" href="#" role="button" aria-expanded="false">
-              <img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language"/></a>
-            <div class="dropdown-menu" aria-labelledby="codeDropdownMenuLink">
-              <a class="dropdown-item" href="https://ocr-d.de/de/gt-guidelines/trans/">deutsch</a>
-              <a class="dropdown-item" href="https://ocr-d.de/en/gt-guidelines/trans/">english</a>
-            </div>
+          
+          <li class="nav-item d-none d-lg-block">
+          <details>
+            <summary><img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language"/></summary>
+            <a class="dropdown-item" href="https://ocr-d.de/de/gt-guidelines/trans/">deutsch</a>
+            <a class="dropdown-item" href="https://ocr-d.de/en/gt-guidelines/trans/">english</a>
+          </details>
           </li>
+          
+          
+          
+          
+          
+          
         </ul>
         
         <!--<div id="docsearch">

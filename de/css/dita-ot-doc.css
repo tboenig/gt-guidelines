@@ -104,14 +104,14 @@ body {
 template {
   display: none; }
 
-h1,
+/*h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   color: var(--brand-primary);
-/*font-weight: var(--font-weight-normal);*/
+/\*font-weight: var(--font-weight-normal);*\/
   margin: var(--heading-margin); }
 
 h1 {
@@ -133,7 +133,7 @@ h5 {
 h6 {
   font-size: 1.125rem;
   font-weight: var(--font-weight-bolder); }
-
+*/
 ul,
 ol {
   margin: 0.5rem 0;
