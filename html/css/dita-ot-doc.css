@@ -83,10 +83,10 @@ html {
   margin: 0;
   padding: 0; }
 
-body {
+/*body {
   font-size: 1rem;
   margin: auto auto;
-  padding: 1rem; }
+  padding: 1rem; }*/
 
 @media all and (min-width: 1024px) {
   body {
@@ -1158,7 +1158,7 @@ nav,
 section {
     display: block
 }
-body {
+/*body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
@@ -1167,7 +1167,7 @@ body {
     color: #212529;
     text-align: left;
     background-color: #fff
-}
+}*/
 [tabindex = "-1"]:focus:not(:focus-visible) {
     outline: 0 !important
 }
@@ -6035,7 +6035,6 @@ a.close.disabled {
     display: flex;
     flex-direction: column;
     width: 100%;
-    pointer-events: auto;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -7256,7 +7255,6 @@ button.bg-dark:focus {
     bottom: 0;
     left: 0;
     z-index: 1;
-    pointer-events: auto;
     content: "";
     background-color: transparent
 }
@@ -9210,9 +9208,9 @@ a.text-dark:focus {
     @page {
         size: a3
     }
-    body {
+    /*body {
         min-width: 992px !important
-    }
+    }*/
     .container {
         min-width: 992px !important
     }
