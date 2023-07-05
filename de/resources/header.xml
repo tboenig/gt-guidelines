@@ -6,9 +6,7 @@
         <img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D" height="64px"/>
         Ground Truth Richtlinien
       </a>
-      <button class="navbar-toggler my-2" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      
       
       <div class="collapse navbar-collapse" id="navbarToggle">
         <ul class="navbar-nav mr-auto flex-row">
