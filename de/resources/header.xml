@@ -35,13 +35,6 @@
             <a class="nav-link" href="/plugins">FAQ</a>
           </li>
           
-          <li class="nav-item d-none d-lg-block">
-          <details>
-            <summary><img src="../resources/icon20x24px-exported-transparent.png" class="logo" alt="Language"/></summary>
-            <a class="dropdown-item" href="https://ocr-d.de/de/gt-guidelines/trans/">deutsch</a>
-            <a class="dropdown-item" href="https://ocr-d.de/en/gt-guidelines/trans/">english</a>
-          </details>
-          </li>
           
           <li class="nav-item dropdown show">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="langDropdownMenuLink" href="#" role="button" aria-expanded="true">
