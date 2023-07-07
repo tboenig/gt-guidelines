@@ -30,6 +30,8 @@
         <link href="structur_gt.dita"/>
         <link href="trLabeling.dita"/>
         <link href="trPage.dita"/>
-        <link href="page_xml_erweiterungen.dita"/></linklist>
+        <link href="page_xml_erweiterungen.dita"/>
+        <link href="fa.dita"/>
+        </linklist>
     </related-links>
 </topic>
