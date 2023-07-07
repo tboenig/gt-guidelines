@@ -13,6 +13,8 @@ Basic fonts and typography
 @font-face {
   font-family: JuniusVF;
   src: url('https://psb1558.github.io/Junicode-font/webfiles/JuniusVF.woff2');
+
+  
   font-weight: 300 700;
   font-stretch: 60% 100%;
   font-style: normal;
@@ -332,11 +334,6 @@ td {
   /*box-shadow: inset 1px 3px 5px -3px rgba(0, 0, 0, 0.5);*/
   font-family: Bitter, 'Noto Serif', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif, JuniusVF;
   /*font-size: 1.2em;*/
-}
-
-td.entry:nth-of-type(2), td.entry:nth-of-type(3), td.entry:nth-of-type(4) {
-  font-family: JuniusVF, Bitter, 'Noto Serif', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
 }
 
 th {
