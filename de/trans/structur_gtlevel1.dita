@@ -20,8 +20,6 @@
                             <entry>Level 2</entry>
                             <entry>Level 3</entry>
                         </row>
-                    </thead>
-                    <tbody>
                         <row outputclass="color0">
                             <entry><b>Metadaten der Page-Datei</b></entry>
                             <entry/>
@@ -29,6 +27,9 @@
                             <entry/>
                             <entry/>
                         </row>
+                    </thead>
+                    <tbody>
+                        
                         <row>
                             <entry/>
                             <entry>Page ID (GTS ID)<codeph outputclass="language-xml" props="XPath"
