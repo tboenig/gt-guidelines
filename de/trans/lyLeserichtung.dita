@@ -25,7 +25,7 @@
             </ul>
         </section>
         <section>
-            <title>Page-Kodierung</title>
+            <title>PAGE-XML-Kodierung</title>
             <p>Die Angabe der ReadingOrder erfolgt mit dem Element
                     <codeph>&lt;ReadingOrder></codeph>. </p>
             <p>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="exif_pagexml_konkurdanz">
-    <title>Exif-PageXML Konkordanz</title>
+    <title>Exif-PAGE-XML Konkordanz</title>
     <body>
         <p>
 <simpletable frame="all" relcolwidth="1* 1* 1* 1* 1.0*" id="simpletable_mbk_gwd_bcb">
 <sthead>
 <stentry>Exif Tag ID</stentry>
 <stentry>Exif</stentry>
-<stentry>PageXML (<xref href="https://github.com/PRImA-Research-Lab/PAGE-XML" format="html"
-scope="external"/>)</stentry>
+<stentry>PAGE-XML (<xref href="https://github.com/PRImA-Research-Lab/PAGE-XML" format="html"
+                            scope="external"/>)</stentry>
 <stentry>Recomendation</stentry>
 <stentry>Documentation</stentry>
 </sthead>

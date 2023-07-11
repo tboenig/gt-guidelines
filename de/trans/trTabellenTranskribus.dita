@@ -12,14 +12,14 @@
         <p>Transkribus kann in die <b>Leistungsklasse komplex, Einsteiger- und Experten-Tool
             </b>eingeordnet werden. Mit diesem Tool können mit Einschränkungen Tabellen im Tabellen
             Level 1, 2 und 3 erstellt werden.</p>
-        <p>Die Annotationsmöglichkeiten bei Transkribus sind eingeschränkt an das PAGE-Format
+        <p>Die Annotationsmöglichkeiten bei Transkribus sind eingeschränkt an das PAGE-XML-Format
             gebunden. Die Einschränkung bestehen darin, dass das Tabellen-Format nicht dem
-            PAGE-Schema und die PAGE-Schemenversion vom 2013-07-15 verwendet wird. Die Erstellung
-            von Zeilen und Zellen wird mit grafischen Werkzeugen unterstützt. Eine Bearbeitung von
-            Attributen dagegen ist nur manuell im XML-PAGE-Format möglich. Bei richtlinienkonformer
-            GT-Erstellung ist die Transkribus-PAGE-Datei in das XML-PAGE-Format zu konvertieren.
-            Wird eine PAGE-konforme in Transkribus verwendet, kann es vorkommen, dass die
-            Transkribus-Tabellen-Tools nicht zur Verfügung stehen.</p>
+            PAGE-XML-Schema und die PAGE-XML-Schemaversion vom 2013-07-15 verwendet wird. Die
+            Erstellung von Zeilen und Zellen wird mit grafischen Werkzeugen unterstützt. Eine
+            Bearbeitung von Attributen dagegen ist nur manuell im PAGE-XML-Format möglich. Bei
+            richtlinienkonformer GT-Erstellung ist die Transkribus-PAGE-Datei in das PAGE-XML-Format
+            zu konvertieren. Wird eine PAGE-konforme in Transkribus verwendet, kann es vorkommen,
+            dass die Transkribus-Tabellen-Tools nicht zur Verfügung stehen.</p>
         <p/>
         <note type="tip"><p><xref
                 href="https://readcoop.eu/de/transkribus/howto/how-to-work-with-tables-in-transkribus/"

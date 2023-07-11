@@ -5,10 +5,10 @@
 
 
     <body>
-      <p>Die Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen im
-        DTA Zot-Format, DTABf (TEI) und dem PAGE-Format dar. Der Verweis auf Elemente im DTABf und PAGE
-        bezieht sich nur auf grundlegende Elemente und nicht deren Kontext. Aus diesem Grund sei auf die
-        Dokumentationen des DTABf und PAGE hingewiesen.</p>
+      <p>Die Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen im DTA
+      Zot-Format, DTABf (TEI) und dem PAGE-XML-Format dar. Der Verweis auf Elemente im DTABf und
+      PAGE-XML bezieht sich nur auf grundlegende Elemente und nicht deren Kontext. Aus diesem Grund
+      sei auf die Dokumentationen des DTABf und PAGE-XML hingewiesen.</p>
               
 <table frame="all" rowsep="1" colsep="1" id="table_wws_hhn_ldb">
         <title>Übersicht und Konkordanz von Kodierungen</title>
@@ -24,7 +24,7 @@
 <row>
 <entry morerows="1" namest="c1" nameend="newCol2">Deutsches Textarchiv Zot-Format</entry>
 <entry morerows="1">DTABf (TEI)</entry>
-<entry namest="c3" nameend="c5">PAGE-Format</entry>
+<entry namest="c3" nameend="c5">PAGE-XML-Format</entry>
 </row>
 <row>
   <entry>Page <tt>type="{Wert}"</tt></entry>

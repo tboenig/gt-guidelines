@@ -21,7 +21,7 @@
                             <entry>Level 3</entry>
                         </row>
                         <row outputclass="color0">
-                            <entry><b>Metadaten der Page-Datei</b></entry>
+                            <entry><b>Metadaten der PAGE-XML-Datei</b></entry>
                             <entry/>
                             <entry/>
                             <entry/>
@@ -86,7 +86,7 @@
                             <entry>x</entry>
                         </row>
                         <row outputclass="color1">
-                            <entry><b>allgemeine Page-Metadaten</b></entry>
+                            <entry><b>allgemeine PAGE-XML-Metadaten</b></entry>
                             <entry/>
                             <entry/>
                             <entry/>
@@ -141,7 +141,7 @@
                             <entry>x</entry>
                         </row>
                         <row outputclass="color2">
-                            <entry><b>spezielle Page-Metadaten Seitentypisierung</b>
+                            <entry><b>spezielle PAGE-XML-Metadaten Seitentypisierung</b>
                             </entry>
                             <entry/>
                             <entry/>

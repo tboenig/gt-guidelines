@@ -5,7 +5,7 @@
     <body>
         <p>Die Schriftinformationen (Typ) ist in allen drei Element-Bereichen
                 (<codeph>&lt;Word></codeph>, <codeph>&lt;TextLine></codeph> und
-                <codeph>&lt;TextRegion></codeph>) mit dem PAGE XML Element <tt>&lt;TextStyle></tt>
+                <codeph>&lt;TextRegion></codeph>) mit dem PAGE-XML-Element <tt>&lt;TextStyle></tt>
             zu dokumentieren.</p>
         <example>
             <codeblock outputclass="language-xml">&lt;TextRegion type="heading" id="r_7_1"">
@@ -80,14 +80,15 @@
             <p>Wenn eine Schriftart und -familie nicht mit einer Konfidenz versehen ist, ist vom
                 Wert <b>1</b> auszugehen.</p>
             <note importance="high">
-                <p>Die Nennung von mehreren Schriftarten und -familien innerhalb des <b>PAGE
-                        XML-Elementes </b><tt><b>&lt;Word></b>
+                <p>Die Nennung von mehreren Schriftarten und -familien innerhalb des
+                        <b>PAGE-XML-Elementes </b><tt><b>&lt;Word></b>
                     </tt>bedeutet nicht, dass der Text vorrangig mit mehreren Schriftarten oder
                     -familien gesetzt wurde. Sondern, dass der Text zu mehreren Schriftarten oder
                     -familien zugeordnet werden kann. Die Konfidenz kann die präferierte Zuordnung
                     dokumentieren.</p>
-                <p>Die Nennung von mehreren Schriftarten und -familien innerhalb des <b>PAGE
-                        XML-Elementes <tt>&lt;TextLine></tt> sowie </b><tt><b>&lt;TextRegion></b>
+                <p>Die Nennung von mehreren Schriftarten und -familien innerhalb des
+                        <b>PAGE-XML-Elementes <tt>&lt;TextLine></tt> sowie
+                            </b><tt><b>&lt;TextRegion></b>
                     </tt>bedeutet, dass der Text in unterschiedlichen Schriftarten oder -familien
                     gesetzt wurde.</p>
             </note>

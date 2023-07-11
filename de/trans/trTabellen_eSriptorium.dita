@@ -15,10 +15,10 @@
             werden. Die Möglichkeiten der Tabellen Annotation und Transkription sind begrenzt. Mit
             der Definition von <tt>TextRegion</tt> und <tt>TableRegion</tt> kann GT im Tabellen
             Level 1 und 2 erstellt werden.</p>
-        <p>Die Annotationsmöglichkeiten bei eScriptorium sind nicht an das PAGE-Format gebunden. Das
-            Format kann frei gewählt werden, bei richtlinienkonformer GT-Erstellung, ist dem
-            PAGE-Annotationsschema zu entsprechen. Eine PAGE-konforme sogenannte Ontologie kann
-            unter: heruntergeladen werden.</p>
+        <p>Die Annotationsmöglichkeiten bei eScriptorium sind nicht an das PAGE-XML-Format gebunden.
+            Das Format kann frei gewählt werden, bei richtlinienkonformer GT-Erstellung, ist dem
+            PAGE-XML-Annotationsschema zu entsprechen. Eine PAGE-XML konforme sogenannte Ontologie
+            kann unter: heruntergeladen werden.</p>
         <p><object width="1280" height="720"
                 data="https://www.youtube.com/embed/aQuwh3OaKqg" outputclass="iframe">
                 <param name="allowfullscreen"/>
