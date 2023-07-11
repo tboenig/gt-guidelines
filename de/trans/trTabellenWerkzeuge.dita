@@ -3,6 +3,22 @@
 <topic id="trTabellenWerkzeuge">
     <title>Erstellung von Tabellen</title>
     <body>
-        <p></p>
+        <p>Die Annotation oder Transkription von Tabellen kann sich sehr aufwendig gestalten. 
+            Aus diesem Grund ist abhängig vom Tabellen Level ein geeignetes Werkzeug zu nutzen. Je aufwendiger die Annotationen sein sollen
+            um so leistungsfähiger muss das Transkriptions-GT-Werkzeug sein.
+            Werden nur einfache Tabellen im Tabellen Level 1 erfasst, können einfache Werkzeuge, die ausschließlich die Vergabe 
+            von TextRegionen nutzen, verwendet werden.</p>
+            <p>Ab dem Tabellen Level 2 muß die Möglichkeit bestehen, dass die TableRegion verfügbar ist. 
+            Alternativ können einfache Werkzeuge genutzt werden, in dem eine Verschachtelung von TextRegionen vorgenommen wird und im 
+            abschließenden Schritt wird eine manuelle Korrektur vorgenommen. Diese Korrektur setzt eine sehr umfangreiches und spezialisiertes Wissen 
+            des PAGE-Formates voraus.</p>
+            <p>Ab dem Tabellen Level 3 sind Werkzeuge zu nutzen die eine Vergabe von Attributwerten ermöglichen. 
+            Alternativ können diese Werte im PAGE-XML-Format erfolgen. Soll im Tabellen Level 4 erfasst werden, 
+            beim auch das Tabellennetz erfasst wird ist die Verwendung eines leistungsfahigen Werkzeuges unumgänglich. 
+            
+        </p>
+        <p>
+        
+        </p>
     </body>
 </topic>

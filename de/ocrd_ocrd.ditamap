@@ -97,6 +97,7 @@
             <topicref href="trans/trTabellenLevel3.dita"/>
             <topicref href="trans/trTabellenLevel4.dita"/>
             <topicref href="trans/trTabellenWerkzeuge.dita">
+                <topicref href="trans/trTabellen_eSriptorium.dita"/>
                 <topicref href="trans/trTabellen_Aletheia.dita"/>
                 <topicref href="trans/trTabellenTranskribus.dita"/>
             </topicref>
