@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trTabellenTranskribus">
-    <title>Tabellen mit Transkribus</title>
+    <title>Tabellen mit Transkribus erstellen</title>
     <body>
-        <p></p>
+        <p><object width="1280" height="720" data="https://www.youtube.com/embed/ViMHIEHzm84"
+                outputclass="iframe">
+                <param name="allowfullscreen"/>
+            </object></p>
     </body>
 </topic>
