@@ -6,7 +6,7 @@
       <meta name="generator" content="DITA-OT">
       <link rel="stylesheet" type="text/css" href="../css/commonltr.css">
       <link rel="stylesheet" type="text/css" href="../css/dita-ot-doc.css">
-      <title>Tabellen Typen</title>
+      <title>Tabellen Level und Tabellen Typen</title>
    </head>
    <body id="trTabellenTyp">
       <header role="banner">
@@ -46,11 +46,11 @@
                   <li><a href="../trans/trSchreibweisen.html">Schreibweisen und Sonderzeichen</a></li>
                   <li><a href="../trans/trSonderzeichen.html">Zahlen</a></li>
                   <li><a href="../trans/trTabellen.html">Tabellen</a><ul>
-                        <li class="active"><a href="../trans/trTabellenTyp.html">Tabellen Typen</a></li>
-                        <li><a href="../trans/trTabellenLevel1.html">Tabelle Level 1 sparse text</a></li>
-                        <li><a href="../trans/trTabellenLevel2.html">Tabelle Level 2 table detection</a></li>
-                        <li><a href="../trans/trTabellenLevel3.html">Tabelle Level 3 table structure</a></li>
-                        <li><a href="../trans/trTabellenLevel4.html">Tabelle Level 4 full table structure</a></li>
+                        <li class="active"><a href="../trans/trTabellenTyp.html">Tabellen Level und Tabellen Typen</a></li>
+                        <li><a href="../trans/trTabellenLevel1.html">Tabellen Level 1 sparse text</a></li>
+                        <li><a href="../trans/trTabellenLevel2.html">Tabellen Level 2 table detection</a></li>
+                        <li><a href="../trans/trTabellenLevel3.html">Tabellen Level 3 table structure</a></li>
+                        <li><a href="../trans/trTabellenLevel4.html">Tabellen Level 4 full table structure</a></li>
                         <li><a href="../trans/trTabellenWerkzeuge.html">Erstellung von Tabellen</a></li>
                         <li><a href="../trans/trTabellenFormat.html">Tabellen Formate</a></li>
                         <li><a href="../trans/trTabellenLabelling.html">GT-Metadaten für Tabellen</a></li>
@@ -74,50 +74,82 @@
       <main role="main">
          <article role="article" aria-labelledby="ariaid-title1">
             
-            <h1 class="title topictitle1" id="ariaid-title1">Tabellen Typen</h1>
+            <h1 class="title topictitle1" id="ariaid-title1">Tabellen Level und Tabellen Typen</h1>
             
             <div class="body">
                
-               <p class="p">Tabellen können in folgende Typen unterteilt werden: </p>
                
-               <dl class="dl">
+               <section class="section">
+                  <h2 class="title sectiontitle">Tabellen Level</h2>
                   
                   
-                  <dt class="dt dlterm">einfache Tabelle</dt>
+                  <div class="p">Die Einteilung nach Leveln orientiert sich an den Zielvorstellungen für den Gebrauch
+                     sowie die verwendeten Be- und Verarbeitungswerkzeuge des GT. Die <em class="ph i">Tabellen
+                        Level</em> sind nicht zu verwechseln mit den Transkriptionsslevel. Folgende Level
+                     sind vorgesehen: 
+                     <ul class="ul">
+                        
+                        <li class="li">Level 1 sparse text</li>
+                        
+                        <li class="li">Level 2 table detection</li>
+                        
+                        <li class="li">Level 3 table structure</li>
+                        
+                        <li class="li">Level 4 full tabele structure</li>
+                        </ul>
+                  </div>
                   
-                  <dd class="dd">Einfache Tabelle besitzen keine spaltenübergreifenden Zellen. 
-                     In den meisten Fällen werden Separatoren zur Kennzeichnung und Abgrenzung der Zeilen
-                     und Spalten verwendet aber auch die Möglichkeit fehlender Separatoren kann vorkommen.
-                     Zeilen und Spalten können schnell und einfach erkannt werden.
-                     </dd>
+                  <p class="p">Beispieldaten zu den <em class="ph i">Tabellen Level</em> finden Sie im Repositorium: <a class="xref" href="https://github.com/tboenig/gt-guideline-examples/tree/main/data/table/GT-PAGE" target="_blank" rel="external noopener">gt-guideline-examples</a> </p>
+                  </section>
+               
+               <section class="section">
+                  <h2 class="title sectiontitle">Tabellen Typen</h2>
                   
                   
+                  <p class="p">Tabellen können in folgende Typen unterteilt werden: </p>
                   
-                  <dt class="dt dlterm">komplexe Tabelle</dt>
-                  
-                  <dd class="dd">Komplexe besitzen spaltenübergreifende Zellen. Separatoren zur Abgrenzung von Zeilen
-                     und Spalten können nicht, teilweise oder vollständig vorhanden sein.
-                     Dieser Tabellentyp kann unter anderem durch weitere Bestandteile wie Legenden, Fußnoten/Endnoten,
-                     Beschriftungen, Fußzeilen sowie durch ein detailreichen
-                     Tabellenkopf komplex gestaltet sein.</dd>
-                  
-                  
-                  
-                  <dt class="dt dlterm">tabellen-ähnliche Strukturen die als Tabelle definiert werden</dt>
-                  
-                  <dd class="dd">
+                  <dl class="dl">
                      
-                     <p class="p">Diese Strukturen besitzen in der Regel keine Separatoren. Zu erkennen sind
-                        aufeinanderfolgende Zeilen, eine Spalten Anordnung, eine erkennbare
-                        Ausrichtung des Textes. Diese können z. Bsp. Gegenüberstellungen von
-                        Text/Zahlenpassagen sein. Vergleichbar sind auch diese Strukturen mit
-                        verschiedenen Listenformen (sortierte, unsortierte, definitorische). Es wird
-                        empfohlen diese Formen als Listen oder Paragrafen sowie die Ausrichtung als
-                        Spalten zu annotieren.</p>
-                     </dd>
-                  
-                  </dl>
+                     
+                     <dt class="dt dlterm">einfache Tabelle</dt>
+                     
+                     <dd class="dd">Einfache Tabelle besitzen keine spaltenübergreifenden Zellen. In den meisten
+                        Fällen werden Separatoren zur Kennzeichnung und Abgrenzung der Zeilen und
+                        Spalten verwendet aber auch die Möglichkeit fehlender Separatoren kann
+                        vorkommen. Zeilen und Spalten können schnell und einfach erkannt werden.
+                        </dd>
+                     
+                     
+                     
+                     <dt class="dt dlterm">komplexe Tabelle</dt>
+                     
+                     <dd class="dd">Komplexe Tabellen besitzen spaltenübergreifende Zellen. Separatoren zur
+                        Abgrenzung von Zeilen und Spalten können nicht, teilweise oder vollständig
+                        vorhanden sein. Dieser Tabellentyp kann unter anderem durch weitere
+                        Bestandteile wie Legenden, Fußnoten/Endnoten, Beschriftungen, Fußzeilen
+                        sowie durch einen detailreichen Tabellenkopf komplex gestaltet sein.</dd>
+                     
+                     
+                     
+                     <dt class="dt dlterm">Tabellen-ähnliche Strukturen die als Tabelle definiert werden.</dt>
+                     
+                     <dd class="dd">
+                        
+                        <p class="p">Diese Strukturen besitzen in der Regel keine Separatoren. Zu erkennen
+                           sind aufeinanderfolgende Zeilen, eine Spaltenanordnung, eine erkennbare
+                           Ausrichtung des Textes. Diese können z. Bsp. Gegenüberstellungen von
+                           Text/Zahlenpassagen sein. Vergleichbar sind auch diese Strukturen mit
+                           verschiedenen Listenformen (sortierte, unsortierte, definitorische). Es
+                           wird empfohlen diese Formen als Listen oder Paragrafen sowie die
+                           Ausrichtung als Spalten zu annotieren.</p>
+                        </dd>
+                     
+                     </dl>
+                  </section>
+               
+               <p class="p"></p>
                </div>
+            
             </article>
       </main>
       <footer role="contentinfo">
