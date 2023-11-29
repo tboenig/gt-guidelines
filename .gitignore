@@ -11,3 +11,5 @@ broomer.sh
 *.md
 *.pptx
 *_archiv.xml
+new/
+out/
