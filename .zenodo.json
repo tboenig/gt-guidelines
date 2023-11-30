@@ -33,15 +33,7 @@
     ],
     "title": "OCR-D-Ground Truth Richtlinien",
     "description": [
-        "<p>Die OCR-D-Ground-Truth-Guidelines bieten Handlungsanweisungen für die
-        Ground-Truth-Erstellung. Die Ground-Truth kann so technisch validiert werden und
-        vorhandene Transkriptionen auf Grundlage dieses Regelwerkes überprüft sowie
-        gegebenenfalls in Ground-Truth-Daten umgewandelt werden.</p>
-        <p>Das Datenformat des OCR-D-Ground-Truth ist PAGE-XML. Dieses Format wurde initial durch
-        das PRImA Research Lab an der Universität Salford Greater Manchester entwickelt und
-        innerhalb des EU-Projektes IMPACT grundlegend erweitert. Zurzeit wird es vom PRImA
-        Research Lab betreut. Um eine Weiterentwicklung und Pflege dieses Formates zu
-        gewährleisten, wurde auf Initiative von OCR-D ein PAGE-XML-Board geschaffen.</p>"
+        "<p>Die OCR-D-Ground-Truth-Guidelines bieten Handlungsanweisungen für die Ground-Truth-Erstellung. Die Ground-Truth kann so technisch validiert werden und vorhandene Transkriptionen auf Grundlage dieses Regelwerkes überprüft sowie gegebenenfalls in Ground-Truth-Daten umgewandelt werden.</p> <p>Das Datenformat des OCR-D-Ground-Truth ist PAGE-XML. Dieses Format wurde initial durch das PRImA Research Lab an der Universität Salford Greater Manchester entwickelt und innerhalb des EU-Projektes IMPACT grundlegend erweitert. Zurzeit wird es vom PRImA Research Lab betreut. Um eine Weiterentwicklung und Pflege dieses Formates zu gewährleisten, wurde auf Initiative von OCR-D ein PAGE-XML-Board geschaffen.</p>"
     ],
     "keywords": [
         "OCR",
