@@ -19,17 +19,15 @@
                     Kodierungen (MUFI) und durch das Koordinierungsgremium festgelegten Kodierungen
                     abgebildet (<xref href="level_3_1.dita"/>). </li>
             </ul></p>
-        <p>
-            <codeblock>
-                {"ruleset":[
-                
-                {"rule": ["a","a","a"], "type": "level"},
-                {"rule": ["aa","ã","ã"], "type": "level"},
-                {"rule": ["e","e","e"], "type": "level"}
-                
-                ]
-                }</codeblock>
-        </p>
+        
+            <codeblock outputclass="language-json">
+            {"ruleset":[    
+               {"rule": ["a","a","a"], "type": "level"},
+               {"rule": ["aa","ã","ã"], "type": "level"},
+               {"rule": ["e","e","e"], "type": "level"}
+                        ]
+            }
+            </codeblock>
         <p>Das OCR-D-GT-Ruleset wird im JSON-Format gespeichert.</p>
         <p>Das OCR-D-GT-Ruleset-JSON-Schema entspicht der Version 2020-12.</p>
         <ul> 
