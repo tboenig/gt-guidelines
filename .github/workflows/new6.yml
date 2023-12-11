@@ -93,7 +93,10 @@ jobs:
           
             
       - name: output dir
-        run: cd out && sudo mkdir rules
+        run: |
+          cd out 
+          sudo mkdir rules
+          sudo mkdir schema
       
       
       - name: transform rules
@@ -106,6 +109,10 @@ jobs:
         run: |
           sudo cp de/resources/dfg_logo_schriftzug_blau_foerderung_4c.jpg out/html/resources/
           sudo cp de/resources/icon20x24px-exported-transparent.png out/html/resources/
+
+      - name: copy schema
+        run: |
+          sudo cp schema/OCR-D-GT-levelSchema.json out/schema/
           
           
             
