@@ -128,7 +128,9 @@
     </chapter>
     <chapter href="trans/layout.dita">
         <topicref href="trans/lyAllgemein.dita"/>
-        <topicref href="trans/lySeitentypen.dita"/>
+        <topicref href="trans/lySeitentypen.dita">
+            <!--<topicref href="trans/lySeitentypen2.dita"/>-->
+        </topicref>
         <topicref href="trans/lyRand.dita"/>
         <topicref href="trans/lySatzspiegel.dita"/>
         <topicref href="trans/lyTextregionen.dita">
@@ -175,6 +177,7 @@
     <chapter href="trans/trLabeling.dita">
         <topicref href="labeling/labeling_gt.ditamap" format="ditamap"/>
     </chapter>
+    <chapter href="trans/ruleset.dita"/>
 
     <chapter href="trans/trPage.dita">
         <topicref href="pagexml/dok.ditamap" format="ditamap"/>

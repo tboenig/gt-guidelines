@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ruleset">
+    <title>OCR-D-GT-Ruleset</title>
+    <body>
+        <p>Das OCR-D-GT-Ruleset ist ein Regelsatz, der verschiedene Schreibweisen von Buchstaben in
+            verschiedenen Level der Transkription dokumentiert. Es sind drei Level vorgesehen: <ul
+                id="ul_cbf_2xx_rzb">
+                <li>Die erste Spalte enthält die Schreibweise, die spezifische drucktechnische
+                    Aspekte und typographischen Besonderheiten nicht beachten (<xref
+                        href="level_1_4.dita"/>).</li>
+                <li>die zweite Spalte enthält die Schreibweise, die <b>Drucktechnischen
+                        Gegebenheiten</b> wiedergeben und eine Interpretation von Zeichen orientiert
+                    sich am <b>Gebrauch im Sprach- und Schriftsystem</b> (<xref
+                        href="level_2_2.dita"/>). </li>
+                <li>die dritte Spalte enthält die Schreibweise, die eine <b>Interpretation</b> von
+                    Graphen <b>vollständig unterlässt</b>. Der Graph wird als ein Codepoint unter
+                    Nutzung von standardisierten Kodierungen (Unicode), communitynormierten
+                    Kodierungen (MUFI) und durch das Koordinierungsgremium festgelegten Kodierungen
+                    abgebildet (<xref href="level_3_1.dita"/>). </li>
+            </ul></p>
+        <p>
+            <codeblock>
+                {"ruleset":[
+                
+                {"rule": ["a","a","a"], "type": "level"},
+                {"rule": ["aa","ã","ã"], "type": "level"},
+                {"rule": ["e","e","e"], "type": "level"}
+                
+                ]
+                }</codeblock>
+        </p>
+        <p>Das OCR-D-GT-Ruleset wird im JSON-Format gespeichert.</p>
+        <p>Das OCR-D-GT-Ruleset-JSON-Schema entspicht der Version 2020-12.</p>
+        <ul> 
+        <li><xref href="https://github.com/tboenig/gt-guidelines/schema/OCR-D-GT-levelSchema.json"
+                format="html" scope="external">OCR-D-GT-Ruleset-JSON-Schema</xref></li>
+      
+        </ul>
+    </body>
+</topic>
