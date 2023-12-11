@@ -76,8 +76,7 @@
                      </ul>
                </div>
                
-               <div class="p">
-                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script>
+               <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script>
         function htmlDecode(input)
             {
                var e = document.createElement('div');
@@ -90,23 +89,21 @@
         function copyToClipboard(element) 
             {
                var $temp = $("<textarea></textarea>");
-                     $("body").append($temp);
-                     var a = $(element).html().trim().replace(/<br>/g, '\n').replace(/<\/?[^>]+>/g, '');
-                     var x = htmlDecode(a);
-                     $temp.val(x).select();
-                     document.execCommand("copy");
-                     $temp.remove();
-                     }
-                     </script><pre class="pre codeblock"><button onclick="copyToClipboard('#coded308567e89')" title="copy clipboard" class="ccb">📋</button><code id="coded308567e89">
-                {"ruleset":[
-                
-                {"rule": ["a","a","a"], "type": "level"},
-                {"rule": ["aa","ã","ã"], "type": "level"},
-                {"rule": ["e","e","e"], "type": "level"}
-                
-                ]
-                }</code></pre>
-                  </div>
+                  $("body").append($temp);
+                  var a = $(element).html().trim().replace(/<br>/g, '\n').replace(/<\/?[^>]+>/g, '');
+                  var x = htmlDecode(a);
+                  $temp.val(x).select();
+                  document.execCommand("copy");
+                  $temp.remove();
+                  }
+                  </script><pre class="pre codeblock language-json"><button onclick="copyToClipboard('#coded308567e87')" title="copy clipboard" class="ccb">📋</button><code id="coded308567e87">
+            <span class="ph token punctuation">{</span><span class="ph token property">"ruleset"</span><span class="ph token operator">:</span><span class="ph token punctuation">[</span>    
+               <span class="ph token punctuation">{</span><span class="ph token property">"rule"</span><span class="ph token operator">:</span> <span class="ph token punctuation">[</span><span class="ph token string">"a"</span><span class="ph token punctuation">,</span><span class="ph token string">"a"</span><span class="ph token punctuation">,</span><span class="ph token string">"a"</span><span class="ph token punctuation">]</span><span class="ph token punctuation">,</span> <span class="ph token property">"type"</span><span class="ph token operator">:</span> <span class="ph token string">"level"</span><span class="ph token punctuation">}</span><span class="ph token punctuation">,</span>
+               <span class="ph token punctuation">{</span><span class="ph token property">"rule"</span><span class="ph token operator">:</span> <span class="ph token punctuation">[</span><span class="ph token string">"aa"</span><span class="ph token punctuation">,</span><span class="ph token string">"ã"</span><span class="ph token punctuation">,</span><span class="ph token string">"ã"</span><span class="ph token punctuation">]</span><span class="ph token punctuation">,</span> <span class="ph token property">"type"</span><span class="ph token operator">:</span> <span class="ph token string">"level"</span><span class="ph token punctuation">}</span><span class="ph token punctuation">,</span>
+               <span class="ph token punctuation">{</span><span class="ph token property">"rule"</span><span class="ph token operator">:</span> <span class="ph token punctuation">[</span><span class="ph token string">"e"</span><span class="ph token punctuation">,</span><span class="ph token string">"e"</span><span class="ph token punctuation">,</span><span class="ph token string">"e"</span><span class="ph token punctuation">]</span><span class="ph token punctuation">,</span> <span class="ph token property">"type"</span><span class="ph token operator">:</span> <span class="ph token string">"level"</span><span class="ph token punctuation">}</span>
+                        <span class="ph token punctuation">]</span>
+            <span class="ph token punctuation">}</span>
+            </code></pre>
                
                <p class="p">Das OCR-D-GT-Ruleset wird im JSON-Format gespeichert.</p>
                
