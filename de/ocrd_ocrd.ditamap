@@ -125,6 +125,7 @@
             <topicref href="trans/trFremdsprache.dita"/>
             <topicref href="trans/trLigaturen2.dita"/>
         </topicref>
+        <topicref href="trans/hilfsmittel.dita"/>
     </chapter>
     <chapter href="trans/layout.dita">
         <topicref href="trans/lyAllgemein.dita"/>
