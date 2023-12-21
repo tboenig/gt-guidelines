@@ -6,7 +6,7 @@
       <meta name="generator" content="DITA-OT">
       <link rel="stylesheet" type="text/css" href="../css/commonltr.css">
       <link rel="stylesheet" type="text/css" href="../css/dita-ot-doc.css">
-      <title>Hilfsmittel</title>
+      <title>🔧 Hilfsmittel</title>
    </head>
    <body id="hilfsmittel">
       <header role="banner">
@@ -37,26 +37,16 @@
          <ul>
             <li><a href="../trans/index.html">Die Ground Truth Richtlinien</a></li>
             <li><a href="../trans/trLevels.html">📢 Übersicht der Ground-Truth-Level</a></li>
-            <li><a href="../trans/transkription.html">📑 Transkription</a><ul>
-                  <li><a href="../trans/level_1_4.html">Level 1</a></li>
-                  <li><a href="../trans/level_2_2.html">Level 2</a></li>
-                  <li><a href="../trans/level_3_1.html">Level 3</a></li>
-                  <li><a href="../trans/trGrundsaetze.html">Grundsätzliches zur Transkription</a></li>
-                  <li><a href="../trans/sprache.html">Sprache</a></li>
-                  <li><a href="../trans/trSchreibweisen.html">Schreibweisen und Sonderzeichen</a></li>
-                  <li><a href="../trans/trSonderzeichen.html">Zahlen</a></li>
-                  <li><a href="../trans/trTabellen.html">Tabellen</a></li>
-                  <li><a href="../trans/trHandschrift.html">Handschriftliche Anmerkungen</a></li>
-                  <li><a href="../trans/trZeichensetzung.html">Zeichensetzung Grundregeln</a></li>
-                  <li><a href="../trans/trErsetzungen.html">Ersetzungen</a></li>
-                  <li><a href="../trans/trBeispiele.html">Übersichten und Beispiele von Alphabeten, Kürzungs-, Sonderzeichen und Ligaturen.</a></li>
-                  <li class="active"><a href="../trans/hilfsmittel.html">Hilfsmittel</a></li>
+            <li><a href="../trans/transkription.html">📑 Transkription</a></li>
+            <li class="active"><a href="../trans/hilfsmittel.html">🔧 Hilfsmittel</a><ul>
+                  <li><a href="../trans/trTrans.html">Virtuelle Keybords</a></li>
+                  <li><a href="../trans/trLevelparser.html">gt-LevelParser</a></li>
                </ul>
             </li>
             <li><a href="../trans/layout.html">📰 Layout und Struktur</a></li>
             <li><a href="../trans/structur_gt.html">📓 Struktur-Ground-Truth</a></li>
             <li><a href="../trans/trLabeling.html">📓 Dokumentation des OCR-D-GT-labelling</a></li>
-            <li><a href="../trans/ruleset.html">OCR-D-GT-Ruleset</a></li>
+            <li><a href="../trans/ruleset.html">🏛 OCR-D-GT-Ruleset</a></li>
             <li><a href="../trans/trPage.html">📓 Dokumentation des PAGE-XML-Formats</a></li>
             <li><a href="../trans/page_xml_erweiterungen.html">📚 PAGE- XML-Erweiterungen</a></li>
             <li><a href="../trans/fa.html">❓ Fragen und Antworten</a></li>
@@ -66,48 +56,71 @@
       <main role="main">
          <article role="article" aria-labelledby="ariaid-title1">
             
-            <h1 class="title topictitle1" id="ariaid-title1">Hilfsmittel</h1>
+            <h1 class="title topictitle1" id="ariaid-title1">🔧 Hilfsmittel</h1>
             
             <div class="body">
                
-               <p class="p">Für die Eingabe von Zeichen, die nicht auf der Tastatur vorhanden sind, bieten
-                  Transkriptionsprogramme häufig virtuelle Tastaturen an. Für die gängigen Programme
-                  wie
-                  Aletheia, Transkribus, LAREX, QURATOR-neat und eScriptorium finden Sie unter keyboardGT
-                  verschiedene virtuelle Tastaturen für die Eingabe von Zeichen, beispielsweise für
-                  Griechisch.</p>
+               <p class="p">Für die Erstellung von Ground Truth (GT), die Eingabe sowie Konvertierung von Zeichen
+                  oder für die
+                  Überprüfung des GT können verschiedene Werkzeuge genutzt werden. </p>
                
-               <p class="p">Alternativ können Sie aber auch die virtuelle Tastatur Ihres Windows- oder
-                  MacOS-Betriebssystems nutzen.</p>
+               <div class="p">Für die Erstellung bieten sich folgende von Werkzeugen (Auswahl) an: 
+                  <ul class="ul" id="hilfsmittel__ul_kyv_4xm_vzb">
+                     
+                     <li class="li">Aletheia</li>
+                     
+                     <li class="li">eScriptorium</li>
+                     
+                     <li class="li">Transkribus</li>
+                     
+                     <li class="li">OCR4all/LAREX</li>
+                     </ul>
+                  </div>
                
-               <ul class="ul" id="hilfsmittel__ul_uz3_pq1_tzb">
-                  
-                  <li class="li">So öffnen Sie die virtuelle Tastatur unter Windows: Drücken Sie die
-                     Windows-Logo-Taste und den Punkt (.) gleichzeitig.</li>
-                  
-                  <li class="li">So öffnen Sie die virtuelle Tastatur unter MacOS (Apple): Drücken Sie die
-                     Funktionstaste (Fn) und die Taste E oder die Globustaste (⌃ + ⌘ + Leertaste)
-                     gleichzeitig.</li>
-                  </ul>
+               <p class="p">Für die Eingabe von Zeichen, die nicht auf der Tastatur vorhanden sind, bieten die
+                  Erstellungswerkzeuge und das genutzte Betriebssystem in den meisten Fällen virtuelle
+                  Tastaturen an.</p>
                
-               <p class="p"><strong class="ph b">Tastenkombinationen in Windows</strong></p>
+               <div class="p">Für die Eingabe bietet an: 
+                  <ul class="ul" id="hilfsmittel__ul_kyv_4xm_vzba">
+                     
+                     <li class="li"><a class="xref" href="https://github.com/tboenig/keyboardGT" target="_blank" rel="external noopener">KeybordGT</a></li>
+                     
+                     <li class="li">virtuelle Tastaturen in MacOS und Windows</li>
+                     </ul>
+               </div>
                
-               <ul class="ul" id="hilfsmittel__ul_zhq_4p1_tzb">
+               <div class="p">Für die Konvertierung bietet sich Folgendes an:
                   
-                  <li class="li"><a class="xref" href="https://support.microsoft.com/de-de/windows/windows-tipps-und-tricks-zur-tastatur-588e0b72-0fff-6d3f-aeee-6e5116097942" target="_blank" rel="external noopener">Windows Tipps und Tricks zur Tastatur</a></li>
-                  
-                  <li class="li"><a class="xref" href="https://support.microsoft.com/de-de/windows/tastenkombinationen-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec?ocid=prod_core_cons_marvel_dg_tipsapp_shortcutemoji" target="_blank" rel="external noopener">Tastenkombinationen in Windows</a></li>
-                  
-                  </ul>
+                  <ul class="ul" id="hilfsmittel__ul_kyv_4xm_vzbc">
+                     
+                     <li class="li"><a class="xref" href="https://github.com/ponteIneptique/choco-mufin" target="_blank" rel="external noopener">Choco-Mufin [CHaracter Ocr COordination for MUFI iN
+                           texts]</a></li>
+                     
+                     </ul>
+               </div>
                
-               <p class="p"><strong class="ph b">Mac-Tastaturkurzbefehle (Apple)</strong></p>
                
-               <ul class="ul" id="hilfsmittel__ul_lt2_pp1_tzb">
-                  
-                  <li class="li"><a class="xref" href="https://support.apple.com/de-de/guide/mac-help/mchlp1560/mac" target="_blank" rel="external noopener">Verwenden von Symbolen auf dem Mac</a></li>
-                  
-                  <li class="li"><a class="xref" href="https://support.apple.com/de-de/HT201236" target="_blank" rel="external noopener">Mac-Tastaturkurzbefehle</a></li>
-                  </ul>
+               <p class="p">Die Überprüfung des GT kann auf verschiedenen Ebenen erfolgen. 
+                  Es können Validierungen auf der syntaktischen XML-Ebene gegen das PAGE-XML-Schema
+                  sowie auf der 
+                  semantischen Ebene basierend auf Regeln (unter anderem den OCR-D-GT-Guidelines, Level-Rules)
+                  durchgeführt werden.</p>
+               
+               <div class="p">Für die Überprüfung bietet sich an: 
+                  <ul class="ul" id="hilfsmittel__ul_kyv_4xm_vzbd">
+                     
+                     <li class="li"><a class="xref" href="https://github.com/tboenig/gt-MufiLevelRules" target="_blank" rel="external noopener">gt-MufiLevelRules</a></li>
+                     
+                     <li class="li"><a class="xref" href="https://tboenig.github.io/gt-guidelines/html/trans/ruleset.html" target="_blank" rel="external noopener">gt-guidelines Ruleset</a></li>
+                     
+                     <li class="li"><a class="xref" href="https://github.com/tboenig/gt-LevelParser" target="_blank" rel="external noopener">gt-LevelParser</a> (in Vorbereitung)</li>
+                     
+                     <li class="li"><a class="xref" href="https://www.primaresearch.org/tools/PAGEConverterValidator" target="_blank" rel="external noopener">PAGE Converter and Validator</a></li>
+                     </ul>
+               </div>
+               
+               
                
                </div>
             </article>
