@@ -6,7 +6,7 @@
       <meta name="generator" content="DITA-OT">
       <link rel="stylesheet" type="text/css" href="../css/commonltr.css">
       <link rel="stylesheet" type="text/css" href="../css/dita-ot-doc.css">
-      <title>🏛 OCR-D-GT-Ruleset</title>
+      <title>📜 OCR-D-GT-Ruleset</title>
    </head>
    <body id="ruleset">
       <header role="banner">
@@ -40,9 +40,9 @@
             <li><a href="../trans/transkription.html">📑 Transkription</a></li>
             <li><a href="../trans/hilfsmittel.html">🔧 Hilfsmittel</a></li>
             <li><a href="../trans/layout.html">📰 Layout und Struktur</a></li>
+            <li class="active"><a href="../trans/ruleset.html">📜 OCR-D-GT-Ruleset</a></li>
             <li><a href="../trans/structur_gt.html">📓 Struktur-Ground-Truth</a></li>
             <li><a href="../trans/trLabeling.html">📓 Dokumentation des OCR-D-GT-labelling</a></li>
-            <li class="active"><a href="../trans/ruleset.html">🏛 OCR-D-GT-Ruleset</a></li>
             <li><a href="../trans/trPage.html">📓 Dokumentation des PAGE-XML-Formats</a></li>
             <li><a href="../trans/page_xml_erweiterungen.html">📚 PAGE- XML-Erweiterungen</a></li>
             <li><a href="../trans/fa.html">❓ Fragen und Antworten</a></li>
@@ -52,32 +52,36 @@
       <main role="main">
          <article role="article" aria-labelledby="ariaid-title1">
             
-            <h1 class="title topictitle1" id="ariaid-title1">🏛 OCR-D-GT-Ruleset</h1>
+            <h1 class="title topictitle1" id="ariaid-title1">📜 OCR-D-GT-Ruleset</h1>
             
             <div class="body">
                
-               <div class="p">Das OCR-D-GT-Ruleset ist ein Regelsatz, der verschiedene Schreibweisen von Buchstaben
-                  in
-                  verschiedenen Level der Transkription dokumentiert. Es sind drei Level vorgesehen:
+               <section class="section">
+                  <h2 class="title sectiontitle">OCR-D-GT-Ruleset Transkription</h2>
                   
-                  <ul class="ul" id="ruleset__ul_cbf_2xx_rzb">
-                     
-                     <li class="li">Die erste Spalte enthält die Schreibweise, die spezifische drucktechnische
-                        Aspekte und typographischen Besonderheiten nicht beachten (<a class="xref" href="level_1_4.html">Level 1</a>).</li>
-                     
-                     <li class="li">die zweite Spalte enthält die Schreibweise, die <strong class="ph b">Drucktechnischen
-                           Gegebenheiten</strong> wiedergeben und eine Interpretation von Zeichen orientiert
-                        sich am <strong class="ph b">Gebrauch im Sprach- und Schriftsystem</strong> (<a class="xref" href="level_2_2.html">Level 2</a>). </li>
-                     
-                     <li class="li">die dritte Spalte enthält die Schreibweise, die eine <strong class="ph b">Interpretation</strong> von
-                        Graphen <strong class="ph b">vollständig unterlässt</strong>. Der Graph wird als ein Codepoint unter
-                        Nutzung von standardisierten Kodierungen (Unicode), communitynormierten
-                        Kodierungen (MUFI) und durch das Koordinierungsgremium festgelegten Kodierungen
-                        abgebildet (<a class="xref" href="level_3_1.html">Level 3</a>). </li>
-                     </ul>
-               </div>
-               
-               <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script>
+                  
+                  <div class="p">Das OCR-D-GT-Ruleset Transkription ist ein Regelsatz, der verschiedene Schreibweisen
+                     von Buchstaben
+                     in verschiedenen Level der Transkription dokumentiert. Es sind drei Level
+                     vorgesehen: 
+                     <ul class="ul" id="ruleset__ul_cbf_2xx_rzb">
+                        
+                        <li class="li">Die erste Spalte enthält die Schreibweise, die spezifische drucktechnische
+                           Aspekte und typographischen Besonderheiten nicht beachten (<a class="xref" href="level_1_4.html">Level 1</a>).</li>
+                        
+                        <li class="li">die zweite Spalte enthält die Schreibweise, die <strong class="ph b">Drucktechnischen
+                              Gegebenheiten</strong> wiedergeben und eine Interpretation von Zeichen
+                           orientiert sich am <strong class="ph b">Gebrauch im Sprach- und Schriftsystem</strong> (<a class="xref" href="level_2_2.html">Level 2</a>). </li>
+                        
+                        <li class="li">die dritte Spalte enthält die Schreibweise, die eine <strong class="ph b">Interpretation</strong>
+                           von Graphen <strong class="ph b">vollständig unterlässt</strong>. Der Graph wird als ein Codepoint
+                           unter Nutzung von standardisierten Kodierungen (Unicode),
+                           communitynormierten Kodierungen (MUFI) und durch das Koordinierungsgremium
+                           festgelegten Kodierungen abgebildet (<a class="xref" href="level_3_1.html">Level 3</a>). </li>
+                        </ul>
+                  </div>
+                  
+                  <div class="p">Das Ruleset im Json-Format: <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script>
         function htmlDecode(input)
             {
                var e = document.createElement('div');
@@ -90,31 +94,84 @@
         function copyToClipboard(element) 
             {
                var $temp = $("<textarea></textarea>");
-                  $("body").append($temp);
-                  var a = $(element).html().trim().replace(/<br>/g, '\n').replace(/<\/?[^>]+>/g, '');
-                  var x = htmlDecode(a);
-                  $temp.val(x).select();
-                  document.execCommand("copy");
-                  $temp.remove();
-                  }
-                  </script><pre class="pre codeblock language-json"><button onclick="copyToClipboard('#coded309354e87')" title="copy clipboard" class="ccb">📋</button><code id="coded309354e87">
-            <span class="ph token punctuation">{</span><span class="ph token property">"ruleset"</span><span class="ph token operator">:</span><span class="ph token punctuation">[</span>    
-               <span class="ph token punctuation">{</span><span class="ph token property">"rule"</span><span class="ph token operator">:</span> <span class="ph token punctuation">[</span><span class="ph token string">"a"</span><span class="ph token punctuation">,</span><span class="ph token string">"a"</span><span class="ph token punctuation">,</span><span class="ph token string">"a"</span><span class="ph token punctuation">]</span><span class="ph token punctuation">,</span> <span class="ph token property">"type"</span><span class="ph token operator">:</span> <span class="ph token string">"level"</span><span class="ph token punctuation">}</span><span class="ph token punctuation">,</span>
-               <span class="ph token punctuation">{</span><span class="ph token property">"rule"</span><span class="ph token operator">:</span> <span class="ph token punctuation">[</span><span class="ph token string">"aa"</span><span class="ph token punctuation">,</span><span class="ph token string">"ã"</span><span class="ph token punctuation">,</span><span class="ph token string">"ã"</span><span class="ph token punctuation">]</span><span class="ph token punctuation">,</span> <span class="ph token property">"type"</span><span class="ph token operator">:</span> <span class="ph token string">"level"</span><span class="ph token punctuation">}</span><span class="ph token punctuation">,</span>
-               <span class="ph token punctuation">{</span><span class="ph token property">"rule"</span><span class="ph token operator">:</span> <span class="ph token punctuation">[</span><span class="ph token string">"e"</span><span class="ph token punctuation">,</span><span class="ph token string">"e"</span><span class="ph token punctuation">,</span><span class="ph token string">"e"</span><span class="ph token punctuation">]</span><span class="ph token punctuation">,</span> <span class="ph token property">"type"</span><span class="ph token operator">:</span> <span class="ph token string">"level"</span><span class="ph token punctuation">}</span>
-                        <span class="ph token punctuation">]</span>
-            <span class="ph token punctuation">}</span>
-            </code></pre>
-               
-               <p class="p">Das OCR-D-GT-Ruleset wird im JSON-Format gespeichert.</p>
-               
-               <p class="p">Das OCR-D-GT-Ruleset-JSON-Schema entspricht der Version 2020-12.</p>
-               
-               <ul class="ul"> 
+                        $("body").append($temp);
+                        var a = $(element).html().trim().replace(/<br>/g, '\n').replace(/<\/?[^>]+>/g, '');
+                        var x = htmlDecode(a);
+                        $temp.val(x).select();
+                        document.execCommand("copy");
+                        $temp.remove();
+                        }
+                        </script><pre class="pre codeblock language-json"><button onclick="copyToClipboard('#coded309354e94')" title="copy clipboard" class="ccb">📋</button><code id="coded309354e94"><span class="ph token punctuation">{</span><span class="ph token property">"ruleset"</span><span class="ph token operator">:</span><span class="ph token punctuation">[</span>
+             <span class="ph token punctuation">{</span><span class="ph token property">"rule"</span><span class="ph token operator">:</span> <span class="ph token punctuation">[</span><span class="ph token string">"a"</span><span class="ph token punctuation">,</span><span class="ph token string">"a"</span><span class="ph token punctuation">,</span><span class="ph token string">"a"</span><span class="ph token punctuation">]</span><span class="ph token punctuation">,</span> <span class="ph token property">"type"</span><span class="ph token operator">:</span> <span class="ph token string">"level"</span><span class="ph token punctuation">}</span><span class="ph token punctuation">,</span>
+             <span class="ph token punctuation">{</span><span class="ph token property">"rule"</span><span class="ph token operator">:</span> <span class="ph token punctuation">[</span><span class="ph token string">"aa"</span><span class="ph token punctuation">,</span><span class="ph token string">"ã"</span><span class="ph token punctuation">,</span><span class="ph token string">"ã"</span><span class="ph token punctuation">]</span><span class="ph token punctuation">,</span> <span class="ph token property">"type"</span><span class="ph token operator">:</span> <span class="ph token string">"level"</span><span class="ph token punctuation">}</span><span class="ph token punctuation">,</span>
+             <span class="ph token punctuation">{</span><span class="ph token property">"rule"</span><span class="ph token operator">:</span> <span class="ph token punctuation">[</span><span class="ph token string">"e"</span><span class="ph token punctuation">,</span><span class="ph token string">"e"</span><span class="ph token punctuation">,</span><span class="ph token string">"e"</span><span class="ph token punctuation">]</span><span class="ph token punctuation">,</span> <span class="ph token property">"type"</span><span class="ph token operator">:</span> <span class="ph token string">"level"</span><span class="ph token punctuation">}</span>
+            <span class="ph token punctuation">]</span>
+<span class="ph token punctuation">}</span></code></pre>
+                  </div>
                   
-                  <li class="li"><a class="xref" href="https://github.com/tboenig/gt-guidelines/schema/OCR-D-GT-levelSchema.json" target="_blank" rel="external noopener">OCR-D-GT-Ruleset-JSON-Schema</a></li>
+                  <div class="p">Das Ruleset im XML-Format: <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script>
+        function htmlDecode(input)
+            {
+               var e = document.createElement('div');
+               e.innerHTML = input;
+               return e.childNodes[0].nodeValue;
+            }
+        
+        
+        
+        function copyToClipboard(element) 
+            {
+               var $temp = $("<textarea></textarea>");
+                        $("body").append($temp);
+                        var a = $(element).html().trim().replace(/<br>/g, '\n').replace(/<\/?[^>]+>/g, '');
+                        var x = htmlDecode(a);
+                        $temp.val(x).select();
+                        document.execCommand("copy");
+                        $temp.remove();
+                        }
+                        </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded309354e223')" title="copy clipboard" class="ccb">📋</button><code id="coded309354e223"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>levelrules</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>ruleset</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>range</span><span class="ph token punctuation">&gt;</span></span>AlphPresForm<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>range</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>rule</span><span class="ph token punctuation">&gt;</span></span>ff<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>rule</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>rule</span><span class="ph token punctuation">&gt;</span></span>ff<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>rule</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>rule</span><span class="ph token punctuation">&gt;</span></span>ﬀ<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>rule</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>type</span><span class="ph token punctuation">&gt;</span></span>level<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>type</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>ruleset</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>levelrules</span><span class="ph token punctuation">&gt;</span></span></code></pre>Das Element <code class="ph codeph">&lt;range&gt;</code> ist ein optionales
+                     Element. In den Rulesets, die auf dem MUFI Datenset basieren ist dieses Element zu
+                     finden.</div>
                   
-                  </ul>
+                  
+                  
+                  <div class="p">Rulesets:
+                     <ul class="ul" id="ruleset__ul_apm_t5n_vzb">
+                        
+                        <li class="li"><a class="xref" href="https://github.com/tboenig/gt-guidelines/tree/gh-pages/rules" target="_blank" rel="external noopener">OCR-D-GT Guidelines Ruleset</a><ul class="ul" id="ruleset__ul_q5d_mvn_vzb">
+                              
+                              <li class="li"><a class="xref" href="https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_character.json" target="_blank" rel="external noopener">ruleset_character.json</a></li>
+                              
+                              <li class="li"><a class="xref" href="https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_hyphenation.json" target="_blank" rel="external noopener">ruleset_hyphenation.json</a></li>
+                              
+                              <li class="li"><a class="xref" href="https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_ligature.json" target="_blank" rel="external noopener">ruleset_ligature.json</a></li>
+                              
+                              <li class="li"><a class="xref" href="https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_roman_digits.json" target="_blank" rel="external noopener">ruleset_roman_digits.json</a></li>
+                              </ul>
+                        </li>
+                        
+                        <li class="li"><a class="xref" href="https://tboenig.github.io/gt-MufiLevelRules/" target="_blank" rel="external noopener">OCR-D-Level-Rules (Mufi)</a></li>
+                        </ul>
+                  </div>
+                  
+                  
+                  <div class="p">Rulesetformat:
+                     
+                     
+                     <ul class="ul" id="ruleset__ul_mrq_xvn_vzb">
+                        
+                        <li class="li"><a class="xref" href="https://github.com/tboenig/gt-guidelines/schema/OCR-D-GT-levelSchema.json" target="_blank" rel="external noopener">OCR-D-GT-Ruleset-JSON-Schema</a></li>
+                        </ul>
+                     </div>
+                  </section>
                </div>
             </article>
       </main>
