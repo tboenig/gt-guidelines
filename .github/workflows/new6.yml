@@ -120,7 +120,13 @@ jobs:
         uses: mikefarah/yq@master
         with:
            cmd: |
-              yq eval 'append("commit: ${{ github.ref_name }}\nversion: ${{ github.run_number }}_${{ github.ref_name }}\ndate-released: 'NOW=$(date +'%Y-%m-%d')'\n")' CITATION.cff
+              yq eval 'append("commit: ${{ github.ref_name }}\nversion: ${{ github.run_number }}_${{ github.ref_name }}\ndate-released: $(date +'%Y-%m-%d')\n")' CITATION.cff
+
+
+
+      
+              
+
 
 
       - name: Commit Citation.cff
