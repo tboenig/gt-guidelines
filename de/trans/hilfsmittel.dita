@@ -5,8 +5,7 @@
     <body>
         <p>Für die Erstellung von Ground Truth (GT), die Eingabe sowie Konvertierung von Zeichen oder für die
             Überprüfung des GT können verschiedene Werkzeuge genutzt werden. </p>
-        <p>Für die Erstellung bieten sich folgende von Werkzeugen (Auswahl) an: <ul
-                id="ul_kyv_4xm_vzb">
+        <p>Für die Erstellung bieten sich folgende Werkzeuge (Auswahl) an: <ul id="ul_kyv_4xm_vzb">
                 <li>Aletheia</li>
                 <li>eScriptorium</li>
                 <li>Transkribus</li>
@@ -16,17 +15,16 @@
         <p>Für die Eingabe von Zeichen, die nicht auf der Tastatur vorhanden sind, bieten die
             Erstellungswerkzeuge und das genutzte Betriebssystem in den meisten Fällen virtuelle
             Tastaturen an.</p>
-        <p>Für die Eingabe bietet an: <ul id="ul_kyv_4xm_vzba">
-                <li><xref href="https://github.com/tboenig/keyboardGT" format="html"
-                        scope="external">KeybordGT</xref></li>
+        <p>Für die Eingabe bieten sich an: <ul id="ul_kyv_4xm_vzba">
+                <li>verschiedene virtuelle Tastaturen für Aletheia, eScriptorium, Transkribus,
+                    OCR4all/LAREX mit <xref href="https://github.com/tboenig/keyboardGT"
+                        format="html" scope="external">KeybordGT</xref></li>
                 <li>virtuelle Tastaturen in MacOS und Windows</li>
             </ul></p>
-        <p>Für die Konvertierung bietet sich Folgendes an:
-            <ul id="ul_kyv_4xm_vzbc">
+        <p>Für die Konvertierung bietet sich an: <ul id="ul_kyv_4xm_vzbc">
                 <li><xref href="https://github.com/ponteIneptique/choco-mufin" format="html"
                         scope="external">Choco-Mufin [CHaracter Ocr COordination for MUFI iN
                         texts]</xref></li>
-                
             </ul></p>
             
         <p>Die Überprüfung des GT kann auf verschiedenen Ebenen erfolgen. 
