@@ -35,8 +35,8 @@
                         scope="external">gt-MufiLevelRules</xref></li>
                 <li><xref href="https://tboenig.github.io/gt-guidelines/html/trans/ruleset.html"
                         format="html" scope="external">gt-guidelines Ruleset</xref></li>
-                <li><xref href="https://github.com/tboenig/gt-LevelParser" format="html"
-                        scope="external">gt-LevelParser</xref> (in Vorbereitung)</li>
+            <li><xref href="https://github.com/tboenig/gt-repo-scripts/blob/main/README.md#-gt-level_parserxsl" format="html"
+                        scope="external">gt-Level_Parser</xref></li>
                 <li><xref href="https://www.primaresearch.org/tools/PAGEConverterValidator"
                         format="html" scope="external">PAGE Converter and Validator</xref></li>
             </ul></p>
