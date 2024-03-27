@@ -136,7 +136,6 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add CITATION.cff
           git commit -m "[Automatic] Update CITATION.cff files" || echo "Nothing to update"
           git push origin HEAD:main
     
