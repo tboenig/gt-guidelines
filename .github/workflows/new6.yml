@@ -113,8 +113,25 @@ jobs:
       - name: copy schema
         run: |
           sudo cp schema/OCR-D-GT-levelSchema.json out/schema/
-          
-          
+
+      
+      - name: Get SDK Version from config
+        id: lookupSdkVersion
+        uses: mikefarah/yq@master
+        with:
+           cmd: |
+              yq eval 'append("commit: ${{ github.ref_name }}\nversion: ${{ github.run_number }}_${{ github.ref_name }}\ndate-released: 'NOW=$(date +'%Y-%m-%d')'\n")' CITATION.cff
+
+
+      - name: Commit Citation.cff
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add CITATION.cff
+          git commit -m "[Automatic] Update CITATION.cff files" || echo "Nothing to update"
+          git push origin HEAD:main
+    
+
             
     
      # - name: Build PDF
