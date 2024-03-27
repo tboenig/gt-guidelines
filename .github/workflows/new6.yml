@@ -115,12 +115,14 @@ jobs:
           sudo cp schema/OCR-D-GT-levelSchema.json out/schema/
 
       
-      - name: Get SDK Version from config
-        id: lookupSdkVersion
-        uses: mikefarah/yq@master
-        with:
-           cmd: |
-              yq eval 'append("coit\: ${{ github.ref_name }}\nversion\: ${{ github.run_number }}_${{ github.ref_name }}\ndate-released\: $(date +'%Y-%m-%d')\n")' CITATION.cff
+      - name: Add Lines to CITATION.cff
+        id: addLines
+        run: |
+            echo "commit\: ${{ github.ref_name }}" >> CITATION.cff
+            echo "version\: ${{ github.run_number }}_${{ github.ref_name }}" >> CITATION.cff
+            echo "date-released\: $(date +'%Y-%m-%d')" >> CITATION.cff
+            
+
               
 
 
