@@ -6,7 +6,7 @@
       <meta name="generator" content="DITA-OT">
       <link rel="stylesheet" type="text/css" href="../css/commonltr.css">
       <link rel="stylesheet" type="text/css" href="../css/dita-ot-doc.css">
-      <title>Konkordanz zu Zonen und Regionen im DTA Zot-Format sowie DTABf (TEI)</title>
+      <title>Erweiterungen zu Regionen im Pageformat und Konkordanz zum DTA Zot-Format sowie DTABf (TEI)</title>
    </head>
    <body id="structur_gtpageformat">
       <header role="banner">
@@ -44,7 +44,8 @@
             <li><a href="../trans/structur_gt.html">📓 Struktur-Ground-Truth</a><ul>
                   <li><a href="../trans/structur_gtlevel1.html">Struktur-GT Level Übersicht</a></li>
                   <li><a href="../trans/structurmets2page.html">Struktur-Konkordanz METS und PAGE-XML</a></li>
-                  <li class="active"><a href="../trans/structur_gtpageformat.html">Konkordanz zu Zonen und Regionen im DTA Zot-Format sowie DTABf (TEI)</a></li>
+                  <li class="active"><a href="../trans/structur_gtpageformat.html">Erweiterungen zu Regionen im Pageformat und Konkordanz zum DTA Zot-Format sowie DTABf
+                        (TEI)</a></li>
                </ul>
             </li>
             <li><a href="../trans/trLabeling.html">📓 Dokumentation des OCR-D-GT-labelling</a></li>
@@ -57,7 +58,8 @@
       <main role="main">
          <article role="article" aria-labelledby="ariaid-title1">
             
-            <h1 class="title topictitle1" id="ariaid-title1">Konkordanz zu Zonen und Regionen im DTA Zot-Format sowie DTABf (TEI)</h1>
+            <h1 class="title topictitle1" id="ariaid-title1">Erweiterungen zu Regionen im Pageformat und Konkordanz zum DTA Zot-Format sowie DTABf
+               (TEI)</h1>
             
             
             
@@ -65,11 +67,38 @@
                
                <p class="p">Die Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen
                   im DTA
-                  Zot-Format, DTABf (TEI) und dem PAGE-XML-Format dar. Der Verweis auf Elemente im DTABf
-                  und
-                  PAGE-XML bezieht sich nur auf grundlegende Elemente und nicht deren Kontext. Aus diesem
-                  Grund
-                  sei auf die Dokumentationen des DTABf und PAGE-XML hingewiesen.</p>
+                  Zot-Format, DTABf (TEI) und dem PAGE-XML-Format dar. </p>
+               
+               <div class="p">Genutzt werden kann diese Tabelle um:
+                  <ul class="ul" id="structur_gtpageformat__ol_o2z_zmp_mbc">
+                     
+                     <li class="li">standarisierte <code class="ph codeph">custom</code> Werte zu verwenden
+                        <ol class="ol" id="structur_gtpageformat__ol_nlt_2np_mbc">
+                           
+                           <li class="li">für die semantische und funktionale Erweiterung des Elementes <strong class="ph b">Page</strong>
+                              </li>
+                           
+                           <li class="li">für die semantische und funktionale Erweiterung der Elemente <strong class="ph b">TextRegion</strong></li>
+                           </ol>
+                     </li>
+                     
+                     <li class="li">Um eine spezifische Konvertierung/Transformation des PAGE-XML Formates nach TEI zu
+                        realisieren.</li>
+                     
+                     <li class="li">Um eine Konvertierung/Transformation des Zot-Formates nach Page-XML zu realisieren.</li>
+                     </ul>
+               </div>
+               
+               <div class="p">
+                  
+                  <div class="note note note_note" id="structur_gtpageformat__note_dzy_znp_mbc"><span class="note__title">Anmerkung:</span> Die Verwendung von Elementen im DTABf und PAGE-XML bezieht sich
+                     auf grundlegende Elemente oder Beschreibungen. Dabei wurde der Kontext möglicherweise
+                     nicht
+                     ausreichend berücksichtigt. Um weitere Details zur Verwendung von DTABf- oder
+                     PAGE-XML-Elementen zu erfahren, wird empfohlen, die entsprechenden Dokumentationen
+                     zu Rate
+                     zu ziehen.</div>
+                  </div>
                
                
                <table class="table frame-all" id="structur_gtpageformat__table_wws_hhn_ldb">
@@ -102,7 +131,7 @@
                         
                         <th class="entry colsep-1 rowsep-1" id="structur_gtpageformat__table_wws_hhn_ldb__entry__6">TextRegion <span class="ph tt" style="font-family: monospace">type="{Wert}"</span></th>
                         
-                        <th class="entry rowsep-1" id="structur_gtpageformat__table_wws_hhn_ldb__entry__7">TextRegion <span class="ph tt" style="font-family: monospace">custom="ocr-d-structure {type:Wert;}"</span></th>
+                        <th class="entry rowsep-1" id="structur_gtpageformat__table_wws_hhn_ldb__entry__7">TextRegion <span class="ph tt" style="font-family: monospace">custom="structure {type:Wert;}"</span></th>
                         </tr>
                      </thead>
                   <tbody class="tbody">
