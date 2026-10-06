@@ -4,25 +4,10 @@
   <title>📑 Transkription</title>
  
     <abstract>
-<shortdesc>Richtlinien zur Transkription der Volltexte für die Nutzung als Ground Truth.</shortdesc>
+<shortdesc>Richtlinien zur Transkription der Volltexte für die Nutzung als Ground Truth
+      (GT).</shortdesc>
 </abstract>
   <body>
-<p>Das OCR-D Ground-Truth-Korpus umfasst Publikationen aus dem Zeitraum 1500 - 1900. Der Inhalt des
-Korpus basiert auf einer gezielten Auswahl aus dem Bestand des DFG-Projektes <xref
-href="http://www.deutschestextarchiv.de" format="html" scope="external">„Deutsches
-Textarchiv“</xref>, der <xref href="http://digital.staatsbibliothek-berlin.de/" format="html"
-scope="external">Digitalisierten Sammlungen der Staatsbibliothek zu Berlin</xref> und der <xref
-  href="https://www.hab.de/digitale-bibliothek-wdb/" format="html"
-scope="external">Wolfenbütteler Digitalen Bibliothek</xref> der Herzog August Bibliothek. Bestände
-von Projekten und digitalen Sammlungen anderer Bibliotheken sowie zusätzliche Ground-Truth-Daten,
-die zusammen mit Modulprojekten erarbeitet werden, können in Abstimmung mit dem
-OCR-D-Koordinierungsgremium in das Korpus als spezielle Erweiterungen aufgenommen werden. Sollten
-zusätzliche Annotationen oder spezifische Transkriptionsanweisungen für Texte notwendig sein, können
-diese in Abstimmung erstellt werden.</p>
-<p><b>Ziele</b> der Bereitstellung von Ground Truth Daten sind: <ul id="ul_ckm_mmm_gz">
-<li>Vorlagen und Daten zum Zweck des Trainings von OCR Programmen bereit zu stellen,</li>
-<li>sowie eine Prüfung und Evaluation der OCR-Erkennungsergebnisse vornehmen zu können.</li>
-</ul></p>
 <p>Diese Transkriptionsrichtlinien folgen in weiten Teilen den <xref
 href="http://deutschestextarchiv.de/doku/basisformat/transkription.html" format="html"
 scope="external">Richtlinien des Deutschen Textarchivs</xref>. Im folgenden werden dessen
@@ -35,8 +20,15 @@ Texte.</li>
 <li>Eine Druckfehlerkorrektur erfolgt nicht.</li>
 <li>Aus dem Prinzip größtmöglicher Bewahrung des Vorlagentextes bei gleichzeitiger Konzentration auf
 die lexikalischen Gegebenheiten ergeben sich für die Texterfassung die folgenden Richtlinien."</li>
-</ul><p>Das Korpus ist im Bezug auf die <b>Interpretation von einzelnen typographischen und
-graphematischen Phänomenen </b>in unterschiedlichen Leveln transkribiert bzw. kann transkribiert
-werden. Die Level werden im Weiteren näher erläutert.</p>
+</ul>
+    <p>Sollten zusätzliche Annotationen oder spezifische Transkriptionsanweisungen für Texte
+      notwendig sein, können diese in Abstimmung mit diesen Richtlinien erstellt werden.</p><p>Ein GT-Korpus zum Training-, zur Referenz oder Evaluation kann in Bezug auf die <b>Interpretation
+        von einzelnen typographischen und graphematischen Phänomenen </b>in unterschiedlichen Leveln
+      transkribiert werden. Die Level werden im Weiteren näher erläutert.</p>
 </body>
+  <related-links>
+    <link href="level_1_4.dita"/>
+    <link href="level_2_2.dita"/>
+    <link href="level_3_1.dita"/>
+  </related-links>
 </topic>

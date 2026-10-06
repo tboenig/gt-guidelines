@@ -8,10 +8,10 @@ zum Zeitpunkt der Erfassung gültigen <xref href="http://www.unicode.org/" forma
 scope="external">Unicode-Standards</xref>. Die Nutzung von spezifischen Kodierungen sind in den
 <b>Erfassungs-Level</b> erklärt.</p>
 <p>Die Schreibung von Zeichen, die nicht auf der Tastatur abgebildet sind, erfolgt entweder <ul
-id="ul_gyh_rnm_gz">
-<li>als Unicode-Hexadezimal-Entität</li>
-<li>oder als Zeichen.</li>
-</ul>Eine Mischung von verschiedenen Unicode-Schreibungen ist zu vermeiden. Für einzelne Fällen sind
-spezifische Transkriptionsregeln festgelegt. </p>
+    id="ul_gyh_rnm_gz">
+    <li>als Unicode-Hexadezimal-Entität</li>
+    <li>oder als Zeichen.</li>
+   </ul>Eine Mischung von verschiedenen Unicode-Schreibungen ist zu vermeiden. Für einzelne Fälle
+   sind spezifische Transkriptionsregeln festgelegt. </p>
 </body>
 </topic>
