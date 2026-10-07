@@ -35,11 +35,6 @@
     <chapter href="trans/trLevels.dita"/>
 
     <chapter href="trans/transkription.dita">
-        <topicref href="trans/trGrundsaetze.dita">
-            <topicref href="trans/tr_level_1_4.dita"/>
-            <topicref href="trans/tr_level_2_4.dita"/>
-            <topicref href="trans/tr_level_3_4.dita"/>
-        </topicref>
         <topicref href="trans/level_1_4.dita"/>
         <topicref href="trans/level_2_2.dita"/>
         <topicref href="trans/level_3_1.dita"/>

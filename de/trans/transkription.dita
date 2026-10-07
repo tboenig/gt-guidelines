@@ -2,11 +2,6 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="transkription">
   <title>📑 Transkription</title>
- 
-    <abstract>
-<shortdesc>Richtlinien zur Transkription der Volltexte für die Nutzung als Ground Truth
-      (GT).</shortdesc>
-</abstract>
   <body>
 <p>Diese Transkriptionsrichtlinien folgen in weiten Teilen den <xref
 href="http://deutschestextarchiv.de/doku/basisformat/transkription.html" format="html"
@@ -17,14 +12,24 @@ scope="external">Richtlinien des Deutschen Textarchivs</xref>. Im folgenden werd
 Texte.</li>
 <li>Aufgrund dieser Zielsetzung wird darauf geachtet, bei der Texterfassung die Zahl der
 (unvermeidbaren) Interpretationen typographischer Gegebenheiten gering zu halten.</li>
-<li>Eine Druckfehlerkorrektur erfolgt nicht.</li>
-<li>Aus dem Prinzip größtmöglicher Bewahrung des Vorlagentextes bei gleichzeitiger Konzentration auf
-die lexikalischen Gegebenheiten ergeben sich für die Texterfassung die folgenden Richtlinien."</li>
+<li>Eine Druckfehlerkorrektur erfolgt nicht."</li>
+      <li>Die Texterfassung erfolgt grundsätzlich vorlagengetreu im Unicode-Format (Kodierung in
+        UTF-8) des zum Zeitpunkt der Erfassung gültigen <xref href="http://www.unicode.org/"
+          format="html" scope="external">Unicode-Standards</xref>.</li>
+      <li>Die Schreibung von Zeichen, die nicht auf der Tastatur abgebildet sind, erfolgt entweder
+          <ul id="ul_gyh_rnm_gz">
+          <li>als Unicode-Hexadezimal-Entität</li>
+          <li>oder als Zeichen.</li>
+        </ul></li>
+      <li>Eine Mischung von verschiedenen Unicode-Schreibungen ist zu vermeiden. Für einzelne Fälle
+        sind spezifische Transkriptionsregeln festgelegt.</li>
+      <li>Sollten zusätzliche Annotationen oder spezifische Transkriptionsanweisungen für Texte
+        notwendig sein, können diese in Abstimmung mit diesen Richtlinien erstellt werden.</li>
+      <li>Ein GT-Korpus zum Training-, zur Referenz oder Evaluation kann in Bezug auf die
+          <b>Interpretation von einzelnen typographischen und graphematischen Phänomenen </b>in
+        unterschiedlichen Erfassungs-Leveln transkribiert werden. Die Erfassungslevel werden im
+        Weiteren näher erläutert.</li>
 </ul>
-    <p>Sollten zusätzliche Annotationen oder spezifische Transkriptionsanweisungen für Texte
-      notwendig sein, können diese in Abstimmung mit diesen Richtlinien erstellt werden.</p><p>Ein GT-Korpus zum Training-, zur Referenz oder Evaluation kann in Bezug auf die <b>Interpretation
-        von einzelnen typographischen und graphematischen Phänomenen </b>in unterschiedlichen Leveln
-      transkribiert werden. Die Level werden im Weiteren näher erläutert.</p>
 </body>
   <related-links>
     <link href="level_1_4.dita"/>
